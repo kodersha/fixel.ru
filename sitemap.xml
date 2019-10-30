@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="https://sashatravkina.github.io/gh-pages/sitemap.xsl"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+<url>
+<loc>https://sashatravkina.github.io/gh-pages/</loc>
+</url>
+<url>
+<loc>https://sashatravkina.github.io/gh-pages/blog-na-publii/</loc>
+<lastmod>2019-10-30T02:17:49+07:00</lastmod>
+<image:image>
+<image:loc>https://sashatravkina.github.io/gh-pages/media\posts\1/original-teletype.jpg</image:loc>
+<image:title><![CDATA[]]></image:title>
+</image:image>
+<image:image>
+<image:loc>https://sashatravkina.github.io/gh-pages/media\posts\1/the-nigmatic-GZgO5p6StOw-unsplash.jpg</image:loc>
+<image:title><![CDATA[]]></image:title>
+</image:image>
+<image:image>
+<image:loc>https://sashatravkina.github.io/gh-pages/media\posts\1/alexander-trukhin-WE9HBgg2j0s-unsplash.jpg</image:loc>
+<image:title><![CDATA[]]></image:title>
+</image:image>
+<image:image>
+<image:loc>https://sashatravkina.github.io/gh-pages/media\posts\1/the-joy-of-film-Ek8keGNM5cQ-unsplash.jpg</image:loc>
+<image:title><![CDATA[]]></image:title>
+</image:image>
+</url>
+<url>
+<loc>https://sashatravkina.github.io/gh-pages/pochemu-izomorfna-vremeni-somnenie/</loc>
+<lastmod>2019-10-29T22:48:58+07:00</lastmod>
+</url>
+</urlset>
