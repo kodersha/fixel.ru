@@ -15,3 +15,8 @@ AOS.init(
     }
 );
 window.addEventListener('load', AOS.refresh);
+
+$('.workshop-list').mousewheel(function(e, delta) {
+    $(this).scrollLeft(this.scrollLeft + (-delta * 100));
+    e.preventDefault();
+});
