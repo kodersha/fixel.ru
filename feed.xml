@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <title>Александра Травкина</title>
+    <link href="https://fixel.ru/feed.xml" rel="self" />
+    <link href="https://fixel.ru" />
+    <updated>2019-11-06T00:29:20+07:00</updated>
+    <author>
+        <name>Александра Травкина</name>
+    </author>
+    <id>https://fixel.ru</id>
+
+    <entry>
+        <title>Блог на Publii</title>
+        <author>
+            <name>Александра Травкина</name>
+        </author>
+        <link href="https://fixel.ru/blog-na-publii/"/>
+        <id>https://fixel.ru/blog-na-publii/</id>
+
+        <updated>2019-11-06T00:13:13+07:00</updated>
+            <summary>
+                <![CDATA[
+                        <img src="https://fixel.ru/media/posts/1/original-teletype.jpg" alt="" />
+                    <p>Спустя год отсутствия постов я вновь вернулась с shared хостинга на GitHub Pages, но теперь, вместо Jekyll я использую <a href="https://getpublii.com/" target="_blank" rel="nofollow noopener noreferrer">Publii</a>. Publii это бесплатная CMS для блога, но не в привычном её понимании, а в виде программы с открытым исходным кодом для Windows, MacOS или Linux.</p>
+
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                    <img src="https://fixel.ru/media/posts/1/original-teletype.jpg" alt="" />
+                <p>Спустя год отсутствия постов я вновь вернулась с shared хостинга на GitHub Pages, но теперь, вместо Jekyll я использую <a href="https://getpublii.com/" target="_blank" rel="nofollow noopener noreferrer">Publii</a>. Publii это бесплатная CMS для блога, но не в привычном её понимании, а в виде программы с открытым исходным кодом для Windows, MacOS или Linux.</p>
+
+<p>В отличие от того же Jekyll, Hugo или других CMS подобного плана, где необходима установка и настройка среды Linux или Node.js, в Publii достаточно прописать данные доступа к хостингу и нажатием одной кнопки публиковать сгенерированную статику.</p>
+<p><img class="post__image--wide" src="https://fixel.ru/media/posts/1/2019-11-01-01_05_17-Publii.png" alt="" width="1920"></p>
+<p>Помимо приятного интерфейса в Publii довольно удобный редактор с множеством настроек изображений, ссылок, списков, фреймов, есть возможность детальной настройки SEO и Open Graph, теги публикаций и другие интересности. При желании и должных <span class="wo fr-0 replaced" >навыках</span>, <span class="wo fr-1 replaced" >в редактор</span> можно добавить дополнительные, настраиваемые поля. Дизайн для Publii пишется с использованием семантических шаблонов <a href="http://handlebarsjs.com/" target="_blank" rel="nofollow noopener noreferrer">Handlebars</a>.</p>
+<p>Я не стала переносить свои старые посты в новый блог, так как они давно потеряли свою актуальность, но оставила их <a href="https://sashatravkina.github.io/blog/" target="_blank" rel="noopener noreferrer">на GitHub Pages</a> в виде Jekyll сайта.</p>
+            ]]>
+        </content>
+    </entry>
+</feed>

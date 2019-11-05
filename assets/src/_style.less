@@ -1,0 +1,62 @@
+*, *:after, *:before {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    overflow-x: hidden;
+    min-height: 100%;
+    width: 100vw;
+
+    font-stretch: normal;
+    font-style: normal;
+}
+
+body {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -o-font-smoothing: antialiased;
+    font-smoothing: antialiased;
+
+    background-color: @bodyBackground;
+    color: @textColor;
+    cursor: default;
+
+    box-sizing: border-box;
+    min-height: 100vh;
+    min-width: 320px;
+    height: 100%;
+    width: 100%;
+
+    font-family: @bodyFontFamily;
+    font-stretch: normal;
+    font-weight: 400;
+    font-style: normal;
+    font-size: @bodyFontSize;
+    line-height: 1.5;
+
+    padding: 0;
+    margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    letter-spacing: -0.03em;
+    line-height: 1.2;
+}
+
+img {
+    vertical-align: middle;
+    max-width: 100%;
+}
+
+.wrapper {
+    max-width: @wrapperWidth;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.main {
+    background-color: @bodyBackground;
+    position: relative;
+}
