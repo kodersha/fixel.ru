@@ -20,3 +20,12 @@ $('.workshop-list').mousewheel(function(e, delta) {
     $(this).scrollLeft(this.scrollLeft + (-delta * 100));
     e.preventDefault();
 });
+
+$(function() {
+    $('a[data-modal]').on('click', function() {
+        $($(this).data('modal')).modal({
+            fadeDuration: 1000
+        });
+        return false;
+    });
+});
