@@ -3,7 +3,7 @@
     <title>Александра Травкина</title>
     <link href="https://fixel.ru/feed.xml" rel="self" />
     <link href="https://fixel.ru" />
-    <updated>2019-11-16T01:20:03+07:00</updated>
+    <updated>2019-11-17T15:37:35+07:00</updated>
     <author>
         <name>Александра Травкина</name>
     </author>
@@ -17,7 +17,7 @@
         <link href="https://fixel.ru/nastroyka-streamlabs-bota-dlya-strimov/"/>
         <id>https://fixel.ru/nastroyka-streamlabs-bota-dlya-strimov/</id>
 
-        <updated>2019-11-16T00:44:30+07:00</updated>
+        <updated>2019-11-16T17:15:46+07:00</updated>
             <summary>
                 <![CDATA[
                     <p>Как может быть известно всем тем, кто так или иначе связан со стримингом и стримами, для автоматической модерации, оповещений и развлечения зрителей существуют чат-боты. Один из таких чат-ботов для twitch, youtube или mixer - бесплатная <em>standalone</em> программа Streamlabs Chatbot.</p>
@@ -454,6 +454,7 @@
 <h3 id="mcetoc_1dpo2fjum6">Style</h3>
 <p>Настройки внешнего вида бота, можно выбрать из нескольких скинов или выбрать свои цвета для разных элементов.</p>
 <p><img class="post__image" src="https://fixel.ru/media/posts/4/2019-11-16-00_41_10-Settings.png" alt="" width="825" height="400"></p>
+<p> </p>
 <hr>
 <p>*SC - Stream Chat, SW - Stream Whisper, SB - Stream Both, DC - Discord Chat, DW - Discord Whisper, DB - Discord Both, CB - Chat Both, WB - Whisper Both, A - All</p>
             ]]>
