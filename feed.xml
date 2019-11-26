@@ -3,7 +3,7 @@
     <title>Александра Травкина</title>
     <link href="https://fixel.ru/feed.xml" rel="self" />
     <link href="https://fixel.ru" />
-    <updated>2019-11-17T15:44:30+07:00</updated>
+    <updated>2019-11-26T17:37:20+07:00</updated>
     <author>
         <name>Александра Травкина</name>
     </author>
@@ -17,7 +17,7 @@
         <link href="https://fixel.ru/nastroyka-streamlabs-bota-dlya-strimov/"/>
         <id>https://fixel.ru/nastroyka-streamlabs-bota-dlya-strimov/</id>
 
-        <updated>2019-11-16T17:15:46+07:00</updated>
+        <updated>2019-11-26T17:27:21+07:00</updated>
             <summary>
                 <![CDATA[
                     <p>Как может быть известно всем тем, кто так или иначе связан со стримингом и стримами, для автоматической модерации, оповещений и развлечения зрителей существуют чат-боты. Один из таких чат-ботов для twitch, youtube или mixer - бесплатная <em>standalone</em> программа Streamlabs Chatbot.</p>
@@ -28,6 +28,42 @@
             <![CDATA[
                 <p>Как может быть известно всем тем, кто так или иначе связан со стримингом и стримами, для автоматической модерации, оповещений и развлечения зрителей существуют чат-боты. Один из таких чат-ботов для twitch, youtube или mixer - бесплатная <em>standalone</em> программа Streamlabs Chatbot.</p>
 
+<div class="post__toc">
+<h3>Содержание</h3>
+<ul>
+<li><a href="#mcetoc_1dpkbho560">Установка и подключение</a></li>
+<li><a href="#mcetoc_1dpkqrfei0">Console</a></li>
+<li><a href="#mcetoc_1dpku16370">Dashboard</a></li>
+<li><a href="#mcetoc_1dpl0nanu0">Commands</a></li>
+<li><a href="#mcetoc_1dplf701c0">Timers</a></li>
+<li><a href="#mcetoc_1dplh0hmd0">Quotes</a></li>
+<li><a href="#mcetoc_1dpli5ksa1">Extra Quotes</a></li>
+<li><a href="#mcetoc_1dplm2ojc0">Give Away</a></li>
+<li><a href="#mcetoc_1dpnbq3a30">Songrequest</a></li>
+<li><a href="#mcetoc_1dpn3aut20">Sound Files</a></li>
+<li><a href="#mcetoc_1dpndqo3p1">Queue</a></li>
+<li><a href="#mcetoc_1dplju2aj0">Counter</a></li>
+<li><a href="#mcetoc_1dpn5m33s0">Currency </a></li>
+<li><a href="#mcetoc_1dpng0f8j0">Users</a></li>
+<li><a href="#mcetoc_1dpn82ner1">Poll</a></li>
+<li><a href="#mcetoc_1dpn6v2u20">Betting</a></li>
+<li><a href="#mcetoc_1dpn9hkhb0">Events</a></li>
+<li><a href="#mcetoc_1dpnkedhj0">Mod Tools </a></li>
+<li><a href="#mcetoc_1dpnltd5o1">Notifications</a></li>
+<li><a href="#mcetoc_1dpno8nf72">Discord</a></li>
+<li><a href="#mcetoc_1dpnuq0tu0">Settings</a>
+<ul>
+<li><a href="#mcetoc_1dpnur0ha1">General</a></li>
+<li><a href="#mcetoc_1dpo1f6l72">Localization</a></li>
+<li><a href="#mcetoc_1dpo1k79m3">Usage</a></li>
+<li><a href="#mcetoc_1dpo1qbbu4">Macros</a></li>
+<li><a href="#mcetoc_1dpo1ulr65">Hotkeys</a></li>
+<li><a href="#mcetoc_1dpo2fjum6">Style</a></li>
+</ul>
+</li>
+<li><a href="#mcetoc_1dqjg4etb1">Полезные ссылки</a></li>
+</ul>
+</div>
 <h2 id="mcetoc_1dpkbho560">Установка и подключение</h2>
 <p>Скачиваем и устанавливаем сам <a href="https://streamlabs.com/chatbot" target="_blank" rel="noopener noreferrer">Streamlabs Chatbot</a>, а также необходимый для его работы <a href="https://www.python.org/downloads/release/python-2713/" target="_blank" rel="noopener noreferrer">Python 2.7.13</a>. Программы лучше устанавливать в папки по-умолчанию. Запускаем программу чат-бота где вас встретит помощник установки.</p>
 <div class="gallery"   >
@@ -454,7 +490,8 @@
 <h3 id="mcetoc_1dpo2fjum6">Style</h3>
 <p>Настройки внешнего вида бота, можно выбрать из нескольких скинов или выбрать свои цвета для разных элементов.</p>
 <p><img class="post__image" src="https://fixel.ru/media/posts/4/2019-11-16-00_41_10-Settings.png" alt="" width="825" height="400"></p>
-<p> </p>
+<h2 id="mcetoc_1dqjg4etb1">Полезные ссылки</h2>
+<p><a href="https://cdn.streamlabs.com/chatbot/Documentation_Twitch.pdf" target="_blank" rel="nofollow noopener noreferrer">Официальная документация</a> Streamlabs Chatbot.</p>
 <hr>
 <p>*SC - Stream Chat, SW - Stream Whisper, SB - Stream Both, DC - Discord Chat, DW - Discord Whisper, DB - Discord Both, CB - Chat Both, WB - Whisper Both, A - All</p>
             ]]>
