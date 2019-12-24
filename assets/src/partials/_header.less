@@ -1,0 +1,161 @@
+.header {
+    .logo {
+        border-radius: 50%;
+        position: relative;
+        overflow: hidden;
+        height: 48px;
+        width: 48px;
+
+        img {
+            display: block;
+            height: 48px;
+            width: 48px;
+        }
+        a {
+            display: block;
+            height: 48px;
+            width: 48px;
+        }
+    }
+    .name {
+        h1, span {
+            margin-bottom: 0;
+            margin-top: 0;
+
+            font-size: 1em;
+            font-weight: 600;
+            line-height: 1.5;
+            letter-spacing: -0.03em;
+        }
+    }
+
+    &.cover {
+        position: relative;
+        overflow: hidden;
+        z-index: 0;
+
+        min-height: 480px;
+        height: 100vh;
+
+        background-color: rgb(0, 0, 0);
+
+        .image {
+            background-position: center bottom;
+            background-repeat: no-repeat;
+            background-size: cover;
+            position: absolute;
+            z-index: -10;
+            bottom: 0;
+            right: 0;
+            left: 0;
+            top: 0;
+
+            .overlay {
+                background-color: rgba(0, 0, 0);
+                position: absolute;
+                opacity: 0.75;
+                z-index: -5;
+                bottom: 0;
+                right: 0;
+                left: 0;
+                top: 0;
+            }
+        }
+
+        .head {
+            position: relative;
+            z-index: 15;
+
+            color: rgb(255, 255, 255);
+
+            .menu {            
+                li {            
+                    a {
+                        color: rgb(255, 255, 255);
+
+                        &:hover {
+                            color: darken(rgb(255, 255, 255), 15%);
+                        }
+                    }
+                }
+        
+                & > :first-child {
+                    margin-left: 0;
+                }
+                & > :last-child {
+                    margin-right: 0;
+                }
+            }
+        }
+
+        .welcome {
+            position: relative;
+
+            @media @lg {
+                margin-left: 64px;
+            }
+
+            p {
+                max-width: @wrapperWidth;
+                width: 100%;
+
+                color: rgb(255, 255, 255);
+
+                @media @mlg {
+                    margin-right: 5px;
+                    display: inline;
+                }
+            }
+        }
+    }
+
+    .menu {
+        list-style: none;
+
+        li {
+            margin-right: 5px;
+            margin-left: 5px;
+            display: inline;
+
+            a {
+                transition: color 320ms;
+                text-decoration: none;
+                text-transform: uppercase;
+                letter-spacing: -0.03em;
+                font-weight: 600;
+
+                color: @textColor;
+
+                &:hover {
+                    color: lighten(@textColor, 30%);
+                }
+
+                @media @mlg {
+                    font-size: @bodyFontSize - 0.15;
+                    text-transform: none;
+                }
+            }
+
+            span {
+                text-decoration: none;
+                text-transform: uppercase;
+                letter-spacing: -0.03em;
+                font-weight: 600;
+                
+                color: lighten(@textColor, 30%);
+
+                @media @mlg {
+                    font-size: @bodyFontSize - 0.15;
+                    text-transform: none;
+                }
+            }
+        }
+
+        & > :first-child {
+            margin-left: 0;
+        }
+        & > :last-child {
+            margin-right: 0;
+        }
+    }
+}
