@@ -11,7 +11,4 @@ function parallax(){
     $('header.cover .welcome').css('top',0+(scrolled*0.05)+'%');
     $('header.cover .welcome').css('opacity',1-(scrolled*0.01)/10);
     $('header.cover .welcome').css('opacity',1-(scrolled*0.01)/10);
-    $('header.cover .head').css('top',0+(scrolled*0.05)+'%');
-    $('header.cover .head').css('opacity',1-(scrolled*0.01)/10);
-    $('header.cover .head').css('opacity',1-(scrolled*0.01)/10);
 };
