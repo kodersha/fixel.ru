@@ -32,10 +32,6 @@
             max-width: @wrapperWidth;
             width: 100%;
     
-            @media @mlg {
-                display: inline;
-            }
-    
             p {
                 margin-bottom: 0;
                 margin-top: 0;
@@ -125,7 +121,7 @@
                 }
 
                 @media @mlg {
-                    font-size: @bodyFontSize - 0.15;
+                    font-size: @bodyFontSize;
                     text-transform: none;
                 }
             }
@@ -139,7 +135,7 @@
                 color: lighten(@textColor, 30%);
 
                 @media @mlg {
-                    font-size: @bodyFontSize - 0.15;
+                    font-size: @bodyFontSize;
                     text-transform: none;
                 }
             }
@@ -150,6 +146,10 @@
         }
         & > :last-child {
             margin-right: 0;
+        }
+
+        @media @mlg {
+            margin-top: 5px;
         }
     }
 }
