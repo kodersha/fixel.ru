@@ -3,7 +3,7 @@
     <title>Александра Травкина</title>
     <link href="https://fixel.ru/feed.xml" rel="self" />
     <link href="https://fixel.ru" />
-    <updated>2020-01-08T20:48:24+07:00</updated>
+    <updated>2020-01-14T13:31:58+07:00</updated>
     <author>
         <name>Александра Травкина</name>
     </author>
@@ -16,6 +16,10 @@
         </author>
         <link href="https://fixel.ru/nastroyka-streamlabs-bota-dlya-strimov/"/>
         <id>https://fixel.ru/nastroyka-streamlabs-bota-dlya-strimov/</id>
+            <category term="Стримы"/>
+            <category term="Гайды"/>
+            <category term="Веб"/>
+            <category term="Twitch"/>
 
         <updated>2019-11-26T17:27:21+07:00</updated>
             <summary>
@@ -504,6 +508,9 @@
         </author>
         <link href="https://fixel.ru/blog-na-publii/"/>
         <id>https://fixel.ru/blog-na-publii/</id>
+            <category term="Заметки"/>
+            <category term="Веб"/>
+            <category term="CMS"/>
 
         <updated>2019-11-06T00:13:13+07:00</updated>
             <summary>
