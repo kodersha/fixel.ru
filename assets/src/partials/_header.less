@@ -107,6 +107,12 @@
             margin-left: 5px;
             display: inline;
 
+            &.homepage {
+                a {                    
+                    color: lighten(@textColor, 30%) !important;
+                }
+            }
+
             a {
                 transition: color 320ms;
                 text-decoration: none;
@@ -119,20 +125,6 @@
                 &:hover {
                     color: lighten(@textColor, 30%);
                 }
-
-                @media @mlg {
-                    font-size: @bodyFontSize;
-                    text-transform: none;
-                }
-            }
-
-            span {
-                text-decoration: none;
-                text-transform: uppercase;
-                letter-spacing: -0.03em;
-                font-weight: 600;
-                
-                color: lighten(@textColor, 30%);
 
                 @media @mlg {
                     font-size: @bodyFontSize;
