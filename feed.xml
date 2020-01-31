@@ -3,7 +3,7 @@
     <title>Александра Травкина</title>
     <link href="https://fixel.ru/feed.xml" rel="self" />
     <link href="https://fixel.ru" />
-    <updated>2020-01-30T21:16:12+07:00</updated>
+    <updated>2020-01-31T18:59:53+07:00</updated>
     <author>
         <name>Александра Травкина</name>
     </author>
@@ -36,26 +36,28 @@
         </content>
     </entry>
     <entry>
-        <title>Настройка Streamlabs бота для стримов</title>
+        <title>Streamlabs Chatbot · Установка и настройка</title>
         <author>
             <name>Александра Травкина</name>
         </author>
-        <link href="https://fixel.ru/nastroyka-streamlabs-bota-dlya-strimov/"/>
-        <id>https://fixel.ru/nastroyka-streamlabs-bota-dlya-strimov/</id>
+        <link href="https://fixel.ru/streamlabs-chatbot-ustanovka-i-nastroyka/"/>
+        <id>https://fixel.ru/streamlabs-chatbot-ustanovka-i-nastroyka/</id>
             <category term="Стримы"/>
             <category term="Гайды"/>
             <category term="Веб"/>
             <category term="Twitch"/>
 
-        <updated>2019-11-26T17:27:21+07:00</updated>
+        <updated>2020-01-31T18:38:52+07:00</updated>
             <summary>
                 <![CDATA[
+                        <img src="https://fixel.ru/media/posts/4/cover.jpg" alt="" />
                     <p>Как может быть известно всем тем, кто так или иначе связан со стримингом и стримами, для автоматической модерации, оповещений и развлечения зрителей существуют чат-боты. Один из таких чат-ботов для twitch, youtube или mixer - бесплатная <em>standalone</em> программа Streamlabs Chatbot.</p>
 
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
+                    <img src="https://fixel.ru/media/posts/4/cover.jpg" alt="" />
                 <p>Как может быть известно всем тем, кто так или иначе связан со стримингом и стримами, для автоматической модерации, оповещений и развлечения зрителей существуют чат-боты. Один из таких чат-ботов для twitch, youtube или mixer - бесплатная <em>standalone</em> программа Streamlabs Chatbot.</p>
 
 <div class="post__toc">

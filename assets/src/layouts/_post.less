@@ -33,6 +33,23 @@
             height: 100vh;
 
             background-color: rgb(0, 0, 0);
+
+            @media @lg {
+                &::before {
+                    content: '';
+                    background-color: @bodyBackground;
+                    max-width: @wrapperWidth * 1.5;
+                    border-radius: 5px 5px 0 0;
+                    position: absolute;
+                    margin-right: auto;
+                    margin-left: auto;
+                    z-index: 100;
+                    height: 168px;
+                    bottom: 0;
+                    right: 40px;
+                    left: 40px;
+                }
+            }
     
             .image {
                 background-position: center bottom;
@@ -109,6 +126,8 @@
     }
 
     .content {
+        position: relative;
+
         h2 {
             margin-bottom: @postMarginBottom;
             margin-right: auto;
@@ -118,7 +137,7 @@
             width: 100%;
 
             @media @mlg {
-                margin-top: @postMarginTop;
+                margin-bottom: @postMarginBottom / 2;
             }
         }
         h3 {
@@ -130,7 +149,7 @@
             width: 100%;
 
             @media @mlg {
-                margin-top: @postMarginTop;
+                margin-bottom: @postMarginBottom / 2;
             }
         }
 
@@ -310,9 +329,16 @@
         }
 
         hr {
-            background-color: @textSubColor;
+            background-color: @border;
+            margin-right: -24px;
+            margin-left: -24px;
             height: 1px;
             border: 0;
+
+            @media @lg {
+                margin-right: -40px;
+                margin-left: -40px;
+            }
         }
 
         table {
@@ -324,6 +350,11 @@
             border-collapse: collapse;
             max-width: @wrapperWidth;
             width: 100%;
+
+            @media @mlg {
+                margin-bottom: @postMarginBottom / 2;
+                margin-top: @postMarginTop / 2;
+            }
 
             tbody {
                 tr {
@@ -659,14 +690,20 @@
     .footer {
         .time {
             color: @textSubColor;
-            text-align: right;
             display: block;
+
+            @media @lg {
+                text-align: right;
+            }
         }
         .last-updated {
             font-size: @postSmallFontSize;
             color: @textSubColor;
-            text-align: right;
             display: block;
+
+            @media @lg {
+                text-align: right;
+            }
         }
         .readmore {
             a {
