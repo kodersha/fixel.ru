@@ -3,7 +3,7 @@
     <title>Александра Травкина</title>
     <link href="https://fixel.ru/feed.xml" rel="self" />
     <link href="https://fixel.ru" />
-    <updated>2020-02-12T23:29:44+07:00</updated>
+    <updated>2020-02-12T23:53:44+07:00</updated>
     <author>
         <name>Александра Травкина</name>
     </author>
@@ -23,7 +23,7 @@
             <category term="Streamlabs"/>
             <category term="Ankhbot"/>
 
-        <updated>2020-02-12T23:21:45+07:00</updated>
+        <updated>2020-02-12T23:52:59+07:00</updated>
             <summary>
                 <![CDATA[
                     Если вы проигрываете фоновую музыку на стриме из сервиса Яндекс.Музыки или Вконтакте, а зрители достают вас вопросом о том, какой трек сейчас играет, есть небольшое решение для Streamlabs Chatbot. Пример настройки команды: А здесь можно почитать&hellip;
@@ -40,7 +40,7 @@
 <li>Теперь в Streamlabs Chatbot достаточно создать команду чтения строки из файла. Переменная <code>$readline()</code> для вывода информации из текстового файла. Например <code>Сейчас играет - $readline(D:\Program\Streamlabs Chatbot\Scrobbler\now playing.txt)</code></li>
 </ol>
 <p>Пример настройки команды:</p>
-<figure class="post__image post__image--full"><img src="https://fixel.ru/media/posts/7/01.png" width="1218" height="767"></figure>
+<figure class="post__image--wide"><img src="https://fixel.ru/media/posts/7/01.png" width="1218" height="767"></figure>
 <p>А <a href="https://fixel.ru/streamlabs-chatbot-ustanovka-i-nastroyka/">здесь</a> можно почитать о настройках самого Streamlabs Chatbot.</p>
             ]]>
         </content>
