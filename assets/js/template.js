@@ -16,11 +16,6 @@ AOS.init(
 );
 window.addEventListener('load', AOS.refresh);
 
-$('.workshop-list').mousewheel(function(e, delta) {
-    $(this).scrollLeft(this.scrollLeft + (-delta * 200));
-    e.preventDefault();
-});
-
 $(function() {
     $('a[data-modal]').on('click', function() {
         $($(this).data('modal')).modal({

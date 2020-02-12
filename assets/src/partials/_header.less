@@ -1,40 +1,95 @@
 .header {
-    .logo {
-        border-radius: 50%;
+    .head {
         position: relative;
-        overflow: hidden;
-        height: 48px;
-        width: 48px;
+        z-index: 15;
 
-        img {
-            display: block;
-            height: 48px;
-            width: 48px;
-        }
-        a {
-            display: block;
-            height: 48px;
-            width: 48px;
-        }
-    }
-    .name {
-        h1, span {
-            margin-bottom: 0;
-            margin-top: 0;
+        color: @colorWhite;
 
-            font-size: 1em;
-            font-weight: 500;
-            line-height: 1.5;
-            letter-spacing: -0.03em;
-        }
-        .description {
-            font-size: @postSmallFontSize;
-            max-width: @wrapperWidth;
-            width: 100%;
+        .menu {
+            list-style: none;
     
-            p {
+            li {
+                margin-right: 5px;
+                margin-left: 5px;
+                display: inline;
+    
+                &.homepage {
+                    a {                    
+                        color: lighten(@textColor, 40%) !important;
+    
+                        &:hover {
+                            color: lighten(@textColor, 30%) !important;
+                        }
+                    }
+                }
+    
+                a {
+                    transition: color 320ms;
+                    text-decoration: none;
+                    font-weight: 500;
+    
+                    color: @colorWhite;
+    
+                    &:hover {
+                        color: lighten(@textColor, 30%) !important;
+                    }
+    
+                    @media @mlg {
+                        font-size: @bodyFontSize;
+                    }
+                }
+            }
+    
+            & > :first-child {
+                margin-left: 0;
+            }
+            & > :last-child {
+                margin-right: 0;
+            }
+    
+            @media @mlg {
+                margin-top: 5px;
+            }
+        }
+
+        .logo {
+            border-radius: 50%;
+            position: relative;
+            overflow: hidden;
+            height: 48px;
+            width: 48px;
+    
+            img {
+                display: block;
+                height: 48px;
+                width: 48px;
+            }
+            a {
+                display: block;
+                height: 48px;
+                width: 48px;
+            }
+        }
+
+        .name {
+            h1, span {
                 margin-bottom: 0;
                 margin-top: 0;
+    
+                font-size: 1em;
+                font-weight: 500;
+                line-height: 1.5;
+                letter-spacing: -0.03em;
+            }
+            .description {
+                font-size: @postSmallFontSize;
+                max-width: @wrapperWidth;
+                width: 100%;
+        
+                p {
+                    margin-bottom: 0;
+                    margin-top: 0;
+                }
             }
         }
     }
@@ -44,7 +99,7 @@
         overflow: hidden;
         z-index: 0;
 
-        min-height: 700px;
+        min-height: 720px;
         height: 100vh;
 
         background-color: @bodyBackground;
@@ -70,75 +125,6 @@
                 left: 0;
                 top: 0;
             }
-        }
-
-        .head {
-            position: relative;
-            z-index: 15;
-
-            color: @colorWhite;
-
-            .menu {            
-                li {            
-                    a {
-                        color: @colorWhite;
-                    }
-                }
-        
-                & > :first-child {
-                    margin-left: 0;
-                }
-                & > :last-child {
-                    margin-right: 0;
-                }
-            }
-        }
-    }
-
-    .menu {
-        list-style: none;
-
-        li {
-            margin-right: 5px;
-            margin-left: 5px;
-            display: inline;
-
-            &.homepage {
-                a {                    
-                    color: lighten(@textColor, 40%) !important;
-
-                    &:hover {
-                        color: lighten(@textColor, 30%) !important;
-                    }
-                }
-            }
-
-            a {
-                transition: color 320ms;
-                text-decoration: none;
-                font-weight: 500;
-
-                color: @textColor;
-
-                &:hover {
-                    color: lighten(@textColor, 30%) !important;
-                }
-
-                @media @mlg {
-                    font-size: @bodyFontSize;
-                }
-            }
-        }
-
-        & > :first-child {
-            margin-left: 0;
-        }
-        & > :last-child {
-            margin-right: 0;
-        }
-
-        @media @mlg {
-            margin-top: 5px;
         }
     }
 }

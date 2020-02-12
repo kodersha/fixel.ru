@@ -9,7 +9,6 @@
 html {
     overflow-x: hidden;
     min-height: 100%;
-    width: 100vw;
 
     font-stretch: normal;
     font-style: normal;
@@ -59,9 +58,17 @@ img {
 
 
 .wrapper {
-    max-width: @wrapperWidth;
+    max-width: ~'calc('@wrapperWidth ~' + 24px + 24px)';
     margin-right: auto;
     margin-left: auto;
+
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+
+    @media @xl {
+        max-width: @wrapperWidth * 1.5;
+    }
 }
 
 .main {

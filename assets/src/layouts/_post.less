@@ -16,6 +16,17 @@
     }
 
     .header {
+        .head {
+            color: @textColor;
+
+            .menu {
+                li {
+                    a {
+                        color: @textColor; 
+                    }
+                }
+            }
+        }
         .title {
             max-width: @wrapperWidth;
             margin-bottom: @postMarginBottom;
@@ -779,6 +790,11 @@
     }
 
     .footer {
+        max-width: @wrapperWidth;
+        margin-right: auto;
+        margin-left: auto;
+        width: 100%;
+
         .time {
             color: @textSubColor;
             display: block;
@@ -843,9 +859,13 @@
     }
 
     &.article-workshop {
+        background-color: transparent;
+        box-shadow: none;
+        max-width: 100%;
+
         .browser {
-            box-shadow: 0 4px 8px -4px rgba(0, 0, 0, 0.4), 0 12px 24px -6px rgba(0, 0, 0, 0.4), 0 24px 64px 12px rgba(0, 0, 0, 0.25);
-            border-radius: 4px;
+            box-shadow: 0 1px 20px 0 rgba(0,0,0,.1);
+            border-radius: .375rem;
             position: relative;
             overflow: hidden;
             color: #323b40;
@@ -865,7 +885,7 @@
                 top: 0;
 
                 & > span {
-                    border-radius: 12px;
+                    border-radius: .375rem;
                     display: block;
                     margin: 13px 4px;
                     height: 12px;
@@ -954,7 +974,7 @@
 
             .block {
                 p {
-                    color: @textColor;
+                    color: @colorWhite;
 
                     &:first-child {
                         font-size: @postSmallFontSize;
@@ -963,17 +983,17 @@
 
                     time {
                         text-align: left;
-                        color: @textColor;
+                        color: @colorWhite;
                         display: initial;
                     }
 
                     a {
                         transition: color 320ms;
                         text-decoration: none;
-                        color: @textColor;
+                        color: darken(@colorWhite, 30%);
 
                         &:hover {
-                            color: lighten(@textColor, 30%);
+                            color: @colorWhite;
                         }
                     }
                 }
@@ -984,10 +1004,10 @@
                         display: block;
                     }
                     a {
-                        color: @textColor;
+                        color: @colorWhite;
 
                         &:hover {
-                            color: lighten(@textColor, 30%);
+                            color: darken(@colorWhite, 30%);
                         }
                     }
                 }
