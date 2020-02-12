@@ -1,59 +1,34 @@
 .articles-list {
-    .article {
-        .header {
-            .title {
-                max-width: @wrapperWidth;
-                margin-right: auto;
-                margin-left: auto;
-                width: 100%;
+    .article.item {
+        .cover {
+            max-width: @wrapperWidth * 1.5;
 
-                font-size: 3rem;
-                line-height: 3rem;
+            position: relative;
+            overflow: hidden;
 
-                @media @mlg {
-                    font-size: 2rem;
-                    line-height: 2rem;
-                }
-
-                a {
-                    text-decoration: none;
-                    color: @textColor;
-                }
-            }
-            .cover {
-                margin-right: auto;
-                margin-left: auto;
-
-                max-width: @wrapperWidth * 1.5;
-                width: 100%;
-
+            .frame {
                 position: relative;
-                overflow: hidden;
+                padding-top: 45%;
 
-                .frame {
-                    position: relative;
-                    padding-top: 45%;
+                .image {
+                    background-position: center top;
+                    background-repeat: no-repeat;
+                    background-size: cover;
 
-                    .image {
-                        background-position: center top;
-                        background-repeat: no-repeat;
-                        background-size: cover;
-    
-                        position: absolute;
-                        bottom: 0;
-                        right: 0;
-                        left: 0;
-                        top: 0;
-                    }
-                }
-
-                .link {
                     position: absolute;
                     bottom: 0;
                     right: 0;
                     left: 0;
                     top: 0;
                 }
+            }
+
+            .link {
+                position: absolute;
+                bottom: 0;
+                right: 0;
+                left: 0;
+                top: 0;
             }
         }
 

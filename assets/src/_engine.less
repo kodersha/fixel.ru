@@ -10,17 +10,17 @@
 
     // media breakpoints (default: as on bootstrap)
     @breakpoints:
-        ~"(min-width: 768px)",
-        ~"(min-width: 992px)",
-        ~"(min-width: 1200px)",
-        ~"(min-width: 1600px)";
+        ~"(min-width: 421px)",
+        ~"(min-width: 769px)",
+        ~"(min-width: 1025px)",
+        ~"(min-width: 1281px)";
 
     // max-width of containers according breakpoints
     @container-maw:
-        750px,
-        970px,
-        1170px,
-        1540px;
+        421px,
+        769px,
+        1025px,
+        1281px;
 
     // names for breakpoint suffixes
     @suffixes: xs, sm, md, lg, xl;
@@ -28,4 +28,38 @@
     // IMPORTANT: suffixes count should be bigger than breakpoints count by 1
     // suffixes-count = breakpoints-count + 1
 
+}
+
+.space-settings() {
+
+    @spaces: 0, 8px, 16px, 24px, 32px, 64px, 128px, 256px, 512px;
+    @spacealias: zero, nano, micro, mili, base, kilo, mega, giga, tera;
+
+    // media breakpoints
+    @breakpoints:
+        ~"(min-width: 421px)",
+        ~"(min-width: 769px)",
+        ~"(min-width: 1025px)",
+        ~"(min-width: 1281px)";
+
+    // names for breakpoint suffixes
+    @suffixes: xs, sm, md, lg, xl;
+
+    // IMPORTANT: suffixes count should be bigger than breakpoints count by 1
+    // suffixes-count = breakpoints-count + 1
+}
+
+.hidden-settings() {
+    // media breakpoints
+    @breakpoints:
+        421px,
+        769px,
+        1025px,
+        1281px;
+
+    // names for breakpoint suffixes
+    @suffixes: xs, sm, md, lg, xl;
+
+    // IMPORTANT: suffixes count should be bigger than breakpoints count by 1
+    // suffixes-count = breakpoints-count + 1
 }

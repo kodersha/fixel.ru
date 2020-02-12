@@ -3,7 +3,9 @@
     padding: 0;
     margin: 0;
 }
-
+:hover, *:hover {
+    transition: none !important;
+}
 html {
     overflow-x: hidden;
     min-height: 100%;
@@ -27,7 +29,6 @@ body {
     min-height: 100vh;
     min-width: 320px;
     height: 100%;
-    width: 100%;
 
     font-family: @bodyFontFamily;
     font-stretch: normal;
@@ -38,12 +39,16 @@ body {
 
     padding: 0;
     margin: 0;
+
+    justify-content: center;
+    flex-direction: column;
+    display: flex;
 }
 
 h1, h2, h3, h4, h5, h6 {
     letter-spacing: -0.03em;
     line-height: 1.2;
-    font-weight: 600;
+    font-weight: 400;
 }
 
 img {
@@ -51,6 +56,7 @@ img {
     max-width: 100%;
     height: auto;
 }
+
 
 .wrapper {
     max-width: @wrapperWidth;
