@@ -21,17 +21,27 @@
 
             .menu {
                 li {
+                    &.homepage {
+                        a {
+                            color: lighten(@textColor, 40%) !important;
+                        }
+                    }
                     a {
-                        color: @textColor; 
+                        color: @textColor;
+
+                        &:hover {
+                            color: lighten(@textColor, 40%) !important;
+                        }
                     }
                 }
             }
         }
         .title {
             max-width: @wrapperWidth;
-            margin-bottom: @postMarginBottom;
+            margin-bottom: 0;
             margin-right: auto;
             margin-left: auto;
+            margin-top: 0;
             width: 100%;
 
             font-weight: 300;
@@ -148,8 +158,10 @@
                 }
 
                 .title {
+                    margin-bottom: 0;
                     margin-right: auto;
                     margin-left: auto;
+                    margin-top: 0;
 
                     max-width: @wrapperWidth;
                     width: 100%;
@@ -195,7 +207,7 @@
         p {
             font-family: @postFontFamily;
             font-size: @postFontSize;
-            line-height: 1.5;
+            line-height: 1.6;
 
             margin-bottom: @postMarginBottom;
             margin-right: auto;
@@ -209,7 +221,7 @@
                 margin-top: @postMarginTop / 2;
 
                 font-size: 1em;
-                line-height: 1.5;
+                line-height: 1.6;
             }
 
             code {
@@ -221,12 +233,13 @@
         }
 
         a {
-            text-decoration: underline;
+            border-bottom: 1px solid fade(@textColor, 30%);
             text-decoration-skip: ink;
-            transition: color 320ms;
+            text-decoration: none;
             color: @textColor;
 
             &:hover {
+                border-color: fade(@linkHoverColor, 30%);
                 color: @linkHoverColor;
             }
         }
@@ -237,6 +250,10 @@
 
             flex-direction: column;
             display: flex;
+
+            a {
+                border: 0;
+            }
 
             &.post__image {
                 margin-bottom: @postMarginBottom;
@@ -358,7 +375,7 @@
 
                 font-size: @postFontSize + 0.5;
                 font-style: italic;
-                line-height: 1.5;
+                line-height: 1.6;
 
                 text-align: center;
 
@@ -399,14 +416,14 @@
             li {
                 font-family: @postFontFamily;
                 font-size: @postFontSize;
-                line-height: 1.5;
+                line-height: 1.6;
 
                 margin-bottom: @postMarginBottom / 3;
                 margin-top: @postMarginTop / 3;
 
                 @media @mxl {
                     font-size: 1em;
-                    line-height: 1.5;
+                    line-height: 1.6;
                 }
 
                 &:first-of-type {
@@ -724,8 +741,8 @@
                 position: absolute;
                 z-index: -5;
                 bottom: 0;
-                right: ~'calc((100% -' @wrapperWidth ~')/ 2)';
-                left: ~'calc((100% -' @wrapperWidth ~')/ 2)';
+                right: -24px;
+                left: -24px;
                 top: 0;
 
                 @media @xl {

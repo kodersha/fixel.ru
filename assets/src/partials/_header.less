@@ -9,29 +9,26 @@
             list-style: none;
     
             li {
+                letter-spacing: -0.03em;
                 margin-right: 5px;
                 margin-left: 5px;
                 display: inline;
     
                 &.homepage {
                     a {                    
-                        color: lighten(@textColor, 40%) !important;
-    
-                        &:hover {
-                            color: lighten(@textColor, 30%) !important;
-                        }
+                        color: lighten(@textColor, 70%) !important;
                     }
                 }
     
                 a {
                     transition: color 320ms;
                     text-decoration: none;
-                    font-weight: 500;
+                    font-weight: 600;
     
                     color: @colorWhite;
     
                     &:hover {
-                        color: lighten(@textColor, 30%) !important;
+                        color: lighten(@textColor, 70%) !important;
                     }
     
                     @media @mlg {
@@ -77,7 +74,7 @@
                 margin-top: 0;
     
                 font-size: 1em;
-                font-weight: 500;
+                font-weight: 600;
                 line-height: 1.5;
                 letter-spacing: -0.03em;
             }
