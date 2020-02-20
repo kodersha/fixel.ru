@@ -1,21 +1,11 @@
 .article {
-    box-shadow: 0 1px 20px 0 rgba(0, 0, 0,.1);
-    background-color: @postBackground;
-    border-radius: .375rem;
-
-    max-width: ~'calc('@wrapperWidth ~' + 24px + 24px)';
-    margin-right: auto;
-    margin-left: auto;
-
     position: relative;
     overflow: hidden;
     width: 100%;
 
-    @media @xl {
-        max-width: @wrapperWidth * 1.5;
-    }
-
     .header {
+        background-color: @postBackground;
+
         .head {
             color: @textColor;
 
@@ -44,11 +34,10 @@
             margin-top: 0;
             width: 100%;
 
-            font-weight: 300;
+            font-family: @titleFontFamily;
             font-size: 2.5em;
-            line-height: 1;
 
-            @media @mxl {
+            @media @mlg {
                 font-size: 1.875em;
             }
 
@@ -72,70 +61,36 @@
                 max-width: @wrapperWidth;
                 width: 100%;
 
+                font-family: @titleFontFamily;
                 font-size: 2.5em;
-                line-height: 1;
 
-                @media @mxl {
+                @media @mlg {
                     font-size: 1.875em;
                 }
             }
         }
 
         &.cover {
-            position: relative;
-            overflow: hidden;
-            z-index: 0;
-    
-            min-height: 480px;
-            height: ~'calc(100vh - 24px)';
-
-            background-color: rgb(0, 0, 0);
-    
-            .image {
-                background-position: center bottom;
-                background-repeat: no-repeat;
-                background-size: cover;
-                position: absolute;
-                z-index: -10;
-                bottom: 0;
-                right: 0;
-                left: 0;
-                top: 0;
-
-                .overlay {
-                    background-color: rgba(0, 0, 0);
-                    position: absolute;
-                    opacity: 0.75;
-                    z-index: -5;
-                    bottom: 0;
-                    right: 0;
-                    left: 0;
-                    top: 0;
-                }
-            }
-    
             .head {
                 position: relative;
                 z-index: 15;
 
-                color: rgb(255, 255, 255);
+                color: @colorWhite;
 
-                .menu {            
-                    li {            
-                        a {
-                            color: rgb(255, 255, 255);
-
-                            &:hover {
-                                color: darken(rgb(255, 255, 255), 15%);
+                .menu {
+                    li {
+                        &.homepage {
+                            a {
+                                color: lighten(@textColor, 70%) !important;
                             }
                         }
-                    }
-            
-                    & > :first-child {
-                        margin-left: 0;
-                    }
-                    & > :last-child {
-                        margin-right: 0;
+                        a {
+                            color: @colorWhite;
+    
+                            &:hover {
+                                color: lighten(@textColor, 70%) !important;
+                            }
+                        }
                     }
                 }
             }
@@ -152,7 +107,7 @@
                 left: 24px;
                 top: 0;
 
-                @media @xl {
+                @media @lg {
                     right: 32px;
                     left: 32px;
                 }
@@ -166,20 +121,53 @@
                     max-width: @wrapperWidth;
                     width: 100%;
 
-                    color: rgb(255, 255, 255);
+                    color: @colorWhite;
+                    font-size: 2.5em;
+    
+                    @media @mlg {
+                        font-size: 1.875em;
+                    }
                 }
             }
         }
     }
 
-    .content {
-        max-width: @wrapperWidth * 1.5;
-        margin-right: auto;
-        margin-left: auto;
+    .thumbnail {
+        position: relative;
+        overflow: hidden;
 
+        .frame {
+            position: relative;
+            padding-top: 45%;
+
+            .image {
+                background-position: center top;
+                background-repeat: no-repeat;
+                background-size: cover;
+
+                position: absolute;
+                bottom: 0;
+                right: 0;
+                left: 0;
+                top: 0;
+            }
+        }
+
+        .link {
+            position: absolute;
+            bottom: 0;
+            right: 0;
+            left: 0;
+            top: 0;
+        }
+    }
+
+    .content {
+        background-color: @postBackground;
         position: relative;
 
         h2 {
+            font-family: @titleFontFamily;
             margin-bottom: @postMarginBottom;
             margin-right: auto;
             margin-left: auto;
@@ -187,11 +175,12 @@
             max-width: @wrapperWidth;
             width: 100%;
 
-            @media @mxl {
+            @media @mlg {
                 margin-bottom: @postMarginBottom / 2;
             }
         }
         h3 {
+            font-family: @titleFontFamily;
             margin-bottom: @postMarginBottom;
             margin-right: auto;
             margin-left: auto;
@@ -199,7 +188,7 @@
             max-width: @wrapperWidth;
             width: 100%;
 
-            @media @mxl {
+            @media @mlg {
                 margin-bottom: @postMarginBottom / 2;
             }
         }
@@ -216,7 +205,7 @@
             max-width: @wrapperWidth;
             width: 100%;
 
-            @media @mxl {
+            @media @mlg {
                 margin-bottom: @postMarginBottom / 2;
                 margin-top: @postMarginTop / 2;
 
@@ -273,7 +262,7 @@
                     margin-left: -32px;
                     margin-top: @postMarginTop * 2;
 
-                    @media @mxl {
+                    @media @mlg {
                         margin-bottom: @postMarginBottom;
                         margin-right: -24px;
                         margin-left: -24px;
@@ -289,7 +278,7 @@
                     max-width: @wrapperWidth * 1.5;
                     width: 100%;
 
-                    @media @mxl {
+                    @media @mlg {
                         margin-bottom: @postMarginBottom;
                         margin-top: @postMarginTop;
                     }
@@ -304,7 +293,7 @@
 
                     float: left;
 
-                    @media @mxl {
+                    @media @mlg {
                         margin-right: auto;
                         margin-left: auto;
                         margin-top: @postMarginTop;
@@ -323,7 +312,7 @@
                     
                     float: right;
 
-                    @media @mxl {
+                    @media @mlg {
                         margin-right: auto;
                         margin-left: auto;
                         margin-top: @postMarginTop;
@@ -364,7 +353,7 @@
             margin-left: auto;
             margin-top: @postMarginTop * 2;
 
-            @media @mxl {
+            @media @mlg {
                 margin-bottom: @postMarginBottom;
                 margin-top: @postMarginTop;
             }
@@ -379,7 +368,7 @@
 
                 text-align: center;
 
-                @media @mxl {
+                @media @mlg {
                     font-size: @postFontSize;
                 }
             }
@@ -392,7 +381,7 @@
             height: 1px;
             border: 0;
 
-            @media @xl {
+            @media @lg {
                 margin-right: -32px;
                 margin-left: -32px;
             }
@@ -408,7 +397,7 @@
 
             list-style-position: inside;
 
-            @media @mxl {
+            @media @mlg {
                 margin-bottom: @postMarginBottom / 2;
                 margin-top: @postMarginTop / 2;
             }
@@ -421,7 +410,7 @@
                 margin-bottom: @postMarginBottom / 3;
                 margin-top: @postMarginTop / 3;
 
-                @media @mxl {
+                @media @mlg {
                     font-size: 1em;
                     line-height: 1.6;
                 }
@@ -452,7 +441,7 @@
             max-width: @wrapperWidth;
             width: 100%;
 
-            @media @mxl {
+            @media @mlg {
                 margin-bottom: @postMarginBottom / 2;
                 margin-top: @postMarginTop / 2;
             }
@@ -467,7 +456,7 @@
                         padding-top: 5px;
                         width: 50%;
 
-                        @media @mxl {
+                        @media @mlg {
                             display: block;
                             width: 100%;
                         }
@@ -476,10 +465,7 @@
                             padding-left: 0;
                             border-left: 0;
 
-                            @media @xl {
-                                text-align: right;
-                            }
-                            @media @mxl {
+                            @media @mlg {
                                 border-bottom: 0;
                                 border-right: 0;
                                 border-top: 0;
@@ -493,10 +479,10 @@
                             border-right: 0;
                             border-top: 0;
 
-                            @media @xl {
+                            @media @lg {
                                 text-align: left;
                             }
-                            @media @mxl {
+                            @media @mlg {
                                 border-left: 0;
                                 border-top: 0;
 
@@ -510,7 +496,7 @@
                         td {
                             border-top: 0;
 
-                            @media @mxl {
+                            @media @mlg {
                                 padding-top: 0;
                             }
                         }
@@ -519,7 +505,7 @@
                         td {
                             border-bottom: 0;
 
-                            @media @mxl {
+                            @media @mlg {
                                 padding-bottom: 0;
                             }
                         }  
@@ -541,7 +527,7 @@
             right: -5px;
             left: -5px;
 
-            @media @mxl {
+            @media @mlg {
                 margin-bottom: @postMarginBottom;
                 margin-top: @postMarginTop;
             }
@@ -720,7 +706,7 @@
             padding-bottom: @postMarginBottom * 2;
             padding-top: @postMarginTop * 2;
 
-            @media @mxl {
+            @media @mlg {
                 margin-bottom: @postMarginBottom;
                 margin-top: @postMarginTop;
                 padding-bottom: @postMarginBottom;
@@ -745,7 +731,7 @@
                 left: -24px;
                 top: 0;
 
-                @media @xl {
+                @media @lg {
                     right: ~'calc((100% -' @wrapperWidth * 1.5 ~')/ 2)';
                     left: ~'calc((100% -' @wrapperWidth * 1.5 ~')/ 2)';
                 }
@@ -757,8 +743,7 @@
             }
 
             ul {                
-                list-style: decimal-leading-zero;
-                list-style-position: inside;
+                list-style: decimal;
 
                 li {
                     counter-increment: li;
@@ -807,16 +792,13 @@
     }
 
     .footer {
-        max-width: @wrapperWidth;
-        margin-right: auto;
-        margin-left: auto;
-        width: 100%;
+        background-color: @postBackground;
 
         .time {
             color: @textSubColor;
             display: block;
 
-            @media @xl {
+            @media @lg {
                 text-align: right;
             }
         }
@@ -825,21 +807,22 @@
             color: @textSubColor;
             display: block;
 
-            @media @xl {
+            @media @lg {
                 text-align: right;
             }
         }
         .readmore {
             a {
-                color: @linkHoverColor;
-                font-family: @bodyFontFamily;
-                font-size: @bodyFontSize;
+                color: @textColor;
                 transition: color 320ms;
                 text-decoration: none;
+                font-weight: bold;
+                font-size: 2em;
+                line-height: 0;
                 display: block;
 
                 &:hover {
-                    color: @textColor;
+                    color: @linkHoverColor;
                 }
             }
         }
@@ -856,7 +839,6 @@
                     text-decoration-skip: ink;
                     transition: color 320ms;
 
-                    font-family: @bodyFontFamily;
                     font-size: @bodyFontSize;
                     color: @textSubColor;
 
@@ -879,10 +861,37 @@
         background-color: transparent;
         box-shadow: none;
         max-width: 100%;
+        color: @colorWhite;
+
+        .header {
+            background-color: transparent;
+
+            .head {
+                .name {
+                    color: @colorWhite;
+                }
+    
+                .menu {
+                    li {
+                        a {
+                            color: @colorWhite;
+
+                            &:hover {
+                                color: lighten(@textColor, 70%) !important;
+                            }
+                        }
+
+                        &.homepage {
+                            a {
+                                color: lighten(@textColor, 70%) !important;
+                            }
+                        }
+                    }
+                }
+            }
+        }
 
         .browser {
-            box-shadow: 0 1px 20px 0 rgba(0,0,0,.1);
-            border-radius: .375rem;
             position: relative;
             overflow: hidden;
             color: #323b40;
@@ -894,7 +903,7 @@
             width: 100%;
 
             .chrome {
-                background: rgb(45, 45, 45);
+                background-color: @htmlBackground;
                 position: relative;
                 height: 40px;
                 right: 0;
@@ -924,25 +933,24 @@
                 }
 
                 .url {
-                    background-color: rgb(60, 60, 60);
+                    background-color: darken(@htmlBackground, 3%);
                     -webkit-transform: translateX(50%);
                     -moz-transform: translateX(50%);
                     transform: translateX(50%);
-                    border-radius: 50px;
                     position: absolute;
                     overflow: hidden;
-                    height: 24px;
                     width: 60%;
                     right: 50%;
-                    top: 8px;
+                    bottom: 0;
+                    top: 0;
 
                     .title {
                         color: rgb(255, 255, 255);
                         font-weight: normal;
                         padding-right: 15px;
                         padding-left: 15px;
-                        line-height: 24px;
-                        font-size: @bodyFontSize - 0.15;
+                        line-height: 38px;
+                        font-size: @bodyFontSize;
 
                         a {
                             color: rgb(255, 255, 255);
@@ -981,18 +989,14 @@
                 }
             }
         }
-        .main {
+        .content {
             background-color: transparent;
         }
         .footer {
-            max-width: @wrapperWidth;
-            margin-right: auto;
-            margin-left: auto;
+            background-color: transparent;
 
             .block {
                 p {
-                    color: @colorWhite;
-
                     &:first-child {
                         font-size: @postSmallFontSize;
                         font-style: italic;
@@ -1000,17 +1004,16 @@
 
                     time {
                         text-align: left;
-                        color: @colorWhite;
                         display: initial;
                     }
 
                     a {
+                        color: @colorWhite;
                         transition: color 320ms;
                         text-decoration: none;
-                        color: darken(@colorWhite, 30%);
 
                         &:hover {
-                            color: @colorWhite;
+                            color: @linkHoverColor;
                         }
                     }
                 }
@@ -1024,10 +1027,24 @@
                         color: @colorWhite;
 
                         &:hover {
-                            color: darken(@colorWhite, 30%);
+                            color: @linkHoverColor;
                         }
                     }
                 }
+            }
+        }
+    }
+    &.item {
+        &:first-of-type {
+            @media @md {
+                border-radius: 8px 8px 0 0;
+            }
+        }
+    }
+    &.single {
+        .content {
+            @media @md {
+                border-radius: 8px 8px 0 0;
             }
         }
     }

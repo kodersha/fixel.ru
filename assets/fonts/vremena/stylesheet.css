@@ -1,0 +1,96 @@
+@font-face {
+    font-family: 'Vremena Grotesk';
+    src: url('VremenaGroteskBold.eot');
+    src: local('Vremena Grotesk Bold'), local('VremenaGroteskBold'),
+        url('VremenaGroteskBold.eot?#iefix') format('embedded-opentype'),
+        url('VremenaGroteskBold.woff2') format('woff2'),
+        url('VremenaGroteskBold.woff') format('woff'),
+        url('VremenaGroteskBold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Vremena Grotesk';
+    src: url('VremenaGroteskMedium.eot');
+    src: local('Vremena Grotesk Medium'), local('VremenaGroteskMedium'),
+        url('VremenaGroteskMedium.eot?#iefix') format('embedded-opentype'),
+        url('VremenaGroteskMedium.woff2') format('woff2'),
+        url('VremenaGroteskMedium.woff') format('woff'),
+        url('VremenaGroteskMedium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Vremena Grotesk Book';
+    src: url('VremenaGroteskBookItalic.eot');
+    src: local('Vremena Grotesk Book Italic'), local('VremenaGroteskBookItalic'),
+        url('VremenaGroteskBookItalic.eot?#iefix') format('embedded-opentype'),
+        url('VremenaGroteskBookItalic.woff2') format('woff2'),
+        url('VremenaGroteskBookItalic.woff') format('woff'),
+        url('VremenaGroteskBookItalic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Vremena Grotesk';
+    src: url('VremenaGroteskMediumItalic.eot');
+    src: local('Vremena Grotesk Medium Italic'), local('VremenaGroteskMediumItalic'),
+        url('VremenaGroteskMediumItalic.eot?#iefix') format('embedded-opentype'),
+        url('VremenaGroteskMediumItalic.woff2') format('woff2'),
+        url('VremenaGroteskMediumItalic.woff') format('woff'),
+        url('VremenaGroteskMediumItalic.ttf') format('truetype');
+    font-weight: 500;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Vremena Grotesk';
+    src: url('VremenaGroteskBoldItalic.eot');
+    src: local('Vremena Grotesk Bold Italic'), local('VremenaGroteskBoldItalic'),
+        url('VremenaGroteskBoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('VremenaGroteskBoldItalic.woff2') format('woff2'),
+        url('VremenaGroteskBoldItalic.woff') format('woff'),
+        url('VremenaGroteskBoldItalic.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Vremena Grotesk';
+    src: url('VremenaGroteskItalic.eot');
+    src: local('Vremena Grotesk Italic'), local('VremenaGroteskItalic'),
+        url('VremenaGroteskItalic.eot?#iefix') format('embedded-opentype'),
+        url('VremenaGroteskItalic.woff2') format('woff2'),
+        url('VremenaGroteskItalic.woff') format('woff'),
+        url('VremenaGroteskItalic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Vremena Grotesk';
+    src: url('VremenaGrotesk.eot');
+    src: local('Vremena Grotesk'), local('VremenaGrotesk'),
+        url('VremenaGrotesk.eot?#iefix') format('embedded-opentype'),
+        url('VremenaGrotesk.woff2') format('woff2'),
+        url('VremenaGrotesk.woff') format('woff'),
+        url('VremenaGrotesk.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Vremena Grotesk Book';
+    src: url('VremenaGroteskBook.eot');
+    src: local('Vremena Grotesk Book'), local('VremenaGroteskBook'),
+        url('VremenaGroteskBook.eot?#iefix') format('embedded-opentype'),
+        url('VremenaGroteskBook.woff2') format('woff2'),
+        url('VremenaGroteskBook.woff') format('woff'),
+        url('VremenaGroteskBook.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+

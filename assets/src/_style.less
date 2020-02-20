@@ -4,11 +4,20 @@
     margin: 0;
 }
 html {
+    background-color: @htmlBackground;
     overflow-x: hidden;
     min-height: 100%;
 
+    justify-content: center;
+    flex-direction: column;
+    display: flex;
+
     font-stretch: normal;
     font-style: normal;
+
+    @media @md {
+        width: 100vw;
+    }
 }
 body {
     -webkit-font-smoothing: antialiased;
@@ -21,29 +30,40 @@ body {
     cursor: default;
 
     box-sizing: border-box;
-    min-height: 100vh;
+
+    max-width: 100%;
     min-width: 320px;
     height: 100%;
+    width: 100%;
+
+    margin-bottom: 0;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 0;
 
     font-family: @bodyFontFamily;
     font-stretch: normal;
     font-weight: 400;
     font-style: normal;
     font-size: @bodyFontSize;
-    line-height: 1.6;
+    line-height: 1.4;
 
+    position: relative;
     overflow: hidden;
     padding: 0;
-    margin: 0;
 
-    justify-content: center;
-    flex-direction: column;
-    display: flex;
+    @media @md {
+        max-width: ~'calc('@wrapperWidth ~' + 24px + 24px)';
+        box-shadow: 0 0px 1.7px rgba(0, 0, 0, 0.02), 0 0px 4px rgba(0, 0, 0, 0.028), 0 0px 7.5px rgba(0, 0, 0, 0.035), 0 0px 13.4px rgba(0, 0, 0, 0.042), 0 0px 25.1px rgba(0, 0, 0, 0.05), 0 0px 60px rgba(0, 0, 0, 0.07);
+        border-radius: 8px;
+    }
+    @media @lg {
+        max-width: @wrapperWidth * 1.5;
+    }
 }
 h1, h2, h3, h4, h5, h6 {
     letter-spacing: -0.03em;
-    line-height: 1.2;
-    font-weight: 400;
+    line-height: 1;
 }
 img {
     vertical-align: middle;
@@ -55,21 +75,16 @@ a {
 }
 
 .wrapper {
-    max-width: ~'calc('@wrapperWidth ~' + 24px + 24px)';
+    max-width: @wrapperWidth;
     margin-right: auto;
     margin-left: auto;
 
     position: relative;
     overflow: hidden;
     width: 100%;
-
-    @media @xl {
-        max-width: @wrapperWidth * 1.5;
-    }
 }
 
 .main {
-    background-color: @bodyBackground;
     position: relative;
 }
 
@@ -82,10 +97,6 @@ a {
 
         &:hover {
             color: lighten(@textColor, 70%) !important;
-        }
-
-        @media @mlg {
-            font-size: @bodyFontSize;
         }
     }
 }
