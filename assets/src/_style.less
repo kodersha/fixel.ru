@@ -78,6 +78,8 @@ article {
 .articles {
     .item {
         margin-bottom: calc(var(--blockSpacingBottom) / 4);
+        align-items: baseline;
+        display: flex;
 
         h2 {
             margin-bottom: 0;
@@ -89,20 +91,17 @@ article {
             line-height: var(--lineHeight);
             letter-spacing: -.01em;
 
-            display: flex;
-            align-items: baseline;
-
             a {
                 &:hover {
                     color: var(--colorBlue);
                 }
             }
-
-            time {
-                color: var(--colorGray);
-                font-weight: 500;
-                margin-left: 8px;
-            }
+        }
+        time {
+            line-height: var(--lineHeight);
+            color: var(--colorGray);
+            font-weight: 500;
+            margin-left: 8px;
         }
     }
     p {
