@@ -3,598 +3,248 @@
     <title>Александра Травкина</title>
     <link href="https://fixel.ru/feed.xml" rel="self" />
     <link href="https://fixel.ru" />
-    <updated>2020-02-21T03:05:21+07:00</updated>
+    <updated>2020-05-09T01:50:36+07:00</updated>
     <author>
-        <name>Александра Травкина</name>
+        <name>Блог</name>
     </author>
     <id>https://fixel.ru</id>
 
     <entry>
-        <title> Streamlabs Chatbot · Текущий музыкальный трек по команде в чате</title>
+        <title>Блог Михаила Крюкова</title>
         <author>
-            <name>Александра Травкина</name>
+            <name>Блог</name>
         </author>
-        <link href="https://fixel.ru/streamlabs-chatbot-tekushchiy-muzykalnyy-trek-po-komande-v-chate/"/>
-        <id>https://fixel.ru/streamlabs-chatbot-tekushchiy-muzykalnyy-trek-po-komande-v-chate/</id>
-            <category term="Стримы"/>
-            <category term="Гайды"/>
-            <category term="Twitch"/>
-            <category term="Streamlabs Chatbot"/>
-            <category term="Streamlabs"/>
-            <category term="Ankhbot"/>
+        <link href="https://fixel.ru/blog-mihaila-kryukova/"/>
+        <id>https://fixel.ru/blog-mihaila-kryukova/</id>
+            <category term="Работы"/>
+            <category term="Заказ"/>
+            <category term="Дизайн"/>
+            <category term="Верстка"/>
 
-        <updated>2020-02-19T18:25:10+07:00</updated>
+        <updated>2020-05-08T20:26:43+07:00</updated>
             <summary>
                 <![CDATA[
-                    <p>Если вы проигрываете фоновую музыку на стриме из сервиса Яндекс.Музыки или Вконтакте, а зрители достают вас вопросом о том, какой трек сейчас играет, есть небольшое решение для Streamlabs Chatbot.</p>
-
+                        <img src="https://fixel.ru/media/posts/21/cover.png" alt="" />
+                    [{"id":1555941466744,"type":"publii-paragraph","content":"Разработка дизайна и вёрстка шаблона для блога на Эгее","config":{"textAlign":"left","advanced":{"style":"","cssClasses":"","id":""}}}]
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
-                <p>Если вы проигрываете фоновую музыку на стриме из сервиса Яндекс.Музыки или Вконтакте, а зрители достают вас вопросом о том, какой трек сейчас играет, есть небольшое решение для Streamlabs Chatbot.</p>
+                    <img src="https://fixel.ru/media/posts/21/cover.png" alt="" />
+                [{"id":1555941466744,"type":"publii-paragraph","content":"Разработка дизайна и вёрстка шаблона для блога на Эгее","config":{"textAlign":"left","advanced":{"style":"","cssClasses":"","id":""}}}]
+            ]]>
+        </content>
+    </entry>
+    <entry>
+        <title>Волкова 20</title>
+        <author>
+            <name>Блог</name>
+        </author>
+        <link href="https://fixel.ru/volkova-20/"/>
+        <id>https://fixel.ru/volkova-20/</id>
+            <category term="Работы"/>
+            <category term="Заказ"/>
+            <category term="Верстка"/>
 
-<ol>
-<li>Для начала вам понадобится аккаунт на <a href="http://last.fm" target="_blank" rel="nofollow noopener noreferrer">last.fm</a>, создаем аккаунт, если у вас его всё ещё нет. Для справки — last.fm с помощью плагинов к медиаплеерам собирает информацию о музыке, которую слушают пользователи, и на основе полученных данных автоматически составляет индивидуальные и общие чарты.</li>
-<li>Устанавливаем плагин <a href="https://chrome.google.com/webstore/detail/web-scrobbler/hhinaapppaileiechjoiifaancjggfjm" target="_blank" rel="nofollow noopener noreferrer">Web Scrobbler</a> для Google Chrome (Яндекс Браузера или любого другого браузера на Chromium).</li>
-<li>Авторизируем свой last.fm аккаунт в настройках плагина, чтобы он мог записывать названия проигрываемых треков в last.fm.</li>
-<li>Скачиваем небольшую программу — <a href="https://1drv.ms/u/s!AtOfM9gO7YTanxLJf6ZW4DBe2pyK" target="_blank" rel="nofollow noopener noreferrer">NPviaLFM</a>, которая записывает название проигрываемого трека в файл. При первом запуске вводим свой логин из last.fm. Теперь NPviaLFM будет создавать файл <code>now playing.txt</code> рядом со своим exe файлом. Можно поместить NPviaLFM в папку со Streamlabs Chatbot.</li>
-<li>Теперь в Streamlabs Chatbot достаточно создать команду чтения строки из файла. Переменная <code>$readline()</code> для вывода информации из текстового файла. Например <code>Сейчас играет - $readline(D:\Program\Streamlabs Chatbot\Scrobbler\now playing.txt)</code></li>
-</ol>
-<p>Пример настройки команды:</p>
-<figure class="post__image--wide"><img src="https://fixel.ru/media/posts/7/01.png" width="1218" height="767"></figure>
-<p>А <a href="https://fixel.ru/streamlabs-chatbot-ustanovka-i-nastroyka/">здесь</a> можно почитать о настройках самого Streamlabs Chatbot.</p>
+        <updated>2020-05-08T18:50:17+07:00</updated>
+            <summary>
+                <![CDATA[
+                        <img src="https://fixel.ru/media/posts/20/cover.png" alt="" />
+                    [{"id":1555941466744,"type":"publii-paragraph","content":"Вёрстка лендинга бизнес-центра Волкова 20","config":{"textAlign":"left","advanced":{"style":"","cssClasses":"","id":""}}}]
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                    <img src="https://fixel.ru/media/posts/20/cover.png" alt="" />
+                [{"id":1555941466744,"type":"publii-paragraph","content":"Вёрстка лендинга бизнес-центра Волкова 20","config":{"textAlign":"left","advanced":{"style":"","cssClasses":"","id":""}}}]
+            ]]>
+        </content>
+    </entry>
+    <entry>
+        <title>Грибовский лес</title>
+        <author>
+            <name>Блог</name>
+        </author>
+        <link href="https://fixel.ru/gribovskiy-les/"/>
+        <id>https://fixel.ru/gribovskiy-les/</id>
+            <category term="Работы"/>
+            <category term="Заказ"/>
+            <category term="Верстка"/>
+
+        <updated>2020-05-08T18:50:24+07:00</updated>
+            <summary>
+                <![CDATA[
+                        <img src="https://fixel.ru/media/posts/19/cover.png" alt="" />
+                    [{"id":1555941466744,"type":"publii-paragraph","content":"Вёрстка сайта Грибовский лес","config":{"textAlign":"left","advanced":{"style":"","cssClasses":"","id":""}}}]
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                    <img src="https://fixel.ru/media/posts/19/cover.png" alt="" />
+                [{"id":1555941466744,"type":"publii-paragraph","content":"Вёрстка сайта Грибовский лес","config":{"textAlign":"left","advanced":{"style":"","cssClasses":"","id":""}}}]
+            ]]>
+        </content>
+    </entry>
+    <entry>
+        <title>Интелдом</title>
+        <author>
+            <name>Блог</name>
+        </author>
+        <link href="https://fixel.ru/inteldom/"/>
+        <id>https://fixel.ru/inteldom/</id>
+            <category term="Работы"/>
+            <category term="Заказ"/>
+            <category term="Верстка"/>
+
+        <updated>2020-05-08T18:39:48+07:00</updated>
+            <summary>
+                <![CDATA[
+                        <img src="https://fixel.ru/media/posts/18/cover.png" alt="" />
+                    [{"id":1555941466744,"type":"publii-paragraph","content":"Вёрстка сайта&nbsp;Интелдома","config":{"textAlign":"left","advanced":{"style":"","cssClasses":"","id":""}}}]
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                    <img src="https://fixel.ru/media/posts/18/cover.png" alt="" />
+                [{"id":1555941466744,"type":"publii-paragraph","content":"Вёрстка сайта&nbsp;Интелдома","config":{"textAlign":"left","advanced":{"style":"","cssClasses":"","id":""}}}]
+            ]]>
+        </content>
+    </entry>
+    <entry>
+        <title>Streamlabs Chatbot · Текущий музыкальный трек по команде в чате</title>
+        <author>
+            <name>Блог</name>
+        </author>
+        <link href="https://fixel.ru/streamlabs-chatbot-tekushchiy-muzykalnyy-trek-po-komande-v-chate/"/>
+        <id>https://fixel.ru/streamlabs-chatbot-tekushchiy-muzykalnyy-trek-po-komande-v-chate/</id>
+            <category term="Блог"/>
+
+        <updated>2020-05-08T00:52:23+07:00</updated>
+            <summary>
+                <![CDATA[
+                    [{"id":1555941466744,"type":"publii-paragraph","content":"Если вы проигрываете фоновую музыку на стриме из сервиса Яндекс.Музыки или Вконтакте, а зрители достают вас вопросом о том, какой трек сейчас играет, есть небольшое решение для Streamlabs Chatbot.","config":{"textAlign":"left","advanced":{"style":"","cssClasses":"","id":""}}},{"id":1587305728397,"type":"publii-list","content":"Для начала вам понадобится аккаунт на last.fm, создаем аккаунт, если у вас его всё ещё нет. Для&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                [{"id":1555941466744,"type":"publii-paragraph","content":"Если вы проигрываете фоновую музыку на стриме из сервиса Яндекс.Музыки или Вконтакте, а зрители достают вас вопросом о том, какой трек сейчас играет, есть небольшое решение для Streamlabs Chatbot.","config":{"textAlign":"left","advanced":{"style":"","cssClasses":"","id":""}}},{"id":1587305728397,"type":"publii-list","content":"<li>Для начала вам понадобится аккаунт на <a href=\"http://last.fm/\" target=\"_blank\" rel=\"nofollow noopener\">last.fm</a>, создаем аккаунт, если у вас его всё ещё нет. Для справки — last.fm с помощью плагинов к медиаплеерам собирает информацию о музыке, которую слушают пользователи, и на основе полученных данных автоматически составляет индивидуальные и общие чарты.</li><li>Устанавливаем плагин <a href=\"https://chrome.google.com/webstore/detail/web-scrobbler/hhinaapppaileiechjoiifaancjggfjm\" target=\"_blank\" rel=\"nofollow noopener\">Web Scrobbler</a> для Google Chrome (Яндекс Браузера или любого другого браузера на Chromium).<br></li><li>Авторизуем свой last.fm аккаунт в настройках плагина, чтобы он мог записывать названия проигрываемых треков в last.fm.<br></li><li>Скачиваем небольшую программу — <a href=\"https://1drv.ms/u/s!AtOfM9gO7YTanxLJf6ZW4DBe2pyK\" target=\"_blank\" rel=\"nofollow noopener\">NPviaLFM</a>, которая записывает название проигрываемого трека в файл. При первом запуске вводим свой логин из last.fm. Теперь NPviaLFM будет создавать файл <mark>now playing.txt</mark> рядом со своим exe файлом. Можно поместить NPviaLFM в папку со Streamlabs Chatbot.<br></li><li>Теперь в Streamlabs Chatbot достаточно создать команду чтения строки из файла. Переменная <mark>$readline()</mark> для вывода информации из текстового файла. Например Сейчас играет - <mark>$readline(D:\\Program\\Streamlabs Chatbot\\Scrobbler\\now playing.txt)</mark><br></li>","config":{"listType":"ol","advanced":{"cssClasses":"","id":""},"link":{"url":"https://1drv.ms/u/s!AtOfM9gO7YTanxLJf6ZW4DBe2pyK","noFollow":true,"targetBlank":true,"sponsored":false,"ugc":false,"download":false}}},{"id":1587306714519,"type":"publii-paragraph","content":"Пример настройки команды:","config":{"textAlign":"left","advanced":{"style":"","cssClasses":"","id":""}}},{"id":1587320438040,"type":"publii-image","content":{"image":"https://fixel.ru/media/posts/4/01.png","imageHeight":767,"imageWidth":1218,"alt":"","caption":""},"config":{"imageAlign":"wide","link":{"url":"","noFollow":false,"targetBlank":false,"sponsored":false,"ugc":false},"advanced":{"cssClasses":"","id":""}}},{"id":1587320452588,"type":"publii-paragraph","content":"А <a href=\"https://fixel.ru/streamlabs-chatbot-ustanovka-i-nastroyka/\" target=\"_blank\">здесь</a> можно почитать о настройках самого Streamlabs Chatbot.","config":{"textAlign":"left","advanced":{"style":"","cssClasses":"","id":""},"link":{"url":"https://fixel.ru/streamlabs-chatbot-ustanovka-i-nastroyka/","noFollow":false,"targetBlank":true,"sponsored":false,"ugc":false,"download":false}}}]
+            ]]>
+        </content>
+    </entry>
+    <entry>
+        <title>Колесо</title>
+        <author>
+            <name>Блог</name>
+        </author>
+        <link href="https://fixel.ru/koleso/"/>
+        <id>https://fixel.ru/koleso/</id>
+            <category term="Работы"/>
+            <category term="Заказ"/>
+            <category term="Верстка"/>
+
+        <updated>2020-05-08T18:30:38+07:00</updated>
+            <summary>
+                <![CDATA[
+                        <img src="https://fixel.ru/media/posts/17/cover.png" alt="" />
+                    [{"id":1555941466744,"type":"publii-paragraph","content":"Вёрстка сайта офисно-складского комплекса&nbsp;Колесо","config":{"textAlign":"left","advanced":{"style":"","cssClasses":"","id":""}}}]
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                    <img src="https://fixel.ru/media/posts/17/cover.png" alt="" />
+                [{"id":1555941466744,"type":"publii-paragraph","content":"Вёрстка сайта офисно-складского комплекса&nbsp;Колесо","config":{"textAlign":"left","advanced":{"style":"","cssClasses":"","id":""}}}]
             ]]>
         </content>
     </entry>
     <entry>
         <title>Streamlabs Chatbot · Озвучивание выделенного сообщения на Twitch</title>
         <author>
-            <name>Александра Травкина</name>
+            <name>Блог</name>
         </author>
         <link href="https://fixel.ru/streamlabs-chatbot-ozvuchivanie-vydelennogo-soobshcheniya-na-twitch/"/>
         <id>https://fixel.ru/streamlabs-chatbot-ozvuchivanie-vydelennogo-soobshcheniya-na-twitch/</id>
-            <category term="Стримы"/>
-            <category term="Twitch"/>
-            <category term="Streamlabs Chatbot"/>
-            <category term="Streamlabs"/>
-            <category term="Ankhbot"/>
+            <category term="Блог"/>
 
-        <updated>2020-02-12T23:22:46+07:00</updated>
+        <updated>2020-05-08T21:40:40+07:00</updated>
             <summary>
                 <![CDATA[
-                    Для Streamlabs Chatbot существует скрипт TheNewTTS, он позволяет боту озвучивать сообщения из чата Твича голосами Google. С появлением баллов канала, некоторые стримеры обзавелись возможностью озвучивания выделенных сообщений, чтобы иметь такую возможность у себя, я слегка&hellip;
+                    [{"id":1555941466744,"type":"publii-paragraph","content":"Для Streamlabs Chatbot существует скрипт TheNewTTS, он позволяет боту озвучивать сообщения из чата Твича голосами Google. С появлением баллов канала, некоторые стримеры обзавелись возможностью озвучивания выделенных сообщений, чтобы иметь такую возможность у себя, я слегка дописала плагин TheNewTTS и опубликовала его на GitHub. Теперь, если&hellip;
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
-                <p>Для Streamlabs Chatbot существует скрипт <a href="https://github.com/LuisSanchez-Dev/TheNewTTS" target="_blank" rel="nofollow noopener noreferrer">TheNewTTS</a>, он позволяет боту озвучивать сообщения из чата Твича голосами Google. С появлением баллов канала, некоторые стримеры обзавелись возможностью озвучивания выделенных сообщений, чтобы иметь такую возможность у себя, я слегка дописала плагин TheNewTTS и опубликовала его <a href="https://github.com/sashatravkina/slcb-script-thepointstts/" target="_blank" rel="noopener noreferrer">на GitHub</a>. Теперь, если в настройках плагина не включена функция «Озвучивать всё», он будет озвучивать только те самые, выделенные за баллы канала, сообщения чата.</p>
-<p><a href="https://github.com/sashatravkina/slcb-script-thepointstts/archive/master.zip" target="_blank" rel="noopener noreferrer">Скачать скрипт</a>, смотреть <a href="https://www.youtube.com/watch?v=l3FBpY-0880&amp;t=3s" target="_blank" rel="nofollow noopener noreferrer">как устанавливать скрипты</a> в Streamlabs Chatbot. Не забудьте переименовать папку скрипта в <em>ThePointsTTS</em>.</p>
+                [{"id":1555941466744,"type":"publii-paragraph","content":"Для Streamlabs Chatbot существует скрипт TheNewTTS, он позволяет боту озвучивать сообщения из чата Твича голосами Google. С появлением баллов канала, некоторые стримеры обзавелись возможностью озвучивания выделенных сообщений, чтобы иметь такую возможность у себя, я слегка дописала плагин TheNewTTS и опубликовала его <a href=\"https://github.com/sashatravkina/slcb-script-thepointstts/\" target=\"_blank\" rel=\"nofollow noopener\">на GitHub</a>. Теперь, если в настройках плагина не включена функция «Озвучивать всё», он будет озвучивать только те самые, выделенные за баллы канала, сообщения чата.","config":{"textAlign":"left","advanced":{"style":"","cssClasses":"","id":""},"link":{"url":"","noFollow":false,"targetBlank":false,"sponsored":false,"ugc":false,"download":false}}},{"id":1587302964951,"type":"publii-paragraph","content":"<a href=\"https://github.com/sashatravkina/slcb-script-thepointstts/archive/master.zip\" target=\"_blank\"><strong>Скачать скрипт</strong></a>, смотреть <a href=\"https://www.youtube.com/watch?v=l3FBpY-0880&amp;t=3s\" target=\"_blank\" rel=\"nofollow noopener\">как устанавливать скрипты</a> в Streamlabs Chatbot. Не забудьте переименовать папку скрипта в ThePointsTTS.","config":{"textAlign":"left","advanced":{"style":"","cssClasses":"","id":""},"link":{"url":"https://www.youtube.com/watch?v=l3FBpY-0880&t=3s","noFollow":true,"targetBlank":true,"sponsored":false,"ugc":false,"download":false}}}]
+            ]]>
+        </content>
+    </entry>
+    <entry>
+        <title>Преображенский</title>
+        <author>
+            <name>Блог</name>
+        </author>
+        <link href="https://fixel.ru/preobrazhenskiy/"/>
+        <id>https://fixel.ru/preobrazhenskiy/</id>
+            <category term="Работы"/>
+            <category term="Заказ"/>
+            <category term="Верстка"/>
+
+        <updated>2020-05-08T18:10:28+07:00</updated>
+            <summary>
+                <![CDATA[
+                        <img src="https://fixel.ru/media/posts/16/cover.png" alt="" />
+                    [{"id":1555941466744,"type":"publii-paragraph","content":"Вёрстка сайта административно-делового центра&nbsp;Преображенский","config":{"textAlign":"left","advanced":{"style":"","cssClasses":"","id":""}}}]
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                    <img src="https://fixel.ru/media/posts/16/cover.png" alt="" />
+                [{"id":1555941466744,"type":"publii-paragraph","content":"Вёрстка сайта административно-делового центра&nbsp;Преображенский","config":{"textAlign":"left","advanced":{"style":"","cssClasses":"","id":""}}}]
+            ]]>
+        </content>
+    </entry>
+    <entry>
+        <title>Грибовский лес Промо</title>
+        <author>
+            <name>Блог</name>
+        </author>
+        <link href="https://fixel.ru/gribovskiy-les-promo/"/>
+        <id>https://fixel.ru/gribovskiy-les-promo/</id>
+            <category term="Работы"/>
+            <category term="Заказ"/>
+            <category term="Верстка"/>
+
+        <updated>2020-05-08T19:21:17+07:00</updated>
+            <summary>
+                <![CDATA[
+                        <img src="https://fixel.ru/media/posts/15/cover.png" alt="" />
+                    [{"id":1555941466744,"type":"publii-paragraph","content":"Вёрстка промо лендинга Грибовского леса","config":{"textAlign":"left","advanced":{"style":"","cssClasses":"","id":""}}}]
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                    <img src="https://fixel.ru/media/posts/15/cover.png" alt="" />
+                [{"id":1555941466744,"type":"publii-paragraph","content":"Вёрстка промо лендинга Грибовского леса","config":{"textAlign":"left","advanced":{"style":"","cssClasses":"","id":""}}}]
             ]]>
         </content>
     </entry>
     <entry>
         <title>Streamlabs Chatbot · Установка и настройка</title>
         <author>
-            <name>Александра Травкина</name>
+            <name>Блог</name>
         </author>
         <link href="https://fixel.ru/streamlabs-chatbot-ustanovka-i-nastroyka/"/>
         <id>https://fixel.ru/streamlabs-chatbot-ustanovka-i-nastroyka/</id>
-            <category term="Стримы"/>
-            <category term="Гайды"/>
-            <category term="Веб"/>
-            <category term="Twitch"/>
+            <category term="Блог"/>
 
-        <updated>2020-02-12T23:23:41+07:00</updated>
+        <updated>2020-05-08T20:05:23+07:00</updated>
             <summary>
                 <![CDATA[
-                        <img src="https://fixel.ru/media/posts/4/cover.jpg" alt="" />
-                    <p>Как может быть известно всем тем, кто так или иначе связан со стримингом и стримами, для автоматической модерации, оповещений и развлечения зрителей существуют чат-боты. Один из таких чат-ботов для twitch, youtube или mixer — бесплатная <em>standalone</em> программа Streamlabs Chatbot.</p>
-
+                    [{"id":1555941466744,"type":"publii-paragraph","content":"Как может быть известно всем тем, кто так или иначе связан со стримингом и стримами, для автоматической модерации, оповещений и развлечения зрителей существуют чат-боты. Один из таких чат-ботов для twitch, youtube или mixer — бесплатная standalone программа Streamlabs Chatbot. ","config":{"textAlign":"left","advanced":{"style":"","cssClasses":"","id":""}}},{"id":1587119478459,"type":"publii-header","content":"Установка и подключение&nbsp;","config":{"headingLevel":2,"textAlign":"left","link":{"url":"","noFollow":false,"targetBlank":false,"sponsored":false,"ugc":false},"advanced":{"cssClasses":"","customId":false,"id":"--nbsp"}}},{"id":1587119463943,"type":"publii-paragraph","content":"Скачиваем и устанавливаем сам&hellip;
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
-                    <img src="https://fixel.ru/media/posts/4/cover.jpg" alt="" />
-                <p>Как может быть известно всем тем, кто так или иначе связан со стримингом и стримами, для автоматической модерации, оповещений и развлечения зрителей существуют чат-боты. Один из таких чат-ботов для twitch, youtube или mixer — бесплатная <em>standalone</em> программа Streamlabs Chatbot.</p>
-
-<div class="post__toc">
-<h3>Содержание</h3>
-<ul>
-<li><a href="#mcetoc_1dpkbho560">Установка и подключение</a></li>
-<li><a href="#mcetoc_1dpkqrfei0">Console</a></li>
-<li><a href="#mcetoc_1dpku16370">Dashboard</a></li>
-<li><a href="#mcetoc_1dpl0nanu0">Commands</a></li>
-<li><a href="#mcetoc_1dplf701c0">Timers</a></li>
-<li><a href="#mcetoc_1dplh0hmd0">Quotes</a></li>
-<li><a href="#mcetoc_1dpli5ksa1">Extra Quotes</a></li>
-<li><a href="#mcetoc_1dplm2ojc0">Give Away</a></li>
-<li><a href="#mcetoc_1dpnbq3a30">Songrequest</a></li>
-<li><a href="#mcetoc_1dpn3aut20">Sound Files</a></li>
-<li><a href="#mcetoc_1dpndqo3p1">Queue</a></li>
-<li><a href="#mcetoc_1dplju2aj0">Counter</a></li>
-<li><a href="#mcetoc_1dpn5m33s0">Currency </a></li>
-<li><a href="#mcetoc_1dpng0f8j0">Users</a></li>
-<li><a href="#mcetoc_1dpn82ner1">Poll</a></li>
-<li><a href="#mcetoc_1dpn6v2u20">Betting</a></li>
-<li><a href="#mcetoc_1dpn9hkhb0">Events</a></li>
-<li><a href="#mcetoc_1dpnkedhj0">Mod Tools </a></li>
-<li><a href="#mcetoc_1dpnltd5o1">Notifications</a></li>
-<li><a href="#mcetoc_1dpno8nf72">Discord</a></li>
-<li><a href="#mcetoc_1dpnuq0tu0">Settings</a>
-<ul>
-<li><a href="#mcetoc_1dpnur0ha1">General</a></li>
-<li><a href="#mcetoc_1dpo1f6l72">Localization</a></li>
-<li><a href="#mcetoc_1dpo1k79m3">Usage</a></li>
-<li><a href="#mcetoc_1dpo1qbbu4">Macros</a></li>
-<li><a href="#mcetoc_1dpo1ulr65">Hotkeys</a></li>
-<li><a href="#mcetoc_1dpo2fjum6">Style</a></li>
-</ul>
-</li>
-<li><a href="#mcetoc_1dqjg4etb1">Полезные ссылки</a></li>
-</ul>
-</div>
-<h2 id="mcetoc_1dpkbho560">Установка и подключение</h2>
-<p>Скачиваем и устанавливаем сам <a href="https://streamlabs.com/chatbot" target="_blank" rel="noopener noreferrer">Streamlabs Chatbot</a>, а также необходимый для его работы <a href="https://www.python.org/downloads/release/python-2713/" target="_blank" rel="noopener noreferrer">Python 2.7.13</a>. Программы лучше устанавливать в папки по-умолчанию. Запускаем программу чат-бота где вас встретит помощник установки.</p>
-<div class="gallery"   >
-<figure class="gallery__item"><a href="https://fixel.ru/media/posts/4/gallery/2019-11-14-14_20_11-Setup-Wizard.png" ><img src="https://fixel.ru/media/posts/4/gallery/2019-11-14-14_20_11-Setup-Wizard-thumbnail.png" alt="" width="240" height="240"></a>
-<figcaption class="gallery-description">Приветствие</figcaption>
-</figure>
-<figure class="gallery__item"><a href="https://fixel.ru/media/posts/4/gallery/2019-11-14-14_20_40-Setup-Wizard.png" ><img src="https://fixel.ru/media/posts/4/gallery/2019-11-14-14_20_40-Setup-Wizard-thumbnail.png" alt="" width="240" height="240"></a>
-<figcaption class="gallery-description">Выбираем стриминг платформу</figcaption>
-</figure>
-<figure class="gallery__item"><a href="https://fixel.ru/media/posts/4/gallery/2019-11-14-14_20_54-Setup-Wizard.png" ><img src="https://fixel.ru/media/posts/4/gallery/2019-11-14-14_20_54-Setup-Wizard-thumbnail.png" alt="" width="240" height="240"></a>
-<figcaption class="gallery-description">Программа проверяет доступность API</figcaption>
-</figure>
-<figure class="gallery__item"><a href="https://fixel.ru/media/posts/4/gallery/2019-11-14-14_21_06-Setup-Wizard.png" ><img src="https://fixel.ru/media/posts/4/gallery/2019-11-14-14_21_06-Setup-Wizard-thumbnail.png" alt="" width="240" height="240"></a>
-<figcaption class="gallery-description">Авторизируемся в аккаунт бота</figcaption>
-</figure>
-<figure class="gallery__item"><a href="https://fixel.ru/media/posts/4/gallery/2019-11-14-16_33_44-Setup-Wizard.png" ><img src="https://fixel.ru/media/posts/4/gallery/2019-11-14-16_33_44-Setup-Wizard-thumbnail.png" alt="" width="240" height="154"></a>
-<figcaption class="gallery-description">Авторизируемся в основной аккаунт</figcaption>
-</figure>
-<figure class="gallery__item"><a href="https://fixel.ru/media/posts/4/gallery/2019-11-14-16_34_44-Setup-Wizard.png" ><img src="https://fixel.ru/media/posts/4/gallery/2019-11-14-16_34_44-Setup-Wizard-thumbnail.png" alt="" width="240" height="154"></a>
-<figcaption class="gallery-description">Авторизируемся в Streamlabs</figcaption>
-</figure>
-</div>
-<p>Выбираем платформу для <span class="wo fr-0" >стриминга</span>. Создаём и <span class="wo fr-1 replaced" >авторизуем</span> отдельный аккаунт для вашего бота, от имени которого он будет писать сообщения в чате. На этом этапе отдельный аккаунт можно и не создавать, <span class="wo fr-2 replaced" >авторизовавшись</span> со своего основного, но тогда бот будет писать сообщения от его имени. В следующих пунктах <span class="wo fr-3 replaced" >авторизуем</span> свой основной аккаунт, а также логинимся в Streamlabs с помощью всё того же twitch или youtube.</p>
-<h2 id="mcetoc_1dpkqrfei0">Console</h2>
-<p>После успешной первичной настройки вы попадёте в окно консоли, где отображаются все сообщения чата, системные сообщения, список зрителей, поле для отправки сообщений в чат от имени стримера или бота. У каждого сообщения имеются стандартные инструменты модерации <span class="wo fr-0 replaced" >—</span> бан, таймаут или удаление сообщений. Вверху окна имеются кнопки макросов, о настройках которых будет рассказано позже.</p>
-<p><img class="post__image--wide" src="https://fixel.ru/media/posts/4/2019-11-14-19_53_31-Streamlabs-Chatbot.png" width="1310" height="725"></p>
-<h2 id="mcetoc_1dpku16370">Dashboard</h2>
-<p>Окно настроек вашего стрима, работает только с twitch. Здесь можно выбрать категорию и название, запустить рекламу, если вы партнер, настроить автоматические хосты, в том числе для сообществ. Имеется помощник проведения рейдов. С его помощью можно провести рейд другого канала, а также указать количество баллов которые получат участники рейда.</p>
-<p><img class="post__image--wide" src="https://fixel.ru/media/posts/4/2019-11-14-19_53_59-Streamlabs-Chatbot.png" width="1310" height="725"></p>
-<p>Доступные команды чата:</p>
-<table>
-<tbody>
-<tr>
-<td>!status Название стрима</td>
-<td>Изменяет название стрима</td>
-</tr>
-<tr>
-<td>!game The Witcher 3</td>
-<td>Изменяет категорию стрима</td>
-</tr>
-<tr>
-<td>!starthost</td>
-<td>Запустить автоматическую ретрансляцию</td>
-</tr>
-<tr>
-<td>!stophost</td>
-<td>Остановить ретрансляцию</td>
-</tr>
-</tbody>
-</table>
-<h2 id="mcetoc_1dpl0nanu0">Commands</h2>
-<p>Раздел посвященный командам, в нём можно создавать свои собственные команды чата используя специальные переменные. Можно создавать свои группы для команд, например группа начинающаяся с <code>[GAME]</code>, будет работать только если вы стримите в категории этой игры. Пример <code>[GAME] The Outer Worlds</code>.</p>
-<p><img class="post__image--wide" src="https://fixel.ru/media/posts/4/2019-11-14-19_54_11-Streamlabs-Chatbot.png" width="1310" height="725"></p>
-<p>Доступные команды чата:</p>
-<table>
-<tbody>
-<tr>
-<td>!command add !фильм +r Сегодня мы смотрим фильм Джокер (2019)</td>
-<td>Добавить команду <em>!фильм</em>, +r — Для группы Regular</td>
-</tr>
-<tr>
-<td>!command edit !фильм +a Сейчас мы смотрим фильм Чужой</td>
-<td>Отредактировать команду <em>!фильм</em>, +a — Для группы Everyone</td>
-</tr>
-<tr>
-<td>!command remove !фильм</td>
-<td>Удалить команду <em>!фильм</em></td>
-</tr>
-<tr>
-<td>!сommand add !печеньки +a У нас $count печенек</td>
-<td>Добавить команду <em>!печеньки</em> со счетчиком</td>
-</tr>
-<tr>
-<td>!сommand сount !счетчик 10</td>
-<td>Добавить значение к счетчику команды <em>!печеньки</em></td>
-</tr>
-<tr>
-<td>!command usage !фильм SC</td>
-<td>Принцип использования. SC, SW, SB, DC, DW, DB, CB, WB, A*</td>
-</tr>
-<tr>
-<td>!enable !фильм true</td>
-<td>Включить или выключить команду, true или false соответственно</td>
-</tr>
-<tr>
-<td>!command cooldown !фильм 2</td>
-<td>Установить глобальный лимит времени через который можно использовать команду</td>
-</tr>
-<tr>
-<td>!command usercooldown !фильм 5</td>
-<td>Установить персональный лимит времени через который можно использовать команду</td>
-</tr>
-</tbody>
-</table>
-<p>Кликнув правой кнопкой мыши на команде её можно экспортировать в файл. Аналогично можно импортировать команды из файлов.</p>
-<h2 id="mcetoc_1dplf701c0">Timers</h2>
-<p>Это раздел для создания таймеров <span class="wo fr-0 replaced" >—</span> сообщений которые бот будет публиковать в чат автоматически, через определенное время. Интервал времени можно указать нажав на шестерёнку в правом верхнем углу раздела. Так как все таймеры следуют одному и тому же интервалу, бот опубликует сначала первый, затем второй и так далее, по кругу. Таймеры также можно разделять по группам, указывать им префикс <code>[GAME] Название игры</code> и эти таймеры будут работать только на стримах этой игры.</p>
-<p><img class="post__image--wide" src="https://fixel.ru/media/posts/4/2019-11-15-00_45_56-Streamlabs-Chatbot.png" width="1310" height="725"></p>
-<p>Доступные команды чата:</p>
-<table>
-<tbody>
-<tr>
-<td>!timer add !meow /me мяукнула на $randusername</td>
-<td>Добавляет таймер</td>
-</tr>
-<tr>
-<td>!timer edit !meow /me шипит на $randusername</td>
-<td>Редактирует таймер</td>
-</tr>
-<tr>
-<td>!timer remove !meow</td>
-<td>Удаляет таймер</td>
-</tr>
-<tr>
-<td>!activate !meow false</td>
-<td>Включить или выключить таймер, true или false соответственно</td>
-</tr>
-</tbody>
-</table>
-<h2 id="mcetoc_1dplh0hmd0">Quotes</h2>
-<p>Здесь можно собирать крылатые цитаты сказанные вами во время стрима. Нажав шестеренку в правом верхнем углу раздела, вы можете настроить кому разрешено пользоваться командой и кому можно добавлять новые цитаты, выбрать формат даты и сам формат отображения цитаты. Каждая цитата будет содержать информацию о дате и рубрике стрима на момент её создания.</p>
-<p><img class="post__image--wide" src="https://fixel.ru/media/posts/4/2019-11-15-01_08_49-Streamlabs-Chatbot.png" width="1310" height="725"></p>
-<p>Доступные команды чата:</p>
-<table>
-<tbody>
-<tr>
-<td>!quote add «Только те, кто предпринимают абсурдные попытки, смогут достичь невозможного» — AlbertEinstein</td>
-<td>Добавляет цитату в список</td>
-</tr>
-<tr>
-<td>!quote edit 12 «Самое непостижимое в этом мире — это то, что он постижим.» — AlbertEinstein</td>
-<td>Редактирует цитату с id12</td>
-</tr>
-<tr>
-<td>!quote remove 12</td>
-<td>Удаляет цитату с id12</td>
-</tr>
-<tr>
-<td>!quote</td>
-<td>Публикует случайную цитату в чат</td>
-</tr>
-<tr>
-<td>!quote 12</td>
-<td>Публикует в чат цитату с id12</td>
-</tr>
-</tbody>
-</table>
-<h2 id="mcetoc_1dpli5ksa1">Extra Quotes</h2>
-<p>Аналогично разделу Quotes здесь можно добавлять любой контент, но <span class="wo fr-0 replaced" >в отличие от</span> команды <code>!quote</code> здесь имя команды может быть любым, например <code>!gif</code>. Также можно включить или выключить отображение даты и рубрики у элемента команды.</p>
-<p><img class="post__image--wide" src="https://fixel.ru/media/posts/4/2019-11-15-01_39_32-Streamlabs-Chatbot.png" width="1310" height="725"></p>
-<p>Доступные команды чата:</p>
-<table>
-<tbody>
-<tr>
-<td>!gif add http://tiny.cc/4sz9fz</td>
-<td>Добавляет ссылку в список</td>
-</tr>
-<tr>
-<td>!gif edit 16 http://tiny.cc/puz9fz</td>
-<td>Редактирует ссылку с id16</td>
-</tr>
-<tr>
-<td>!gif remove 16</td>
-<td>Удаляет ссылку с id16</td>
-</tr>
-<tr>
-<td>!gif</td>
-<td>Публикует случайную гифку в чат</td>
-</tr>
-<tr>
-<td>!gif 16</td>
-<td>Публикует гифку с id16</td>
-</tr>
-</tbody>
-</table>
-<h2 id="mcetoc_1dplm2ojc0">Give Away</h2>
-<p>Раздел посвященный раздачам. Здесь можно пригласить зрителей <span class="wo fr-0 replaced" >участвовать</span> в раздаче чего бы то ни было, выбрать стоимость «билета» для участия в раздаче, если в настройках бота включена внутренняя валюта. Также можно отслеживать сколько у зрителя «билетов» и <span class="wo fr-1 replaced" >количество</span> его сообщений в чате.</p>
-<p><img class="post__image--wide" src="https://fixel.ru/media/posts/4/2019-11-14-19_54_31-Streamlabs-Chatbot.png" alt="" width="1310" height="725"></p>
-<p>Доступные команды чата:</p>
-<table>
-<tbody>
-<tr>
-<td>!giveaway start !raffle|cookies|1|25|regular</td>
-<td>!giveaway start команда для участия|приз|количество победителей|стоимость участия|группа пользователей</td>
-</tr>
-<tr>
-<td>!giveaway start !raffle|cookies|everyone</td>
-<td>!giveaway start команда для участия|приз|группа пользователей</td>
-</tr>
-<tr>
-<td>!giveaway close</td>
-<td>Закрыть раздачу</td>
-</tr>
-<tr>
-<td>!giveaway winner</td>
-<td>Выбрать победителя</td>
-</tr>
-</tbody>
-</table>
-<h2 id="mcetoc_1dpnbq3a30">Songrequest</h2>
-<p>Система заказа музыки позволит создать свой плейлист <span class="wo fr-0 replaced" >воспроизведения</span> музыки с YouTube, а также позволит зрителям заказывать музыку через чат, в том числе за баллы бота.</p>
-<p><img class="post__image--wide" src="https://fixel.ru/media/posts/4/2019-11-15-18_04_30-Streamlabs-Chatbot.png" alt="" width="1310" height="725"></p>
-<table>
-<tbody>
-<tr>
-<td>!songrequest dQw4w9WgXcQ</td>
-<td>Заказать музыку, id или ссылка на трек с YouTube</td>
-</tr>
-<tr>
-<td>!skip</td>
-<td>Проголосовать за пропуск текущего трека</td>
-</tr>
-<tr>
-<td>!veto</td>
-<td>Пропустить текущий трек</td>
-</tr>
-<tr>
-<td>!wrongsong</td>
-<td>Удаляет последний заказанный вами трек из списка</td>
-</tr>
-<tr>
-<td>!songlist</td>
-<td>Список треков</td>
-</tr>
-<tr>
-<td>!songblacklist add (id)</td>
-<td>Добавить id трека в черный список</td>
-</tr>
-<tr>
-<td>!songblacklist remove (id)</td>
-<td>Удалить id трека из черного списка</td>
-</tr>
-<tr>
-<td>!volume 50</td>
-<td>Установить громкость плеера на 50%</td>
-</tr>
-</tbody>
-</table>
-<h2 id="mcetoc_1dpn3aut20">Sound Files</h2>
-<p>Здесь можно добавить воспроизведение звуковых файлов привязанных к командам чата. У каждого файла есть настройка громкости, сколько раз команда должна быть написана в чате, для воспроизведения и прочие настройки прав для использования.</p>
-<p><img class="post__image--wide" src="https://fixel.ru/media/posts/4/2019-11-15-16_01_42-Streamlabs-Chatbot.png" alt="" width="1310" height="725"></p>
-<h2 id="mcetoc_1dpndqo3p1">Queue</h2>
-<p>Здесь можно создать очередь чтобы зрители могли подключаться к вашей <span class="wo fr-0 replaced" >мультиплеерной</span> игре. Можно настроить стоимость в баллах бота, либо дать возможность занимать очередь только платным подписчикам.</p>
-<p><img class="post__image--wide" src="https://fixel.ru/media/posts/4/2019-11-15-19_34_45-Streamlabs-Chatbot.png" alt="" width="1310" height="725"></p>
-<table>
-<tbody>
-<tr>
-<td>!queue open Left 4 Dead 2</td>
-<td>Открыть очередь на присоединение к игре</td>
-</tr>
-<tr>
-<td>!queue close</td>
-<td>Закрыть очередь</td>
-</tr>
-<tr>
-<td>!queue clear</td>
-<td>Очистить очередь</td>
-</tr>
-<tr>
-<td>!queue pick 3</td>
-<td>Взять троих ближайших зрителей из очереди</td>
-</tr>
-<tr>
-<td>!queue random 3</td>
-<td>Взять троих случайных зрителей из очереди</td>
-</tr>
-<tr>
-<td>!queuelist</td>
-<td>Посмотреть список очереди</td>
-</tr>
-<tr>
-<td>!join</td>
-<td>Присоедениться к очереди</td>
-</tr>
-<tr>
-<td>!leave</td>
-<td>Покинуть очередь</td>
-</tr>
-</tbody>
-</table>
-<h2 id="mcetoc_1dplju2aj0">Counter</h2>
-<p>Счётчик можно использовать для вывода на стрим количества смертей при прохождении игры. Так, например, делают некоторые стримеры при прохождении игр вроде Dark Souls. В целом, настройки счётчика можно изменить под что угодно, главное чтобы в поле <code>Message Template</code> был символ <code>#</code>, он будет заменён на число счётчика при его отображении. Вывести счётчик смертей в OBS можно используя файл <code>death.txt</code>, который находится в каталоге бота, например <code>C:\Users\Имя Пользователя\AppData\Roaming\Streamlabs\Streamlabs Chatbot\Services\Twitch\Files</code>. В этом же каталоге можно найти множество других <code>txt</code> файлов, которые можно использовать для вывода разной статистики на экране стрима.</p>
-<p><img class="post__image--wide" src="https://fixel.ru/media/posts/4/2019-11-14-19_55_07-Streamlabs-Chatbot.png" width="1310" height="725"></p>
-<p>Доступные команды чата:</p>
-<table>
-<tbody>
-<tr>
-<td>!death +</td>
-<td>Добавить +1 смерть к количеству смертей</td>
-</tr>
-<tr>
-<td>!death -</td>
-<td>Отнять −1 смерть от количества смертей</td>
-</tr>
-<tr>
-<td>!death 10</td>
-<td>Установить количество смертей 10</td>
-</tr>
-<tr>
-<td>!death</td>
-<td>Посмотреть текущее количество смертей</td>
-</tr>
-</tbody>
-</table>
-<h2 id="mcetoc_1dpn5m33s0">Currency</h2>
-<p>В данном разделе можно включить систему баллов, которые участники чата смогут получать на основе выбранных настроек. Баллы можно тратить в раздачах, голосованиях, играх и в целом в любых командах чата. В настройках можно указать количество получаемых баллов, период их получения, настроить группы и так далее.</p>
-<p><img class="post__image--wide" src="https://fixel.ru/media/posts/4/2019-11-15-16_26_50-Streamlabs-Chatbot.png" alt="" width="1310" height="725"></p>
-<p>Доступные команды чата:</p>
-<table>
-<tbody>
-<tr>
-<td>!points add enotPoloskun 10000</td>
-<td>Добавить 10000 баллов зрителю enotPoloskun</td>
-</tr>
-<tr>
-<td>!points remove enotPoloskun 500</td>
-<td>Отнять 500 баллов у зрителя enotPoloskun</td>
-</tr>
-<tr>
-<td>!points add +viewers 100</td>
-<td>Добавить по 100 баллов каждому зрителю в чате</td>
-</tr>
-<tr>
-<td>!points remove +viewers 100</td>
-<td>Отнять по 100 баллов у каждого зрителя в чате</td>
-</tr>
-<tr>
-<td>!points</td>
-<td>Узнать своё количество баллов</td>
-</tr>
-<tr>
-<td>!transfer enotPoloskun honeymoney</td>
-<td>Передать баллы зрителя enotPoloskun зрителю honeymoney</td>
-</tr>
-</tbody>
-</table>
-<h2 id="mcetoc_1dpng0f8j0">Users</h2>
-<p>В этой вкладке находится список всех зрителей канала, их id, никнейм, текущая роль прав, история блокировок, время последнего посещения, количество проведённых рейдов. Здесь можно редактировать их права, назначать редакторов команд бота, смотреть и изменять количество баллов, если они включены.</p>
-<p><img class="post__image--wide" src="https://fixel.ru/media/posts/4/2019-11-15-19_25_18-Streamlabs-Chatbot.png" alt="" width="1310" height="725"></p>
-<h2 id="mcetoc_1dpn82ner1">Poll</h2>
-<p>Система опросов позволяет запускать голосование в чате. При желании можно сделать голосование платным за баллы.</p>
-<p><img class="post__image--wide" src="https://fixel.ru/media/posts/4/2019-11-15-17_05_37-Streamlabs-Chatbot.png" alt="" width="1310" height="725"></p>
-<p>Доступные команды чата:</p>
-<table>
-<tbody>
-<tr>
-<td>!poll start Какую игру проходить следующей?|10|1|false|Witcher III|Minecraft</td>
-<td>!poll start Вопрос голосования|Стоимость в баллах|Максимальное количество голосов|Несколько вариантов голосования (true/false)|Варианты ответов</td>
-</tr>
-<tr>
-<td>!poll start Какую игру проходить следующей?|Witcher III|Minecraft</td>
-<td>!poll Вопрос голосования|Варианты ответов</td>
-</tr>
-<tr>
-<td>!poll stop</td>
-<td>Остановить голосование</td>
-</tr>
-<tr>
-<td>!vote 1</td>
-<td>Проголосовать за вариант 1</td>
-</tr>
-</tbody>
-</table>
-<h2 id="mcetoc_1dpn6v2u20">Betting</h2>
-<p>Система ставок с помощью которой зрители могут делать ставки на исход той или иной ситуации, выигрывая баллы. В настройках можно выбирать один или несколько выигрышных вариантов.</p>
-<p><img class="post__image--wide" src="https://fixel.ru/media/posts/4/2019-11-15-16_46_06-Streamlabs-Chatbot.png" alt="" width="1310" height="725"></p>
-<p>Доступные команды чата:</p>
-<table>
-<tbody>
-<tr>
-<td>!betting start Будет хорошая или плохая концовка?|35|1|100|true|да|нет|не знаю</td>
-<td>!betting start На что делается ставка|Процент выигрыша|Минимальная ставка|Максимальная ставка|Несколько вариантов ответа (true/false)|Варианты ответа</td>
-</tr>
-<tr>
-<td>!betting start Будет хорошая или плохая концовка?|да|нет|не знаю</td>
-<td>!betting start На что делается ставка|Варианты ответа</td>
-</tr>
-<tr>
-<td>!betting stop</td>
-<td>Запретить делать ставки</td>
-</tr>
-<tr>
-<td>!betting abort</td>
-<td>Завершает и возвращает сделанные ставки</td>
-</tr>
-<tr>
-<td>!betting winner 0</td>
-<td>Выбрать выигрышный id</td>
-</tr>
-<tr>
-<td>!bet 1 1000</td>
-<td>Сделать ставку 1000 баллов на вариант ответа с id1</td>
-</tr>
-</tbody>
-</table>
-<h2 id="mcetoc_1dpn9hkhb0">Events</h2>
-<p>Система событий позволяет боту автоматически приветствовать выбранного пользователя, текстом или проигрыванием аудио. При выбранном параметре <code>Join Events</code> срабатывает, когда зритель присоединяется к каналу. При <code>Speak Events</code> срабатывает, когда зритель напишет в чат.</p>
-<p><img class="post__image--wide" src="https://fixel.ru/media/posts/4/2019-11-15-18_01_47-Streamlabs-Chatbot.png" alt="" width="1310" height="725"></p>
-<h2 id="mcetoc_1dpnkedhj0">Mod Tools</h2>
-<p>В этом разделе можно настроить автоматическую модерацию чата, удалять сообщения зрителей со ссылками, <span class="wo fr-0" >капсом</span>, символами или запрещенными словами, настраивать систему наказаний за запрещенные сообщения, будь то просто удаление <span class="wo fr-1 replaced" >сообщения</span>, таймаут или бан за повторные нарушения.</p>
-<p><img class="post__image--wide" src="https://fixel.ru/media/posts/4/2019-11-15-20_58_06-Streamlabs-Chatbot.png" alt="" width="1310" height="725"></p>
-<h2 id="mcetoc_1dpnltd5o1">Notifications</h2>
-<p>В этом разделе можно настроить различные оповещения: при подписке на канал, при платной подписке, хосте, рейде. В том числе можно сделать звуковые оповещения.</p>
-<p><img class="post__image--wide" src="https://fixel.ru/media/posts/4/2019-11-15-20_59_28-Streamlabs-Chatbot.png" alt="" width="1310" height="725"></p>
-<h2 id="mcetoc_1dpno8nf72">Discord</h2>
-<p>Этот раздел позволит настроить функции бота для вашего Discord канала. Оповещения о запуске стрима, сообщения по таймеру и автоматическое назначение роли новым участникам.</p>
-<p><img class="post__image--wide" src="https://fixel.ru/media/posts/4/2019-11-15-23_08_22-Streamlabs-Chatbot.png" alt="" width="1310" height="725"></p>
-<h2 id="mcetoc_1dpnuq0tu0">Settings</h2>
-<h3 id="mcetoc_1dpnur0ha1">General</h3>
-<p>В этом разделе можно настроить основные функции, такие как автоматическое подключение бота к чату, аудиовыходы, отображение счётчика зрителей и так далее.</p>
-<p><img class="post__image" src="https://fixel.ru/media/posts/4/2019-11-15-23_40_06-Settings.png" alt="" width="825" height="400"></p>
-<h3 id="mcetoc_1dpo1f6l72">Localization</h3>
-<p>Раздел который позволяет перевести сообщения бота на любой другой язык.</p>
-<p><img class="post__image" src="https://fixel.ru/media/posts/4/2019-11-16-00_23_16-Settings.png" alt="" width="825" height="400"></p>
-<h3 id="mcetoc_1dpo1k79m3">Usage</h3>
-<p>Здесь можно настроить где и как можно использовать команды бота.</p>
-<p><img class="post__image" src="https://fixel.ru/media/posts/4/2019-11-16-00_26_13-Settings.png" alt="" width="825" height="400"></p>
-<h3 id="mcetoc_1dpo1qbbu4">Macros</h3>
-<p>Здесь можно настроить сообщения макросов для семи различных кнопок, чтобы публиковать команды/сообщения в чате когда вы нажимаете на них.</p>
-<p><img class="post__image" src="https://fixel.ru/media/posts/4/2019-11-16-00_29_56-Settings.png" alt="" width="825" height="400"></p>
-<h3 id="mcetoc_1dpo1ulr65">Hotkeys</h3>
-<p>С помощью горвячих клавиш можно настроить включение и отключение треков из Songrequest, пропуск, увеличение и уменьшение громкости. Также здесь можно настроить клавиши для макросов из предыдущего раздела настроек.</p>
-<p><img class="post__image" src="https://fixel.ru/media/posts/4/2019-11-16-00_32_21-Settings.png" alt="" width="825" height="400"></p>
-<h3 id="mcetoc_1dpo2fjum6">Style</h3>
-<p>Настройки внешнего вида бота, можно выбрать из нескольких скинов или выбрать свои цвета для разных элементов.</p>
-<p><img class="post__image" src="https://fixel.ru/media/posts/4/2019-11-16-00_41_10-Settings.png" alt="" width="825" height="400"></p>
-<h2 id="mcetoc_1dqjg4etb1">Полезные ссылки</h2>
-<p><a href="https://cdn.streamlabs.com/chatbot/Documentation_Twitch.pdf" target="_blank" rel="nofollow noopener noreferrer">Официальная документация</a> Streamlabs Chatbot.</p>
-<hr>
-<p>*SC — Stream Chat, SW — Stream Whisper, SB — Stream Both, DC — Discord Chat, DW — Discord Whisper, DB — Discord Both, CB — Chat Both, WB — Whisper Both, A — All</p>
-            ]]>
-        </content>
-    </entry>
-    <entry>
-        <title>Блог на Publii</title>
-        <author>
-            <name>Александра Травкина</name>
-        </author>
-        <link href="https://fixel.ru/blog-na-publii/"/>
-        <id>https://fixel.ru/blog-na-publii/</id>
-            <category term="Заметки"/>
-            <category term="Веб"/>
-            <category term="CMS"/>
-
-        <updated>2020-02-18T01:10:53+07:00</updated>
-            <summary>
-                <![CDATA[
-                        <img src="https://fixel.ru/media/posts/1/original-teletype.jpg" alt="" />
-                    <p>Спустя год отсутствия постов я вновь вернулась с shared хостинга на GitHub Pages, но теперь, вместо Jekyll я использую <a href="https://getpublii.com/" target="_blank" rel="nofollow noopener noreferrer">Publii</a>. Publii это бесплатная CMS для блога, но не в привычном её понимании, а в виде программы с открытым исходным кодом для Windows, MacOS или Linux.</p>
-
-                ]]>
-            </summary>
-        <content type="html">
-            <![CDATA[
-                    <img src="https://fixel.ru/media/posts/1/original-teletype.jpg" alt="" />
-                <p>Спустя год отсутствия постов я вновь вернулась с shared хостинга на GitHub Pages, но теперь, вместо Jekyll я использую <a href="https://getpublii.com/" target="_blank" rel="nofollow noopener noreferrer">Publii</a>. Publii это бесплатная CMS для блога, но не в привычном её понимании, а в виде программы с открытым исходным кодом для Windows, MacOS или Linux.</p>
-
-<p>В отличие от того же Jekyll, Hugo или других CMS подобного плана, где необходима установка и настройка среды Linux или Node.js, в Publii достаточно прописать данные доступа к хостингу и нажатием одной кнопки публиковать сгенерированную статику.</p>
-<p><img class="post__image--wide" src="https://fixel.ru/media/posts/1/2019-11-01-01_05_17-Publii.png" alt="" width="1920"></p>
-<p>Помимо приятного интерфейса в Publii довольно удобный редактор с множеством настроек изображений, ссылок, списков, фреймов, есть возможность детальной настройки SEO и Open Graph, теги публикаций и другие интересности. При желании и должных <span class="wo fr-0 replaced" >навыках</span>, <span class="wo fr-1 replaced" >в редактор</span> можно добавить дополнительные, настраиваемые поля. Дизайн для Publii пишется с использованием семантических шаблонов <a href="http://handlebarsjs.com/" target="_blank" rel="nofollow noopener noreferrer">Handlebars</a>.</p>
-<p>Я не стала переносить свои старые посты в новый блог, так как они давно потеряли свою актуальность, но оставила их <a href="https://old.fixel.ru" target="_blank" rel="noopener noreferrer">на GitHub Pages</a> в виде Jekyll сайта.</p>
+                [{"id":1555941466744,"type":"publii-paragraph","content":"Как может быть известно всем тем, кто так или иначе связан со стримингом и стримами, для автоматической модерации, оповещений и развлечения зрителей существуют чат-боты. Один из таких чат-ботов для twitch, youtube или mixer — бесплатная standalone программа Streamlabs Chatbot.<br>","config":{"textAlign":"left","advanced":{"style":"","cssClasses":"","id":""}}},{"id":1587119478459,"type":"publii-header","content":"Установка и подключение&nbsp;","config":{"headingLevel":2,"textAlign":"left","link":{"url":"","noFollow":false,"targetBlank":false,"sponsored":false,"ugc":false},"advanced":{"cssClasses":"","customId":false,"id":"--nbsp"}}},{"id":1587119463943,"type":"publii-paragraph","content":"Скачиваем и устанавливаем сам <a href=\"https://streamlabs.com/chatbot\" target=\"_blank\" rel=\"nofollow noopener\">Streamlabs Chatbot</a>, а также необходимый для его работы <a href=\"https://www.python.org/downloads/release/python-2713/\" target=\"_blank\" rel=\"nofollow noopener\">Python 2.7.13</a>. Программы лучше устанавливать в папки по-умолчанию. Запускаем программу чат-бота где вас встретит помощник установки.","config":{"textAlign":"left","advanced":{"style":"","cssClasses":"","id":""},"link":{"url":"https://www.python.org/downloads/release/python-2713/","noFollow":true,"targetBlank":true,"sponsored":false,"ugc":false,"download":false}}},{"id":1587119554037,"type":"publii-gallery","content":{"images":[{"src":"https://fixel.ru/media/posts/2/gallery/01.png","thumbnailSrc":"https://fixel.ru/media/posts/2/gallery/01-thumbnail.png","height":240,"width":240,"dimensions":"700x450","alt":"","caption":""},{"src":"https://fixel.ru/media/posts/2/gallery/02.png","thumbnailSrc":"https://fixel.ru/media/posts/2/gallery/02-thumbnail.png","height":240,"width":240,"dimensions":"700x450","alt":"","caption":""},{"src":"https://fixel.ru/media/posts/2/gallery/03.png","thumbnailSrc":"https://fixel.ru/media/posts/2/gallery/03-thumbnail.png","height":240,"width":240,"dimensions":"700x450","alt":"","caption":""},{"src":"https://fixel.ru/media/posts/2/gallery/04.png","thumbnailSrc":"https://fixel.ru/media/posts/2/gallery/04-thumbnail.png","height":240,"width":240,"dimensions":"700x450","alt":"","caption":""},{"src":"https://fixel.ru/media/posts/2/gallery/05.png","thumbnailSrc":"https://fixel.ru/media/posts/2/gallery/05-thumbnail.png","height":240,"width":240,"dimensions":"700x450","alt":"","caption":""},{"src":"https://fixel.ru/media/posts/2/gallery/06.png","thumbnailSrc":"https://fixel.ru/media/posts/2/gallery/06-thumbnail.png","height":240,"width":240,"dimensions":"700x450","alt":"","caption":""}]},"config":{"imageAlign":"center","columns":3,"advanced":{"cssClasses":"","id":""}}},{"id":1587119809093,"type":"publii-paragraph","content":"Выбираем платформу для стриминга. Создаём и авторизуем отдельный аккаунт для вашего бота, от имени которого он будет писать сообщения в чате. На этом этапе отдельный аккаунт можно и не создавать, авторизовавшись со своего основного, но тогда бот будет писать сообщения от его имени. В следующих пунктах авторизуем свой основной аккаунт, а также логинимся в Streamlabs с помощью всё того же twitch или youtube.","config":{"textAlign":"left","advanced":{"style":"","cssClasses":"","id":""}}},{"id":1587119844531,"type":"publii-header","content":"Console","config":{"headingLevel":2,"textAlign":"left","link":{"url":"","noFollow":false,"targetBlank":false,"sponsored":false,"ugc":false},"advanced":{"cssClasses":"","customId":false,"id":"console"}}},{"id":1587119846435,"type":"publii-paragraph","content":"После успешной первичной настройки вы попадёте в окно консоли, где отображаются все сообщения чата, системные сообщения, список зрителей, поле для отправки сообщений в чат от имени стримера или бота. У каждого сообщения имеются стандартные инструменты модерации — бан, таймаут или удаление сообщений. Вверху окна имеются кнопки макросов, о настройках которых будет рассказано позже.","config":{"textAlign":"left","advanced":{"style":"","cssClasses":"","id":""}}},{"id":1587119891211,"type":"publii-image","content":{"image":"https://fixel.ru/media/posts/2/07.png","imageHeight":725,"imageWidth":1310,"alt":"","caption":""},"config":{"imageAlign":"center","link":{"url":"","noFollow":false,"targetBlank":false,"sponsored":false,"ugc":false},"advanced":{"cssClasses":"","id":""}}},{"id":1587119906903,"type":"publii-header","content":"Dashboard","config":{"headingLevel":2,"textAlign":"left","link":{"url":"","noFollow":false,"targetBlank":false,"sponsored":false,"ugc":false},"advanced":{"cssClasses":"","customId":false,"id":"dashboard"}}},{"id":1587119908334,"type":"publii-paragraph","content":"Окно настроек вашего стрима, работает только с twitch. Здесь можно выбрать категорию и название, запустить рекламу, если вы партнер, настроить автоматические хосты, в том числе для сообществ. Имеется помощник проведения рейдов. С его помощью можно провести рейд другого канала, а также указать количество баллов которые получат участники рейда.","config":{"textAlign":"left","advanced":{"style":"","cssClasses":"","id":""}}},{"id":1587119935171,"type":"publii-image","content":{"image":"https://fixel.ru/media/posts/2/08.png","imageHeight":725,"imageWidth":1310,"alt":"","caption":""},"config":{"imageAlign":"center","link":{"url":"","noFollow":false,"targetBlank":false,"sponsored":false,"ugc":false},"advanced":{"cssClasses":"","id":""}}},{"id":1587119997204,"type":"publii-paragraph","content":"Доступные команды чата:","config":{"textAlign":"left","advanced":{"style":"","cssClasses":"","id":""}}},{"id":1587120008444,"type":"publii-list","content":"<li>!status Название стрима —&nbsp;Изменяет название стрима</li><li>!game The Witcher 3 — Изменяет категорию стрима<br></li><li>!starthost — Запустить автоматическую ретрансляцию<br></li><li>!stophost — Остановить ретрансляцию</li>","config":{"listType":"ul","advanced":{"cssClasses":"","id":""}}},{"id":1587120099776,"type":"publii-header","content":"Commands","config":{"headingLevel":2,"textAlign":"left","link":{"url":"","noFollow":false,"targetBlank":false,"sponsored":false,"ugc":false},"advanced":{"cssClasses":"","customId":false,"id":"commands"}}},{"id":1587120101450,"type":"publii-paragraph","content":"Раздел посвященный командам, в нём можно создавать свои собственные команды чата используя специальные переменные. Можно создавать свои группы для команд, например группа начинающаяся с <mark>[GAME]</mark>, будет работать только если вы стримите в категории этой игры. Пример <mark>[GAME] The Outer Worlds</mark>.","config":{"textAlign":"left","advanced":{"style":"","cssClasses":"","id":""}}},{"id":1587120144914,"type":"publii-image","content":{"image":"https://fixel.ru/media/posts/2/09.png","imageHeight":725,"imageWidth":1310,"alt":"","caption":""},"config":{"imageAlign":"center","link":{"url":"","noFollow":false,"targetBlank":false,"sponsored":false,"ugc":false},"advanced":{"cssClasses":"","id":""}}},{"id":1587120159036,"type":"publii-paragraph","content":"Доступные команды чата:","config":{"textAlign":"left","advanced":{"style":"","cssClasses":"","id":""}}},{"id":1587120172236,"type":"publii-list","content":"<li>!command add !фильм +r Сегодня мы смотрим фильм Джокер (2019)&nbsp;— Добавить команду !фильм, +r — Для группы Regular</li><li>!command edit !фильм +a Сейчас мы смотрим фильм Чужой\t— Отредактировать команду !фильм, +a — Для группы Everyone<br></li><li>!command remove !фильм&nbsp;— Удалить команду !фильм<br></li><li>!сommand add !печеньки +a У нас $count печенек\t— Добавить команду !печеньки со счетчиком<br></li><li>!сommand сount !счетчик 10\t— Добавить значение к счетчику команды !печеньки<br></li><li>!command usage !фильм SC\t— Принцип использования. SC, SW, SB, DC, DW, DB, CB, WB, A*<br></li><li>!enable !фильм true\t— Включить или выключить команду, true или false соответственно<br></li><li>!command cooldown !фильм 2 — Установить глобальный лимит времени через который можно использовать команду<br></li><li>!command usercooldown !фильм 5 — Установить персональный лимит времени через который можно использовать команду&nbsp;<br></li>","config":{"listType":"ul","advanced":{"cssClasses":"","id":""}}},{"id":1587120415502,"type":"publii-paragraph","content":"Кликнув правой кнопкой мыши на команде её можно экспортировать в файл. Аналогично можно импортировать команды из файлов.","config":{"textAlign":"left","advanced":{"style":"","cssClasses":"","id":""}}},{"id":1587120430258,"type":"publii-header","content":"Timers","config":{"headingLevel":2,"textAlign":"left","link":{"url":"","noFollow":false,"targetBlank":false,"sponsored":false,"ugc":false},"advanced":{"cssClasses":"","customId":false,"id":"timers"}}},{"id":1587120432780,"type":"publii-paragraph","content":"Это раздел для создания таймеров — сообщений которые бот будет публиковать в чат автоматически, через определенное время. Интервал времени можно указать нажав на шестерёнку в правом верхнем углу раздела. Так как все таймеры следуют одному и тому же интервалу, бот опубликует сначала первый, затем второй и так далее, по кругу. Таймеры также можно разделять по группам, указывать им префикс <mark>[GAME] Название игры</mark> и эти таймеры будут работать только на стримах этой игры.","config":{"textAlign":"left","advanced":{"style":"","cssClasses":"","id":""}}},{"id":1587120491616,"type":"publii-image","content":{"image":"https://fixel.ru/media/posts/2/10.png","imageHeight":725,"imageWidth":1310,"alt":"","caption":""},"config":{"imageAlign":"center","link":{"url":"","noFollow":false,"targetBlank":false,"sponsored":false,"ugc":false},"advanced":{"cssClasses":"","id":""}}},{"id":1587120508696,"type":"publii-paragraph","content":"Доступные команды чата:","config":{"textAlign":"left","advanced":{"style":"","cssClasses":"","id":""}}},{"id":1587120525900,"type":"publii-list","content":"<li>!timer add !meow /me мяукнула на $randusername — Добавляет таймер</li><li>!timer edit !meow /me шипит на $randusername — Редактирует таймер<br></li><li>!timer remove !meow — Удаляет таймер<br></li><li>!activate !meow false\t— Включить или выключить таймер, true или false соответственно<br></li>","config":{"listType":"ul","advanced":{"cssClasses":"","id":""}}},{"id":1587120640462,"type":"publii-header","content":"Quotes","config":{"headingLevel":2,"textAlign":"left","link":{"url":"","noFollow":false,"targetBlank":false,"sponsored":false,"ugc":false},"advanced":{"cssClasses":"","customId":false,"id":"quotes"}}},{"id":1587120642740,"type":"publii-paragraph","content":"Здесь можно собирать крылатые цитаты сказанные вами во время стрима. Нажав шестеренку в правом верхнем углу раздела, вы можете настроить кому разрешено пользоваться командой и кому можно добавлять новые цитаты, выбрать формат даты и сам формат отображения цитаты. Каждая цитата будет содержать информацию о дате и рубрике стрима на момент её создания.","config":{"textAlign":"left","advanced":{"style":"","cssClasses":"","id":""}}},{"id":1587120698050,"type":"publii-image","content":{"image":"https://fixel.ru/media/posts/2/11.png","imageHeight":725,"imageWidth":1310,"alt":"","caption":""},"config":{"imageAlign":"center","link":{"url":"","noFollow":false,"targetBlank":false,"sponsored":false,"ugc":false},"advanced":{"cssClasses":"","id":""}}},{"id":1587120722832,"type":"publii-paragraph","content":"Доступные команды чата:","config":{"textAlign":"left","advanced":{"style":"","cssClasses":"","id":""}}},{"id":1587120730631,"type":"publii-list","content":"<li>!quote add «Только те, кто предпринимают абсурдные попытки, смогут достичь невозможного» - AlbertEinstein\t— Добавляет цитату в список</li><li>!quote edit 12 «Самое непостижимое в этом мире - это то, что он постижим.» - AlbertEinstein\t— Редактирует цитату с id12<br></li><li>!quote remove 12\t— Удаляет цитату с id12<br></li><li>!quote\t— Публикует случайную цитату в чат<br></li><li>!quote 12\t— Публикует в чат цитату с id12<br></li>","config":{"listType":"ul","advanced":{"cssClasses":"","id":""}}},{"id":1587120847161,"type":"publii-header","content":"Extra Quotes","config":{"headingLevel":2,"textAlign":"left","link":{"url":"","noFollow":false,"targetBlank":false,"sponsored":false,"ugc":false},"advanced":{"cssClasses":"","customId":false,"id":"extra-quotes"}}},{"id":1587120849570,"type":"publii-paragraph","content":"Аналогично разделу Quotes здесь можно добавлять любой контент, но в отличие от команды <mark>!quote</mark> здесь имя команды может быть любым, например <mark>!gif</mark>. Также можно включить или выключить отображение даты и рубрики у элемента команды.","config":{"textAlign":"left","advanced":{"style":"","cssClasses":"","id":""}}},{"id":1587120880976,"type":"publii-image","content":{"image":"https://fixel.ru/media/posts/2/12.png","imageHeight":725,"imageWidth":1310,"alt":"","caption":""},"config":{"imageAlign":"center","link":{"url":"","noFollow":false,"targetBlank":false,"sponsored":false,"ugc":false},"advanced":{"cssClasses":"","id":""}}},{"id":1587121428066,"type":"publii-paragraph","content":"Доступные команды чата:","config":{"textAlign":"left","advanced":{"style":"","cssClasses":"","id":""}}},{"id":1587121440688,"type":"publii-list","content":"<li>!gif add http://tiny.cc/4sz9fz\t— Добавляет ссылку в список</li><li>!gif edit 16 http://tiny.cc/puz9fz&nbsp;— Редактирует ссылку с id16<br></li><li>!gif remove 16\t— Удаляет ссылку с id16<br></li><li>!gif\t— Публикует случайную гифку в чат<br></li><li>!gif 16\t— Публикует гифку с id16<br></li>","config":{"listType":"ul","advanced":{"cssClasses":"","id":""},"link":{"url":"","noFollow":false,"targetBlank":false,"sponsored":false,"ugc":false,"download":false}}},{"id":1587121542062,"type":"publii-header","content":"Give Away","config":{"headingLevel":2,"textAlign":"left","link":{"url":"","noFollow":false,"targetBlank":false,"sponsored":false,"ugc":false},"advanced":{"cssClasses":"","customId":false,"id":"give-away"}}},{"id":1587121543728,"type":"publii-paragraph","content":"Раздел посвященный раздачам. Здесь можно пригласить зрителей участвовать в раздаче чего бы то ни было, выбрать стоимость «билета» для участия в раздаче, если в настройках бота включена внутренняя валюта. Также можно отслеживать сколько у зрителя «билетов» и количество его сообщений в чате.","config":{"textAlign":"left","advanced":{"style":"","cssClasses":"","id":""}}},{"id":1587121574699,"type":"publii-image","content":{"image":"https://fixel.ru/media/posts/2/13.png","imageHeight":725,"imageWidth":1310,"alt":"","caption":""},"config":{"imageAlign":"center","link":{"url":"","noFollow":false,"targetBlank":false,"sponsored":false,"ugc":false},"advanced":{"cssClasses":"","id":""}}},{"id":1587121581545,"type":"publii-paragraph","content":"Доступные команды чата:","config":{"textAlign":"left","advanced":{"style":"","cssClasses":"","id":""}}},{"id":1587121592131,"type":"publii-list","content":"<li>!giveaway start !raffle|cookies|1|25|regular&nbsp;— !giveaway start команда для участия|приз|количество победителей|стоимость участия|группа пользователей</li><li>!giveaway start !raffle|cookies|everyone\t— !giveaway start команда для участия|приз|группа пользователей<br></li><li>!giveaway close\t— Закрыть раздачу<br></li><li>!giveaway winner\t— Выбрать победителя<br></li>","config":{"listType":"ul","advanced":{"cssClasses":"","id":""}}},{"id":1587121660882,"type":"publii-header","content":"Songrequest","config":{"headingLevel":2,"textAlign":"left","link":{"url":"","noFollow":false,"targetBlank":false,"sponsored":false,"ugc":false},"advanced":{"cssClasses":"","customId":false,"id":"songrequest"}}},{"id":1587121662423,"type":"publii-paragraph","content":"Система заказа музыки позволит создать свой плейлист воспроизведения музыки с YouTube, а также позволит зрителям заказывать музыку через чат, в том числе за баллы бота.","config":{"textAlign":"left","advanced":{"style":"","cssClasses":"","id":""}}},{"id":1587121693544,"type":"publii-image","content":{"image":"https://fixel.ru/media/posts/2/14.png","imageHeight":725,"imageWidth":1310,"alt":"","caption":""},"config":{"imageAlign":"center","link":{"url":"","noFollow":false,"targetBlank":false,"sponsored":false,"ugc":false},"advanced":{"cssClasses":"","id":""}}},{"id":1587121941373,"type":"publii-paragraph","content":"Доступные команды чата:","config":{"textAlign":"left","advanced":{"style":"","cssClasses":"","id":""}}},{"id":1587121713216,"type":"publii-list","content":"<li>!songrequest dQw4w9WgXcQ&nbsp;— Заказать музыку, id или ссылка на трек с YouTube</li><li>!skip\t— Проголосовать за пропуск текущего трека<br></li><li>!veto\t— Пропустить текущий трек<br></li><li>!wrongsong&nbsp;— Удаляет последний заказанный вами трек из списка<br></li><li>!songlist&nbsp;— Список треков<br></li><li>!songblacklist add (id)\t— Добавить id трека в черный список<br></li><li>!songblacklist remove (id)\t— Удалить id трека из черного списка<br></li><li>!volume 50\t— Установить громкость плеера на 50%<br></li>","config":{"listType":"ul","advanced":{"cssClasses":"","id":""}}},{"id":1587121824337,"type":"publii-header","content":"Sound Files","config":{"headingLevel":2,"textAlign":"left","link":{"url":"","noFollow":false,"targetBlank":false,"sponsored":false,"ugc":false},"advanced":{"cssClasses":"","customId":false,"id":"sound-files"}}},{"id":1587121825673,"type":"publii-paragraph","content":"Здесь можно добавить воспроизведение звуковых файлов привязанных к командам чата. У каждого файла есть настройка громкости, сколько раз команда должна быть написана в чате, для воспроизведения и прочие настройки прав для использования.","config":{"textAlign":"left","advanced":{"style":"","cssClasses":"","id":""}}},{"id":1587121857803,"type":"publii-image","content":{"image":"https://fixel.ru/media/posts/2/15.png","imageHeight":725,"imageWidth":1310,"alt":"","caption":""},"config":{"imageAlign":"center","link":{"url":"","noFollow":false,"targetBlank":false,"sponsored":false,"ugc":false},"advanced":{"cssClasses":"","id":""}}},{"id":1587121874582,"type":"publii-header","content":"Queue","config":{"headingLevel":2,"textAlign":"left","link":{"url":"","noFollow":false,"targetBlank":false,"sponsored":false,"ugc":false},"advanced":{"cssClasses":"","customId":false,"id":"queue"}}},{"id":1587121877426,"type":"publii-paragraph","content":"Здесь можно создать очередь чтобы зрители могли подключаться к вашей мультиплеерной игре. Можно настроить стоимость в баллах бота, либо дать возможность занимать очередь только платным подписчикам.","config":{"textAlign":"left","advanced":{"style":"","cssClasses":"","id":""}}},{"id":1587121903924,"type":"publii-image","content":{"image":"https://fixel.ru/media/posts/2/16.png","imageHeight":725,"imageWidth":1310,"alt":"","caption":""},"config":{"imageAlign":"center","link":{"url":"","noFollow":false,"targetBlank":false,"sponsored":false,"ugc":false},"advanced":{"cssClasses":"","id":""}}},{"id":1587121944785,"type":"publii-paragraph","content":"Доступные команды чата:","config":{"textAlign":"left","advanced":{"style":"","cssClasses":"","id":""}}},{"id":1587121958066,"type":"publii-list","content":"<li>!queue open Left 4 Dead 2&nbsp;— Открыть очередь на присоединение к игре</li><li>!queue close\t— Закрыть очередь<br></li><li>!queue clear\t— Очистить очередь<br></li><li>!queue pick 3\t— Взять троих ближайших зрителей из очереди<br></li><li>!queue random 3\t—\tВзять троих случайных зрителей из очереди<br></li><li>!queuelist\t— Посмотреть список очереди<br></li><li>!join\t— Присоединиться к очереди<br></li><li>!leave\t— Покинуть очередь<br></li>","config":{"listType":"ul","advanced":{"cssClasses":"","id":""}}},{"id":1587122089378,"type":"publii-header","content":"Counter","config":{"headingLevel":2,"textAlign":"left","link":{"url":"","noFollow":false,"targetBlank":false,"sponsored":false,"ugc":false},"advanced":{"cssClasses":"","customId":false,"id":"counter"}}},{"id":1587122091200,"type":"publii-paragraph","content":"Счётчик можно использовать для вывода на стрим количества смертей при прохождении игры. Так, например, делают некоторые стримеры при прохождении игр вроде Dark Souls. В целом, настройки счётчика можно изменить под что угодно, главное чтобы в поле <mark>Message Template</mark> был символ <mark>#</mark>, он будет заменён на число счётчика при его отображении. Вывести счётчик смертей в OBS можно используя файл <mark>death.txt</mark>, который находится в каталоге бота, например <mark>C:\\Users\\Имя Пользователя\\AppData\\Roaming\\Streamlabs\\Streamlabs Chatbot\\Services\\Twitch\\Files</mark>. В этом же каталоге можно найти множество других <mark>txt</mark> файлов, которые можно использовать для вывода разной статистики на экране стрима.","config":{"textAlign":"left","advanced":{"style":"","cssClasses":"","id":""}}},{"id":1587122160127,"type":"publii-image","content":{"image":"https://fixel.ru/media/posts/2/17.png","imageHeight":725,"imageWidth":1310,"alt":"","caption":""},"config":{"imageAlign":"center","link":{"url":"","noFollow":false,"targetBlank":false,"sponsored":false,"ugc":false},"advanced":{"cssClasses":"","id":""}}},{"id":1587122166206,"type":"publii-paragraph","content":"Доступные команды чата:","config":{"textAlign":"left","advanced":{"style":"","cssClasses":"","id":""}}},{"id":1587122175656,"type":"publii-list","content":"<li>!death +&nbsp;— Добавить +1 смерть к количеству смертей</li><li>!death - — Отнять −1 смерть от количества смертей<br></li><li>!death 10\t— Установить количество смертей 10<br></li><li>!death\t— Посмотреть текущее количество смертей<br></li>","config":{"listType":"ul","advanced":{"cssClasses":"","id":""}}},{"id":1587122247235,"type":"publii-header","content":"Currency","config":{"headingLevel":2,"textAlign":"left","link":{"url":"","noFollow":false,"targetBlank":false,"sponsored":false,"ugc":false},"advanced":{"cssClasses":"","customId":false,"id":"currency"}}},{"id":1587122249334,"type":"publii-paragraph","content":"В данном разделе можно включить систему баллов, которые участники чата смогут получать на основе выбранных настроек. Баллы можно тратить в раздачах, голосованиях, играх и в целом в любых командах чата. В настройках можно указать количество получаемых баллов, период их получения, настроить группы и так далее.","config":{"textAlign":"left","advanced":{"style":"","cssClasses":"","id":""}}},{"id":1587122302954,"type":"publii-image","content":{"image":"https://fixel.ru/media/posts/2/18.png","imageHeight":725,"imageWidth":1310,"alt":"","caption":""},"config":{"imageAlign":"center","link":{"url":"","noFollow":false,"targetBlank":false,"sponsored":false,"ugc":false},"advanced":{"cssClasses":"","id":""}}},{"id":1587122312080,"type":"publii-paragraph","content":"Доступные команды чата:","config":{"textAlign":"left","advanced":{"style":"","cssClasses":"","id":""}}},{"id":1587122322964,"type":"publii-list","content":"<li>!points add enotPoloskun&nbsp;— 10000\tДобавить 10000 баллов зрителю enotPoloskun</li><li>!points remove enotPoloskun 500&nbsp;— Отнять 500 баллов у зрителя enotPoloskun<br></li><li>!points add +viewers 100 — Добавить по 100 баллов каждому зрителю в чате<br></li><li>!points remove +viewers 100\t— Отнять по 100 баллов у каждого зрителя в чате<br></li><li>!points\t— Узнать своё количество баллов<br></li><li>!transfer enotPoloskun honeymoney\t— Передать баллы зрителя enotPoloskun зрителю honeymoney<br></li>","config":{"listType":"ul","advanced":{"cssClasses":"","id":""}}},{"id":1587122416685,"type":"publii-header","content":"Users","config":{"headingLevel":2,"textAlign":"left","link":{"url":"","noFollow":false,"targetBlank":false,"sponsored":false,"ugc":false},"advanced":{"cssClasses":"","customId":false,"id":"users"}}},{"id":1587122417866,"type":"publii-paragraph","content":"В этой вкладке находится список всех зрителей канала, их id, никнейм, текущая роль прав, история блокировок, время последнего посещения, количество проведённых рейдов. Здесь можно редактировать их права, назначать редакторов команд бота, смотреть и изменять количество баллов, если они включены.","config":{"textAlign":"left","advanced":{"style":"","cssClasses":"","id":""}}},{"id":1587122439255,"type":"publii-image","content":{"image":"https://fixel.ru/media/posts/2/19.png","imageHeight":725,"imageWidth":1310,"alt":"","caption":""},"config":{"imageAlign":"center","link":{"url":"","noFollow":false,"targetBlank":false,"sponsored":false,"ugc":false},"advanced":{"cssClasses":"","id":""}}},{"id":1587122453421,"type":"publii-header","content":"Poll","config":{"headingLevel":2,"textAlign":"left","link":{"url":"","noFollow":false,"targetBlank":false,"sponsored":false,"ugc":false},"advanced":{"cssClasses":"","customId":false,"id":"poll"}}},{"id":1587122455059,"type":"publii-paragraph","content":"Система опросов позволяет запускать голосование в чате. При желании можно сделать голосование платным за баллы.","config":{"textAlign":"left","advanced":{"style":"","cssClasses":"","id":""}}},{"id":1587122479627,"type":"publii-image","content":{"image":"https://fixel.ru/media/posts/2/20.png","imageHeight":725,"imageWidth":1310,"alt":"","caption":""},"config":{"imageAlign":"center","link":{"url":"","noFollow":false,"targetBlank":false,"sponsored":false,"ugc":false},"advanced":{"cssClasses":"","id":""}}},{"id":1587122486191,"type":"publii-paragraph","content":"Доступные команды чата:","config":{"textAlign":"left","advanced":{"style":"","cssClasses":"","id":""}}},{"id":1587122494411,"type":"publii-list","content":"<li>!poll start Какую игру проходить следующей?|10|1|false|Witcher III|Minecraft\t— !poll start Вопрос голосования|Стоимость в баллах|Максимальное количество голосов|Несколько вариантов голосования (true/false)|Варианты ответов</li><li>!poll start Какую игру проходить следующей?|Witcher III|Minecraft\t— !poll Вопрос голосования|Варианты ответов<br></li><li>!poll stop\t— Остановить голосование<br></li><li>!vote 1\t— Проголосовать за вариант 1<br></li>","config":{"listType":"ul","advanced":{"cssClasses":"","id":""}}},{"id":1587122569513,"type":"publii-header","content":"Betting","config":{"headingLevel":2,"textAlign":"left","link":{"url":"","noFollow":false,"targetBlank":false,"sponsored":false,"ugc":false},"advanced":{"cssClasses":"","customId":false,"id":"betting"}}},{"id":1587122570499,"type":"publii-paragraph","content":"Система ставок с помощью которой зрители могут делать ставки на исход той или иной ситуации, выигрывая баллы. В настройках можно выбирать один или несколько выигрышных вариантов.","config":{"textAlign":"left","advanced":{"style":"","cssClasses":"","id":""}}},{"id":1587122598381,"type":"publii-image","content":{"image":"https://fixel.ru/media/posts/2/21.png","imageHeight":725,"imageWidth":1310,"alt":"","caption":""},"config":{"imageAlign":"center","link":{"url":"","noFollow":false,"targetBlank":false,"sponsored":false,"ugc":false},"advanced":{"cssClasses":"","id":""}}},{"id":1587122618951,"type":"publii-paragraph","content":"Доступные команды чата:","config":{"textAlign":"left","advanced":{"style":"","cssClasses":"","id":""}}},{"id":1587122622570,"type":"publii-list","content":"<li>!betting start Будет хорошая или плохая концовка?|35|1|100|true|да|нет|не знаю&nbsp;— !betting start На что делается ставка|Процент выигрыша|Минимальная ставка|Максимальная ставка|Несколько вариантов ответа (true/false)|Варианты ответа</li><li>!betting start Будет хорошая или плохая концовка?|да|нет|не знаю&nbsp;— !betting start На что делается ставка|Варианты ответа<br></li><li>!betting stop\t— Запретить делать ставки<br></li><li>!betting abort\t— Завершает и возвращает сделанные ставки<br></li><li>!betting winner 28 — Выбрать выигрышный id<br></li><li>!bet 1 1000\t— Сделать ставку 1000 баллов на вариант ответа с id1<br></li>","config":{"listType":"ul","advanced":{"cssClasses":"","id":""}}},{"id":1587122722902,"type":"publii-header","content":"Events","config":{"headingLevel":2,"textAlign":"left","link":{"url":"","noFollow":false,"targetBlank":false,"sponsored":false,"ugc":false},"advanced":{"cssClasses":"","customId":false,"id":"events"}}},{"id":1587122633215,"type":"publii-paragraph","content":"Система событий позволяет боту автоматически приветствовать выбранного пользователя, текстом или проигрыванием аудио. При выбранном параметре <mark>Join Events</mark> срабатывает, когда зритель присоединяется к каналу. При <mark>Speak Events</mark> срабатывает, когда зритель напишет в чат.","config":{"textAlign":"left","advanced":{"style":"","cssClasses":"","id":""}}},{"id":1587122756137,"type":"publii-image","content":{"image":"https://fixel.ru/media/posts/2/22.png","imageHeight":725,"imageWidth":1310,"alt":"","caption":""},"config":{"imageAlign":"center","link":{"url":"","noFollow":false,"targetBlank":false,"sponsored":false,"ugc":false},"advanced":{"cssClasses":"","id":""}}},{"id":1587122777285,"type":"publii-header","content":"Mod Tools","config":{"headingLevel":2,"textAlign":"left","link":{"url":"","noFollow":false,"targetBlank":false,"sponsored":false,"ugc":false},"advanced":{"cssClasses":"","customId":false,"id":"mod-tools"}}},{"id":1587122779391,"type":"publii-paragraph","content":"В этом разделе можно настроить автоматическую модерацию чата, удалять сообщения зрителей со ссылками, капсом, символами или запрещенными словами, настраивать систему наказаний за запрещенные сообщения, будь то просто удаление сообщения, таймаут или бан за повторные нарушения.","config":{"textAlign":"left","advanced":{"style":"","cssClasses":"","id":""}}},{"id":1587122807499,"type":"publii-image","content":{"image":"https://fixel.ru/media/posts/2/23.png","imageHeight":725,"imageWidth":1310,"alt":"","caption":""},"config":{"imageAlign":"center","link":{"url":"","noFollow":false,"targetBlank":false,"sponsored":false,"ugc":false},"advanced":{"cssClasses":"","id":""}}},{"id":1587122832837,"type":"publii-header","content":"Notifications","config":{"headingLevel":2,"textAlign":"left","link":{"url":"","noFollow":false,"targetBlank":false,"sponsored":false,"ugc":false},"advanced":{"cssClasses":"","customId":false,"id":"notifications"}}},{"id":1587122834035,"type":"publii-paragraph","content":"В этом разделе можно настроить различные оповещения: при подписке на канал, при платной подписке, хосте, рейде. В том числе можно сделать звуковые оповещения.","config":{"textAlign":"left","advanced":{"style":"","cssClasses":"","id":""}}},{"id":1587122856525,"type":"publii-image","content":{"image":"https://fixel.ru/media/posts/2/24.png","imageHeight":725,"imageWidth":1310,"alt":"","caption":""},"config":{"imageAlign":"center","link":{"url":"","noFollow":false,"targetBlank":false,"sponsored":false,"ugc":false},"advanced":{"cssClasses":"","id":""}}},{"id":1587122879304,"type":"publii-header","content":"Discord","config":{"headingLevel":2,"textAlign":"left","link":{"url":"","noFollow":false,"targetBlank":false,"sponsored":false,"ugc":false},"advanced":{"cssClasses":"","customId":false,"id":"discord"}}},{"id":1587122880155,"type":"publii-paragraph","content":"Этот раздел позволит настроить функции бота для вашего Discord канала. Оповещения о запуске стрима, сообщения по таймеру и автоматическое назначение роли новым участникам.","config":{"textAlign":"left","advanced":{"style":"","cssClasses":"","id":""}}},{"id":1587122903014,"type":"publii-image","content":{"image":"https://fixel.ru/media/posts/2/25.png","imageHeight":725,"imageWidth":1310,"alt":"","caption":""},"config":{"imageAlign":"center","link":{"url":"","noFollow":false,"targetBlank":false,"sponsored":false,"ugc":false},"advanced":{"cssClasses":"","id":""}}},{"id":1587122915965,"type":"publii-header","content":"Settings","config":{"headingLevel":2,"textAlign":"left","link":{"url":"","noFollow":false,"targetBlank":false,"sponsored":false,"ugc":false},"advanced":{"cssClasses":"","customId":false,"id":"settings"}}},{"id":1587122929509,"type":"publii-header","content":"General","config":{"headingLevel":3,"textAlign":"left","link":{"url":"","noFollow":false,"targetBlank":false,"sponsored":false,"ugc":false},"advanced":{"cssClasses":"","customId":false,"id":"general"}}},{"id":1587122935481,"type":"publii-paragraph","content":"В этом разделе можно настроить основные функции, такие как автоматическое подключение бота к чату, аудиовыходы, отображение счётчика зрителей и так далее.","config":{"textAlign":"left","advanced":{"style":"","cssClasses":"","id":""}}},{"id":1587122955126,"type":"publii-image","content":{"image":"https://fixel.ru/media/posts/2/26.png","imageHeight":400,"imageWidth":825,"alt":"","caption":""},"config":{"imageAlign":"center","link":{"url":"","noFollow":false,"targetBlank":false,"sponsored":false,"ugc":false},"advanced":{"cssClasses":"","id":""}}},{"id":1587122973339,"type":"publii-header","content":"Localization","config":{"headingLevel":3,"textAlign":"left","link":{"url":"","noFollow":false,"targetBlank":false,"sponsored":false,"ugc":false},"advanced":{"cssClasses":"","customId":false,"id":"localization"}}},{"id":1587123001972,"type":"publii-paragraph","content":"Раздел который позволяет перевести сообщения бота на любой другой язык.","config":{"textAlign":"left","advanced":{"style":"","cssClasses":"","id":""}}},{"id":1587123022199,"type":"publii-image","content":{"image":"https://fixel.ru/media/posts/2/27.png","imageHeight":400,"imageWidth":825,"alt":"","caption":""},"config":{"imageAlign":"center","link":{"url":"","noFollow":false,"targetBlank":false,"sponsored":false,"ugc":false},"advanced":{"cssClasses":"","id":""}}},{"id":1587123035143,"type":"publii-header","content":"Usage","config":{"headingLevel":3,"textAlign":"left","link":{"url":"","noFollow":false,"targetBlank":false,"sponsored":false,"ugc":false},"advanced":{"cssClasses":"","customId":false,"id":"usage"}}},{"id":1587123044676,"type":"publii-paragraph","content":"Здесь можно настроить где и как можно использовать команды бота.","config":{"textAlign":"left","advanced":{"style":"","cssClasses":"","id":""}}},{"id":1587123088428,"type":"publii-image","content":{"image":"https://fixel.ru/media/posts/2/28.png","imageHeight":400,"imageWidth":825,"alt":"","caption":""},"config":{"imageAlign":"center","link":{"url":"","noFollow":false,"targetBlank":false,"sponsored":false,"ugc":false},"advanced":{"cssClasses":"","id":""}}},{"id":1587123104760,"type":"publii-header","content":"Macros","config":{"headingLevel":3,"textAlign":"left","link":{"url":"","noFollow":false,"targetBlank":false,"sponsored":false,"ugc":false},"advanced":{"cssClasses":"","customId":false,"id":"macros"}}},{"id":1587123126411,"type":"publii-paragraph","content":"Здесь можно настроить сообщения макросов для семи различных кнопок, чтобы публиковать команды/сообщения в чате когда вы нажимаете на них.","config":{"textAlign":"left","advanced":{"style":"","cssClasses":"","id":""}}},{"id":1587123143545,"type":"publii-image","content":{"image":"https://fixel.ru/media/posts/2/29.png","imageHeight":400,"imageWidth":825,"alt":"","caption":""},"config":{"imageAlign":"center","link":{"url":"","noFollow":false,"targetBlank":false,"sponsored":false,"ugc":false},"advanced":{"cssClasses":"","id":""}}},{"id":1587123159509,"type":"publii-header","content":"Hotkeys","config":{"headingLevel":3,"textAlign":"left","link":{"url":"","noFollow":false,"targetBlank":false,"sponsored":false,"ugc":false},"advanced":{"cssClasses":"","customId":false,"id":"hotkeys"}}},{"id":1587123166325,"type":"publii-paragraph","content":"С помощью горячих клавиш можно настроить включение и отключение треков из Songrequest, пропуск, увеличение и уменьшение громкости. Также здесь можно настроить клавиши для макросов из предыдущего раздела настроек.","config":{"textAlign":"left","advanced":{"style":"","cssClasses":"","id":""}}},{"id":1587123256751,"type":"publii-image","content":{"image":"https://fixel.ru/media/posts/2/30.png","imageHeight":400,"imageWidth":825,"alt":"","caption":""},"config":{"imageAlign":"center","link":{"url":"","noFollow":false,"targetBlank":false,"sponsored":false,"ugc":false},"advanced":{"cssClasses":"","id":""}}},{"id":1587123289380,"type":"publii-header","content":"Style","config":{"headingLevel":3,"textAlign":"left","link":{"url":"","noFollow":false,"targetBlank":false,"sponsored":false,"ugc":false},"advanced":{"cssClasses":"","customId":false,"id":"style"}}},{"id":1587123294075,"type":"publii-paragraph","content":"Настройки внешнего вида бота, можно выбрать из нескольких скинов или выбрать свои цвета для разных элементов.","config":{"textAlign":"left","advanced":{"style":"","cssClasses":"","id":""}}},{"id":1587123315707,"type":"publii-image","content":{"image":"https://fixel.ru/media/posts/2/31.png","imageHeight":400,"imageWidth":825,"alt":"","caption":""},"config":{"imageAlign":"center","link":{"url":"","noFollow":false,"targetBlank":false,"sponsored":false,"ugc":false},"advanced":{"cssClasses":"","id":""}}},{"id":1587123331222,"type":"publii-header","content":"Полезные ссылки","config":{"headingLevel":2,"textAlign":"left","link":{"url":"","noFollow":false,"targetBlank":false,"sponsored":false,"ugc":false},"advanced":{"cssClasses":"","customId":false,"id":"-"}}},{"id":1587123332132,"type":"publii-paragraph","content":"<a href=\"https://cdn.streamlabs.com/chatbot/Documentation_Twitch.pdf\" target=\"_blank\" rel=\"nofollow noopener\">Официальная документация</a> Streamlabs Chatbot.","config":{"textAlign":"left","advanced":{"style":"","cssClasses":"","id":""},"link":{"url":"https://cdn.streamlabs.com/chatbot/Documentation_Twitch.pdf","noFollow":true,"targetBlank":true,"sponsored":false,"ugc":false,"download":false}}},{"id":1587123369212,"type":"publii-separator","content":false,"config":{"type":"dots","advanced":{"cssClasses":"","id":""}}},{"id":1587123369265,"type":"publii-paragraph","content":"*SC — Stream Chat, SW — Stream Whisper, SB — Stream Both, DC — Discord Chat, DW — Discord Whisper, DB — Discord Both, CB — Chat Both, WB — Whisper Both, A — All","config":{"textAlign":"left","advanced":{"style":"","cssClasses":"small","id":""}}}]
             ]]>
         </content>
     </entry>

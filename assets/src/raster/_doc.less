@@ -1,0 +1,30 @@
+/* document */
+html {
+    font-family: var(--sansFont), -system-ui, system-ui, sans-serif;
+    font-size:   var(--fontSize);
+    line-height: var(--lineHeight);
+    background:  var(--background-color);
+    color:       var(--foreground-color);
+    letter-spacing: -0.01em;
+    text-size-adjust: 100%;
+    font-variant-ligatures: contextual common-ligatures;
+    font-feature-settings: 'kern' 1, 'liga' 1, 'calt' 1, 'cv10' 1; /* G */
+    width: 100vw;
+}
+
+body {
+    -webkit-overflow-scrolling: touch;
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+    padding-bottom: calc(var(--lineHeight) * 3);
+    padding-right: calc(var(--lineHeight) * 2);
+    padding-left: calc(var(--lineHeight) * 2);
+    padding-top: var(--lineHeight);
+}
+
+@media only screen and (max-width: @mobile-size) {
+    body {
+        padding: var(--lineHeight);
+        padding-bottom: calc(var(--lineHeight) * 2);
+    }
+}
