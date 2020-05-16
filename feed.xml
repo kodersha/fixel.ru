@@ -3,7 +3,7 @@
     <title>Александра Травкина</title>
     <link href="https://fixel.ru/feed.xml" rel="self" />
     <link href="https://fixel.ru" />
-    <updated>2020-05-16T13:38:13+07:00</updated>
+    <updated>2020-05-16T19:02:21+07:00</updated>
     <author>
         <name>Блог</name>
     </author>
@@ -190,7 +190,7 @@
         <id>https://fixel.ru/streamlabs-chatbot-ozvuchivanie-vydelennogo-soobshcheniya-na-twitch/</id>
             <category term="Блог"/>
 
-        <updated>2020-05-08T21:40:40+07:00</updated>
+        <updated>2020-05-16T17:45:59+07:00</updated>
             <summary>
                 <![CDATA[
                     [{"id":1555941466744,"type":"publii-paragraph","content":"Для Streamlabs Chatbot существует скрипт TheNewTTS, он позволяет боту озвучивать сообщения из чата Твича голосами Google. С появлением баллов канала, некоторые стримеры обзавелись возможностью озвучивания выделенных сообщений, чтобы иметь такую возможность у себя, я слегка дописала плагин TheNewTTS и опубликовала его на GitHub. Теперь, если&hellip;
