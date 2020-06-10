@@ -126,7 +126,7 @@ article {
             color: var(--colorGray);
 
             &:hover {
-                color: var(--colorLightGray);
+                color: var(--colorWhiteGray);
             }
         }
     }
@@ -611,5 +611,14 @@ article {
                 color: var(--colorBlue);
             }
         }
+    }
+}
+
+img[loading] {
+    opacity: 0;
+
+    &.is-loaded {
+        opacity: 1;
+        transition: opacity 1s cubic-bezier(0.215, 0.61, 0.355, 1); 
     }
 }
