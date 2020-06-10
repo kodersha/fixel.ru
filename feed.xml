@@ -3,7 +3,7 @@
     <title>Александра Травкина</title>
     <link href="https://fixel.ru/feed.xml" rel="self" />
     <link href="https://fixel.ru" />
-    <updated>2020-06-11T02:52:14+07:00</updated>
+    <updated>2020-06-11T02:53:42+07:00</updated>
     <author>
         <name>Блог</name>
     </author>
@@ -134,7 +134,7 @@
 <figcaption>layout.tmpl.php — Основная разметка шаблона внутри body, здесь подключаются другие части шаблона.<br>main.tmpl.php — Разметка внутри html, здесь подключается head.tmpl.php содержащий метатеги, сам layout.tmpl.php, js и css.</figcaption>
 </figure>
 </section>
-<p>Эти файлы можно копировать в папку <code>templates</code> своей темы и редактировать по своему усмотрению.</p>
+<p>Эти файлы можно копировать в папку <code>templates</code> своей темы и редактировать на свой вкус.</p>
 <p>Подключить свою собственную часть шаблона можно создав файл типа <code>name.tmpl.php</code> в папке <code>templates</code> и затем вызвать его в любом другом месте или в <code>layout.tmpl.php</code>. Например, можно создать файл <code>menu.tmpl.php</code> со своим меню и ссылками на соц-сети, сверстанными на html и css, и вызвать его в <code>layout.tmpl.php</code> специальным макросом. Илья Бирман в <a href="https://docs.google.com/document/d/1yn7KCHq47oli7IH--skhymjjj2OSlXjcyGOxZ2ZEPeA/edit#heading=h.j2h2wr6xhlie" target="_blank" rel="nofollow noopener noreferrer">справке</a> к Эгее пишет:</p>
 <p class="msg msg--info">Шаблон может вызывать другие шаблоны для отображения конкретного фрагмента: _T () — вызывает шаблон по имени. (...) Шаблон layout.tmpl.php «срабатывает» потому, что main.tmpl.php вызывает его для формирования тела страницы.</p>
 <p>Так, чтобы вывести содержимое файла <code>menu.tmpl.php</code> где нибудь на сайте, достаточно небольшого кода:</p>
