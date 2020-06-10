@@ -3,12 +3,149 @@
     <title>Александра Травкина</title>
     <link href="https://fixel.ru/feed.xml" rel="self" />
     <link href="https://fixel.ru" />
-    <updated>2020-05-17T01:56:41+07:00</updated>
+    <updated>2020-06-11T00:51:25+07:00</updated>
     <author>
         <name>Блог</name>
     </author>
     <id>https://fixel.ru</id>
 
+    <entry>
+        <title>Создание своего шаблона для Эгеи</title>
+        <author>
+            <name>Блог</name>
+        </author>
+        <link href="https://fixel.ru/sozdanie-svoego-shablona-dlya-egei/"/>
+        <id>https://fixel.ru/sozdanie-svoego-shablona-dlya-egei/</id>
+            <category term="Эгея"/>
+            <category term="Гайд"/>
+            <category term="Блог"/>
+
+        <updated>2020-06-11T20:05:00+07:00</updated>
+            <summary>
+                <![CDATA[
+                    Создать свой шаблон для Эгеи не так сложно как может показаться на первый взгляд. Давайте разберем основные принципы построения шаблона используя некоторые простые примеры. Пользовательские темы находятся в папке ../themes в корне вашего блога. Создадим в этом каталоге папку и назовем её так, как хотим&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                <p>Создать свой шаблон для <a href="https://blogengine.ru/" target="_blank" rel="nofollow noopener noreferrer">Эгеи</a> не так сложно как может показаться на первый взгляд. Давайте разберем основные принципы построения шаблона используя некоторые простые примеры.</p>
+<p>Пользовательские темы находятся в папке <code>../themes</code> в корне вашего блога. Создадим в этом каталоге папку и назовем её так, как хотим чтобы называлась ваша тема. Например «сherry» — <code>../themes/сherry</code>. Информация о вашей теме хранится в файле <code>theme-info.php</code> в корневой папке темы и содержит следующий код:</p>
+<pre>&lt;?php return array (<br><br>  <em>/* Порядок темы в списке тем в админке */</em><br>  'index' =&gt; 99,<br><br>  <em>/* Отображаемое название темы для разных языков */</em><br>  'display_name' =&gt; array (<br>    'en' =&gt; 'Cherry',<br>    'ru' =&gt; 'Вишня',<br>    'uk' =&gt; 'Вишня',<br>  ),<br><br>  <em>/* Параметры основных цветов */</em><br>  'colors' =&gt; array (<br>    'background' =&gt; '#faebd2',<br>    'headings' =&gt; '#000',<br>    'text' =&gt; '#000',<br>    'link' =&gt; '#3d6077',<br>  ),<br><br>  <em>/* На какой теме основана текущая тема */</em><br>  'based_on' =&gt; 'plain',<br><br>  <em>/* Параметры метатега viewport */</em><br>  'meta_viewport' =&gt; 'width=device-width, initial-scale=1',<br><br>  <em>/* Поддержка тёмного режима */</em><br>  'supports_dark_mode' =&gt; false,<br><br>); ?&gt;</pre>
+<p>Структура ресурсных папок в папке темы, из этих папок Эгея подхватывает скрипты, стили, изображения и файлы разметки:</p>
+<pre>../themes/сherry/images — <em>Изображения</em><br>../themes/сherry/js — <em>JS скрипты</em><br>../themes/сherry/src — <em>Исходные sass/less файлы стилей</em><br>../themes/сherry/styles — <em>CSS стили</em><br>../themes/сherry/templates — <em>PHP файлы шаблона</em></pre>
+<p>Если файлов в папках нет, они будут браться из стандартной темы Эгеи, которая находится по пути <code>../system/theme</code>, либо из темы указанной как базовая в конфигурационном файле <code>theme-info.php</code>.</p>
+<p class="msg msg--warning">Чтобы внести изменения в стандартную тему Эгеи, скопируйте необходимый файл из <code class="highlighter-rouge">../system/theme/templates</code> в папку <code>templates</code> вашей темы и уже там производите все изменения. Вносить изменения в системной папке категорически не рекомендуется.</p>
+<p>Теперь стоит подробнее разобрать содержимое папки <code>../system/theme/templates</code>, для наглядности того, как выглядит тот или иной элемент в живую, я добавила соответствующие файлам скриншоты.</p>
+<section class="section-x9h4d4 width-wide">
+<figure class="post__image"><img src="https://fixel.ru/media/posts/24/26.png" alt="">
+<figcaption>user-picture.tmpl.php — Аватар блога.</figcaption>
+</figure>
+<figure class="post__image"><img src="https://fixel.ru/media/posts/24/01.png" width="" height="">
+<figcaption>author-menu.tmpl.php — Меню автора.</figcaption>
+</figure>
+<figure class="post__image"><img src="https://fixel.ru/media/posts/24/25.png" alt="">
+<figcaption>search-heading.tmpl.php — Форма поиска.</figcaption>
+</figure>
+<figure class="post__image"><img src="https://fixel.ru/media/posts/24/20.png" alt="">
+<figcaption>notes.tmpl.php — Пост.</figcaption>
+</figure>
+<figure class="post__image"><img src="https://fixel.ru/media/posts/24/23-3.png" alt="">
+<figcaption>pages.tmpl.php — Навигация между постами.</figcaption>
+</figure>
+<figure class="post__image"><img src="https://fixel.ru/media/posts/24/02-3.png" alt="">
+<figcaption>comments-heading.tmpl.php — Заголовок списка комментариев с счетчиком их количества.</figcaption>
+</figure>
+<figure class="post__image"><img src="https://fixel.ru/media/posts/24/03-2.png" alt="">
+<figcaption>comments.tmpl.php — Список комментариев.</figcaption>
+</figure>
+<figure class="post__image"><img src="https://fixel.ru/media/posts/24/05-2.png" alt="">
+<figcaption>form-comment.tmpl.php — Форма комментария.</figcaption>
+</figure>
+<figure class="post__image"><img src="https://fixel.ru/media/posts/24/19-2.png" alt="">
+<figcaption>form-comment-reply.tmpl.php — Форма ответа на комментарий.</figcaption>
+</figure>
+<figure class="post__image"><img src="https://fixel.ru/media/posts/24/24.png" alt="">
+<figcaption >popular.tmpl.php — Блок популярных постов.</figcaption>
+</figure>
+<figure class="post__image"><img src="https://fixel.ru/media/posts/24/21-2.png" alt="">
+<figcaption>pages-earlier.tmpl.php — Кнопка к постам «Ранее».</figcaption>
+</figure>
+<figure class="post__image"><img src="https://fixel.ru/media/posts/24/22-2.png" alt="">
+<figcaption>pages-later.tmpl.php — Кнопка к постам «Позднее».</figcaption>
+</figure>
+<figure class="post__image"><img src="https://fixel.ru/media/posts/24/27-2.png" alt="">
+<figcaption>notes-list.tmpl.php — Список всех постов блога.</figcaption>
+</figure>
+<figure class="post__image"><img src="https://fixel.ru/media/posts/24/17-2.png" alt="">
+<figcaption>heading.tmpl.php — Заголовки на большинстве страниц.</figcaption>
+</figure>
+<figure class="post__image"><img src="https://fixel.ru/media/posts/24/11.png" alt="">
+<figcaption>form-note.tmpl.php — Форма публикации поста.</figcaption>
+</figure>
+<figure class="post__image"><img src="https://fixel.ru/media/posts/24/09.png" alt="">
+<figcaption>form-note-delete.tmpl.php — Форма удаления поста.</figcaption>
+</figure>
+<figure class="post__image"><img src="https://fixel.ru/media/posts/24/10-2.png" alt="">
+<figcaption>form-note-publish.tmpl.php — Кнопка публикации поста.</figcaption>
+</figure>
+<figure class="post__image"><img src="https://fixel.ru/media/posts/24/04-2.png" alt="">
+<figcaption>drafts.tmpl.php — Список черновиков.</figcaption>
+</figure>
+<figure class="post__image"><img src="https://fixel.ru/media/posts/24/14.png" alt="">
+<figcaption>form-preferences.tmpl.php — Форма общих настроек блога.</figcaption>
+</figure>
+<figure class="post__image"><img src="https://fixel.ru/media/posts/24/12-2.png" alt="">
+<figcaption>form-password.tmpl.php — Форма смены админ-пароля.</figcaption>
+</figure>
+<figure class="post__image"><img src="https://fixel.ru/media/posts/24/06-2.png" alt="">
+<figcaption>form-database.tmpl.php — Форма подключения к базе данных.</figcaption>
+</figure>
+<figure class="post__image"><img src="https://fixel.ru/media/posts/24/30.png" alt="">
+<figcaption >sessions.tmpl.php — Список текущих сессий.</figcaption>
+</figure>
+<figure class="post__image"><img src="https://fixel.ru/media/posts/24/07-2.png" alt="">
+<figcaption>form-install.tmpl.php — Форма установки Эгеи.</figcaption>
+</figure>
+<figure class="post__image"><img src="https://fixel.ru/media/posts/24/08.png" alt="">
+<figcaption>form-login.tmpl.php — Форма авторизации.</figcaption>
+</figure>
+<figure class="post__image"><img src="https://fixel.ru/media/posts/24/28.png" alt="">
+<figcaption >tags.tmpl.php — Список всех тегов блога.</figcaption>
+</figure>
+<figure class="post__image"><img src="https://fixel.ru/media/posts/24/15.png" alt="">
+<figcaption>form-tag.tmpl.php — Форма редактирования тега.</figcaption>
+</figure>
+<figure class="post__image"><img src="https://fixel.ru/media/posts/24/16.png" alt="">
+<figcaption>form-tag-delete.tmpl.php — Форма удаления тега.</figcaption>
+</figure>
+<figure class="post__image"><img src="https://fixel.ru/media/posts/24/29-3.png" alt="">
+<figcaption>tags-menu.tmpl.php — Меню избранных тегов.</figcaption>
+</figure>
+<figure class="post__image"><img src="https://fixel.ru/media/posts/24/33.png" alt="">
+<figcaption>form-search.tmpl.php — Форма поиска на странице поиска.</figcaption>
+</figure>
+<figure class="post__image"><img src="https://fixel.ru/media/posts/24/18-2.png" alt="">
+<figcaption>login-element.tmpl.php — Кнопка авторизации в футере.</figcaption>
+</figure>
+<figure class="post__image"><img src="https://fixel.ru/media/posts/24/31-3.png" alt="">
+<figcaption>form-password-reset-email.tmpl.php — Страница сброса пароля.</figcaption>
+</figure>
+<figure class="post__image"><img src="https://fixel.ru/media/posts/24/32-2.png" alt="">
+<figcaption>layout.tmpl.php — Основная разметка шаблона внутри body, здесь подключаются другие части шаблона.<br>main.tmpl.php — Разметка внутри html, здесь подключается head.tmpl.php содержащий метатеги внутри head, сам layout.tmpl.php, стили и скрипты.</figcaption>
+</figure>
+</section>
+<p>Подключить свою часть шаблона можно создав файл типа <code>name.tmpl.php</code> в папке <code>templates</code> и затем вызвать его в любом другом месте или основном <code>layout.tmpl.php</code>. Например, можно создать файл <code>menu.tmpl.php</code> на html со своим меню или ссылками на соц-сети и подключить его в <code>layout.tmpl.php</code>.</p>
+<p class="msg msg--info">Шаблон может вызывать другие шаблоны для отображения конкретного фрагмента: _T () — вызывает шаблон по имени. ... Шаблон layout.tmpl.php «срабатывает» потому, что main.tmpl.php вызывает его для формирования тела страницы.</p>
+<p>Чтобы вывести содержимое файла <code>menu.tmpl.php</code> достаточно небольшого кода:</p>
+<pre>&lt;?php _T ('menu') ?&gt;</pre>
+<p>JS и CSS в теме Эгеи также можно подключить специальным кодом. Для наглядности откройте стандартный <code>main.tmpl.php</code> и посмотрите в конец файла, после закрывающего тега <code>body</code>:</p>
+<pre>&lt;?php _CSS ('main') ?&gt;<br>&lt;?php _JS ('main') ?&gt;</pre>
+<p>Здесь подхватываются <code class="highlighter-rouge">../js/main.js</code> и <code class="highlighter-rouge">../styles/main.css</code> из папки вашей темы. Так можно добавить, например, скрипт <code>bootstrap.min.js</code> в папку <code>js</code> и подключить его кодом:</p>
+<pre>&lt;?php _JS ('bootstrap.min') ?&gt;</pre>
+<p>Таким образом, следуя этим примерам, вы можете редактировать отдельные части Эгеи при создании своей темы, подключать стили и скрипты.</p>
+            ]]>
+        </content>
+    </entry>
     <entry>
         <title>Маленький Принц</title>
         <author>
@@ -20,7 +157,7 @@
             <category term="Заказ"/>
             <category term="Верстка"/>
 
-        <updated>2020-05-11T23:36:50+07:00</updated>
+        <updated>2020-06-11T00:38:13+07:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://fixel.ru/media/posts/22/cover.png" alt="" />
@@ -46,7 +183,7 @@
             <category term="Дизайн"/>
             <category term="Верстка"/>
 
-        <updated>2020-05-16T13:38:05+07:00</updated>
+        <updated>2020-06-11T00:48:35+07:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://fixel.ru/media/posts/21/cover.png" alt="" />
@@ -71,7 +208,7 @@
             <category term="Заказ"/>
             <category term="Верстка"/>
 
-        <updated>2020-05-08T18:50:17+07:00</updated>
+        <updated>2020-06-11T00:41:03+07:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://fixel.ru/media/posts/20/cover.png" alt="" />
@@ -96,7 +233,7 @@
             <category term="Заказ"/>
             <category term="Верстка"/>
 
-        <updated>2020-05-08T18:50:24+07:00</updated>
+        <updated>2020-06-11T00:41:16+07:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://fixel.ru/media/posts/19/cover.png" alt="" />
@@ -121,7 +258,7 @@
             <category term="Заказ"/>
             <category term="Верстка"/>
 
-        <updated>2020-05-08T18:39:48+07:00</updated>
+        <updated>2020-06-11T00:41:42+07:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://fixel.ru/media/posts/18/cover.png" alt="" />
@@ -167,7 +304,7 @@
             <category term="Заказ"/>
             <category term="Верстка"/>
 
-        <updated>2020-05-08T18:30:38+07:00</updated>
+        <updated>2020-06-11T00:42:00+07:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://fixel.ru/media/posts/17/cover.png" alt="" />
@@ -213,7 +350,7 @@
             <category term="Заказ"/>
             <category term="Верстка"/>
 
-        <updated>2020-05-08T18:10:28+07:00</updated>
+        <updated>2020-06-11T00:43:06+07:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://fixel.ru/media/posts/16/cover.png" alt="" />
@@ -224,31 +361,6 @@
             <![CDATA[
                     <img src="https://fixel.ru/media/posts/16/cover.png" alt="" />
                 [{"id":1555941466744,"type":"publii-paragraph","content":"Вёрстка сайта административно-делового центра&nbsp;Преображенский","config":{"textAlign":"left","advanced":{"style":"","cssClasses":"","id":""}}}]
-            ]]>
-        </content>
-    </entry>
-    <entry>
-        <title>Грибовский лес Промо</title>
-        <author>
-            <name>Блог</name>
-        </author>
-        <link href="https://fixel.ru/gribovskiy-les-promo/"/>
-        <id>https://fixel.ru/gribovskiy-les-promo/</id>
-            <category term="Работы"/>
-            <category term="Заказ"/>
-            <category term="Верстка"/>
-
-        <updated>2020-05-08T19:21:17+07:00</updated>
-            <summary>
-                <![CDATA[
-                        <img src="https://fixel.ru/media/posts/15/cover.png" alt="" />
-                    [{"id":1555941466744,"type":"publii-paragraph","content":"Вёрстка промо лендинга Грибовского леса","config":{"textAlign":"left","advanced":{"style":"","cssClasses":"","id":""}}}]
-                ]]>
-            </summary>
-        <content type="html">
-            <![CDATA[
-                    <img src="https://fixel.ru/media/posts/15/cover.png" alt="" />
-                [{"id":1555941466744,"type":"publii-paragraph","content":"Вёрстка промо лендинга Грибовского леса","config":{"textAlign":"left","advanced":{"style":"","cssClasses":"","id":""}}}]
             ]]>
         </content>
     </entry>
