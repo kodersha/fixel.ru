@@ -3,7 +3,7 @@
     <title>Александра Травкина</title>
     <link href="https://fixel.ru/feed.xml" rel="self" />
     <link href="https://fixel.ru" />
-    <updated>2020-06-11T01:47:40+07:00</updated>
+    <updated>2020-06-11T01:51:45+07:00</updated>
     <author>
         <name>Блог</name>
     </author>
@@ -147,7 +147,7 @@
 <pre>&lt;?php _CSS ('main') ?&gt;<br>&lt;?php _JS ('main') ?&gt;</pre>
 <p>Здесь подхватываются <code class="highlighter-rouge">../js/main.js</code> и <code class="highlighter-rouge">../styles/main.css</code> из папки темы, или из стандартной темы, если нет соответствующих файлов. По такому принципу можно добавить, например, скрипт <code>bootstrap.min.js</code> в папку <code>js</code> и подключить его кодом:</p>
 <pre>&lt;?php _JS ('bootstrap.min') ?&gt;</pre>
-<p>Таким образом можно редактировать отдельные части шаблона Эгеи при создании своей темы, подключать стили и скрипты.</p>
+<p>Таким образом можно редактировать отдельные части шаблона Эгеи при создании своей темы, подключать стили и скрипты. Также, для более полной информации, рекомендую ознакомится с <a href="https://docs.google.com/document/d/1yn7KCHq47oli7IH--skhymjjj2OSlXjcyGOxZ2ZEPeA/edit" target="_blank" rel="nofollow noopener noreferrer">официальной документацией</a> по темам оформления Эгеи.</p>
             ]]>
         </content>
     </entry>
