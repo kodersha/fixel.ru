@@ -84,10 +84,18 @@ article {
 
 .articles {
     .item {
-        margin-top: calc(var(--blockSpacingTop) / 4);
+        margin-top: calc(var(--blockSpacingTop) / 6);
         align-items: baseline;
         flex-wrap: wrap;
         display: flex;
+
+        @media only screen and (max-width: @mobile-size) {
+            margin-top: calc(var(--blockSpacingTop) / 3);
+        }
+
+        &:first-of-type {
+            margin-top: 0;
+        }
 
         h2 {
             margin-bottom: 0;
@@ -95,10 +103,9 @@ article {
             margin-left: 0;
             margin-top: 0;
 
+            line-height: var(--lineHeight);
             font-size: var(--fontSize);
             font-weight: normal;
-            line-height: normal;
-            letter-spacing: -.01em;
 
             a {
                 &:hover {
@@ -117,10 +124,13 @@ article {
         }
     }
     p {
+        margin-top: calc(var(--blockSpacingTop) / 4);
         color: var(--colorGray);
         font-weight: 500;
 
-        margin-top: calc(var(--blockSpacingTop) / 4);
+        @media only screen and (max-width: @mobile-size) {
+            margin-top: calc(var(--blockSpacingTop) / 2);
+        }
 
         a {
             color: var(--colorGray);
