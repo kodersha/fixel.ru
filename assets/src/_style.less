@@ -222,10 +222,18 @@ article {
         padding-top: 0;
     }
     h2 {
-        margin-top: calc(var(--blockSpacingTop) * 4);
+        margin-top: calc(var(--blockSpacingTop) * 2);
+
+        & + p {
+            margin-top: calc(var(--blockSpacingTop) * 0.5);
+        }
     }
     h3 {
-        margin-top: calc(var(--blockSpacingTop) * 2);
+        margin-top: calc(var(--blockSpacingTop) * 1.8);
+
+        & + p {
+            margin-top: calc(var(--blockSpacingTop) * 0.5);
+        }
     }
     hr {
         height: 0;
@@ -253,7 +261,7 @@ article {
         li {
             margin-bottom: 0;
             margin-left: 0;
-            margin-top: calc(var(--baseline) / 2);
+            margin-top: 0;
 
             &:first-of-type {
                 margin-top: 0;
@@ -272,7 +280,7 @@ article {
         li {
             margin-bottom: 0;
             margin-left: 0;
-            margin-top: calc(var(--baseline) / 2);
+            margin-top: 0;
 
             &:first-of-type {
                 margin-top: 0;
