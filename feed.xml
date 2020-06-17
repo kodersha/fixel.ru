@@ -3,12 +3,43 @@
     <title>Александра Травкина</title>
     <link href="https://fixel.ru/feed.xml" rel="self" />
     <link href="https://fixel.ru" />
-    <updated>2020-06-17T19:26:38+07:00</updated>
+    <updated>2020-06-18T02:35:32+07:00</updated>
     <author>
         <name>Блог</name>
     </author>
     <id>https://fixel.ru</id>
 
+    <entry>
+        <title>Как сделать заметки на полях в Эгее</title>
+        <author>
+            <name>Блог</name>
+        </author>
+        <link href="https://fixel.ru/kak-sdelat-zametki-na-polyah-v-egee/"/>
+        <id>https://fixel.ru/kak-sdelat-zametki-na-polyah-v-egee/</id>
+            <category term="Эгея"/>
+            <category term="Гайд"/>
+            <category term="Блог"/>
+
+        <updated>2020-06-18T02:31:24+07:00</updated>
+            <summary>
+                <![CDATA[
+                    Заметки на полях, или же маргиналии, добавить в Эгею можно небольшим CSS кодом. @media screen and (min-width: 1050px) { .e2-text .aside { position: relative; text-align: left; max-width: 200px; margin-left: 4%; margin-top: .15em; float: right; clear: right; } } .e2-text .aside { line-height: 1.4; font-size: 0.875em;&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                <p>Заметки на полях, или же маргиналии, добавить в <a href="https://blogengine.ru/" target="_blank" rel="nofollow noopener noreferrer">Эгею</a> можно небольшим CSS кодом.</p>
+<pre class="language-css">@media screen and (min-width: 1050px) {<br>    .e2-text .aside {<br>        position: relative;<br>        text-align: left;<br>        max-width: 200px;<br>        margin-left: 4%;<br>        margin-top: .15em;<br>        float: right;<br>        clear: right;<br>    }<br>}<br>.e2-text .aside {<br>    line-height: 1.4;<br>    font-size: 0.875em;<br>    color: #4A4A4A;<br>}</pre>
+<p>Этот CSS можно добавить в конец файла <code>../styles/main.css</code>, который находится в папке с вашей темой Эгеи. Но лучше создать свой файл стилей в папке <code>styles</code>, назвав его, например <code>custom.css</code> и подключить его к теме. Для этого скопируйте из <code>./system/theme/templates</code> файл <code>main.tmpl.php</code> в папку <code>templates</code> вашей темы (Если папки нет, создайте её) и добавьте в конец этого файла, после <code>&lt;?php _CSS ('main') ?&gt;</code> макрос:</p>
+<pre class="language-php">&lt;?php _CSS ('custom') ?&gt;</pre>
+<p>Это позволит безопасно дополнять свою тему стилями, не рискуя потерять внесенные изменения после очередного обновления движка. Подробнее, о том как редактировать шаблоны в Эгее, написано в <a href="https://fixel.ru/kak-sozdat-svoy-shablon-dlya-egei/">этом посте</a>.</p>
+<p>Теперь, при написании очередного поста, достаточно использовать эгеевский язык разметки, этот тег добавит заметку справа от следующего за ним абзаца:</p>
+<pre class="language-html">.aside Текст заметки на полях</pre>
+<p>Ещё в редакторе заметку можно добавить html кодом, иногда это полезно, так как Эгея не поддерживает изображения внутри тегов.</p>
+<pre class="language-html">&lt;p class="aside"&gt;Текст заметки на полях&lt;/p&gt;</pre>
+            ]]>
+        </content>
+    </entry>
     <entry>
         <title>Как создать свой шаблон для Эгеи</title>
         <author>
@@ -341,31 +372,6 @@
         <content type="html">
             <![CDATA[
                 [{"id":1555941466744,"type":"publii-paragraph","content":"Для Streamlabs Chatbot существует скрипт TheNewTTS, он позволяет боту озвучивать сообщения из чата Твича голосами Google. С появлением баллов канала, некоторые стримеры обзавелись возможностью озвучивания выделенных сообщений, чтобы иметь такую возможность у себя, я слегка дописала плагин TheNewTTS и опубликовала его <a href=\"https://github.com/sashatravkina/slcb-script-thepointstts/\" target=\"_blank\" rel=\"nofollow noopener\">на GitHub</a>. Теперь, если в настройках плагина не включена функция «Озвучивать всё», он будет озвучивать только те самые, выделенные за баллы канала, сообщения чата.","config":{"textAlign":"left","advanced":{"style":"","cssClasses":"","id":""},"link":{"url":"","noFollow":false,"targetBlank":false,"sponsored":false,"ugc":false,"download":false}}},{"id":1587302964951,"type":"publii-paragraph","content":"<a href=\"https://github.com/sashatravkina/slcb-script-thepointstts/archive/master.zip\" target=\"_blank\"><strong>Скачать скрипт</strong></a>, смотреть <a href=\"https://www.youtube.com/watch?v=l3FBpY-0880&amp;t=3s\" target=\"_blank\" rel=\"nofollow noopener\">как устанавливать скрипты</a> в Streamlabs Chatbot. Не забудьте переименовать папку скрипта в ThePointsTTS.","config":{"textAlign":"left","advanced":{"style":"","cssClasses":"","id":""},"link":{"url":"https://www.youtube.com/watch?v=l3FBpY-0880&t=3s","noFollow":true,"targetBlank":true,"sponsored":false,"ugc":false,"download":false}}}]
-            ]]>
-        </content>
-    </entry>
-    <entry>
-        <title>Преображенский</title>
-        <author>
-            <name>Блог</name>
-        </author>
-        <link href="https://fixel.ru/preobrazhenskiy/"/>
-        <id>https://fixel.ru/preobrazhenskiy/</id>
-            <category term="Работы"/>
-            <category term="Заказ"/>
-            <category term="Верстка"/>
-
-        <updated>2020-06-11T00:43:06+07:00</updated>
-            <summary>
-                <![CDATA[
-                        <img src="https://fixel.ru/media/posts/16/cover.png" alt="" />
-                    [{"id":1555941466744,"type":"publii-paragraph","content":"Вёрстка сайта административно-делового центра&nbsp;Преображенский","config":{"textAlign":"left","advanced":{"style":"","cssClasses":"","id":""}}}]
-                ]]>
-            </summary>
-        <content type="html">
-            <![CDATA[
-                    <img src="https://fixel.ru/media/posts/16/cover.png" alt="" />
-                [{"id":1555941466744,"type":"publii-paragraph","content":"Вёрстка сайта административно-делового центра&nbsp;Преображенский","config":{"textAlign":"left","advanced":{"style":"","cssClasses":"","id":""}}}]
             ]]>
         </content>
     </entry>
