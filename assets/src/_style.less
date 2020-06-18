@@ -225,14 +225,14 @@ article {
         margin-top: calc(var(--blockSpacingTop) * 2);
 
         & + p {
-            margin-top: calc(var(--blockSpacingTop) * 0.5);
+            margin-top: calc(var(--blockSpacingTop) * 0.7);
         }
     }
     h3 {
         margin-top: calc(var(--blockSpacingTop) * 1.8);
 
         & + p {
-            margin-top: calc(var(--blockSpacingTop) * 0.5);
+            margin-top: calc(var(--blockSpacingTop) * 0.7);
         }
     }
     hr {
@@ -301,6 +301,17 @@ article {
         background-color: var(--colorPre);
         border-radius: var(--borderElements);
         padding: var(--lineHeight);
+
+        & + p,
+        & + h2
+        & + h3,
+        & + h4,
+        & + h5,
+        & + h6,
+        & + pre,
+        & + figure {
+            margin-top: calc(var(--blockSpacingTop) * 1.5);
+        }
 
     }
     section {
