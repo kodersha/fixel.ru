@@ -3,7 +3,7 @@
     <title>Александра Травкина</title>
     <link href="https://fixel.ru/feed.xml" rel="self" />
     <link href="https://fixel.ru" />
-    <updated>2020-06-18T19:29:45+07:00</updated>
+    <updated>1970-01-01T07:00:00+07:00</updated>
     <author>
         <name>Блог</name>
     </author>
@@ -20,7 +20,7 @@
             <category term="Гайд"/>
             <category term="Блог"/>
 
-        <updated>2020-06-18T02:31:24+07:00</updated>
+        <updated>2020-06-22T17:42:00+07:00</updated>
             <summary>
                 <![CDATA[
                     Заметки на полях, или же маргиналии, добавить в Эгею можно небольшим CSS кодом. @media screen and (min-width: 1050px) { .e2-text .aside { position: relative; text-align: left; max-width: 200px; margin-left: 4%; margin-top: .15em; float: right; clear: right; } } .e2-text .aside { line-height: 1.4; font-size: 0.875em;&hellip;
@@ -51,7 +51,7 @@
             <category term="Гайд"/>
             <category term="Блог"/>
 
-        <updated>2020-06-11T20:05:00+07:00</updated>
+        <updated>2020-06-22T17:42:00+07:00</updated>
             <summary>
                 <![CDATA[
                     Создать свой шаблон для Эгеи не так сложно как может показаться на первый взгляд. Давайте разберем основные принципы построения шаблона используя некоторые простые примеры. Пользовательские темы находятся в папке ../themes в корне блога. Создадим в этом каталоге папку и назовем её так, как хотим чтобы&hellip;
@@ -68,100 +68,100 @@
 <p class="msg msg--warning">Чтобы внести изменения в стандартные шаблоны Эгеи, скопируйте необходимый файл из <code class="highlighter-rouge">../system/theme/templates</code> в папку <code>templates</code> вашей темы и уже там производите все изменения. Вносить правки в системной папке не стоит, так как после обновления движка все изменения исчезнут.</p>
 <p>Теперь стоит подробнее разобрать содержимое <code>../system/theme/templates</code>, для наглядности того, как выглядит тот или иной элемент в живую, я добавила соответствующие файлам скриншоты.</p>
 <section class="section-x9h4d4 width-wide">
-<figure class="post__image"><img src="https://fixel.ru/media/posts/24/26.png" alt="">
+<figure class="post__image"><img loading="lazy" src="https://fixel.ru/media/posts/24/26.png" alt="">
 <figcaption>user-picture.tmpl.php — Аватар блога.</figcaption>
 </figure>
-<figure class="post__image"><img src="https://fixel.ru/media/posts/24/01.png" width="" height="">
+<figure class="post__image"><img loading="lazy" src="https://fixel.ru/media/posts/24/01.png" width="" height="">
 <figcaption>author-menu.tmpl.php — Меню автора.</figcaption>
 </figure>
-<figure class="post__image"><img src="https://fixel.ru/media/posts/24/25.png" alt="">
+<figure class="post__image"><img loading="lazy" src="https://fixel.ru/media/posts/24/25.png" alt="">
 <figcaption>search-heading.tmpl.php — Форма поиска.</figcaption>
 </figure>
-<figure class="post__image"><img src="https://fixel.ru/media/posts/24/20.png" alt="">
+<figure class="post__image"><img loading="lazy" src="https://fixel.ru/media/posts/24/20.png" alt="">
 <figcaption>notes.tmpl.php — Пост.</figcaption>
 </figure>
-<figure class="post__image"><img src="https://fixel.ru/media/posts/24/23-3.png" alt="">
+<figure class="post__image"><img loading="lazy" src="https://fixel.ru/media/posts/24/23-3.png" alt="">
 <figcaption>pages.tmpl.php — Навигация между постами.</figcaption>
 </figure>
-<figure class="post__image"><img src="https://fixel.ru/media/posts/24/02-3.png" alt="">
+<figure class="post__image"><img loading="lazy" src="https://fixel.ru/media/posts/24/02-3.png" alt="">
 <figcaption>comments-heading.tmpl.php — Заголовок списка комментариев с счетчиком их количества.</figcaption>
 </figure>
-<figure class="post__image"><img src="https://fixel.ru/media/posts/24/03-2.png" alt="">
+<figure class="post__image"><img loading="lazy" src="https://fixel.ru/media/posts/24/03-2.png" alt="">
 <figcaption>comments.tmpl.php — Список комментариев.</figcaption>
 </figure>
-<figure class="post__image"><img src="https://fixel.ru/media/posts/24/05-2.png" alt="">
+<figure class="post__image"><img loading="lazy" src="https://fixel.ru/media/posts/24/05-2.png" alt="">
 <figcaption>form-comment.tmpl.php — Форма комментария.</figcaption>
 </figure>
-<figure class="post__image"><img src="https://fixel.ru/media/posts/24/19-2.png" alt="">
+<figure class="post__image"><img loading="lazy" src="https://fixel.ru/media/posts/24/19-2.png" alt="">
 <figcaption>form-comment-reply.tmpl.php — Форма ответа на комментарий.</figcaption>
 </figure>
-<figure class="post__image"><img src="https://fixel.ru/media/posts/24/24.png" alt="">
+<figure class="post__image"><img loading="lazy" src="https://fixel.ru/media/posts/24/24.png" alt="">
 <figcaption >popular.tmpl.php — Блок популярных постов.</figcaption>
 </figure>
-<figure class="post__image"><img src="https://fixel.ru/media/posts/24/21-2.png" alt="">
+<figure class="post__image"><img loading="lazy" src="https://fixel.ru/media/posts/24/21-2.png" alt="">
 <figcaption>pages-earlier.tmpl.php — Кнопка к постам «Ранее».</figcaption>
 </figure>
-<figure class="post__image"><img src="https://fixel.ru/media/posts/24/22-2.png" alt="">
+<figure class="post__image"><img loading="lazy" src="https://fixel.ru/media/posts/24/22-2.png" alt="">
 <figcaption>pages-later.tmpl.php — Кнопка к постам «Позднее».</figcaption>
 </figure>
-<figure class="post__image"><img src="https://fixel.ru/media/posts/24/27-2.png" alt="">
+<figure class="post__image"><img loading="lazy" src="https://fixel.ru/media/posts/24/27-2.png" alt="">
 <figcaption>notes-list.tmpl.php — Список всех постов блога.</figcaption>
 </figure>
-<figure class="post__image"><img src="https://fixel.ru/media/posts/24/17-2.png" alt="">
+<figure class="post__image"><img loading="lazy" src="https://fixel.ru/media/posts/24/17-2.png" alt="">
 <figcaption>heading.tmpl.php — Заголовки на большинстве страниц.</figcaption>
 </figure>
-<figure class="post__image"><img src="https://fixel.ru/media/posts/24/11.png" alt="">
+<figure class="post__image"><img loading="lazy" src="https://fixel.ru/media/posts/24/11.png" alt="">
 <figcaption>form-note.tmpl.php — Форма публикации поста.</figcaption>
 </figure>
-<figure class="post__image"><img src="https://fixel.ru/media/posts/24/09.png" alt="">
+<figure class="post__image"><img loading="lazy" src="https://fixel.ru/media/posts/24/09.png" alt="">
 <figcaption>form-note-delete.tmpl.php — Форма удаления поста.</figcaption>
 </figure>
-<figure class="post__image"><img src="https://fixel.ru/media/posts/24/10-2.png" alt="">
+<figure class="post__image"><img loading="lazy" src="https://fixel.ru/media/posts/24/10-2.png" alt="">
 <figcaption>form-note-publish.tmpl.php — Кнопка публикации поста.</figcaption>
 </figure>
-<figure class="post__image"><img src="https://fixel.ru/media/posts/24/04-2.png" alt="">
+<figure class="post__image"><img loading="lazy" src="https://fixel.ru/media/posts/24/04-2.png" alt="">
 <figcaption>drafts.tmpl.php — Список черновиков.</figcaption>
 </figure>
-<figure class="post__image"><img src="https://fixel.ru/media/posts/24/14.png" alt="">
+<figure class="post__image"><img loading="lazy" src="https://fixel.ru/media/posts/24/14.png" alt="">
 <figcaption>form-preferences.tmpl.php — Форма общих настроек блога.</figcaption>
 </figure>
-<figure class="post__image"><img src="https://fixel.ru/media/posts/24/12-2.png" alt="">
+<figure class="post__image"><img loading="lazy" src="https://fixel.ru/media/posts/24/12-2.png" alt="">
 <figcaption>form-password.tmpl.php — Форма смены админ-пароля.</figcaption>
 </figure>
-<figure class="post__image"><img src="https://fixel.ru/media/posts/24/06-2.png" alt="">
+<figure class="post__image"><img loading="lazy" src="https://fixel.ru/media/posts/24/06-2.png" alt="">
 <figcaption>form-database.tmpl.php — Форма подключения к базе данных.</figcaption>
 </figure>
-<figure class="post__image"><img src="https://fixel.ru/media/posts/24/30.png" alt="">
+<figure class="post__image"><img loading="lazy" src="https://fixel.ru/media/posts/24/30.png" alt="">
 <figcaption >sessions.tmpl.php — Список текущих сессий.</figcaption>
 </figure>
-<figure class="post__image"><img src="https://fixel.ru/media/posts/24/07-2.png" alt="">
+<figure class="post__image"><img loading="lazy" src="https://fixel.ru/media/posts/24/07-2.png" alt="">
 <figcaption>form-install.tmpl.php — Форма установки Эгеи.</figcaption>
 </figure>
-<figure class="post__image"><img src="https://fixel.ru/media/posts/24/08.png" alt="">
+<figure class="post__image"><img loading="lazy" src="https://fixel.ru/media/posts/24/08.png" alt="">
 <figcaption>form-login.tmpl.php — Форма авторизации.</figcaption>
 </figure>
-<figure class="post__image"><img src="https://fixel.ru/media/posts/24/28.png" alt="">
+<figure class="post__image"><img loading="lazy" src="https://fixel.ru/media/posts/24/28.png" alt="">
 <figcaption >tags.tmpl.php — Список всех тегов блога.</figcaption>
 </figure>
-<figure class="post__image"><img src="https://fixel.ru/media/posts/24/15.png" alt="">
+<figure class="post__image"><img loading="lazy" src="https://fixel.ru/media/posts/24/15.png" alt="">
 <figcaption>form-tag.tmpl.php — Форма редактирования тега.</figcaption>
 </figure>
-<figure class="post__image"><img src="https://fixel.ru/media/posts/24/16.png" alt="">
+<figure class="post__image"><img loading="lazy" src="https://fixel.ru/media/posts/24/16.png" alt="">
 <figcaption>form-tag-delete.tmpl.php — Форма удаления тега.</figcaption>
 </figure>
-<figure class="post__image"><img src="https://fixel.ru/media/posts/24/29-3.png" alt="">
+<figure class="post__image"><img loading="lazy" src="https://fixel.ru/media/posts/24/29-3.png" alt="">
 <figcaption>tags-menu.tmpl.php — Меню избранных тегов.</figcaption>
 </figure>
-<figure class="post__image"><img src="https://fixel.ru/media/posts/24/33.png" alt="">
+<figure class="post__image"><img loading="lazy" src="https://fixel.ru/media/posts/24/33.png" alt="">
 <figcaption>form-search.tmpl.php — Форма поиска на странице поиска.</figcaption>
 </figure>
-<figure class="post__image"><img src="https://fixel.ru/media/posts/24/18-2.png" alt="">
+<figure class="post__image"><img loading="lazy" src="https://fixel.ru/media/posts/24/18-2.png" alt="">
 <figcaption>login-element.tmpl.php — Кнопка авторизации в футере.</figcaption>
 </figure>
-<figure class="post__image"><img src="https://fixel.ru/media/posts/24/31-3.png" alt="">
+<figure class="post__image"><img loading="lazy" src="https://fixel.ru/media/posts/24/31-3.png" alt="">
 <figcaption>form-password-reset-email.tmpl.php — Страница сброса пароля.</figcaption>
 </figure>
-<figure class="post__image"><img src="https://fixel.ru/media/posts/24/32-2.png" alt="">
+<figure class="post__image"><img loading="lazy" src="https://fixel.ru/media/posts/24/32-2.png" alt="">
 <figcaption>layout.tmpl.php — Основная разметка шаблона внутри body, здесь подключаются другие части шаблона.<br>main.tmpl.php — Разметка внутри html, здесь подключается head.tmpl.php содержащий метатеги, сам layout.tmpl.php, js и css.</figcaption>
 </figure>
 </section>
@@ -193,17 +193,20 @@
             <category term="Заказ"/>
             <category term="Верстка"/>
 
-        <updated>2020-06-11T00:38:13+07:00</updated>
+        <updated>2020-06-22T17:42:00+07:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://fixel.ru/media/posts/22/cover.png" alt="" />
-                    [{"id":1555941466744,"type":"publii-paragraph","content":"Вёрстка лендинга ГК Маленький Принц","config":{"textAlign":"left","advanced":{"style":"","cssClasses":"","id":""}}}]
+                     Вёрстка лендинга ГК Маленький Принц 
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
                     <img src="https://fixel.ru/media/posts/22/cover.png" alt="" />
-                [{"id":1555941466744,"type":"publii-paragraph","content":"Вёрстка лендинга ГК Маленький Принц","config":{"textAlign":"left","advanced":{"style":"","cssClasses":"","id":""}}}]
+                
+  <p>
+    Вёрстка лендинга ГК Маленький Принц
+  </p>
             ]]>
         </content>
     </entry>
@@ -219,17 +222,20 @@
             <category term="Дизайн"/>
             <category term="Верстка"/>
 
-        <updated>2020-06-11T00:48:35+07:00</updated>
+        <updated>2020-06-22T17:42:00+07:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://fixel.ru/media/posts/21/cover.png" alt="" />
-                    [{"id":1555941466744,"type":"publii-paragraph","content":"Разработка дизайна и вёрстка шаблона для блога на Эгее","config":{"textAlign":"left","advanced":{"style":"","cssClasses":"","id":""}}}]
+                     Разработка дизайна и вёрстка шаблона для блога на Эгее 
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
                     <img src="https://fixel.ru/media/posts/21/cover.png" alt="" />
-                [{"id":1555941466744,"type":"publii-paragraph","content":"Разработка дизайна и вёрстка шаблона для блога на Эгее","config":{"textAlign":"left","advanced":{"style":"","cssClasses":"","id":""}}}]
+                
+  <p>
+    Разработка дизайна и вёрстка шаблона для блога на Эгее
+  </p>
             ]]>
         </content>
     </entry>
@@ -244,17 +250,20 @@
             <category term="Заказ"/>
             <category term="Верстка"/>
 
-        <updated>2020-06-11T00:41:03+07:00</updated>
+        <updated>2020-06-22T17:42:00+07:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://fixel.ru/media/posts/20/cover.png" alt="" />
-                    [{"id":1555941466744,"type":"publii-paragraph","content":"Вёрстка лендинга бизнес-центра Волкова 20","config":{"textAlign":"left","advanced":{"style":"","cssClasses":"","id":""}}}]
+                     Вёрстка лендинга бизнес-центра Волкова 20 
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
                     <img src="https://fixel.ru/media/posts/20/cover.png" alt="" />
-                [{"id":1555941466744,"type":"publii-paragraph","content":"Вёрстка лендинга бизнес-центра Волкова 20","config":{"textAlign":"left","advanced":{"style":"","cssClasses":"","id":""}}}]
+                
+  <p>
+    Вёрстка лендинга бизнес-центра Волкова 20
+  </p>
             ]]>
         </content>
     </entry>
@@ -269,17 +278,20 @@
             <category term="Заказ"/>
             <category term="Верстка"/>
 
-        <updated>2020-06-11T00:41:16+07:00</updated>
+        <updated>2020-06-22T17:42:00+07:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://fixel.ru/media/posts/19/cover.png" alt="" />
-                    [{"id":1555941466744,"type":"publii-paragraph","content":"Вёрстка сайта Грибовский лес","config":{"textAlign":"left","advanced":{"style":"","cssClasses":"","id":""}}}]
+                     Вёрстка сайта Грибовский лес 
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
                     <img src="https://fixel.ru/media/posts/19/cover.png" alt="" />
-                [{"id":1555941466744,"type":"publii-paragraph","content":"Вёрстка сайта Грибовский лес","config":{"textAlign":"left","advanced":{"style":"","cssClasses":"","id":""}}}]
+                
+  <p>
+    Вёрстка сайта Грибовский лес
+  </p>
             ]]>
         </content>
     </entry>
@@ -294,17 +306,20 @@
             <category term="Заказ"/>
             <category term="Верстка"/>
 
-        <updated>2020-06-11T00:41:42+07:00</updated>
+        <updated>2020-06-22T17:42:00+07:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://fixel.ru/media/posts/18/cover.png" alt="" />
-                    [{"id":1555941466744,"type":"publii-paragraph","content":"Вёрстка сайта&nbsp;Интелдома","config":{"textAlign":"left","advanced":{"style":"","cssClasses":"","id":""}}}]
+                     Вёрстка сайта&nbsp;Интелдома 
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
                     <img src="https://fixel.ru/media/posts/18/cover.png" alt="" />
-                [{"id":1555941466744,"type":"publii-paragraph","content":"Вёрстка сайта&nbsp;Интелдома","config":{"textAlign":"left","advanced":{"style":"","cssClasses":"","id":""}}}]
+                
+  <p>
+    Вёрстка сайта&nbsp;Интелдома
+  </p>
             ]]>
         </content>
     </entry>
@@ -317,15 +332,35 @@
         <id>https://fixel.ru/streamlabs-chatbot-tekushchiy-muzykalnyy-trek-po-komande-v-chate/</id>
             <category term="Блог"/>
 
-        <updated>2020-06-18T06:51:09+07:00</updated>
+        <updated>2020-06-22T17:42:00+07:00</updated>
             <summary>
                 <![CDATA[
-                    [{"id":1555941466744,"type":"publii-paragraph","content":"Если вы проигрываете фоновую музыку на стриме из сервиса Яндекс.Музыки или Вконтакте, а зрители достают вас вопросом о том, какой трек сейчас играет, есть небольшое решение для Streamlabs Chatbot.","config":{"textAlign":"left","advanced":{"style":"","cssClasses":"","id":""}}},{"id":1587305728397,"type":"publii-list","content":"Для начала вам понадобится аккаунт на last.fm, создаем аккаунт, если у вас его всё ещё нет. Для&hellip;
+                     Если вы проигрываете фоновую музыку на стриме из сервиса Яндекс.Музыки или Вконтакте, а зрители достают вас вопросом о том, какой трек сейчас играет, есть небольшое решение для Streamlabs Chatbot. Пример настройки команды: А здесь можно почитать о настройках самого Streamlabs Chatbot. 
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
-                [{"id":1555941466744,"type":"publii-paragraph","content":"Если вы проигрываете фоновую музыку на стриме из сервиса Яндекс.Музыки или Вконтакте, а зрители достают вас вопросом о том, какой трек сейчас играет, есть небольшое решение для Streamlabs Chatbot.","config":{"textAlign":"left","advanced":{"style":"","cssClasses":"","id":""}}},{"id":1587305728397,"type":"publii-list","content":"<li>Для начала вам понадобится аккаунт на <a href=\"http://last.fm/\" target=\"_blank\" rel=\"nofollow noopener\">last.fm</a>, создаем аккаунт, если у вас его всё ещё нет. Для справки — last.fm с помощью плагинов к медиаплеерам собирает информацию о музыке, которую слушают пользователи, и на основе полученных данных автоматически составляет индивидуальные и общие чарты.</li><li>Устанавливаем плагин <a href=\"https://chrome.google.com/webstore/detail/web-scrobbler/hhinaapppaileiechjoiifaancjggfjm\" target=\"_blank\" rel=\"nofollow noopener\">Web Scrobbler</a> для Google Chrome (Яндекс Браузера или любого другого браузера на Chromium).<br></li><li>Авторизуем свой last.fm аккаунт в настройках плагина, чтобы он мог записывать названия проигрываемых треков в last.fm.<br></li><li>Скачиваем небольшую программу — <a href=\"https://1drv.ms/u/s!AtOfM9gO7YTanxLJf6ZW4DBe2pyK\" target=\"_blank\" rel=\"nofollow noopener\">NPviaLFM</a>, которая записывает название проигрываемого трека в файл. При первом запуске вводим свой логин из last.fm. Теперь NPviaLFM будет создавать файл <code>now playing.txt</code> рядом со своим exe файлом. Можно поместить NPviaLFM в папку со Streamlabs Chatbot.<br></li><li>Теперь в Streamlabs Chatbot достаточно создать команду чтения строки из файла. Переменная <code>$readline()</code> для вывода информации из текстового файла. Например Сейчас играет - <code>$readline(D:\\Program\\Streamlabs Chatbot\\Scrobbler\\now playing.txt)</code><br></li>","config":{"listType":"ol","advanced":{"cssClasses":"","id":""},"link":{"url":"https://1drv.ms/u/s!AtOfM9gO7YTanxLJf6ZW4DBe2pyK","noFollow":true,"targetBlank":true,"sponsored":false,"ugc":false,"download":false}}},{"id":1587306714519,"type":"publii-paragraph","content":"Пример настройки команды:","config":{"textAlign":"left","advanced":{"style":"","cssClasses":"","id":""}}},{"id":1587320438040,"type":"publii-image","content":{"image":"https://fixel.ru/media/posts/4/01.png","imageHeight":767,"imageWidth":1218,"alt":"","caption":""},"config":{"imageAlign":"wide","link":{"url":"","noFollow":false,"targetBlank":false,"sponsored":false,"ugc":false},"advanced":{"cssClasses":"","id":""}}},{"id":1587320452588,"type":"publii-paragraph","content":"А <a href=\"https://fixel.ru/streamlabs-chatbot-ustanovka-i-nastroyka/\" target=\"_blank\">здесь</a> можно почитать о настройках самого Streamlabs Chatbot.","config":{"textAlign":"left","advanced":{"style":"","cssClasses":"","id":""},"link":{"url":"https://fixel.ru/streamlabs-chatbot-ustanovka-i-nastroyka/","noFollow":false,"targetBlank":true,"sponsored":false,"ugc":false,"download":false}}}]
+                
+  <p>
+    Если вы проигрываете фоновую музыку на стриме из сервиса Яндекс.Музыки или Вконтакте, а зрители достают вас вопросом о том, какой трек сейчас играет, есть небольшое решение для Streamlabs Chatbot.
+  </p>
+
+  <ol>
+    <li>Для начала вам понадобится аккаунт на <a href="http://last.fm/" target="_blank" rel="nofollow noopener">last.fm</a>, создаем аккаунт, если у вас его всё ещё нет. Для справки — last.fm с помощью плагинов к медиаплеерам собирает информацию о музыке, которую слушают пользователи, и на основе полученных данных автоматически составляет индивидуальные и общие чарты.</li><li>Устанавливаем плагин <a href="https://chrome.google.com/webstore/detail/web-scrobbler/hhinaapppaileiechjoiifaancjggfjm" target="_blank" rel="nofollow noopener">Web Scrobbler</a> для Google Chrome (Яндекс Браузера или любого другого браузера на Chromium).<br></li><li>Авторизуем свой last.fm аккаунт в настройках плагина, чтобы он мог записывать названия проигрываемых треков в last.fm.<br></li><li>Скачиваем небольшую программу — <a href="https://1drv.ms/u/s!AtOfM9gO7YTanxLJf6ZW4DBe2pyK" target="_blank" rel="nofollow noopener">NPviaLFM</a>, которая записывает название проигрываемого трека в файл. При первом запуске вводим свой логин из last.fm. Теперь NPviaLFM будет создавать файл <code>now playing.txt</code> рядом со своим exe файлом. Можно поместить NPviaLFM в папку со Streamlabs Chatbot.<br></li><li>Теперь в Streamlabs Chatbot достаточно создать команду чтения строки из файла. Переменная <code>$readline()</code> для вывода информации из текстового файла. Например Сейчас играет - <code>$readline(D:\Program\Streamlabs Chatbot\Scrobbler\now playing.txt)</code><br></li>
+  </ol>
+
+  <p>
+    Пример настройки команды:
+  </p>
+
+    <figure class="post__image post__image--wide">
+      <img loading="lazy" src="https://fixel.ru/media/posts/4/01.png" height="767" width="1218" alt="" />
+      
+    </figure>
+
+  <p>
+    А <a href="https://fixel.ru/streamlabs-chatbot-ustanovka-i-nastroyka/" target="_blank">здесь</a> можно почитать о настройках самого Streamlabs Chatbot.
+  </p>
             ]]>
         </content>
     </entry>
@@ -340,17 +375,20 @@
             <category term="Заказ"/>
             <category term="Верстка"/>
 
-        <updated>2020-06-11T00:42:00+07:00</updated>
+        <updated>2020-06-22T17:42:00+07:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://fixel.ru/media/posts/17/cover.png" alt="" />
-                    [{"id":1555941466744,"type":"publii-paragraph","content":"Вёрстка сайта офисно-складского комплекса&nbsp;Колесо","config":{"textAlign":"left","advanced":{"style":"","cssClasses":"","id":""}}}]
+                     Вёрстка сайта офисно-складского комплекса&nbsp;Колесо 
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
                     <img src="https://fixel.ru/media/posts/17/cover.png" alt="" />
-                [{"id":1555941466744,"type":"publii-paragraph","content":"Вёрстка сайта офисно-складского комплекса&nbsp;Колесо","config":{"textAlign":"left","advanced":{"style":"","cssClasses":"","id":""}}}]
+                
+  <p>
+    Вёрстка сайта офисно-складского комплекса&nbsp;Колесо
+  </p>
             ]]>
         </content>
     </entry>
@@ -363,15 +401,22 @@
         <id>https://fixel.ru/streamlabs-chatbot-ozvuchivanie-vydelennogo-soobshcheniya-na-twitch/</id>
             <category term="Блог"/>
 
-        <updated>2020-05-16T17:45:59+07:00</updated>
+        <updated>2020-06-22T17:42:00+07:00</updated>
             <summary>
                 <![CDATA[
-                    [{"id":1555941466744,"type":"publii-paragraph","content":"Для Streamlabs Chatbot существует скрипт TheNewTTS, он позволяет боту озвучивать сообщения из чата Твича голосами Google. С появлением баллов канала, некоторые стримеры обзавелись возможностью озвучивания выделенных сообщений, чтобы иметь такую возможность у себя, я слегка дописала плагин TheNewTTS и опубликовала его на GitHub. Теперь, если&hellip;
+                     Для Streamlabs Chatbot существует скрипт TheNewTTS, он позволяет боту озвучивать сообщения из чата Твича голосами Google. С появлением баллов канала, некоторые стримеры обзавелись возможностью озвучивания выделенных сообщений, чтобы иметь такую возможность у себя, я слегка дописала плагин TheNewTTS и опубликовала его на GitHub. Теперь,&hellip;
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
-                [{"id":1555941466744,"type":"publii-paragraph","content":"Для Streamlabs Chatbot существует скрипт TheNewTTS, он позволяет боту озвучивать сообщения из чата Твича голосами Google. С появлением баллов канала, некоторые стримеры обзавелись возможностью озвучивания выделенных сообщений, чтобы иметь такую возможность у себя, я слегка дописала плагин TheNewTTS и опубликовала его <a href=\"https://github.com/sashatravkina/slcb-script-thepointstts/\" target=\"_blank\" rel=\"nofollow noopener\">на GitHub</a>. Теперь, если в настройках плагина не включена функция «Озвучивать всё», он будет озвучивать только те самые, выделенные за баллы канала, сообщения чата.","config":{"textAlign":"left","advanced":{"style":"","cssClasses":"","id":""},"link":{"url":"","noFollow":false,"targetBlank":false,"sponsored":false,"ugc":false,"download":false}}},{"id":1587302964951,"type":"publii-paragraph","content":"<a href=\"https://github.com/sashatravkina/slcb-script-thepointstts/archive/master.zip\" target=\"_blank\"><strong>Скачать скрипт</strong></a>, смотреть <a href=\"https://www.youtube.com/watch?v=l3FBpY-0880&amp;t=3s\" target=\"_blank\" rel=\"nofollow noopener\">как устанавливать скрипты</a> в Streamlabs Chatbot. Не забудьте переименовать папку скрипта в ThePointsTTS.","config":{"textAlign":"left","advanced":{"style":"","cssClasses":"","id":""},"link":{"url":"https://www.youtube.com/watch?v=l3FBpY-0880&t=3s","noFollow":true,"targetBlank":true,"sponsored":false,"ugc":false,"download":false}}}]
+                
+  <p>
+    Для Streamlabs Chatbot существует скрипт TheNewTTS, он позволяет боту озвучивать сообщения из чата Твича голосами Google. С появлением баллов канала, некоторые стримеры обзавелись возможностью озвучивания выделенных сообщений, чтобы иметь такую возможность у себя, я слегка дописала плагин TheNewTTS и опубликовала его <a href="https://github.com/sashatravkina/slcb-script-thepointstts/" target="_blank" rel="nofollow noopener">на GitHub</a>. Теперь, если в настройках плагина не включена функция «Озвучивать всё», он будет озвучивать только те самые, выделенные за баллы канала, сообщения чата.
+  </p>
+
+  <p>
+    <a href="https://github.com/sashatravkina/slcb-script-thepointstts/archive/master.zip" target="_blank"><strong>Скачать скрипт</strong></a>, смотреть <a href="https://www.youtube.com/watch?v=l3FBpY-0880&amp;t=3s" target="_blank" rel="nofollow noopener">как устанавливать скрипты</a> в Streamlabs Chatbot. Не забудьте переименовать папку скрипта в ThePointsTTS.
+  </p>
             ]]>
         </content>
     </entry>
