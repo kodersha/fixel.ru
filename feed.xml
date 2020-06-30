@@ -20,7 +20,7 @@
             <category term="Гайд"/>
             <category term="Блог"/>
 
-        <updated>2020-06-22T17:42:00+07:00</updated>
+        <updated>2020-07-01T01:00:19+07:00</updated>
             <summary>
                 <![CDATA[
                     Заметки на полях, или же маргиналии, добавить в Эгею можно небольшим CSS кодом. @media screen and (min-width: 1050px) { .e2-text .aside { position: relative; text-align: left; max-width: 200px; margin-left: 4%; margin-top: .15em; float: right; clear: right; } } .e2-text .aside { line-height: 1.4; font-size: 0.875em;&hellip;
@@ -32,10 +32,10 @@
 <pre class="language-css">@media screen and (min-width: 1050px) {<br>    .e2-text .aside {<br>        position: relative;<br>        text-align: left;<br>        max-width: 200px;<br>        margin-left: 4%;<br>        margin-top: .15em;<br>        float: right;<br>        clear: right;<br>    }<br>}<br>.e2-text .aside {<br>    line-height: 1.4;<br>    font-size: 0.875em;<br>    color: #4A4A4A;<br>}</pre>
 <p>Этот CSS можно добавить в конец файла <code>../styles/main.css</code>, который находится в папке с вашей темой Эгеи. Но лучше создать свой файл стилей в папке <code>styles</code>, назвав его, например <code>custom.css</code> и подключить его к теме. Для этого скопируйте из <code>./system/theme/templates</code> файл <code>main.tmpl.php</code> в папку <code>templates</code> вашей темы (Если папки нет, создайте её) и добавьте в конец этого файла, после <code>&lt;?php _CSS ('main') ?&gt;</code> макрос:</p>
 <pre class="language-php">&lt;?php _CSS ('custom') ?&gt;</pre>
-<p>Это позволит безопасно дополнять свою тему стилями, не рискуя потерять внесенные изменения после очередного обновления движка. Подробнее, о том как редактировать шаблоны в Эгее, написано в <a href="https://fixel.ru/kak-sozdat-svoy-shablon-dlya-egei/">этом посте</a>.</p>
-<p>Теперь, при написании очередного поста, достаточно использовать эгеевский язык разметки, этот тег добавит заметку справа от следующего за ним абзаца:</p>
+<p>Это позволит безопасно дополнять свою тему стилями, не рискуя потерять внесенные изменения после очередного обновления движка. Подробнее, о том как редактировать шаблоны в Эгее, рассказано в <a href="https://fixel.ru/kak-sozdat-svoy-shablon-dlya-egei/">предыдущем посте</a>.</p>
+<p>Теперь, при написании очередной статьи в блог, достаточно использовать эгеевский язык разметки. Этот тег добавит заметку справа от следующего за ним абзаца:</p>
 <pre class="language-html">.aside Текст заметки на полях</pre>
-<p>Ещё в редакторе заметку можно добавить html кодом, иногда это полезно, так как Эгея не поддерживает изображения внутри тегов.</p>
+<p>Ещё заметку в редакторе можно добавить html кодом, иногда это полезно, так как Эгея, например, не поддерживает изображения внутри тегов.</p>
 <pre class="language-html">&lt;p class="aside"&gt;Текст заметки на полях&lt;/p&gt;</pre>
             ]]>
         </content>
@@ -51,7 +51,7 @@
             <category term="Гайд"/>
             <category term="Блог"/>
 
-        <updated>2020-06-22T17:42:00+07:00</updated>
+        <updated>2020-07-01T01:00:19+07:00</updated>
             <summary>
                 <![CDATA[
                     Создать свой шаблон для Эгеи не так сложно как может показаться на первый взгляд. Давайте разберем основные принципы построения шаблона используя некоторые простые примеры. Пользовательские темы находятся в папке ../themes в корне блога. Создадим в этом каталоге папку и назовем её так, как хотим чтобы&hellip;
@@ -193,7 +193,7 @@
             <category term="Заказ"/>
             <category term="Верстка"/>
 
-        <updated>2020-06-22T17:42:00+07:00</updated>
+        <updated>2020-07-01T01:00:19+07:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://fixel.ru/media/posts/22/cover.png" alt="" />
@@ -222,7 +222,7 @@
             <category term="Дизайн"/>
             <category term="Верстка"/>
 
-        <updated>2020-06-22T17:42:00+07:00</updated>
+        <updated>2020-07-01T01:00:19+07:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://fixel.ru/media/posts/21/cover.png" alt="" />
@@ -250,7 +250,7 @@
             <category term="Заказ"/>
             <category term="Верстка"/>
 
-        <updated>2020-06-22T17:42:00+07:00</updated>
+        <updated>2020-07-01T01:00:19+07:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://fixel.ru/media/posts/20/cover.png" alt="" />
@@ -278,7 +278,7 @@
             <category term="Заказ"/>
             <category term="Верстка"/>
 
-        <updated>2020-06-22T17:42:00+07:00</updated>
+        <updated>2020-07-01T01:00:19+07:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://fixel.ru/media/posts/19/cover.png" alt="" />
@@ -306,7 +306,7 @@
             <category term="Заказ"/>
             <category term="Верстка"/>
 
-        <updated>2020-06-22T17:42:00+07:00</updated>
+        <updated>2020-07-01T01:00:19+07:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://fixel.ru/media/posts/18/cover.png" alt="" />
@@ -332,7 +332,7 @@
         <id>https://fixel.ru/streamlabs-chatbot-tekushchiy-muzykalnyy-trek-po-komande-v-chate/</id>
             <category term="Блог"/>
 
-        <updated>2020-06-22T17:42:00+07:00</updated>
+        <updated>2020-07-01T01:00:19+07:00</updated>
             <summary>
                 <![CDATA[
                      Если вы проигрываете фоновую музыку на стриме из сервиса Яндекс.Музыки или Вконтакте, а зрители достают вас вопросом о том, какой трек сейчас играет, есть небольшое решение для Streamlabs Chatbot. Пример настройки команды: А здесь можно почитать о настройках самого Streamlabs Chatbot. 
@@ -375,7 +375,7 @@
             <category term="Заказ"/>
             <category term="Верстка"/>
 
-        <updated>2020-06-22T17:42:00+07:00</updated>
+        <updated>2020-07-01T01:00:19+07:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://fixel.ru/media/posts/17/cover.png" alt="" />
@@ -401,21 +401,64 @@
         <id>https://fixel.ru/streamlabs-chatbot-ozvuchivanie-vydelennogo-soobshcheniya-na-twitch/</id>
             <category term="Блог"/>
 
-        <updated>2020-06-22T17:42:00+07:00</updated>
+        <updated>2020-07-01T01:00:19+07:00</updated>
             <summary>
                 <![CDATA[
-                     Для Streamlabs Chatbot существует скрипт TheNewTTS, он позволяет боту озвучивать сообщения из чата Твича голосами Google. С появлением баллов канала, некоторые стримеры обзавелись возможностью озвучивания выделенных сообщений, чтобы иметь такую возможность у себя, я слегка дописала плагин TheNewTTS и опубликовала его на GitHub. Теперь,&hellip;
+                     Для Streamlabs Chatbot существует скрипт TheNewTTS, он позволяет боту озвучивать сообщения из чата твича голосами Google. С появлением баллов канала, некоторые стримеры обзавелись возможностью озвучивания выделенных сообщений, чтобы иметь такую возможность у себя, я слегка дописала плагин TheNewTTS и опубликовала его на GitHub. Теперь,&hellip;
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
                 
   <p>
-    Для Streamlabs Chatbot существует скрипт TheNewTTS, он позволяет боту озвучивать сообщения из чата Твича голосами Google. С появлением баллов канала, некоторые стримеры обзавелись возможностью озвучивания выделенных сообщений, чтобы иметь такую возможность у себя, я слегка дописала плагин TheNewTTS и опубликовала его <a href="https://github.com/sashatravkina/slcb-script-thepointstts/" target="_blank" rel="nofollow noopener">на GitHub</a>. Теперь, если в настройках плагина не включена функция «Озвучивать всё», он будет озвучивать только те самые, выделенные за баллы канала, сообщения чата.
+    Для Streamlabs Chatbot существует скрипт TheNewTTS, он позволяет боту озвучивать сообщения из чата твича голосами Google. С появлением баллов канала, некоторые стримеры обзавелись возможностью озвучивания выделенных сообщений, чтобы иметь такую возможность у себя, я слегка дописала плагин TheNewTTS и опубликовала его <a href="https://github.com/sashatravkina/slcb-script-thepointstts/" target="_blank" rel="nofollow noopener">на GitHub</a>. Теперь, если в настройках плагина не включена функция «Озвучивать всё», он будет озвучивать только те самые, выделенные за баллы канала, сообщения чата.
   </p>
 
   <p>
-    <a href="https://github.com/sashatravkina/slcb-script-thepointstts/archive/master.zip" target="_blank"><strong>Скачать скрипт</strong></a>, смотреть <a href="https://www.youtube.com/watch?v=l3FBpY-0880&amp;t=3s" target="_blank" rel="nofollow noopener">как устанавливать скрипты</a> в Streamlabs Chatbot. Не забудьте переименовать папку скрипта в ThePointsTTS.
+    <a href="https://github.com/sashatravkina/slcb-script-thepointstts/archive/master.zip" target="_blank">Скачать скрипт</a>. Не забудьте переименовать папку в <code>ThePointsTTS</code> после распаковки архива. В настройках скрипта, во вкладке <code>TTS Configuration</code>, выберете русский язык озвучки.
+  </p>
+
+    <h2 id="--ivona-maxim">
+      Озвучивание голосом IVONA Maxim
+    </h2>
+
+  <p>
+    TTS Alerts and Chat&nbsp;— похожий на предыдущий скрипт,&nbsp;но с поддержкой голоса IVONA Maxim. Имеет возможность озвучивания сообщений за баллы канала,&nbsp;по команде чата и ещё огромное количество разнообразных настроек, в том числе для юутуба и миксера.
+  </p>
+
+  <p>
+    Для использования голоса&nbsp;IVONA придется&nbsp;купить (Или <a href="https://rutracker.org/forum/viewtopic.php?t=5305939" target="_blank" class="" rel="nofollow noopener">скачать</a>) отдельную программу Speech2Go. В настройках самого скрипта, в разделе <code>TTS Command</code>, можно указать количество баллов, которое будет использоваться для озвучивания сообщений. Например, если указать 250 баллов и создать в настройках канала отдельную награду, стоимостью 250 баллов, скрипт станет озвучивать сообщения отправленные именно из этой награды.
+  </p>
+
+  <p>
+    <a href="https://github.com/Kruiser8/TTS-Alerts-And-Chat/releases/download/1.1.4/TTSAlertsAndChat.zip" target="_blank" rel="nofollow noopener">Скачать скрипт</a>.
+  </p>
+
+    <h2 id="---">
+      Инструкция по установке скриптов
+    </h2>
+
+  <p>
+    Установите <a href="https://www.python.org/ftp/python/2.7.13/python-2.7.13.amd64.msi" target="_blank" rel="nofollow noopener">Python 2.7.13</a>, если не ставили его при установке Streamlabs Chatbot.&nbsp;Скачайте один из скриптов для&nbsp;озвучивания сообщений. Распакуйте архив и скопируйте его в папку <code>Scripts</code> вашего чат-бота. Обычно, если вы не меняли стандартную папку установки чат-бота, она находится по пути:
+  </p>
+<pre class="line-numbers  language-html"><code>C:\Program Files\Streamlabs Chatbot\Services\Scripts</code></pre>
+
+  <p>
+    Запустите&nbsp;Streamlabs Chatbot и откройте вкладку <code>Scripts</code>, нажмите на шестерёнку в правом верхнем углу окна.
+  </p>
+
+    <figure class="post__image post__image--center">
+      <img loading="lazy" src="https://fixel.ru/media/posts/3/01.png" height="813" width="1283" alt="" />
+      
+    </figure>
+
+  <p>
+    Укажите путь до папки <code>Lib</code> установленного Python 2.7.13 и перезапустите Streamlabs Chatbot. По умолчанию он устанавливается в корень диска <code>C</code>.
+  </p>
+<pre class="line-numbers  language-html"><code>C:\Python27\Lib</code></pre>
+
+  <p>
+    Также есть англоязычное&nbsp;<a href="https://www.youtube.com/watch?v=l3FBpY-0880&amp;t=3s" target="_blank" rel="nofollow noopener">наглядное видео</a>, о том как устанавливать скрипты в Streamlabs Chatbot. Ещё <a href="https://fixel.ru/streamlabs-chatbot-ustanovka-i-nastroyka/">можно почитать</a> о настройке и установке самого чат-бота.
   </p>
             ]]>
         </content>
