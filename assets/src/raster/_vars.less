@@ -18,7 +18,7 @@ Variables
     Veiwport-relative (100% / EMs-across-viewport) */
     --fontSize: calc(100vw / 80);
     
-    --fontWeight: 400;
+    --fontWeight: 300;
 }
 @media only screen and (max-width: @mobile-size) {
     :root {
@@ -26,7 +26,7 @@ Variables
     }
 }
 :root {
-    --sansFont: -apple-system, BlinkMacSystemFont, San Francisco, HelveticaNeue-Light, Helvetica Neue Light, Helvetica Neue, Segoe UI, Fira Sans, Roboto, Oxygen, Ubuntu, Droid Sans, Arial, sans-serif;
+    --sansFont: PT Sans, -apple-system, BlinkMacSystemFont, San Francisco, HelveticaNeue-Light, Helvetica Neue Light, Helvetica Neue, Segoe UI, Fira Sans, Roboto, Oxygen, Ubuntu, Droid Sans, Arial, sans-serif;
     --monoFont: Consolas, "Andale Mono WT", "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", "Liberation Mono", "Nimbus Mono L", Monaco, "Courier New", Courier, monospace;
 
     /* line height is the basis for vertical spacing */
@@ -60,7 +60,7 @@ Variables
     --foreground-color-rgb: 255, 255, 255;
     --foreground-color-a: 1;
     --foreground-color: rgba(var(--foreground-color-rgb), var(--foreground-color-a));
-    --background-color: rgb(10, 10, 10);
+    --background-color: rgb(11, 11, 11);
 
     /* Links */
 
@@ -70,7 +70,7 @@ Variables
 
 @supports (font-variation-settings: normal) {
     :root {
-        --sansFont: -apple-system, BlinkMacSystemFont, San Francisco, HelveticaNeue-Light, Helvetica Neue Light, Helvetica Neue, Segoe UI, Fira Sans, Roboto, Oxygen, Ubuntu, Droid Sans, Arial, sans-serif;;
+        --sansFont: PT Sans, -apple-system, BlinkMacSystemFont, San Francisco, HelveticaNeue-Light, Helvetica Neue Light, Helvetica Neue, Segoe UI, Fira Sans, Roboto, Oxygen, Ubuntu, Droid Sans, Arial, sans-serif;
         --monoFont: Consolas, "Andale Mono WT", "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", "Liberation Mono", "Nimbus Mono L", Monaco, "Courier New", Courier, monospace;
     }
 }
