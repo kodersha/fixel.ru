@@ -111,15 +111,9 @@ $(document).ready(function() {
     });
 });
 
-$(document).ready(function() {
-    AOS.init();
-})
-
 $(document).ready(function() { 
     hljs.configure ({ useBR: true }); 
-})
 
-$(document).ready(function() { 
     document.addEventListener('DOMContentLoaded', (event) => {
         document.querySelectorAll('pre').forEach((block) => {
             hljs.highlightBlock(block);
@@ -127,26 +121,32 @@ $(document).ready(function() {
     });
 })
 
-$(document).ready(function() { 
-    var slider = tns({
-        "container": ".slider > div",
-        "items": 1,
-        "nav": false,
-        "slideBy": "page",
-        "loop": true,
-        "edgePadding": 0,
-        "controlsContainer": ".control",
-        "prevButton": ".prev",
-        "nextButton": ".next",
-        "mouseDrag": true,
-        "swipeAngle": false,
-        "lazyload": true,
-        "speed": 300,
-        "responsive": {
-            "740": {
-                "edgePadding": 120,
-                "items": 2
-            }
+jQuery(function($) {
+
+    // Function which adds the 'animated' class to any '.animatable' in view
+    var doAnimations = function() {
+      
+        // Calc current offset and get all animatables
+        var offset = $(window).scrollTop() + $(window).height(),
+        $animatables = $('.animatable');
+        
+        // Unbind scroll handler if we have no animatables
+        if ($animatables.length == 0) {
+            $(window).off('scroll', doAnimations);
         }
-    });
-})
+        
+        // Check all animatables and animate them if necessary
+            $animatables.each(function(i) {
+            var $animatable = $(this);
+            if (($animatable.offset().top + $animatable.height() - 80) < offset) {
+                $animatable.removeClass('animatable').addClass('animated');
+            }
+        });
+        
+    };
+    
+    // Hook doAnimations on scroll, and trigger a scroll
+    $(window).on('scroll', doAnimations);
+    $(window).trigger('scroll');
+
+});
