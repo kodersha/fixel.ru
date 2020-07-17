@@ -124,7 +124,7 @@ article {
             font-family: var(--fontFamilySubTitle);
 
             margin-bottom: calc(var(--blockSpacingTop) / 2);
-            margin-left: calc(var(--h2-size) / 26);
+            margin-left: 0;
             margin-top: -0.3rem;
 
             a {
@@ -197,22 +197,6 @@ article {
                 time {
                     vertical-align: baseline;
                     color: var(--colorGray);
-                }
-            }
-        }
-        .readmore {
-            margin-top: calc(var(--blockSpacingTop) / 6);
-            color: var(--colorGray);
-    
-            @media only screen and (max-width: @mobile-size) {
-                margin-top: calc(var(--blockSpacingTop) / 3);
-            }
-    
-            a {
-                color: var(--colorGray);
-    
-                &:hover {
-                    color: var(--colorWhiteGray);
                 }
             }
         }
@@ -321,8 +305,8 @@ article {
     }
     h2 {
         margin-top: calc(var(--blockSpacingTop) * 2);
-        margin-left: calc(var(--h2-size) / 26);
-
+        margin-left: 0;
+        
         & + p {
             margin-top: calc(var(--blockSpacingTop) * 0.8);
         }
@@ -332,7 +316,7 @@ article {
     }
     h3 {
         margin-top: calc(var(--blockSpacingTop) * 1.8);
-        margin-left: calc(var(--h2-size) / 22);
+        margin-left: 0;
 
         & + p {
             margin-top: calc(var(--blockSpacingTop) * 0.8);
