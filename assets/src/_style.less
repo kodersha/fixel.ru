@@ -2,6 +2,11 @@
     outline: none;
 }
 
+body {
+    min-height: calc(100vh - var(--lineHeight) - calc(var(--lineHeight) * 3));
+    flex-direction: column;
+    display: flex;
+}
 a {
     -webkit-transition: color .3s, border-color .3s, background-color .3s, opacity .3s;
     -moz-transition: color .3s, border-color .3s, background-color .3s, opacity .3s;
@@ -306,7 +311,7 @@ article {
     h2 {
         margin-top: calc(var(--blockSpacingTop) * 2);
         margin-left: 0;
-        
+
         & + p {
             margin-top: calc(var(--blockSpacingTop) * 0.8);
         }
