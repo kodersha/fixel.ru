@@ -180,11 +180,13 @@ article {
                 font-size: var(--fontSize);
                 font-weight: var(--fontWeight);
                 letter-spacing: 0;
-
-                color: var(--colorWhiteGray);
     
                 a {
+                    border-bottom: 1px solid var(--linkBorderColor);
+                    color: var(--colorWhiteGray);
+            
                     &:hover {
+                        border-bottom-color: var(--linkBorderColorHover);
                         color: var(--colorBlue);
                     }
                 }
@@ -217,99 +219,6 @@ article {
     }
 }
 
-/* Mods */
-
-.mods {
-    article {
-        margin-bottom: 0;
-        margin-top: 0;
-
-        @media only screen and (max-width: @mobile-size) {
-            margin-top: 1rem;
-
-            &:first-of-type {
-                margin-top: 0;
-            }
-        }
-    }
-
-    .item {
-        position: relative;
-
-        border-radius: var(--borderElements);
-
-        -webkit-transition: all 0.2s ease-out;
-        -moz-transition: all 0.2s ease-out;
-        -o-transition: all 0.2s ease-out;
-        transition: all 0.2s ease-out;
-        will-change: transform;
-
-        &:hover {
-            -webkit-transform: translateY(-0.25rem);
-            -ms-transform: translateY(-0.25rem);
-            transform: translateY(-0.25rem);
-        }
-
-        .container {
-            border-radius: var(--borderElements);
-            background-color: var(--colorElements);
-
-            position: relative;
-            overflow: hidden;
-
-            flex-direction: column;
-            display: flex;
-
-            height: 100%;
-
-            .thumbnail {
-
-            }
-            .content {
-                padding-bottom: var(--lineHeight);
-                padding-right: var(--lineHeight);
-                padding-left: var(--lineHeight);
-                padding-top: var(--lineHeight);
-
-                flex-direction: column;
-                display: flex;
-
-                height: 100%;
-
-                h2, h3 {
-                    margin-bottom: calc(var(--lineHeight) / 2);
-                    margin-right: 0;
-                    margin-left: 0;
-                    margin-top: 0;
-        
-                    padding-bottom: 0;
-                    padding-top: 0;
-        
-                    letter-spacing: 0;
-                    line-height: var(--lineHeight);
-                    font-size: var(--fontSize);
-                    font-weight: normal;
-                }
-                span {
-                    line-height: normal;
-                    margin-top: auto;
-        
-                    time {
-                        vertical-align: baseline;
-                        color: var(--colorGray);
-                    }
-                }
-            }
-            a {
-                position: absolute;
-                bottom: 0;
-                right: 0;
-                left: 0;
-                top: 0;
-            }
-        }
-    }    
-}
 /* Work */
 
 .work {
