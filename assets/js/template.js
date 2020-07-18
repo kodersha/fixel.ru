@@ -149,6 +149,7 @@ $(document).ready(function() {
         sectionSelector: '.section',
         lazyLoading: true,
         scrollOverflow: true,
+        scrollOverflowReset: true,
         resetSliders: true,
         css3: true,
         easing: 'easeInOutQuart',
