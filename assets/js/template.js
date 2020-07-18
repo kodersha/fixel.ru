@@ -144,13 +144,12 @@ jQuery(function($) {
 $(document).ready(function() {
     $('.landing').fullpage({
         autoScrolling: true,
-        scrollHorizontally: false,
         navigation: true,
         navigationPosition: 'right',
-        anchors: ['', 'about'],
         sectionSelector: '.section',
         lazyLoading: true,
         scrollOverflow: true,
+        resetSliders: true,
         css3: true,
         easing: 'easeInOutQuart',
         easingcss3: 'cubic-bezier(0.77, 0, 0.175, 1)',
@@ -158,6 +157,9 @@ $(document).ready(function() {
     });
     $.fn.fullpage.reBuild();
 });
+
+$('html').addClass(ENABLED);
+windowsHeight = $window.height();
 
 hljs.configure ({ useBR: true });  
 

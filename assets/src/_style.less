@@ -2,9 +2,6 @@
     outline: none;
 }
 
-body {
-    min-height: calc(100vh - var(--lineHeight) - calc(var(--lineHeight) * 3));
-}
 a {
     -webkit-transition: color .3s, border-color .3s, background-color .3s, opacity .3s;
     -moz-transition: color .3s, border-color .3s, background-color .3s, opacity .3s;
@@ -1011,13 +1008,6 @@ article {
 /* Landing */
 
 .landing {
-    min-height: 100vh;
-    
-    .section {
-        position: relative;
-        overflow: hidden;
-    }
-
     .section-body {
         @media only screen and (min-width: @mobile-size + 1) {
             margin-bottom: calc(var(--lineHeight) * 3);
@@ -1040,10 +1030,8 @@ article {
     }
 }
 
-.fp-minimal-height {
-    min-height: 100vh;
-
-    .section-body {
+.section-body {
+    &.fp-full-height {
         @media only screen and (min-width: @mobile-size + 1) {
             min-height: calc(100vh - var(--lineHeight) - calc(var(--lineHeight) * 3));
         }
