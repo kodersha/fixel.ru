@@ -151,8 +151,8 @@ $(document).ready(function() {
         sectionSelector: '.section',
         lazyLoading: true,
         scrollOverflow: true,
-        css3: false,
-        easing: 'easeInOutCirc',
+        css3: true,
+        easing: 'easeInOutCubic',
 	    easingcss3: 'ease',
     });
     $.fn.fullpage.reBuild();
