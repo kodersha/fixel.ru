@@ -142,8 +142,8 @@ jQuery(function($) {
 });
 
 $(document).ready(function() {
-	$('.landing').fullpage({
-		autoScrolling: true,
+    $('.landing').fullpage({
+        autoScrolling: true,
         scrollHorizontally: false,
         navigation: true,
         navigationPosition: 'right',
@@ -152,13 +152,11 @@ $(document).ready(function() {
         sectionSelector: '.section',
         lazyLoading: true,
         scrollOverflow: true,
-        easingcss3: 'ease-in-out'
-	});
-
-	$.fn.fullpage.setAllowScrolling(true);
+    });
+    $.fn.fullpage.reBuild();
 });
 
-hljs.configure ({ useBR: true }); 
+hljs.configure ({ useBR: true });  
 
 document.addEventListener('DOMContentLoaded', (event) => {
     document.querySelectorAll('pre').forEach((block) => {

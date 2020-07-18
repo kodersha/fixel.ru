@@ -236,8 +236,10 @@ html.fp-enabled,
     border: 0;
 }
 
-.fp-vertical-top {
+.fp-mobile-vertical-top {
     .fp-tableCell {
-        vertical-align: top !important;
+        @media only screen and (min-width: @mobile-size + 1) {
+            vertical-align: top !important;
+        }
     }
 }

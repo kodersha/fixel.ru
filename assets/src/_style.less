@@ -172,8 +172,12 @@ article {
 .author-description {
     h1 {
         @media only screen and (min-width: @mobile-size + 1) {
+            line-height: calc(var(--lineHeight) * 3.8);
+            font-size: calc(var(--h1-size) * 2.4);
+        }
+        @media only screen and (max-width: @mobile-size) {
             line-height: calc(var(--lineHeight) * 3);
-            font-size: calc(var(--h1-size) * 1.9);
+            font-size: calc(var(--h1-size) * 1.8);
         }
 
         margin-bottom: 0;
@@ -1010,12 +1014,6 @@ article {
     .section {
         position: relative;
         overflow: hidden;
-
-        min-height: 100vh;
-
-        &.fp-auto-height {
-            min-height: unset;
-        }
     }
 
     .section-body {
