@@ -1028,13 +1028,26 @@ article {
             margin-bottom: calc(var(--lineHeight) * 2);
             margin-right: var(--lineHeight);
             margin-left: var(--lineHeight);
-            margin-top: var(--lineHeight);;
+            margin-top: var(--lineHeight);
         }
     }
 
     .land-about {
         background-color: var(--background-color);
         z-index: 0;
+    }
+}
+
+.fp-minimal-height {
+    min-height: 100vh;
+    
+    .section-body {
+        @media only screen and (min-width: @mobile-size + 1) {
+            min-height: calc(100vh - var(--lineHeight) - calc(var(--lineHeight) * 3));
+        }
+        @media only screen and (max-width: @mobile-size) {
+            min-height: calc(100vh - var(--lineHeight) - calc(var(--lineHeight) * 2));
+        }
     }
 }
 
