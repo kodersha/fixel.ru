@@ -147,11 +147,13 @@ $(document).ready(function() {
         scrollHorizontally: false,
         navigation: true,
         navigationPosition: 'right',
-        anchors: ['', 'about', 'contact'],
-        menu: '#landingMenu',
+        anchors: ['', 'about'],
         sectionSelector: '.section',
         lazyLoading: true,
         scrollOverflow: true,
+        css3: false,
+        easing: 'easeInOutCirc',
+	    easingcss3: 'ease',
     });
     $.fn.fullpage.reBuild();
 });
