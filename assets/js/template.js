@@ -147,14 +147,17 @@ $(document).ready(function() {
         navigation: true,
         navigationPosition: 'right',
         sectionSelector: '.section',
+        anchors:['home', 'about'],
+        lockAnchors: true,
         lazyLoading: true,
         scrollOverflow: true,
         scrollOverflowReset: true,
         resetSliders: true,
+        recordHistory: false,
         css3: true,
         easing: 'easeInOutQuart',
         easingcss3: 'cubic-bezier(0.77, 0, 0.175, 1)',
-        fitToSection: false
+        bigSectionsDestination: 'top',
     });
     $.fn.fullpage.reBuild();
 });
