@@ -1011,6 +1011,8 @@ article {
 /* Landing */
 
 .landing {
+    min-height: 100vh;
+    
     .section {
         position: relative;
         overflow: hidden;
@@ -1040,7 +1042,7 @@ article {
 
 .fp-minimal-height {
     min-height: 100vh;
-    
+
     .section-body {
         @media only screen and (min-width: @mobile-size + 1) {
             min-height: calc(100vh - var(--lineHeight) - calc(var(--lineHeight) * 3));

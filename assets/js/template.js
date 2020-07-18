@@ -152,8 +152,9 @@ $(document).ready(function() {
         lazyLoading: true,
         scrollOverflow: true,
         css3: true,
-        easing: 'easeInOutCubic',
-        easingcss3: 'ease',
+        easing: 'easeInOutQuart',
+        easingcss3: 'cubic-bezier(0.77, 0, 0.175, 1)',
+        fitToSection: false
     });
     $.fn.fullpage.reBuild();
 });
