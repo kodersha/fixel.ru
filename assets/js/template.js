@@ -111,16 +111,6 @@ $(document).ready(function() {
     });
 });
 
-$(document).ready(function() { 
-    hljs.configure ({ useBR: true }); 
-
-    document.addEventListener('DOMContentLoaded', (event) => {
-        document.querySelectorAll('pre').forEach((block) => {
-            hljs.highlightBlock(block);
-        });
-    });
-})
-
 jQuery(function($) {
 
     // Function which adds the 'animated' class to any '.animatable' in view
@@ -149,4 +139,29 @@ jQuery(function($) {
     $(window).on('scroll', doAnimations);
     $(window).trigger('scroll');
 
+});
+
+$(document).ready(function() {
+	$('.landing').fullpage({
+		autoScrolling: true,
+        scrollHorizontally: false,
+        navigation: true,
+        navigationPosition: 'right',
+        anchors: ['', 'about', 'contact'],
+        menu: '#landingMenu',
+        sectionSelector: '.section',
+        lazyLoading: true,
+        scrollOverflow: true,
+        easingcss3: 'ease-in-out'
+	});
+
+	$.fn.fullpage.setAllowScrolling(true);
+});
+
+hljs.configure ({ useBR: true }); 
+
+document.addEventListener('DOMContentLoaded', (event) => {
+    document.querySelectorAll('pre').forEach((block) => {
+        hljs.highlightBlock(block);
+    });
 });
