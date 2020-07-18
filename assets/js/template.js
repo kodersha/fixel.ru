@@ -162,9 +162,6 @@ $(document).ready(function() {
     $.fn.fullpage.reBuild();
 });
 
-$('html').addClass(ENABLED);
-windowsHeight = $window.height();
-
 hljs.configure ({ useBR: true });  
 
 document.addEventListener('DOMContentLoaded', (event) => {
