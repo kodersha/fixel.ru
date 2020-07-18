@@ -153,7 +153,7 @@ $(document).ready(function() {
         scrollOverflow: true,
         css3: true,
         easing: 'easeInOutCubic',
-	    easingcss3: 'ease',
+        easingcss3: 'ease',
     });
     $.fn.fullpage.reBuild();
 });
