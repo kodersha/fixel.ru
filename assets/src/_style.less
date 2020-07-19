@@ -1133,29 +1133,26 @@ article {
 
 .scroll-downs {
     position: relative;
-    margin: auto;
-    bottom: 1rem;
+    justify-content: center;
+    display: flex;
+    bottom: calc(-1 * var(--lineHeight));
     right: 0;
     left: 0;
-    top: 1rem;
-    
-    width: 34px;
-    height: 55px;
 
     .mousey {
-        width: 3px;
-        padding: 10px 15px;
-        height: 35px;
-        border: 2px solid #fff;
-        border-radius: 25px;
-        opacity: 0.75;
+        border: 2px solid var(--colorGray);
         box-sizing: content-box;
+        padding: 0.5rem 0.625rem;
+        border-radius: 1rem;
+        height: 1.25rem;
+        width: 0.125rem;
+        opacity: 0.3;
 
         .scroller {
-            width: 3px;
-            height: 10px;
+            width: 0.125rem;
+            height: 0.417rem;
             border-radius: 25%;
-            background-color: #fff;
+            background-color: var(--colorGray);
             animation-name: scroll;
             animation-duration: 2.2s;
             animation-timing-function: cubic-bezier(.15,.41,.69,.94);
