@@ -13,7 +13,7 @@ function fadeOutnojquery(el) {
 window.onload = function() {
     setTimeout(function() {
         fadeOutnojquery(preloader);
-    }, 300);
+    }, 100);
 };
 
 $(document).ready(function() { 
