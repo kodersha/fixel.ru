@@ -629,6 +629,56 @@ article {
             --grid-ce: 10;
         }
     }
+    .post__iframe {
+        grid-column-start: var(--grid-cs);
+        grid-column-end: var(--grid-ce);
+        --grid-cs: 2;
+        --grid-ce: 7;
+
+        &--center {
+            grid-column-start: var(--grid-cs);
+            grid-column-end: var(--grid-ce);
+            --grid-cs: 2;
+            --grid-ce: 7;
+        }
+        &--wide {
+            grid-column-start: var(--grid-cs);
+            grid-column-end: var(--grid-ce);
+            --grid-cs: 2;
+            --grid-ce: 10;
+        }
+    }
+    .post__video {
+        grid-column-start: var(--grid-cs);
+        grid-column-end: var(--grid-ce);
+        --grid-cs: 2;
+        --grid-ce: 7;
+
+        &--center {
+            grid-column-start: var(--grid-cs);
+            grid-column-end: var(--grid-ce);
+            --grid-cs: 2;
+            --grid-ce: 7;
+        }
+        &--wide {
+            grid-column-start: var(--grid-cs);
+            grid-column-end: var(--grid-ce);
+            --grid-cs: 2;
+            --grid-ce: 10;
+        }
+
+        padding-top: 56.25%;
+        position: relative;
+        width: 100%;
+
+        iframe {
+            position: absolute;
+            height: 100%;
+            width: 100%;
+            left: 0;
+            top: 0;
+        }
+    }
     .gallery-wrapper {
         grid-column-start: var(--grid-cs);
         grid-column-end: var(--grid-ce);
@@ -1060,6 +1110,23 @@ article {
         -webkit-filter: url('#goo');
         filter: url('#goo');
     }
+}
+
+/* Preloader */
+
+#preload {
+    background-image: url('../images/loader.svg');
+    background-color: var(--background-color);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 41px;
+    position: fixed;
+    z-index: 100000;
+    display: block;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    top: 0;
 }
 
 /* Scroll */
