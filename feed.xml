@@ -20,7 +20,7 @@
             <category term="Гайд"/>
             <category term="Блог"/>
 
-        <updated>2020-07-19T04:39:00+07:00</updated>
+        <updated>2020-07-19T19:01:04+07:00</updated>
             <summary>
                 <![CDATA[
                     Заметки на полях, или же маргиналии, добавить в Эгею можно небольшим CSS кодом. @media screen and (min-width: 1050px) { .e2-text .aside { position: relative; text-align: left; max-width: 200px; margin-left: 4%; margin-top: .15em; float: right; clear: right; } } .e2-text .aside { line-height: 1.4; font-size: 0.875em;&hellip;
@@ -51,7 +51,7 @@
             <category term="Гайд"/>
             <category term="Блог"/>
 
-        <updated>2020-07-19T04:39:00+07:00</updated>
+        <updated>2020-07-19T19:01:04+07:00</updated>
             <summary>
                 <![CDATA[
                     Создать свой шаблон для Эгеи не так сложно как может показаться на первый взгляд. Давайте разберем основные принципы построения шаблона используя некоторые простые примеры. Пользовательские темы находятся в папке ../themes в корне блога. Создадим в этом каталоге папку и назовем её так, как хотим чтобы&hellip;
@@ -193,7 +193,7 @@
             <category term="Заказ"/>
             <category term="Верстка"/>
 
-        <updated>2020-07-19T04:39:00+07:00</updated>
+        <updated>2020-07-19T19:01:04+07:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://fixel.ru/media/posts/22/cover.png" alt="" />
@@ -222,7 +222,7 @@
             <category term="Дизайн"/>
             <category term="Верстка"/>
 
-        <updated>2020-07-19T04:39:00+07:00</updated>
+        <updated>2020-07-19T19:01:04+07:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://fixel.ru/media/posts/21/cover.png" alt="" />
@@ -250,7 +250,7 @@
             <category term="Заказ"/>
             <category term="Верстка"/>
 
-        <updated>2020-07-19T04:39:00+07:00</updated>
+        <updated>2020-07-19T19:01:04+07:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://fixel.ru/media/posts/20/cover.png" alt="" />
@@ -278,7 +278,7 @@
             <category term="Заказ"/>
             <category term="Верстка"/>
 
-        <updated>2020-07-19T04:39:00+07:00</updated>
+        <updated>2020-07-19T19:01:04+07:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://fixel.ru/media/posts/19/cover.png" alt="" />
@@ -306,7 +306,7 @@
             <category term="Заказ"/>
             <category term="Верстка"/>
 
-        <updated>2020-07-19T04:39:00+07:00</updated>
+        <updated>2020-07-19T19:01:04+07:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://fixel.ru/media/posts/18/cover.png" alt="" />
@@ -333,7 +333,7 @@
             <category term="Стримы"/>
             <category term="Блог"/>
 
-        <updated>2020-07-19T04:39:00+07:00</updated>
+        <updated>2020-07-19T19:01:04+07:00</updated>
             <summary>
                 <![CDATA[
                      Если вы проигрываете фоновую музыку на стриме из сервиса Яндекс.Музыки или Вконтакте, а зрители достают вас вопросом о том, какой трек сейчас играет, есть небольшое решение для Streamlabs Chatbot. Пример настройки команды: А здесь можно почитать о настройках самого Streamlabs Chatbot. 
@@ -376,7 +376,7 @@
             <category term="Заказ"/>
             <category term="Верстка"/>
 
-        <updated>2020-07-19T04:39:00+07:00</updated>
+        <updated>2020-07-19T19:01:04+07:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://fixel.ru/media/posts/17/cover.png" alt="" />
@@ -403,7 +403,7 @@
             <category term="Стримы"/>
             <category term="Блог"/>
 
-        <updated>2020-07-19T04:39:00+07:00</updated>
+        <updated>2020-07-19T19:01:04+07:00</updated>
             <summary>
                 <![CDATA[
                      Для Streamlabs Chatbot существует скрипт TheNewTTS, он позволяет боту озвучивать сообщения из чата твича голосами Google. С появлением баллов канала, некоторые стримеры обзавелись возможностью озвучивания выделенных сообщений, чтобы иметь такую возможность у себя, я слегка дописала плагин TheNewTTS и опубликовала его на GitHub. Теперь,&hellip;
@@ -413,11 +413,11 @@
             <![CDATA[
                 
   <p>
-    Для Streamlabs Chatbot существует скрипт TheNewTTS, он позволяет боту озвучивать сообщения из чата твича голосами Google. С появлением баллов канала, некоторые стримеры обзавелись возможностью озвучивания выделенных сообщений, чтобы иметь такую возможность у себя, я слегка дописала плагин TheNewTTS и опубликовала его <a href="https://github.com/sashatravkina/slcb-script-thepointstts/" target="_blank" rel="nofollow noopener">на GitHub</a>. Теперь, если в настройках плагина не включена функция «Озвучивать всё», он будет озвучивать только те самые, выделенные за баллы канала, сообщения чата.
+    Для Streamlabs Chatbot существует скрипт TheNewTTS, он позволяет боту озвучивать сообщения из чата твича голосами Google. С появлением баллов канала, некоторые стримеры обзавелись возможностью озвучивания выделенных сообщений, чтобы иметь такую возможность у себя, я слегка дописала плагин TheNewTTS и опубликовала его <a href="https://github.com/sashatravkina/slcb-script-thepointstts/" target="_blank" rel="nofollow noopener">на GitHub</a>. Теперь, если в настройках плагина не включена функция «Озвучивать всё», он будет озвучивать только те самые, выделенные за баллы канала, сообщения чата.&nbsp;В настройках скрипта, во вкладке TTS Configuration, выберете русский язык озвучки.
   </p>
 
   <p>
-    <a href="https://github.com/sashatravkina/slcb-script-thepointstts/archive/master.zip" target="_blank">Скачать скрипт</a>. Не забудьте переименовать папку в <code>ThePointsTTS</code> после распаковки архива. В настройках скрипта, во вкладке <code>TTS Configuration</code>, выберете русский язык озвучки.
+    <a href="https://github.com/sashatravkina/slcb-script-modified-thepointstts/releases/download/1.0/ThePointsTTS.zip" target="_blank" rel="nofollow noopener"><a href="https://github.com/sashatravkina/slcb-script-thepointstts/archive/master.zip" target="_blank" class="" data-link-popup-id="1587302964951">Скачать скрипт</a></a>&nbsp;· Репозиторий <a href="https://github.com/sashatravkina/slcb-script-modified-thepointstts" target="_blank" rel="nofollow noopener">на GitHub</a>&nbsp;· Оригинальный скрипт <a href="https://github.com/LuisSanchez-Dev/TheNewTTS" target="_blank" rel="nofollow noopener">на GitHub</a>.
   </p>
 
     <h2 id="--ivona-maxim">
@@ -425,15 +425,15 @@
     </h2>
 
   <p>
-    TTS Alerts and Chat&nbsp;— похожий на предыдущий скрипт,&nbsp;но с поддержкой голоса IVONA Maxim. Имеет возможность озвучивания сообщений за баллы канала,&nbsp;по команде чата и ещё огромное количество разнообразных настроек, в том числе для юутуба и миксера.
+    TTS Alerts and Chat&nbsp;— похожий на предыдущий скрипт,&nbsp;но с поддержкой голоса IVONA Maxim. Так же, как и предыдущий скрипт, он слегка модифицирован для озвучивания только выделенных сообщений Twitch, плюс вырезаны ненужные функции Mixer и Youtube. В дополнительных настройках не нуждается, работает сразу после установки, однако глянуть настройки всё же рекомендую.
+  </p>
+
+  <p class="msg msg--warning">
+    Для использования голоса&nbsp;IVONA придется&nbsp;купить (Или <a href="https://rutracker.org/forum/viewtopic.php?t=5305939" target="_blank" class="" rel="nofollow noopener">скачать</a>) отдельную программу — Speech2Go.
   </p>
 
   <p>
-    Для использования голоса&nbsp;IVONA придется&nbsp;купить (Или <a href="https://rutracker.org/forum/viewtopic.php?t=5305939" target="_blank" class="" rel="nofollow noopener">скачать</a>) отдельную программу Speech2Go. В настройках самого скрипта, в разделе <code>TTS Command</code>, можно указать количество баллов, которое будет использоваться для озвучивания сообщений. Например, если указать 250 баллов и создать в настройках канала отдельную награду, стоимостью 250 баллов, скрипт станет озвучивать сообщения отправленные именно из этой награды.
-  </p>
-
-  <p>
-    <a href="https://github.com/Kruiser8/TTS-Alerts-And-Chat/releases/download/1.1.4/TTSAlertsAndChat.zip" target="_blank" rel="nofollow noopener">Скачать скрипт</a>.
+    <a href="https://github.com/sashatravkina/slcb-script-modified-ttsalertsandchat/releases/download/1.1.4/TTSAlertsAndChat.zip" target="_blank" rel="nofollow noopener"><a href="https://github.com/Kruiser8/TTS-Alerts-And-Chat/releases/download/1.1.4/TTSAlertsAndChat.zip" target="_blank" rel="nofollow noopener" class="" data-link-popup-id="1593535482603">Скачать скрипт</a></a>&nbsp;· Репозиторий <a href="https://github.com/sashatravkina/slcb-script-modified-ttsalertsandchat" target="_blank" rel="nofollow noopener">на GitHub</a>&nbsp;· Оригинальный скрипт <a href="https://github.com/kruiser8/TTS-Alerts-And-Chat" target="_blank" rel="nofollow noopener">на GitHub</a>.
   </p>
 
     <h2 id="---">
