@@ -1036,6 +1036,8 @@ article {
     }
 }
 
+/* Stars */
+
 .particles {
     pointer-events: none;
     overflow: hidden;
@@ -1112,30 +1114,15 @@ article {
     }
 }
 
-/* Preloader */
-
-#preload {
-    // background-image: url('../images/loader.svg');
-    background-color: var(--background-color);
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: 41px;
-    position: fixed;
-    z-index: 100000;
-    display: block;
-    bottom: 0;
-    right: 0;
-    left: 0;
-    top: 0;
-}
-
 /* Scroll */
 
 .scroll-downs {
     position: relative;
+    justify-content: center;
+    display: flex;
 
     .mousey {
-        border: 2px solid var(--colorElements);
+        border: 1px solid var(--colorWhite);
         box-sizing: content-box;
         padding: 0.5rem 0.625rem;
         border-radius: 1rem;
@@ -1143,14 +1130,14 @@ article {
         width: 0.125rem;
 
         .scroller {
-            width: 0.125rem;
-            height: 0.417rem;
-            border-radius: 25%;
-            background-color: var(--colorElements);
-            animation-name: scroll;
-            animation-duration: 2.2s;
+            background-color: var(--colorWhite);
             animation-timing-function: cubic-bezier(.15,.41,.69,.94);
             animation-iteration-count: infinite;
+            animation-duration: 2.2s;
+            animation-name: scroll;
+            border-radius: 25%;
+            height: 0.417rem;
+            width: 0.125rem;
         }
     }
 
