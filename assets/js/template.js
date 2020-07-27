@@ -1,20 +1,23 @@
-var preloader = document.getElementById("preload");
-
-function fadeOutnojquery(el) {
-    el.style.opacity = 1;
-    var interpreloader = setInterval(function() {
-        el.style.opacity = el.style.opacity - 0.05;
-        if (el.style.opacity <= 0.05) {
-            clearInterval(interpreloader);
-            preloader.style.display = "none";
-        }
-    }, 16);
-}
-window.onload = function() {
-    setTimeout(function() {
-        fadeOutnojquery(preloader);
-    }, 100);
-};
+$(document).ready(function() {
+    $('.landing').fullpage({
+        autoScrolling: true,
+        navigation: true,
+        navigationPosition: 'right',
+        sectionSelector: '.section',
+        anchors: ['', 'about'],
+        lockAnchors: false,
+        lazyLoading: true,
+        scrollOverflow: true,
+        scrollOverflowReset: true,
+        resetSliders: true,
+        recordHistory: false,
+        css3: true,
+        easing: 'easeInOutQuart',
+        easingcss3: 'cubic-bezier(0.77, 0, 0.175, 1)',
+        bigSectionsDestination: 'top',
+    });
+    $.fn.fullpage.reBuild();
+});
 
 $(document).ready(function() { 
     particlesJS("particles-js", {
@@ -159,25 +162,13 @@ jQuery(function($) {
 
 });
 
-$(document).ready(function() {
-    $('.landing').fullpage({
-        autoScrolling: true,
-        navigation: true,
-        navigationPosition: 'right',
-        sectionSelector: '.section',
-        anchors:['home', 'about'],
-        lockAnchors: true,
-        lazyLoading: true,
-        scrollOverflow: true,
-        scrollOverflowReset: true,
-        resetSliders: true,
-        recordHistory: false,
-        css3: true,
-        easing: 'easeInOutQuart',
-        easingcss3: 'cubic-bezier(0.77, 0, 0.175, 1)',
-        bigSectionsDestination: 'top',
-    });
-    $.fn.fullpage.reBuild();
+function scrollToAnchor(aid){
+    var aTag = $("a[name='"+ aid +"']");
+    $('html, body').animate({scrollTop: aTag.offset().top},'slow');
+}
+
+$("#link").click(function() {
+   scrollToAnchor('about');
 });
 
 hljs.configure ({ useBR: true });  
