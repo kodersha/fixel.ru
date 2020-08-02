@@ -10,6 +10,22 @@
     },
     "items": [
         {
+            "id": "https://fixel.ru/test-mel-science/",
+            "url": "https://fixel.ru/test-mel-science/",
+            "title": "Тест MEL Science",
+            "image": "https://fixel.ru/media/posts/29/cover.png",
+            "author": {
+                "name": "Блог"
+            },
+            "tags": [
+                   "Работы",
+                   "Заказ",
+                   "Верстка"
+            ],
+            "date_published": "2020-08-02T12:59:58+07:00",
+            "date_modified": "2020-08-02T12:59:58+07:00"
+        },
+        {
             "id": "https://fixel.ru/muzyka-bez-avtorskih-prav-dlya-strimov/",
             "url": "https://fixel.ru/muzyka-bez-avtorskih-prav-dlya-strimov/",
             "title": "Музыка без авторских прав для стримов",
@@ -22,8 +38,8 @@
                    "Стримы",
                    "Блог"
             ],
-            "date_published": "2020-07-27T19:37:12+07:00",
-            "date_modified": "2020-07-27T19:37:12+07:00"
+            "date_published": "2020-08-02T12:59:58+07:00",
+            "date_modified": "2020-08-02T12:59:58+07:00"
         },
         {
             "id": "https://fixel.ru/kak-sdelat-zametki-na-polyah-v-egee/",
@@ -39,8 +55,8 @@
                    "Гайд",
                    "Блог"
             ],
-            "date_published": "2020-07-27T19:37:12+07:00",
-            "date_modified": "2020-07-27T19:37:12+07:00"
+            "date_published": "2020-08-02T12:59:58+07:00",
+            "date_modified": "2020-08-02T12:59:58+07:00"
         },
         {
             "id": "https://fixel.ru/kak-sozdat-svoy-shablon-dlya-egei/",
@@ -56,8 +72,8 @@
                    "Гайд",
                    "Блог"
             ],
-            "date_published": "2020-07-27T19:37:12+07:00",
-            "date_modified": "2020-07-27T19:37:12+07:00"
+            "date_published": "2020-08-02T12:59:58+07:00",
+            "date_modified": "2020-08-02T12:59:58+07:00"
         },
         {
             "id": "https://fixel.ru/malenkiy-princ/",
@@ -74,8 +90,8 @@
                    "Заказ",
                    "Верстка"
             ],
-            "date_published": "2020-07-27T19:37:12+07:00",
-            "date_modified": "2020-07-27T19:37:12+07:00"
+            "date_published": "2020-08-02T12:59:58+07:00",
+            "date_modified": "2020-08-02T12:59:58+07:00"
         },
         {
             "id": "https://fixel.ru/blog-mihaila-kryukova/",
@@ -93,8 +109,8 @@
                    "Дизайн",
                    "Верстка"
             ],
-            "date_published": "2020-07-27T19:37:12+07:00",
-            "date_modified": "2020-07-27T19:37:12+07:00"
+            "date_published": "2020-08-02T12:59:58+07:00",
+            "date_modified": "2020-08-02T12:59:58+07:00"
         },
         {
             "id": "https://fixel.ru/volkova-20/",
@@ -111,8 +127,8 @@
                    "Заказ",
                    "Верстка"
             ],
-            "date_published": "2020-07-27T19:37:12+07:00",
-            "date_modified": "2020-07-27T19:37:12+07:00"
+            "date_published": "2020-08-02T12:59:58+07:00",
+            "date_modified": "2020-08-02T12:59:58+07:00"
         },
         {
             "id": "https://fixel.ru/gribovskiy-les/",
@@ -129,8 +145,8 @@
                    "Заказ",
                    "Верстка"
             ],
-            "date_published": "2020-07-27T19:37:12+07:00",
-            "date_modified": "2020-07-27T19:37:12+07:00"
+            "date_published": "2020-08-02T12:59:58+07:00",
+            "date_modified": "2020-08-02T12:59:58+07:00"
         },
         {
             "id": "https://fixel.ru/inteldom/",
@@ -147,8 +163,8 @@
                    "Заказ",
                    "Верстка"
             ],
-            "date_published": "2020-07-27T19:37:12+07:00",
-            "date_modified": "2020-07-27T19:37:12+07:00"
+            "date_published": "2020-08-02T12:59:58+07:00",
+            "date_modified": "2020-08-02T12:59:58+07:00"
         },
         {
             "id": "https://fixel.ru/streamlabs-chatbot-tekushchiy-muzykalnyy-trek-po-komande-v-chate/",
@@ -163,26 +179,8 @@
                    "Стримы",
                    "Блог"
             ],
-            "date_published": "2020-07-27T19:37:12+07:00",
-            "date_modified": "2020-07-27T19:37:12+07:00"
-        },
-        {
-            "id": "https://fixel.ru/koleso/",
-            "url": "https://fixel.ru/koleso/",
-            "title": "Колесо",
-            "summary": " Вёрстка сайта офисно-складского комплекса&nbsp;Колесо ",
-            "content_html": "\n  <p>\n    Вёрстка сайта офисно-складского комплекса&nbsp;Колесо\n  </p>",
-            "image": "https://fixel.ru/media/posts/17/cover.png",
-            "author": {
-                "name": "Блог"
-            },
-            "tags": [
-                   "Работы",
-                   "Заказ",
-                   "Верстка"
-            ],
-            "date_published": "2020-07-27T19:37:12+07:00",
-            "date_modified": "2020-07-27T19:37:12+07:00"
+            "date_published": "2020-08-02T12:59:58+07:00",
+            "date_modified": "2020-08-02T12:59:58+07:00"
         }
     ]
 }
