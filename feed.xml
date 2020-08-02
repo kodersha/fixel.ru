@@ -20,7 +20,7 @@
             <category term="Заказ"/>
             <category term="Верстка"/>
 
-        <updated>2020-08-02T20:57:05+07:00</updated>
+        <updated>2020-08-02T21:13:05+07:00</updated>
             <summary></summary>
         <content></content>
     </entry>
@@ -34,7 +34,7 @@
             <category term="Стримы"/>
             <category term="Блог"/>
 
-        <updated>2020-08-02T20:57:05+07:00</updated>
+        <updated>2020-08-02T21:13:05+07:00</updated>
             <summary>
                 <![CDATA[
                     Собрала для вас некоторые источники музыки, за которую вас не забанит twitch и youtube. С появлением музыкального сервиса spotify в России, у нас появилась прекрасная возможность найти немного плейлистов с royalty-free музыкой. Вот, например, плейлист с тридцатью семью часами lo-fi музыки. Двенадцать часов retrowave. Шесть часов рок-музыки.
@@ -72,7 +72,7 @@
             <category term="Гайд"/>
             <category term="Блог"/>
 
-        <updated>2020-08-02T20:57:05+07:00</updated>
+        <updated>2020-08-02T21:13:05+07:00</updated>
             <summary>
                 <![CDATA[
                     Заметки на полях, или же маргиналии, добавить в Эгею можно небольшим CSS кодом. @media screen and (min-width: 1050px) { .e2-text .aside { position: relative; text-align: left; max-width: 200px; margin-left: 4%; margin-top: .15em; float: right; clear: right; } } .e2-text .aside { line-height: 1.4; font-size: 0.875em;&hellip;
@@ -103,7 +103,7 @@
             <category term="Гайд"/>
             <category term="Блог"/>
 
-        <updated>2020-08-02T20:57:05+07:00</updated>
+        <updated>2020-08-02T21:13:05+07:00</updated>
             <summary>
                 <![CDATA[
                     Создать свой шаблон для Эгеи не так сложно как может показаться на первый взгляд. Давайте разберем основные принципы построения шаблона используя некоторые простые примеры. Пользовательские темы находятся в папке ../themes в корне блога. Создадим в этом каталоге папку и назовем её так, как хотим чтобы&hellip;
@@ -245,7 +245,7 @@
             <category term="Заказ"/>
             <category term="Верстка"/>
 
-        <updated>2020-08-02T20:57:05+07:00</updated>
+        <updated>2020-08-02T21:13:05+07:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://fixel.ru/media/posts/22/cover.png" alt="" />
@@ -274,7 +274,7 @@
             <category term="Дизайн"/>
             <category term="Верстка"/>
 
-        <updated>2020-08-02T20:57:05+07:00</updated>
+        <updated>2020-08-02T21:13:05+07:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://fixel.ru/media/posts/21/cover.png" alt="" />
@@ -302,7 +302,7 @@
             <category term="Заказ"/>
             <category term="Верстка"/>
 
-        <updated>2020-08-02T20:57:05+07:00</updated>
+        <updated>2020-08-02T21:13:05+07:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://fixel.ru/media/posts/20/cover.png" alt="" />
@@ -330,7 +330,7 @@
             <category term="Заказ"/>
             <category term="Верстка"/>
 
-        <updated>2020-08-02T20:57:05+07:00</updated>
+        <updated>2020-08-02T21:13:05+07:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://fixel.ru/media/posts/19/cover.png" alt="" />
@@ -358,7 +358,7 @@
             <category term="Заказ"/>
             <category term="Верстка"/>
 
-        <updated>2020-08-02T20:57:05+07:00</updated>
+        <updated>2020-08-02T21:13:05+07:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://fixel.ru/media/posts/18/cover.png" alt="" />
@@ -385,7 +385,7 @@
             <category term="Стримы"/>
             <category term="Блог"/>
 
-        <updated>2020-08-02T20:57:05+07:00</updated>
+        <updated>2020-08-02T21:13:05+07:00</updated>
             <summary>
                 <![CDATA[
                      Если вы проигрываете фоновую музыку на стриме из сервиса Яндекс.Музыки или Вконтакте, а зрители достают вас вопросом о том, какой трек сейчас играет, есть небольшое решение для Streamlabs Chatbot. Пример настройки команды: А здесь можно почитать о настройках самого Streamlabs Chatbot. 
