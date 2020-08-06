@@ -14,7 +14,7 @@
             "url": "https://fixel.ru/restrim-s-raznym-bitreytom/",
             "title": "Рестрим с разным битрейтом",
             "summary": "Для OBS Studio существует плагин Multiple RTMP, он позволяет рестримить на разные площадки, такие как twitch и youtube, с разными настройками кодировщика и битрейта. Разные настройки кодировщика для разных стриминговых площадок необходимы для лучшего качества картинки — ведь при битрейте 6000 картинка на twitch будет достаточно&hellip;",
-            "content_html": "<p>Для <a href=\"https://obsproject.com/ru\" target=\"_blank\" rel=\"nofollow noopener noreferrer\">OBS Studio</a> существует плагин Multiple RTMP, он позволяет рестримить на разные площадки, такие как twitch и youtube, с разными настройками кодировщика и битрейта. Разные настройки кодировщика для разных стриминговых площадок необходимы для лучшего качества картинки — ведь при битрейте <code>6000</code> картинка на twitch будет достаточно хорошей, а вот на youtube уже довольно посредственной.</p>\n<p>Для начала нужно <a href=\"https://github.com/sorayuki/obs-multi-rtmp/releases/\" target=\"_blank\" rel=\"nofollow noopener noreferrer\">скачать свежую версию</a> плагина. Скачиваем <code>zip</code> архив, папки <code>data</code> и <code>obs-plugins</code> из архива копируем в папку OBS.</p>\n<figure class=\"post__image\"><img loading=\"lazy\"  src=\"https://fixel.ru/media/posts/30/01.png\" alt=\"\" width=\"346\" height=\"314\"></figure>\n<p>Теперь можно запустить сам OBS Studio, в нем появится новая панель «Множественный вывод». Нажмите «Добавить новый вывод», чтобы добавить площадку для стрима. Начнём, например, с youtube.</p>\n<figure class=\"post__image\"><img loading=\"lazy\"  src=\"https://fixel.ru/media/posts/30/02-2.png\" alt=\"\" width=\"909\" height=\"351\"></figure>\n<p>Здесь нужно указать RTMP Сервер и RTMP Ключ трансляции, их можно найти в «Творческой студи», в <a href=\"https://www.youtube.com/live_dashboard\" target=\"_blank\" rel=\"nofollow noopener noreferrer\">панели управления трансляцией</a>. Для youtube настройки кодировщика, разрешения и битрейта я беру из основных настроек OBS.</p>\n<figure class=\"post__image\"><img loading=\"lazy\"  src=\"https://fixel.ru/media/posts/30/03.png\" alt=\"\" width=\"888\" height=\"761\"></figure>\n<p>Далее, добавим ещё один вывод, на этот раз для twitch. Здесь также необходимо указать <a href=\"https://stream.twitch.tv/ingests/\" target=\"_blank\" rel=\"nofollow noopener noreferrer\">RTMP Сервер</a> и RTMP ключ трансляции, который можно найти в «Панели управления», в разделе «Настройки» — «Канал». Протестировать какой RTMP Сервер лучше всего подходит для вашего стрима, можно небольшой программой <a href=\"https://r1ch.net/projects/twitchtest\" target=\"_blank\" rel=\"nofollow noopener noreferrer\">TwitchTest</a>.</p>\n<figure class=\"post__image\"><img loading=\"lazy\"  src=\"https://fixel.ru/media/posts/30/04.png\" alt=\"\" width=\"897\" height=\"357\"></figure>\n<p>Так как twitch не позволяет стримить с битрейтом выше <code>6000</code> и разрешением больше <code>1920×1080</code>, вписываем свои настройки вещания. Выбираем кодировщик, такой же как и основной чтобы излишне не нагружать систему. Указываем разрешение <code>1920×1080</code>, если стримите на youtube в разрешении <code>2560×1440</code> или <code>3840×2160</code>. Если нет, то разрешение здесь можно не указывать. Вписываем битрейт — <code>6000</code>, ключевые кадры — <code>2</code>.</p>\n<figure class=\"post__image\"><img loading=\"lazy\"  src=\"https://fixel.ru/media/posts/30/05.png\" alt=\"\" width=\"346\" height=\"314\"></figure>\n<p>Теперь в панели «Множественный вывод» у вас есть две площадки для стрима, каждая со своими настройками кодировщика. Таким образом можно добиться идеальной картинки на обоих платформах.</p>\n<p>Помните, что рестрим через «Множественный вывод» слегка нагружает процессор. В моем случае, на i9 9900, OBS при рестриме потребляет около пяти процентов.</p>",
+            "content_html": "<p>Для <a href=\"https://obsproject.com/ru\" target=\"_blank\" rel=\"nofollow noopener noreferrer\">OBS Studio</a> существует плагин Multiple RTMP, он позволяет рестримить на разные площадки, такие как twitch и youtube, с разными настройками кодировщика и битрейта. Разные настройки кодировщика для разных стриминговых площадок необходимы для лучшего качества картинки — ведь при битрейте <code>6000</code> картинка на twitch будет достаточно хорошей, а вот на youtube уже довольно посредственной.</p>\n<p class=\"msg msg--warning\">Помните, что стрим через Multiple RTMP слегка нагружает процессор. В моем случае, на i9 9900, OBS при рестриме потребляет около пяти процентов. Может быть критично, если стримите через кодировщик процессора, а не видеокарты.</p>\n<p>Для начала нужно <a href=\"https://github.com/sorayuki/obs-multi-rtmp/releases/\" target=\"_blank\" rel=\"nofollow noopener noreferrer\">скачать свежую версию</a> плагина. Скачиваем <code>zip</code> архив, папки <code>data</code> и <code>obs-plugins</code> из архива копируем в папку OBS.</p>\n<figure class=\"post__image\"><img loading=\"lazy\"  src=\"https://fixel.ru/media/posts/30/01.png\" alt=\"\" width=\"346\" height=\"314\"></figure>\n<p>Теперь можно запустить сам OBS Studio, в нём появится новая панель «Множественный вывод». Нажмите «Добавить новый вывод», чтобы добавить площадку для стрима. Начнём, например, с youtube.</p>\n<figure class=\"post__image\"><img loading=\"lazy\"  src=\"https://fixel.ru/media/posts/30/02-2.png\" alt=\"\" width=\"909\" height=\"351\"></figure>\n<p>Здесь нужно указать RTMP Сервер и RTMP Ключ трансляции, их можно найти в «Творческой студи», в <a href=\"https://www.youtube.com/live_dashboard\" target=\"_blank\" rel=\"nofollow noopener noreferrer\">панели управления трансляцией</a>. Для youtube настройки кодировщика, разрешения и битрейта я беру из основных настроек OBS.</p>\n<figure class=\"post__image\"><img loading=\"lazy\"  src=\"https://fixel.ru/media/posts/30/03.png\" alt=\"\" width=\"888\" height=\"761\"></figure>\n<p>Далее, добавим ещё один вывод, на этот раз для twitch. Здесь также необходимо указать <a href=\"https://stream.twitch.tv/ingests/\" target=\"_blank\" rel=\"nofollow noopener noreferrer\">RTMP Сервер</a> и RTMP ключ трансляции, который можно найти в «Панели управления», в разделе «Настройки» — «Канал». Протестировать какой RTMP Сервер лучше всего подходит для вашего стрима, можно небольшой программой <a href=\"https://r1ch.net/projects/twitchtest\" target=\"_blank\" rel=\"nofollow noopener noreferrer\">TwitchTest</a>.</p>\n<figure class=\"post__image\"><img loading=\"lazy\"  src=\"https://fixel.ru/media/posts/30/04.png\" alt=\"\" width=\"897\" height=\"357\"></figure>\n<p>Так как twitch не позволяет стримить с битрейтом выше <code>6000</code> и разрешением больше <code>1920×1080</code>, вписываем свои настройки вещания. Выбираем кодировщик, такой же как и основной, чтобы излишне не нагружать систему. Указываем разрешение <code>1920×1080</code>, если стримите на youtube в разрешении <code>2560×1440</code> или <code>3840×2160</code>. Если нет, то разрешение здесь можно не указывать. Вписываем битрейт — <code>6000</code>, ключевые кадры — <code>2</code>.</p>\n<figure class=\"post__image\"><img loading=\"lazy\"  src=\"https://fixel.ru/media/posts/30/05.png\" alt=\"\" width=\"346\" height=\"314\"></figure>\n<p>Теперь в панели «Множественный вывод» у вас есть две площадки для стрима, каждая со своими настройками кодировщика. Таким образом можно добиться идеальной картинки на обоих платформах.</p>",
             "author": {
                 "name": "Блог"
             },
@@ -24,8 +24,8 @@
                    "Блог",
                    "OBS Studio"
             ],
-            "date_published": "2020-08-06T22:05:24+07:00",
-            "date_modified": "2020-08-06T22:05:24+07:00"
+            "date_published": "2020-08-06T22:54:44+07:00",
+            "date_modified": "2020-08-06T22:54:44+07:00"
         },
         {
             "id": "https://fixel.ru/test-mel-science/",
@@ -40,8 +40,8 @@
                    "Заказ",
                    "Верстка"
             ],
-            "date_published": "2020-08-06T22:05:24+07:00",
-            "date_modified": "2020-08-06T22:05:24+07:00"
+            "date_published": "2020-08-06T22:54:44+07:00",
+            "date_modified": "2020-08-06T22:54:44+07:00"
         },
         {
             "id": "https://fixel.ru/muzyka-bez-avtorskih-prav-dlya-strimov/",
@@ -56,8 +56,8 @@
                    "Стримы",
                    "Блог"
             ],
-            "date_published": "2020-08-06T22:05:24+07:00",
-            "date_modified": "2020-08-06T22:05:24+07:00"
+            "date_published": "2020-08-06T22:54:44+07:00",
+            "date_modified": "2020-08-06T22:54:44+07:00"
         },
         {
             "id": "https://fixel.ru/kak-sdelat-zametki-na-polyah-v-egee/",
@@ -73,8 +73,8 @@
                    "Гайд",
                    "Блог"
             ],
-            "date_published": "2020-08-06T22:05:24+07:00",
-            "date_modified": "2020-08-06T22:05:24+07:00"
+            "date_published": "2020-08-06T22:54:44+07:00",
+            "date_modified": "2020-08-06T22:54:44+07:00"
         },
         {
             "id": "https://fixel.ru/kak-sozdat-svoy-shablon-dlya-egei/",
@@ -90,8 +90,8 @@
                    "Гайд",
                    "Блог"
             ],
-            "date_published": "2020-08-06T22:05:24+07:00",
-            "date_modified": "2020-08-06T22:05:24+07:00"
+            "date_published": "2020-08-06T22:54:44+07:00",
+            "date_modified": "2020-08-06T22:54:44+07:00"
         },
         {
             "id": "https://fixel.ru/malenkiy-princ/",
@@ -108,8 +108,8 @@
                    "Заказ",
                    "Верстка"
             ],
-            "date_published": "2020-08-06T22:05:24+07:00",
-            "date_modified": "2020-08-06T22:05:24+07:00"
+            "date_published": "2020-08-06T22:54:44+07:00",
+            "date_modified": "2020-08-06T22:54:44+07:00"
         },
         {
             "id": "https://fixel.ru/blog-mihaila-kryukova/",
@@ -127,8 +127,8 @@
                    "Дизайн",
                    "Верстка"
             ],
-            "date_published": "2020-08-06T22:05:24+07:00",
-            "date_modified": "2020-08-06T22:05:24+07:00"
+            "date_published": "2020-08-06T22:54:44+07:00",
+            "date_modified": "2020-08-06T22:54:44+07:00"
         },
         {
             "id": "https://fixel.ru/volkova-20/",
@@ -145,8 +145,8 @@
                    "Заказ",
                    "Верстка"
             ],
-            "date_published": "2020-08-06T22:05:24+07:00",
-            "date_modified": "2020-08-06T22:05:24+07:00"
+            "date_published": "2020-08-06T22:54:44+07:00",
+            "date_modified": "2020-08-06T22:54:44+07:00"
         },
         {
             "id": "https://fixel.ru/gribovskiy-les/",
@@ -163,8 +163,8 @@
                    "Заказ",
                    "Верстка"
             ],
-            "date_published": "2020-08-06T22:05:24+07:00",
-            "date_modified": "2020-08-06T22:05:24+07:00"
+            "date_published": "2020-08-06T22:54:44+07:00",
+            "date_modified": "2020-08-06T22:54:44+07:00"
         },
         {
             "id": "https://fixel.ru/inteldom/",
@@ -181,8 +181,8 @@
                    "Заказ",
                    "Верстка"
             ],
-            "date_published": "2020-08-06T22:05:24+07:00",
-            "date_modified": "2020-08-06T22:05:24+07:00"
+            "date_published": "2020-08-06T22:54:44+07:00",
+            "date_modified": "2020-08-06T22:54:44+07:00"
         }
     ]
 }
