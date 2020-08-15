@@ -24,8 +24,8 @@
                    "Блог",
                    "OBS Studio"
             ],
-            "date_published": "2020-08-14T20:36:03+07:00",
-            "date_modified": "2020-08-14T20:36:03+07:00"
+            "date_published": "2020-08-16T03:58:54+07:00",
+            "date_modified": "2020-08-16T03:58:54+07:00"
         },
         {
             "id": "https://fixel.ru/test-mel-science/",
@@ -40,8 +40,8 @@
                    "Заказ",
                    "Верстка"
             ],
-            "date_published": "2020-08-14T20:36:03+07:00",
-            "date_modified": "2020-08-14T20:36:03+07:00"
+            "date_published": "2020-08-16T03:58:54+07:00",
+            "date_modified": "2020-08-16T03:58:54+07:00"
         },
         {
             "id": "https://fixel.ru/muzyka-bez-avtorskih-prav-dlya-strimov/",
@@ -56,8 +56,8 @@
                    "Стримы",
                    "Блог"
             ],
-            "date_published": "2020-08-14T20:36:03+07:00",
-            "date_modified": "2020-08-14T20:36:03+07:00"
+            "date_published": "2020-08-16T03:58:54+07:00",
+            "date_modified": "2020-08-16T03:58:54+07:00"
         },
         {
             "id": "https://fixel.ru/kak-sdelat-zametki-na-polyah-v-egee/",
@@ -73,8 +73,8 @@
                    "Гайд",
                    "Блог"
             ],
-            "date_published": "2020-08-14T20:36:03+07:00",
-            "date_modified": "2020-08-14T20:36:03+07:00"
+            "date_published": "2020-08-16T03:58:54+07:00",
+            "date_modified": "2020-08-16T03:58:54+07:00"
         },
         {
             "id": "https://fixel.ru/kak-sozdat-svoy-shablon-dlya-egei/",
@@ -90,15 +90,15 @@
                    "Гайд",
                    "Блог"
             ],
-            "date_published": "2020-08-14T20:36:03+07:00",
-            "date_modified": "2020-08-14T20:36:03+07:00"
+            "date_published": "2020-08-16T03:58:54+07:00",
+            "date_modified": "2020-08-16T03:58:54+07:00"
         },
         {
             "id": "https://fixel.ru/malenkiy-princ/",
             "url": "https://fixel.ru/malenkiy-princ/",
             "title": "Маленький Принц",
-            "summary": " Вёрстка лендинга ГК Маленький Принц ",
-            "content_html": "\n  <p>\n    Вёрстка лендинга ГК Маленький Принц\n  </p>",
+            "summary": " ",
+            "content_html": "\n  <p>\n    \n  </p>",
             "image": "https://fixel.ru/media/posts/22/cover.png",
             "author": {
                 "name": "Блог"
@@ -108,15 +108,15 @@
                    "Заказ",
                    "Верстка"
             ],
-            "date_published": "2020-08-14T20:36:03+07:00",
-            "date_modified": "2020-08-14T20:36:03+07:00"
+            "date_published": "2020-08-16T03:58:54+07:00",
+            "date_modified": "2020-08-16T03:58:54+07:00"
         },
         {
             "id": "https://fixel.ru/blog-mihaila-kryukova/",
             "url": "https://fixel.ru/blog-mihaila-kryukova/",
             "title": "Блог Михаила Крюкова",
-            "summary": " Разработка дизайна и вёрстка шаблона для блога на Эгее ",
-            "content_html": "\n  <p>\n    Разработка дизайна и вёрстка шаблона для блога на Эгее\n  </p>",
+            "summary": " Разработка дизайна и вёрстка шаблона для блога на Эгее. ",
+            "content_html": "\n  <p>\n    Разработка дизайна и вёрстка шаблона для блога на Эгее.\n  </p>",
             "image": "https://fixel.ru/media/posts/21/cover.png",
             "author": {
                 "name": "Блог"
@@ -127,15 +127,15 @@
                    "Дизайн",
                    "Верстка"
             ],
-            "date_published": "2020-08-14T20:36:03+07:00",
-            "date_modified": "2020-08-14T20:36:03+07:00"
+            "date_published": "2020-08-16T03:58:54+07:00",
+            "date_modified": "2020-08-16T03:58:54+07:00"
         },
         {
             "id": "https://fixel.ru/volkova-20/",
             "url": "https://fixel.ru/volkova-20/",
             "title": "Волкова 20",
-            "summary": " Вёрстка лендинга бизнес-центра Волкова 20 ",
-            "content_html": "\n  <p>\n    Вёрстка лендинга бизнес-центра Волкова 20\n  </p>",
+            "summary": " ",
+            "content_html": "\n  <p>\n    \n  </p>",
             "image": "https://fixel.ru/media/posts/20/cover.png",
             "author": {
                 "name": "Блог"
@@ -145,15 +145,15 @@
                    "Заказ",
                    "Верстка"
             ],
-            "date_published": "2020-08-14T20:36:03+07:00",
-            "date_modified": "2020-08-14T20:36:03+07:00"
+            "date_published": "2020-08-16T03:58:54+07:00",
+            "date_modified": "2020-08-16T03:58:54+07:00"
         },
         {
             "id": "https://fixel.ru/gribovskiy-les/",
             "url": "https://fixel.ru/gribovskiy-les/",
             "title": "Грибовский лес",
-            "summary": " Вёрстка сайта Грибовский лес ",
-            "content_html": "\n  <p>\n    Вёрстка сайта Грибовский лес\n  </p>",
+            "summary": " ",
+            "content_html": "\n  <p>\n    \n  </p>",
             "image": "https://fixel.ru/media/posts/19/cover.png",
             "author": {
                 "name": "Блог"
@@ -163,15 +163,15 @@
                    "Заказ",
                    "Верстка"
             ],
-            "date_published": "2020-08-14T20:36:03+07:00",
-            "date_modified": "2020-08-14T20:36:03+07:00"
+            "date_published": "2020-08-16T03:58:54+07:00",
+            "date_modified": "2020-08-16T03:58:54+07:00"
         },
         {
             "id": "https://fixel.ru/inteldom/",
             "url": "https://fixel.ru/inteldom/",
             "title": "Интелдом",
-            "summary": " Вёрстка сайта&nbsp;Интелдома ",
-            "content_html": "\n  <p>\n    Вёрстка сайта&nbsp;Интелдома\n  </p>",
+            "summary": " ",
+            "content_html": "\n  <p>\n    \n  </p>",
             "image": "https://fixel.ru/media/posts/18/cover.png",
             "author": {
                 "name": "Блог"
@@ -181,8 +181,8 @@
                    "Заказ",
                    "Верстка"
             ],
-            "date_published": "2020-08-14T20:36:03+07:00",
-            "date_modified": "2020-08-14T20:36:03+07:00"
+            "date_published": "2020-08-16T03:58:54+07:00",
+            "date_modified": "2020-08-16T03:58:54+07:00"
         }
     ]
 }
