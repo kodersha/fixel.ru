@@ -3,12 +3,352 @@
     <title>Александра Травкина</title>
     <link href="https://fixel.ru/feed.xml" rel="self" />
     <link href="https://fixel.ru" />
-    <updated>2020-10-02T17:01:47+07:00</updated>
+    <updated>2020-10-02T23:20:01+07:00</updated>
     <author>
         <name>Блог</name>
     </author>
     <id>https://fixel.ru</id>
 
+    <entry>
+        <title>Команды бота</title>
+        <author>
+            <name>Блог</name>
+        </author>
+        <link href="https://fixel.ru/commands/"/>
+        <id>https://fixel.ru/commands/</id>
+
+        <updated>2020-10-02T23:20:01+07:00</updated>
+            <summary>
+                <![CDATA[
+                    !времяВремя длительности стрима!советСпросить совет у бота!обнятьОбнять кого-то из чата!любовьУзнать процент любви с кем-то из чатаБаллы каналаКаждые пять минут стрима зрителям начисляется по 25 баллов канала которые можно использовать для различных команд чат-бота. Мемные звуковые команды со стикерами, которые отображаются на экране стрима. Ставка на битву&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                <table style="border-collapse: collapse; width: 100%;" border="1">
+<tbody>
+<tr>
+<td style="width: 100%;">!время</td>
+</tr>
+<tr>
+<td style="width: 100%;">Время длительности стрима</td>
+</tr>
+</tbody>
+</table>
+<table style="border-collapse: collapse; width: 100%;" border="1">
+<tbody>
+<tr>
+<td style="width: 100%;">!совет</td>
+</tr>
+<tr>
+<td style="width: 100%;">Спросить совет у бота</td>
+</tr>
+</tbody>
+</table>
+<table style="border-collapse: collapse; width: 100%;" border="1">
+<tbody>
+<tr>
+<td style="width: 100%;">!обнять</td>
+</tr>
+<tr>
+<td style="width: 100%;">Обнять кого-то из чата</td>
+</tr>
+</tbody>
+</table>
+<table style="border-collapse: collapse; width: 100%;" border="1">
+<tbody>
+<tr>
+<td style="width: 100%;">!любовь</td>
+</tr>
+<tr>
+<td style="width: 100%;">Узнать процент любви с кем-то из чата</td>
+</tr>
+</tbody>
+</table>
+<h2>Баллы канала</h2>
+<p class="msg msg--info">Каждые пять минут стрима зрителям начисляется по 25 баллов канала которые можно использовать для различных команд чат-бота.</p>
+<table style="border-collapse: collapse; width: 100%;" border="1">
+<tbody>
+<tr>
+<td style="width: 100%;">!баллы</td>
+</tr>
+<tr>
+<td style="width: 100%;">Узнать своё количество баллов</td>
+</tr>
+</tbody>
+</table>
+<table style="border-collapse: collapse; width: 100%;" border="1">
+<tbody>
+<tr>
+<td style="width: 100%;">!первый</td>
+</tr>
+<tr>
+<td style="width: 100%;">Получить бонусные баллы придя на стрим первым</td>
+</tr>
+</tbody>
+</table>
+<h2>Озвучивание сообщений ботом</h2>
+<table style="border-collapse: collapse; width: 100%;" border="1">
+<tbody>
+<tr>
+<td style="width: 50%;">!сказать</td>
+<td class="align-right" style="width: 50%;">200 баллов канала</td>
+</tr>
+<tr>
+<td style="width: 50%;">Озвучить сообщение ботом</td>
+<td style="width: 50%;"> </td>
+</tr>
+<tr>
+<td style="width: 50%;"><em>Пример: !сказать текст сообщения</em></td>
+<td class="align-left" style="width: 50%;"> </td>
+</tr>
+</tbody>
+</table>
+<h2>Анимированные стикеры</h2>
+<p>Мемные звуковые команды со стикерами, которые отображаются на экране стрима.</p>
+<table style="border-collapse: collapse; width: 100%;" border="1">
+<tbody>
+<tr>
+<td style="width: 50%;">!здравствуйте</td>
+<td class="align-right" style="width: 50%;">300 баллов канала</td>
+</tr>
+<tr>
+<td style="width: 50%;">Здравствуйте</td>
+<td style="width: 50%;"> </td>
+</tr>
+</tbody>
+</table>
+<table style="border-collapse: collapse; width: 100%;" border="1">
+<tbody>
+<tr>
+<td style="width: 100%;">!приветствую</td>
+</tr>
+<tr>
+<td style="width: 100%;">Я вас категорически приветствую</td>
+</tr>
+</tbody>
+</table>
+<table style="border-collapse: collapse; width: 100%;" border="1">
+<tbody>
+<tr>
+<td style="width: 100%;">!добрыйвечер</td>
+</tr>
+<tr>
+<td style="width: 100%;">Добрый вечер, девочки</td>
+</tr>
+</tbody>
+</table>
+<table style="border-collapse: collapse; width: 100%;" border="1">
+<tbody>
+<tr>
+<td style="width: 100%;">!какдела</td>
+</tr>
+<tr>
+<td style="width: 100%;">Как дела девочки?</td>
+</tr>
+</tbody>
+</table>
+<table style="border-collapse: collapse; width: 100%;" border="1">
+<tbody>
+<tr>
+<td style="width: 100%;">!смэрть</td>
+</tr>
+<tr>
+<td style="width: 100%;">Смэрть</td>
+</tr>
+</tbody>
+</table>
+<table style="border-collapse: collapse; width: 100%;" border="1">
+<tbody>
+<tr>
+<td style="width: 100%;">!пиццы</td>
+</tr>
+<tr>
+<td style="width: 100%;">Я хочу пиццы</td>
+</tr>
+</tbody>
+</table>
+<table style="border-collapse: collapse; width: 100%;" border="1">
+<tbody>
+<tr>
+<td style="width: 100%;">!лякакой</td>
+</tr>
+<tr>
+<td style="width: 100%;">Ля какой</td>
+</tr>
+</tbody>
+</table>
+<table style="border-collapse: collapse; width: 100%;" border="1">
+<tbody>
+<tr>
+<td style="width: 100%;">!лякакая</td>
+</tr>
+<tr>
+<td style="width: 100%;">Ля какая</td>
+</tr>
+</tbody>
+</table>
+<table style="border-collapse: collapse; width: 100%;" border="1">
+<tbody>
+<tr>
+<td style="width: 100%;">!darkness</td>
+</tr>
+<tr>
+<td style="width: 100%;">Hello darkness my old friend</td>
+</tr>
+</tbody>
+</table>
+<table style="border-collapse: collapse; width: 100%;" border="1">
+<tbody>
+<tr>
+<td style="width: 100%;">!шумишь</td>
+</tr>
+<tr>
+<td style="width: 100%;">Какого дьявола ты здесь шумишь?!</td>
+</tr>
+</tbody>
+</table>
+<table style="border-collapse: collapse; width: 100%;" border="1">
+<tbody>
+<tr>
+<td style="width: 100%;">!дурак</td>
+</tr>
+<tr>
+<td style="width: 100%;">Ты чё дурак?</td>
+</tr>
+</tbody>
+</table>
+<table style="border-collapse: collapse; width: 100%;" border="1">
+<tbody>
+<tr>
+<td style="width: 100%;">!умер</td>
+</tr>
+<tr>
+<td style="width: 100%;">Ну умер и умер</td>
+</tr>
+</tbody>
+</table>
+<table style="border-collapse: collapse; width: 100%;" border="1">
+<tbody>
+<tr>
+<td style="width: 100%;">!шизофрения</td>
+</tr>
+<tr>
+<td style="width: 100%;">Это шизофрения</td>
+</tr>
+</tbody>
+</table>
+<table style="border-collapse: collapse; width: 100%;" border="1">
+<tbody>
+<tr>
+<td style="width: 100%;">!смех</td>
+</tr>
+<tr>
+<td style="width: 100%;">*Смех мексиканца*</td>
+</tr>
+</tbody>
+</table>
+<table style="border-collapse: collapse; width: 100%;" border="1">
+<tbody>
+<tr>
+<td style="width: 100%;">!непонял</td>
+</tr>
+<tr>
+<td style="width: 100%;">Ни...я не понял, но очень интересно</td>
+</tr>
+</tbody>
+</table>
+<table style="border-collapse: collapse; width: 100%;" border="1">
+<tbody>
+<tr>
+<td style="width: 100%;">!nice</td>
+</tr>
+<tr>
+<td style="width: 100%;">Nice</td>
+</tr>
+</tbody>
+</table>
+<table style="border-collapse: collapse; width: 100%;" border="1">
+<tbody>
+<tr>
+<td style="width: 100%;">!ohmy</td>
+</tr>
+<tr>
+<td style="width: 100%;">Oh my</td>
+</tr>
+</tbody>
+</table>
+<table style="border-collapse: collapse; width: 100%;" border="1">
+<tbody>
+<tr>
+<td style="width: 100%;">!чтотынесешь</td>
+</tr>
+<tr>
+<td style="width: 100%;">Да что ты, чёрт возьми, такое несешь?</td>
+</tr>
+</tbody>
+</table>
+<table style="border-collapse: collapse; width: 100%;" border="1">
+<tbody>
+<tr>
+<td style="width: 100%;">!нудануда</td>
+</tr>
+<tr>
+<td style="width: 100%;">Ну да, ну да, пошёл я нахер</td>
+</tr>
+</tbody>
+</table>
+<table style="border-collapse: collapse; width: 100%;" border="1">
+<tbody>
+<tr>
+<td style="width: 100%;">!этобан</td>
+</tr>
+<tr>
+<td style="width: 100%;">Это бан</td>
+</tr>
+</tbody>
+</table>
+<table style="border-collapse: collapse; width: 100%;" border="1">
+<tbody>
+<tr>
+<td style="width: 100%;">!иронично</td>
+</tr>
+<tr>
+<td style="width: 100%;">Иронично</td>
+</tr>
+</tbody>
+</table>
+<table style="border-collapse: collapse; width: 100%;" border="1">
+<tbody>
+<tr>
+<td style="width: 100%;">!таковпуть</td>
+</tr>
+<tr>
+<td style="width: 100%;">Таков путь</td>
+</tr>
+</tbody>
+</table>
+<h2>Битва</h2>
+<p>Ставка на битву составляет 600 баллов канала, победитель получает 600 баллов проигравшего.</p>
+<table style="border-collapse: collapse; width: 100%;" border="1">
+<tbody>
+<tr>
+<td style="width: 50%;">!битва</td>
+<td class="align-right" style="width: 50%;">600 баллов канала</td>
+</tr>
+<tr>
+<td style="width: 50%;">Вызвать участника чата на битву</td>
+<td style="width: 50%;"> </td>
+</tr>
+<tr>
+<td style="width: 50%;"><em>Пример: !битва meowcat</em></td>
+<td style="width: 50%;"><em> </em></td>
+</tr>
+</tbody>
+</table>
+            ]]>
+        </content>
+    </entry>
     <entry>
         <title>Характеристики компьютера</title>
         <author>
@@ -370,34 +710,6 @@
                 
   <p>
     Разработка дизайна и вёрстка шаблона для блога на Эгее.
-  </p>
-            ]]>
-        </content>
-    </entry>
-    <entry>
-        <title>Волкова 20</title>
-        <author>
-            <name>Блог</name>
-        </author>
-        <link href="https://fixel.ru/volkova-20/"/>
-        <id>https://fixel.ru/volkova-20/</id>
-            <category term="Работы"/>
-            <category term="Заказ"/>
-            <category term="Верстка"/>
-
-        <updated>2020-08-16T03:56:55+07:00</updated>
-            <summary>
-                <![CDATA[
-                        <img src="https://fixel.ru/media/posts/20/cover.png" alt="" />
-                     
-                ]]>
-            </summary>
-        <content type="html">
-            <![CDATA[
-                    <img src="https://fixel.ru/media/posts/20/cover.png" alt="" />
-                
-  <p>
-    
   </p>
             ]]>
         </content>
