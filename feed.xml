@@ -3,7 +3,7 @@
     <title>Александра Травкина</title>
     <link href="https://fixel.ru/feed.xml" rel="self" />
     <link href="https://fixel.ru" />
-    <updated>2020-10-02T23:20:01+07:00</updated>
+    <updated>2020-10-03T00:06:28+07:00</updated>
     <author>
         <name>Блог</name>
     </author>
@@ -17,7 +17,7 @@
         <link href="https://fixel.ru/commands/"/>
         <id>https://fixel.ru/commands/</id>
 
-        <updated>2020-10-02T23:20:01+07:00</updated>
+        <updated>2020-10-03T00:06:28+07:00</updated>
             <summary>
                 <![CDATA[
                     !времяВремя длительности стрима!советСпросить совет у бота!обнятьОбнять кого-то из чата!любовьУзнать процент любви с кем-то из чатаБаллы каналаКаждые пять минут стрима зрителям начисляется по 25 баллов канала которые можно использовать для различных команд чат-бота. Мемные звуковые команды со стикерами, которые отображаются на экране стрима. Ставка на битву&hellip;
@@ -131,7 +131,7 @@
 <table style="border-collapse: collapse; width: 100%;" border="1">
 <tbody>
 <tr>
-<td style="width: 100%;">!добрыйвечер</td>
+<td style="width: 100%;">!вечер</td>
 </tr>
 <tr>
 <td style="width: 100%;">Добрый вечер, девочки</td>
@@ -141,7 +141,7 @@
 <table style="border-collapse: collapse; width: 100%;" border="1">
 <tbody>
 <tr>
-<td style="width: 100%;">!какдела</td>
+<td style="width: 100%;">!дела</td>
 </tr>
 <tr>
 <td style="width: 100%;">Как дела девочки?</td>
@@ -281,7 +281,7 @@
 <table style="border-collapse: collapse; width: 100%;" border="1">
 <tbody>
 <tr>
-<td style="width: 100%;">!чтотынесешь</td>
+<td style="width: 100%;">!несешь</td>
 </tr>
 <tr>
 <td style="width: 100%;">Да что ты, чёрт возьми, такое несешь?</td>
@@ -291,7 +291,7 @@
 <table style="border-collapse: collapse; width: 100%;" border="1">
 <tbody>
 <tr>
-<td style="width: 100%;">!нудануда</td>
+<td style="width: 100%;">!нуда</td>
 </tr>
 <tr>
 <td style="width: 100%;">Ну да, ну да, пошёл я нахер</td>
@@ -301,7 +301,7 @@
 <table style="border-collapse: collapse; width: 100%;" border="1">
 <tbody>
 <tr>
-<td style="width: 100%;">!этобан</td>
+<td style="width: 100%;">!бан</td>
 </tr>
 <tr>
 <td style="width: 100%;">Это бан</td>
@@ -321,7 +321,7 @@
 <table style="border-collapse: collapse; width: 100%;" border="1">
 <tbody>
 <tr>
-<td style="width: 100%;">!таковпуть</td>
+<td style="width: 100%;">!путь</td>
 </tr>
 <tr>
 <td style="width: 100%;">Таков путь</td>
