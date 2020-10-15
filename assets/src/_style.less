@@ -1139,16 +1139,15 @@ article {
 /* Landing */
 
 .landing {
-    .section-body {
-        position: relative;
-        min-height: 100vh;
-        height: 100%;
+    .section {
+        .section-body {
+            position: relative;
+            min-height: 100vh;
+            height: 100%;
 
-        & > div {
-            height: calc(100% - var(--lineHeight) - var(--lineHeight));
-            height: -moz-available;
-            height: -webkit-fill-available;
-            height: fill-available;
+            .window {
+                height: calc(100vh - var(--lineHeight) - var(--lineHeight)) !important;
+            }
         }
     }
 }
@@ -1232,4 +1231,8 @@ img[loading] {
 canvas {
     display: block;
     vertical-align: bottom;
+}
+
+.bg-elements {
+    background-color: var(--colorElements);
 }
