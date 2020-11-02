@@ -3,7 +3,7 @@
     <title>Александра Травкина</title>
     <link href="https://fixel.ru/feed.xml" rel="self" />
     <link href="https://fixel.ru" />
-    <updated>2020-10-15T18:21:25+07:00</updated>
+    <updated>2020-11-02T15:25:50+07:00</updated>
     <author>
         <name>Блог</name>
     </author>
@@ -17,7 +17,7 @@
         <link href="https://fixel.ru/commands/"/>
         <id>https://fixel.ru/commands/</id>
 
-        <updated>2020-10-15T18:21:25+07:00</updated>
+        <updated>2020-11-02T15:25:50+07:00</updated>
             <summary>
                 <![CDATA[
                     !времяВремя длительности стрима!советСпросить совет у бота!обнятьОбнять кого-то из чата!любовьУзнать процент любви с кем-то из чатаБаллы каналаКаждые пять минут стрима зрителям начисляется по 25 баллов канала которые можно использовать для различных команд чат-бота. Мемные звуковые команды со стикерами, которые отображаются на экране стрима. Ставка на битву&hellip;
@@ -84,21 +84,6 @@
 </tr>
 <tr>
 <td style="width: 100%;">Получить бонусные баллы придя на стрим первым</td>
-</tr>
-</tbody>
-</table>
-<table style="border-collapse: collapse; width: 100%;" border="1">
-<tbody>
-<tr>
-<td style="width: 50%;">!дождь</td>
-<td class="align-right" style="width: 50%;">1000 баллов канала</td>
-</tr>
-</tbody>
-</table>
-<table style="border-collapse: collapse; width: 100%; margin-top: 0;" border="1">
-<tbody>
-<tr>
-<td style="width: 100%;">Каждый участник чата получит случайное количество баллов.</td>
 </tr>
 </tbody>
 </table>
