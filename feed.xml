@@ -3,7 +3,7 @@
     <title>Александра Травкина</title>
     <link href="https://fixel.ru/feed.xml" rel="self" />
     <link href="https://fixel.ru" />
-    <updated>2020-11-24T09:33:29+07:00</updated>
+    <updated>2020-11-28T02:55:29+07:00</updated>
     <author>
         <name>Блог</name>
     </author>
@@ -46,25 +46,15 @@
         <link href="https://fixel.ru/commands/"/>
         <id>https://fixel.ru/commands/</id>
 
-        <updated>2020-11-15T16:30:20+07:00</updated>
+        <updated>2020-11-28T02:55:29+07:00</updated>
             <summary>
                 <![CDATA[
-                    !времяВремя длительности стрима!советСпросить совет у бота!обнятьОбнять кого-то из чата!любовьУзнать процент любви с кем-то из чатаБаллы каналаКаждые пять минут стрима зрителям начисляется по 25 баллов канала которые можно использовать для различных команд чат-бота. Мемные звуковые команды со стикерами, которые отображаются на экране стрима. Ставка на битву&hellip;
+                    !советСпросить совет у ботаБаллы каналаЗа каждое сообщение зрителям начисляется по 5 баллов канала которые можно использовать для различных команд чат-бота. Мемные звуковые команды со стикерами, которые отображаются на экране стрима.!здравствуйте50 баллов каналаЗдравствуйте !приветствуюЯ вас категорически приветствую!вечерДобрый вечер, девочки!делаКак дела девочки?!смэртьСмэрть!пиццыЯ хочу пиццы!лякакойЛя какой!лякакаяЛя какая!darknessHello darkness my&hellip;
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
                 <table style="border-collapse: collapse; width: 100%;" border="1">
-<tbody>
-<tr>
-<td style="width: 100%;">!время</td>
-</tr>
-<tr>
-<td style="width: 100%;">Время длительности стрима</td>
-</tr>
-</tbody>
-</table>
-<table style="border-collapse: collapse; width: 100%;" border="1">
 <tbody>
 <tr>
 <td style="width: 100%;">!совет</td>
@@ -74,28 +64,8 @@
 </tr>
 </tbody>
 </table>
-<table style="border-collapse: collapse; width: 100%;" border="1">
-<tbody>
-<tr>
-<td style="width: 100%;">!обнять</td>
-</tr>
-<tr>
-<td style="width: 100%;">Обнять кого-то из чата</td>
-</tr>
-</tbody>
-</table>
-<table style="border-collapse: collapse; width: 100%;" border="1">
-<tbody>
-<tr>
-<td style="width: 100%;">!любовь</td>
-</tr>
-<tr>
-<td style="width: 100%;">Узнать процент любви с кем-то из чата</td>
-</tr>
-</tbody>
-</table>
 <h2>Баллы канала</h2>
-<p class="msg msg--info">Каждые пять минут стрима зрителям начисляется по 25 баллов канала которые можно использовать для различных команд чат-бота.</p>
+<p class="msg msg--info">За каждое сообщение зрителям начисляется по 5 баллов канала которые можно использовать для различных команд чат-бота.</p>
 <table style="border-collapse: collapse; width: 100%;" border="1">
 <tbody>
 <tr>
@@ -106,22 +76,12 @@
 </tr>
 </tbody>
 </table>
-<table style="border-collapse: collapse; width: 100%;" border="1">
-<tbody>
-<tr>
-<td style="width: 100%;">!первый</td>
-</tr>
-<tr>
-<td style="width: 100%;">Получить бонусные баллы</td>
-</tr>
-</tbody>
-</table>
 <h2>Озвучивание сообщений ботом</h2>
 <table style="border-collapse: collapse; width: 100%;" border="1">
 <tbody>
 <tr>
 <td style="width: 50%;">!сказать</td>
-<td class="align-right" style="width: 50%;">200 баллов канала</td>
+<td class="align-right" style="width: 50%;">25 баллов канала</td>
 </tr>
 <tr>
 <td style="width: 50%;">Озвучить сообщение ботом</td>
@@ -139,7 +99,7 @@
 <tbody>
 <tr>
 <td style="width: 50%;">!здравствуйте</td>
-<td class="align-right" style="width: 50%;">300 баллов канала</td>
+<td class="align-right" style="width: 50%;">50 баллов канала</td>
 </tr>
 <tr>
 <td style="width: 50%;">Здравствуйте</td>
@@ -357,24 +317,7 @@
 </tr>
 </tbody>
 </table>
-<h2>Битва</h2>
-<p>Ставка на битву составляет 600 баллов канала, победитель получает 600 баллов проигравшего.</p>
-<table style="border-collapse: collapse; width: 100%;" border="1">
-<tbody>
-<tr>
-<td style="width: 50%;">!битва</td>
-<td class="align-right" style="width: 50%;">600 баллов канала</td>
-</tr>
-<tr>
-<td style="width: 50%;">Вызвать участника чата на битву</td>
-<td style="width: 50%;"> </td>
-</tr>
-<tr>
-<td style="width: 50%;"><em>Пример: !битва meowcat</em></td>
-<td style="width: 50%;"><em> </em></td>
-</tr>
-</tbody>
-</table>
+<h2><br><br></h2>
             ]]>
         </content>
     </entry>
