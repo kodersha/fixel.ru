@@ -10,24 +10,6 @@
     },
     "items": [
         {
-            "id": "https://fixel.ru/skript-obshchego-chata-mezhdu-twitch-i-youtube-dlya-rutonychat/",
-            "url": "https://fixel.ru/skript-obshchego-chata-mezhdu-twitch-i-youtube-dlya-rutonychat/",
-            "title": "Скрипт общего чата между twitch и youtube для RutonyChat",
-            "summary": "У сайта restream.io есть функция пересылки сообщений между разными платформами при рестриме. Например, пишет вам человек на твиче, а бот пересылает его сообщение на юутуб и наоборот. Написала аналогичный по функциональности скрипт для RutonyChat'a. Работает только между платформами twitch и youtube. Скачать с GitHub Скопировать&hellip;",
-            "content_html": "<p>У сайта restream.io есть функция пересылки сообщений между разными платформами при рестриме. Например, пишет вам человек на твиче, а бот пересылает его сообщение на юутуб и наоборот. Написала аналогичный по функциональности скрипт для RutonyChat'a. Работает только между платформами twitch и youtube.</p>\n<p><a href=\"https://github.com/sashatravkina/rutony-say-to-twitch-youtube\" target=\"_blank\" rel=\"noopener noreferrer\">Скачать с GitHub</a></p>\n<h2>Установка и настройка</h2>\n<p>Скопировать файл <code>bot_say_to_twitch_youtube.cs</code> в папку <code>scripts</code>, которая находится папке RutonyChat'a. Обязательно отредактировать скачанный скрипт <code>bot_say_to_twitch_youtube.cs</code>, куда вместо <code>Имя бота</code> вписать никнейм своего бота на twitch и youtube.</p>\n<p>В меню RutonyChat'a во вкладке <strong>Удаленное управление</strong> выбрать <strong>Автономные скрипты</strong>, добавить <code>bot_say_to_twitch_youtube.cs</code>, поставить галочку <strong>Разрешить сообщения от чата</strong>. Готово.</p>\n<p>Если что-то не работает или сообщения бесконечно дублируются, убедитесь что RutonyChat опять не сломался и что прописали имя бота в скрипте правильно, оно чувствительно к регистру.</p>",
-            "author": {
-                "name": "Блог"
-            },
-            "tags": [
-                   "Стримы",
-                   "Скрипты",
-                   "Блог",
-                   "RutonyChat"
-            ],
-            "date_published": "2020-11-24T09:14:09+07:00",
-            "date_modified": "2020-11-24T09:33:29+07:00"
-        },
-        {
             "id": "https://fixel.ru/commands/",
             "url": "https://fixel.ru/commands/",
             "title": "Команды чат-бота",
@@ -172,6 +154,25 @@
             ],
             "date_published": "2020-05-11T23:36:50+07:00",
             "date_modified": "2020-08-16T03:56:29+07:00"
+        },
+        {
+            "id": "https://fixel.ru/blog-mihaila-kryukova/",
+            "url": "https://fixel.ru/blog-mihaila-kryukova/",
+            "title": "Блог Михаила Крюкова",
+            "summary": " Разработка дизайна и вёрстка шаблона для блога на Эгее. ",
+            "content_html": "\n  <p>\n    Разработка дизайна и вёрстка шаблона для блога на Эгее.\n  </p>",
+            "image": "https://fixel.ru/media/posts/21/cover.png",
+            "author": {
+                "name": "Блог"
+            },
+            "tags": [
+                   "Работы",
+                   "Заказ",
+                   "Дизайн",
+                   "Верстка"
+            ],
+            "date_published": "2020-04-29T20:22:00+07:00",
+            "date_modified": "2020-08-16T03:56:44+07:00"
         }
     ]
 }
