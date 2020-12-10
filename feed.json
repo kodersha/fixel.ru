@@ -10,6 +10,22 @@
     },
     "items": [
         {
+            "id": "https://fixel.ru/zis-pilot/",
+            "url": "https://fixel.ru/zis-pilot/",
+            "title": "ЗИС Пилот",
+            "image": "https://fixel.ru/media/posts/35/cover-2.png",
+            "author": {
+                "name": "Блог"
+            },
+            "tags": [
+                   "Работы",
+                   "Заказ",
+                   "Верстка"
+            ],
+            "date_published": "2020-12-08T05:45:00+07:00",
+            "date_modified": "2020-12-11T05:49:41+07:00"
+        },
+        {
             "id": "https://fixel.ru/commands/",
             "url": "https://fixel.ru/commands/",
             "title": "Команды чат-бота",
@@ -154,25 +170,6 @@
             ],
             "date_published": "2020-05-11T23:36:50+07:00",
             "date_modified": "2020-08-16T03:56:29+07:00"
-        },
-        {
-            "id": "https://fixel.ru/blog-mihaila-kryukova/",
-            "url": "https://fixel.ru/blog-mihaila-kryukova/",
-            "title": "Блог Михаила Крюкова",
-            "summary": " Разработка дизайна и вёрстка шаблона для блога на Эгее. ",
-            "content_html": "\n  <p>\n    Разработка дизайна и вёрстка шаблона для блога на Эгее.\n  </p>",
-            "image": "https://fixel.ru/media/posts/21/cover.png",
-            "author": {
-                "name": "Блог"
-            },
-            "tags": [
-                   "Работы",
-                   "Заказ",
-                   "Дизайн",
-                   "Верстка"
-            ],
-            "date_published": "2020-04-29T20:22:00+07:00",
-            "date_modified": "2020-08-16T03:56:44+07:00"
         }
     ]
 }
