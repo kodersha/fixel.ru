@@ -44,6 +44,8 @@
 [columns="28"] { --grid-tc: repeat(28, 1fr); }
 [columns="29"] { --grid-tc: repeat(29, 1fr); }
 [columns="30"] { --grid-tc: repeat(30, 1fr); }
+[columns="31"] { --grid-tc: repeat(31, 1fr); }
+[columns="32"] { --grid-tc: repeat(32, 1fr); }
 
 /* span=start... */
 [columns] > [cell^="1"] { --grid-cs: 1; }
@@ -76,6 +78,8 @@
 [columns] > [cell^="28"] { --grid-cs: 28; }
 [columns] > [cell^="29"] { --grid-cs: 29; }
 [columns] > [cell^="30"] { --grid-cs: 30; }
+[columns] > [cell^="31"] { --grid-cs: 31; }
+[columns] > [cell^="32"] { --grid-cs: 32; }
 
 /* span=...+width, span=...-end */
 [columns] > [cell$="+1"], [columns] > [cell="1"] { --grid-ce: 1; }
@@ -108,7 +112,9 @@
 [columns] > [cell$="+28"], [columns] > [cell$="-27"], [columns] > [cell="28"] { --grid-ce: 28; }
 [columns] > [cell$="+29"], [columns] > [cell$="-28"], [columns] > [cell="29"] { --grid-ce: 29; }
 [columns] > [cell$="+30"], [columns] > [cell$="-29"], [columns] > [cell="30"] { --grid-ce: 30; }
-[columns] > [cell$="-30"] { --grid-ce: 31; }
+[columns] > [cell$="+31"], [columns] > [cell$="-30"], [columns] > [cell="31"] { --grid-ce: 31; }
+[columns] > [cell$="+32"], [columns] > [cell$="-31"], [columns] > [cell="32"] { --grid-ce: 32; }
+[columns] > [cell$="-32"] { --grid-ce: 33; }
 
 /* connect vars */
 [columns] > [cell] {
@@ -156,6 +162,8 @@
     [columns-s="28"] { --grid-tc: repeat(28, 1fr); }
     [columns-s="29"] { --grid-tc: repeat(29, 1fr); }
     [columns-s="30"] { --grid-tc: repeat(30, 1fr); }
+    [columns-s="31"] { --grid-tc: repeat(31, 1fr); }
+    [columns-s="32"] { --grid-tc: repeat(32, 1fr); }
     
     /* span-s=start... */
     [columns] > [cell-s^="1"] { --grid-cs: 1; }
@@ -188,6 +196,8 @@
     [columns] > [cell-s^="28"] { --grid-cs: 28; }
     [columns] > [cell-s^="29"] { --grid-cs: 29; }
     [columns] > [cell-s^="30"] { --grid-cs: 30; }
+    [columns] > [cell-s^="31"] { --grid-cs: 31; }
+    [columns] > [cell-s^="32"] { --grid-cs: 32; }
     
     /* span-s=...+width, span-s=...-end */
     [columns] > [cell-s$="+1"], [columns] > [cell-s="1"] { --grid-ce: 1; }
@@ -220,7 +230,9 @@
     [columns] > [cell-s$="+28"], [columns] > [cell-s$="-27"], [columns] > [cell-s="28"] { --grid-ce: 28; }
     [columns] > [cell-s$="+29"], [columns] > [cell-s$="-28"], [columns] > [cell-s="29"] { --grid-ce: 29; }
     [columns] > [cell-s$="+30"], [columns] > [cell-s$="-29"], [columns] > [cell-s="30"] { --grid-ce: 30; }
-    [columns] > [cell-s$="-30"] { --grid-ce: 31; }
+    [columns] > [cell-s$="+31"], [columns] > [cell-s$="-30"], [columns] > [cell-s="31"] { --grid-ce: 31; }
+    [columns] > [cell-s$="+32"], [columns] > [cell-s$="-31"], [columns] > [cell-s="32"] { --grid-ce: 32; }
+    [columns] > [cell-s$="-32"] { --grid-ce: 33; }
     
     /* connect vars */
     [columns] > [cell-s] { 
@@ -269,6 +281,8 @@
     [columns-l="28"] { --grid-tc: repeat(28, 1fr); }
     [columns-l="29"] { --grid-tc: repeat(29, 1fr); }
     [columns-l="30"] { --grid-tc: repeat(30, 1fr); }
+    [columns-l="31"] { --grid-tc: repeat(31, 1fr); }
+    [columns-l="32"] { --grid-tc: repeat(32, 1fr); }
     
     /* span-l=start... */
     [columns] > [cell-l^="1"] { --grid-cs: 1; }
@@ -301,6 +315,8 @@
     [columns] > [cell-l^="28"] { --grid-cs: 28; }
     [columns] > [cell-l^="29"] { --grid-cs: 29; }
     [columns] > [cell-l^="30"] { --grid-cs: 30; }
+    [columns] > [cell-l^="31"] { --grid-cs: 31; }
+    [columns] > [cell-l^="32"] { --grid-cs: 32; }
     
     /* span-l=...+width, span-l=...-end */
     [columns] > [cell-l$="+1"], [columns] > [cell-l="1"] { --grid-ce: 1; }
@@ -333,7 +349,9 @@
     [columns] > [cell-l$="+28"], [columns] > [cell-l$="-27"], [columns] > [cell-l="28"] { --grid-ce: 28; }
     [columns] > [cell-l$="+29"], [columns] > [cell-l$="-28"], [columns] > [cell-l="29"] { --grid-ce: 29; }
     [columns] > [cell-l$="+30"], [columns] > [cell-l$="-29"], [columns] > [cell-l="30"] { --grid-ce: 30; }
-    [columns] > [cell-l$="-30"] { --grid-ce: 31; }
+    [columns] > [cell-l$="+31"], [columns] > [cell-l$="-30"], [columns] > [cell-l="31"] { --grid-ce: 31; }
+    [columns] > [cell-l$="+32"], [columns] > [cell-l$="-31"], [columns] > [cell-l="32"] { --grid-ce: 32; }
+    [columns] > [cell-l$="-32"] { --grid-ce: 33; }
     
     /* connect vars */
     [columns] > [cell-l] {

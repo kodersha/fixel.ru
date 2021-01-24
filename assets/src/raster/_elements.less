@@ -1,6 +1,6 @@
 /* block */
-address, article, aside, blockquote, dd, dl, dt, fieldset, figure, form,
-grid, h1, h2, h3, h4, h5, h6, li, nav, ol, p, pre, table, tfoot, ul, video {
+address, aside, blockquote, dd, dl, dt, fieldset, figure, form,
+grid, h1, h2, h3, h4, h5, h6, li, ol, p, pre, table, tfoot, ul, video {
     margin-top: var(--blockSpacingTop);
     margin-bottom: var(--blockSpacingBottom);
 }
@@ -10,30 +10,6 @@ grid, h1, h2, h3, h4, h5, h6, li, nav, ol, p, pre, table, tfoot, ul, video {
 :last-child { margin-bottom: unset; }
 
 /* hr */
-hr:first-child {
-    margin-top: calc(var(--hrThickness) / -2);
-    margin-bottom: calc(var(--lineHeight) - calc(var(--hrThickness) / 2));
-}
-hr:last-child {
-    margin-top: calc(var(--lineHeight) - calc(var(--hrThickness) / 2));
-    margin-bottom: calc(var(--hrThickness) / -2);
-}
-hr, hr:only-child {
-    border: none;
-    background: var(--foreground-color);
-    height: var(--hrThickness);
-    margin-top: calc(var(--lineHeight) - calc(var(--hrThickness) / 2));
-    margin-bottom: calc(var(--lineHeight) - calc(var(--hrThickness) / 2));
-}
-* + hr:last-child {
-    /* hr following block has hrThickness removed from its top spacing */
-    margin-top: calc(var(--hrThickness) / -2);
-}
-hr:not(:first-child) {
-    /* note: collapses with preceeding block bottom margin */
-    margin-top: var(--lineHeight);
-    margin-bottom: calc(var(--lineHeight) - var(--hrThickness));
-}
 grid > hr { grid-column: 1 / -1; }
 grid > hr,
 grid > hr:not(:first-child):not(:last-child) {
@@ -41,11 +17,6 @@ grid > hr:not(:first-child):not(:last-child) {
     margin-top: calc(var(--lineHeight) - var(--hrThickness)); /* BOTTOM-bias */
     margin-bottom: 0;
 }
-/* collapse consecutive HRs into one */
-/*grid > hr + hr,
-grid > hr:not(:first-child):not(:last-child) + hr {
-  display:none;
-}*/
 
 /* text style modifiers */
 b, strong, .bold { font-weight: 600; }

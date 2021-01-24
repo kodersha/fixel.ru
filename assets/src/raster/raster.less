@@ -5,3 +5,28 @@
 @import "_flow.less";
 @import "_elements.less";
 @import "_helpers.less";
+@import "_flxgrid.less";
+
+.grid-settings() {
+
+    // settings
+    @grid-columns: 12;   // number of columns
+    @gutter-width: 2rem; // gap between columns
+
+    // media breakpoints (default: as on bootstrap)
+    @breakpoints:
+        ~"(min-width: 1024px)",
+        ~"(min-width: 1521px)";
+
+    // max-width of containers according breakpoints
+    @container-maw:
+        1023px,
+        1520px;
+
+    // names for breakpoint suffixes
+    @suffixes: xs, lg, xl;
+
+    // IMPORTANT: suffixes count should be bigger than breakpoints count by 1
+    // suffixes-count = breakpoints-count + 1
+
+}
