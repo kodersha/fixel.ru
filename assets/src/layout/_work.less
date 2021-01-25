@@ -30,6 +30,12 @@
     }
     .article-content {
         .thumbnail {
+            background-color: var(--colorElements);
+
+            -webkit-filter: url(#goo);
+            -moz-filter: url(#goo);
+            filter: url(#goo);
+
             position: relative;
             overflow: hidden;
 
@@ -48,11 +54,9 @@
 
                 background-color: var(--colorElements);
 
-                @media only screen and (min-width: @mobile-size + 1) {
-                    -webkit-filter: url(#goo);
-                    -moz-filter: url(#goo);
-                    filter: url(#goo);
-                }
+                -webkit-filter: url(#goo);
+                -moz-filter: url(#goo);
+                filter: url(#goo);
             }
 
             a {
