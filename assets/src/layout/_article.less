@@ -91,7 +91,6 @@
         }
         .tags {
             position: relative;
-            display: flex;
 
             margin-bottom: -0.25rem;
 
@@ -112,6 +111,9 @@
 
                 margin-bottom: 0.25rem;
                 margin-right: 0.25rem;
+
+                white-space: nowrap;
+                display: inline-block;
 
                 &:first-of-type {
                     display: none;
@@ -311,7 +313,9 @@
             line-height: calc(var(--lineHeight) * 0.75);
     
             margin-top: var(--blockSpacingTop);
-            display: inline-table;
+
+            overflow-x: scroll;
+            display: block;
     
             background-color: transparent;
     
