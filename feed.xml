@@ -3,7 +3,7 @@
     <title>Александра Травкина</title>
     <link href="https://fixel.ru/feed.xml" rel="self" />
     <link href="https://fixel.ru" />
-    <updated>2021-01-25T08:21:00+07:00</updated>
+    <updated>2021-01-25T08:32:45+07:00</updated>
     <author>
         <name>Блог</name>
     </author>
@@ -17,10 +17,8 @@
         <link href="https://fixel.ru/ref/"/>
         <id>https://fixel.ru/ref/</id>
             <category term="Работы"/>
-            <category term="Заказ"/>
-            <category term="Верстка"/>
 
-        <updated>2021-01-25T06:13:57+07:00</updated>
+        <updated>2021-01-25T08:32:14+07:00</updated>
             <summary></summary>
         <content></content>
     </entry>
@@ -32,10 +30,8 @@
         <link href="https://fixel.ru/kabanovo/"/>
         <id>https://fixel.ru/kabanovo/</id>
             <category term="Работы"/>
-            <category term="Заказ"/>
-            <category term="Верстка"/>
 
-        <updated>2021-01-25T06:02:28+07:00</updated>
+        <updated>2021-01-25T08:32:21+07:00</updated>
             <summary></summary>
         <content></content>
     </entry>
@@ -47,10 +43,8 @@
         <link href="https://fixel.ru/zis-pilot/"/>
         <id>https://fixel.ru/zis-pilot/</id>
             <category term="Работы"/>
-            <category term="Заказ"/>
-            <category term="Верстка"/>
 
-        <updated>2021-01-25T06:02:43+07:00</updated>
+        <updated>2021-01-25T08:32:28+07:00</updated>
             <summary></summary>
         <content></content>
     </entry>
@@ -377,10 +371,8 @@
         <link href="https://fixel.ru/7-kvartalov/"/>
         <id>https://fixel.ru/7-kvartalov/</id>
             <category term="Работы"/>
-            <category term="Заказ"/>
-            <category term="Верстка"/>
 
-        <updated>2021-01-25T06:02:54+07:00</updated>
+        <updated>2021-01-25T08:32:33+07:00</updated>
             <summary></summary>
         <content></content>
     </entry>
@@ -430,10 +422,8 @@
         <link href="https://fixel.ru/test-mel-science/"/>
         <id>https://fixel.ru/test-mel-science/</id>
             <category term="Работы"/>
-            <category term="Заказ"/>
-            <category term="Верстка"/>
 
-        <updated>2021-01-25T06:03:10+07:00</updated>
+        <updated>2021-01-25T08:32:45+07:00</updated>
             <summary></summary>
         <content></content>
     </entry>
