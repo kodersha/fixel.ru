@@ -975,22 +975,23 @@
         }
     }
     .article-comments {
-        & > div {
-            &::before {
-                content: '';
-                background-color: #15202b;
+        position: relative;
+        overflow: hidden;
+        
+        &::before {
+            content: '';
+            background-color: #15202b;
 
-                -webkit-filter: url(#goo);
-                -moz-filter: url(#goo);
-                filter: url(#goo);
+            -webkit-filter: url(#goo);
+            -moz-filter: url(#goo);
+            filter: url(#goo);
 
-                position: absolute;
-                z-index: -100;
-                bottom: -1rem;
-                right: -1rem;
-                left: -1rem;
-                top: -1rem;
-            }
+            position: absolute;
+            z-index: -10;
+            bottom: 0;
+            right: 0;
+            left: 0;
+            top: -1rem;
         }
     }
 
