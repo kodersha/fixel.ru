@@ -3,7 +3,7 @@
     <title>Александра Травкина</title>
     <link href="https://fixel.ru/feed.xml" rel="self" />
     <link href="https://fixel.ru" />
-    <updated>2021-01-25T06:13:57+07:00</updated>
+    <updated>2021-01-25T08:21:00+07:00</updated>
     <author>
         <name>Блог</name>
     </author>
@@ -396,7 +396,7 @@
             <category term="Блог"/>
             <category term="OBS Studio"/>
 
-        <updated>2021-01-14T21:00:58+07:00</updated>
+        <updated>2021-01-25T08:21:00+07:00</updated>
             <summary>
                 <![CDATA[
                     <p class="msg msg--warning">Помните, что стрим через Multiple RTMP слегка нагружает процессор. В моем случае, на i9 9900, OBS при рестриме потребляет около пяти процентов. Может быть критично, если стримите через кодировщик процессора, а не видеокарты.</p>
@@ -448,7 +448,7 @@
             <category term="Музыка"/>
             <category term="Блог"/>
 
-        <updated>2021-01-24T21:06:03+07:00</updated>
+        <updated>2021-01-25T08:20:54+07:00</updated>
             <summary>
                 <![CDATA[
                     С появлением музыкального сервиса spotify в России, у нас появилась прекрасная возможность найти немного плейлистов с royalty-free музыкой. Вот, например, плейлист с тридцатью семью часами lo-fi музыки. Двенадцать часов retrowave. Шесть часов рок-музыки. Так же можно обратить внимание на плейлисты исполнителей Miracle Of Sound, The Midnight, Midnight Playtime, Wraithwalker — за их&hellip;
@@ -485,7 +485,7 @@
             <category term="Блог"/>
             <category term="CMS"/>
 
-        <updated>2021-01-24T21:06:19+07:00</updated>
+        <updated>2021-01-25T08:20:49+07:00</updated>
             <summary>
                 <![CDATA[
                     <pre class="language-css">@media screen and (min-width: 1050px) {<br>    .e2-text .aside {<br>        position: relative;<br>        text-align: left;<br>        max-width: 200px;<br>        margin-left: 4%;<br>        margin-top: .15em;<br>        float: right;<br>        clear: right;<br>    }<br>}<br>.e2-text .aside {<br>    line-height: 1.4;<br>    font-size: 0.875em;<br>    color: #4A4A4A;<br>}</pre>
