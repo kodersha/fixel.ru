@@ -3,7 +3,7 @@
     <title>Александра Травкина</title>
     <link href="https://fixel.ru/feed.xml" rel="self" />
     <link href="https://fixel.ru" />
-    <updated>2021-01-25T08:32:45+07:00</updated>
+    <updated>2021-01-25T08:47:33+07:00</updated>
     <author>
         <name>Блог</name>
     </author>
@@ -472,10 +472,11 @@
         <id>https://fixel.ru/kak-sdelat-zametki-na-polyah-v-egee/</id>
             <category term="Эгея"/>
             <category term="Гайд"/>
+            <category term="Веб"/>
             <category term="Блог"/>
             <category term="CMS"/>
 
-        <updated>2021-01-25T08:20:49+07:00</updated>
+        <updated>2021-01-25T08:47:33+07:00</updated>
             <summary>
                 <![CDATA[
                     <pre class="language-css">@media screen and (min-width: 1050px) {<br>    .e2-text .aside {<br>        position: relative;<br>        text-align: left;<br>        max-width: 200px;<br>        margin-left: 4%;<br>        margin-top: .15em;<br>        float: right;<br>        clear: right;<br>    }<br>}<br>.e2-text .aside {<br>    line-height: 1.4;<br>    font-size: 0.875em;<br>    color: #4A4A4A;<br>}</pre>
