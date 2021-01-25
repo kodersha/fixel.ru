@@ -974,13 +974,24 @@
             margin-top: 0;
         }
     }
-    .particles {
-        position: absolute;
-        z-index: -100;
-        opacity: 0.4;
-        bottom: 0;
-        right: 0;
-        left: 0;
-        top: 0;
+    .article-comments {
+        & > div {
+            &::before {
+                content: '';
+                background-color: #15202b;
+
+                -webkit-filter: url(#goo);
+                -moz-filter: url(#goo);
+                filter: url(#goo);
+
+                position: absolute;
+                z-index: -100;
+                bottom: -1rem;
+                right: -1rem;
+                left: -1rem;
+                top: -1rem;
+            }
+        }
     }
+
 }
