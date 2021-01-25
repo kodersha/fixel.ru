@@ -977,7 +977,7 @@
     .article-comments {
         position: relative;
         overflow: hidden;
-        
+
         &::before {
             content: '';
             background-color: #15202b;
@@ -992,6 +992,15 @@
             right: 0;
             left: 0;
             top: -1rem;
+        }
+
+        iframe {
+            position: relative;
+            overflow: hidden;
+
+            -webkit-filter: url(#goo);
+            -moz-filter: url(#goo);
+            filter: url(#goo);
         }
     }
 
