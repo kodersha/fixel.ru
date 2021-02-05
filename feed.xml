@@ -3,7 +3,7 @@
     <title>Александра Травкина</title>
     <link href="https://fixel.ru/feed.xml" rel="self" />
     <link href="https://fixel.ru" />
-    <updated>2021-01-25T08:47:33+07:00</updated>
+    <updated>2021-02-05T20:33:42+07:00</updated>
     <author>
         <name>Блог</name>
     </author>
@@ -388,7 +388,7 @@
             <category term="Блог"/>
             <category term="OBS Studio"/>
 
-        <updated>2021-01-25T08:21:00+07:00</updated>
+        <updated>2021-02-05T20:33:42+07:00</updated>
             <summary>
                 <![CDATA[
                     <p class="msg msg--warning">Помните, что стрим через Multiple RTMP слегка нагружает процессор. В моем случае, на i9 9900, OBS при рестриме потребляет около пяти процентов. Может быть критично, если стримите через кодировщик процессора, а не видеокарты.</p>
@@ -411,6 +411,7 @@
 <p>Так как twitch не позволяет стримить с битрейтом выше <code>6000</code> и разрешением больше <code>1920×1080</code>, вписываем свои настройки вещания. Выбираем кодировщик, такой же как и основной, чтобы излишне не нагружать систему. Указываем разрешение <code>1920×1080</code>, если стримите на youtube в разрешении <code>2560×1440</code> или <code>3840×2160</code>. Если нет, то разрешение здесь можно не указывать. Вписываем битрейт — <code>6000</code>, ключевые кадры — <code>2</code>.</p>
 <figure class="post__image"><img loading="lazy"  src="https://fixel.ru/media/posts/30/05.png" alt="" width="346" height="314"></figure>
 <p>Теперь в панели «Множественный вывод» у вас есть две площадки для стрима, каждая со своими настройками кодировщика. Таким образом можно добиться идеальной картинки на обоих платформах.</p>
+<p class="msg msg--twitch">Кстати, мои стримы можно найти на канале <a href="https://twitch.tv/travkina">twitch.tv/travkina</a></p>
             ]]>
         </content>
     </entry>
@@ -438,7 +439,7 @@
             <category term="Музыка"/>
             <category term="Блог"/>
 
-        <updated>2021-01-25T08:20:54+07:00</updated>
+        <updated>2021-02-05T17:17:58+07:00</updated>
             <summary>
                 <![CDATA[
                     С появлением музыкального сервиса spotify в России, у нас появилась прекрасная возможность найти немного плейлистов с royalty-free музыкой. Вот, например, плейлист с тридцатью семью часами lo-fi музыки. Двенадцать часов retrowave. Шесть часов рок-музыки. Так же можно обратить внимание на плейлисты исполнителей Miracle Of Sound, The Midnight, Midnight Playtime, Wraithwalker — за их&hellip;
@@ -460,6 +461,7 @@
 <h2>Chillhop</h2>
 <p>Сервис lo-fi музыки с довольно обширным плейлистом. Для того, чтобы безнаказанно проигрывать музыку на стриме, нужно зарегистрироваться и разместить кнопку сервиса у себя на twitch канале, или ссылку в описании стрима на youtube. В настройках профиля подключите свою стрим-платформу, во вкладке «Crediting a video» подробно описано о размещении ссылки.</p>
 <p><a href="https://chillhop.com/creators/" target="_blank" rel="nofollow noopener noreferrer">chillhop.com</a></p>
+<p class="msg msg--twitch">Кстати, мои стримы можно найти на канале <a href="https://twitch.tv/travkina">twitch.tv/travkina</a></p>
             ]]>
         </content>
     </entry>

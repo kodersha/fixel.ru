@@ -20,6 +20,10 @@
         filter: url(#goo);
     }
 
+    .breadcrumbs {
+        border-bottom: 0.125rem solid var(--background-color);
+    }
+
     .article-header {    
         position: relative;
         overflow: hidden;
@@ -28,12 +32,12 @@
     
         h1 {
             font-family: var(--fontFamilyTitle);
-            font-weight: 700;
+            font-weight: 900;
             text-transform: uppercase;
     
             @media only screen and (min-width: @mobile-size + 1) {
-                font-size: 3rem;
-                line-height: calc(var(--lineHeight) * 2.2);
+                font-size: 4rem;
+                line-height: calc(var(--lineHeight) * 2.8);
             }
             @media only screen and (max-width: @mobile-size) {
                 font-size: 2rem;
@@ -98,7 +102,7 @@
                 position: relative;
                 overflow: hidden;
 
-                background-color: var(--colorDarkenGray);
+                background-color: var(--colorDarkGray);
                 border-radius: 3.125rem;
 
                 font-size: .8rem;
@@ -123,7 +127,7 @@
                 }
 
                 &:hover {
-                    background-color: var(--colorDarkestGray);
+                    background-color: var(--colorBlack);
                     color: var(--colorWhite);
                 }
             }
@@ -167,7 +171,7 @@
             color: var(--colorWhite);
         }
         h2 {
-            margin-top: calc(var(--blockSpacingTop) * 2);
+            margin-top: calc(var(--blockSpacingTop) * 3);
             margin-left: 0;
     
             & + p {
@@ -178,7 +182,7 @@
             }
         }
         h3 {
-            margin-top: calc(var(--blockSpacingTop) * 1.8);
+            margin-top: calc(var(--blockSpacingTop) * 2);
             margin-left: 0;
     
             & + p {
@@ -445,6 +449,12 @@
             &.msg--warning {
                 &::before {
                     border-left-color: var(--colorRed);
+                }
+            }
+
+            &.msg--twitch {
+                &::before {
+                    border-left-color: rgb(145, 70, 255);
                 }
             }
         }
