@@ -1,7 +1,7 @@
 .post-article {
     position: relative;
 
-    border-radius: 0 0 var(--borderElements) var(--borderElements);
+    border-radius: var(--borderElements);
 
     &::before {
         content: '';
@@ -13,15 +13,11 @@
         bottom: 0;
         right: 0;
         left: 0;
-        top: -1rem;
+        top: 0;
 
         -webkit-filter: url(#goo);
         -moz-filter: url(#goo);
         filter: url(#goo);
-    }
-
-    .breadcrumbs {
-        border-bottom: 0.125rem solid var(--background-color);
     }
 
     .article-header {    
