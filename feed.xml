@@ -3,7 +3,7 @@
     <title>Александра Травкина</title>
     <link href="https://fixel.ru/feed.xml" rel="self" />
     <link href="https://fixel.ru" />
-    <updated>2021-03-08T02:06:23+07:00</updated>
+    <updated>2021-03-08T17:04:35+07:00</updated>
     <author>
         <name>Блог</name>
     </author>
@@ -183,11 +183,12 @@
             <category term="Блог"/>
             <category term="CMS"/>
 
-        <updated>2021-01-25T08:47:33+07:00</updated>
+        <updated>2021-03-08T16:56:01+07:00</updated>
             <summary>
                 <![CDATA[
                     <pre class="language-css">@media screen and (min-width: 1050px) {<br>    .e2-text .aside {<br>        position: relative;<br>        text-align: left;<br>        max-width: 200px;<br>        margin-left: 4%;<br>        margin-top: .15em;<br>        float: right;<br>        clear: right;<br>    }<br>}<br>.e2-text .aside {<br>    line-height: 1.4;<br>    font-size: 0.875em;<br>    color: #4A4A4A;<br>}</pre>
-<p>Этот CSS можно добавить в конец файла <code>../styles/main.css</code>, который находится в папке с вашей темой Эгеи. Но лучше создать свой файл стилей в папке <code>styles</code>, назвав его, например <code>custom.css</code> и подключить его к теме. Для этого скопируйте из <code>./system/theme/templates</code> файл <code>main.tmpl.php</code> в папку <code>templates</code> вашей темы (Если папки нет, создайте её) и добавьте в конец этого файла, после <code>&lt;?php _CSS ('main') ?&gt;</code> макрос:</p>
+<p>Этот CSS можно добавить в конец файла ../styles/main.css, который находится в папке с вашей темой Эгеи. Но лучше создать свой файл стилей в папке styles, назвав его, например custom.css и подключить его к теме.</p>
+<p>Для этого скопируйте из ./system/theme/templates файл main.tmpl.php в папку templates вашей темы (Если папки нет, создайте её) и добавьте в конец этого файла, после <code>&lt;?php _CSS ('main') ?&gt;</code> макрос:</p>
 <pre class="language-php">&lt;?php _CSS ('custom') ?&gt;</pre>
 <p>Это позволит безопасно дополнять свою тему стилями, не рискуя потерять внесенные изменения после очередного обновления движка. Подробнее, о том как редактировать шаблоны в Эгее, рассказано в <a href="https://fixel.ru/kak-sozdat-svoy-shablon-dlya-egei/">предыдущем посте</a>.</p>
 <p>Теперь, при написании очередной статьи в блог, достаточно использовать эгеевский язык разметки. Этот тег добавит заметку справа от следующего за ним абзаца:</p>
@@ -200,7 +201,8 @@
         <content type="html">
             <![CDATA[
                 <pre class="language-css">@media screen and (min-width: 1050px) {<br>    .e2-text .aside {<br>        position: relative;<br>        text-align: left;<br>        max-width: 200px;<br>        margin-left: 4%;<br>        margin-top: .15em;<br>        float: right;<br>        clear: right;<br>    }<br>}<br>.e2-text .aside {<br>    line-height: 1.4;<br>    font-size: 0.875em;<br>    color: #4A4A4A;<br>}</pre>
-<p>Этот CSS можно добавить в конец файла <code>../styles/main.css</code>, который находится в папке с вашей темой Эгеи. Но лучше создать свой файл стилей в папке <code>styles</code>, назвав его, например <code>custom.css</code> и подключить его к теме. Для этого скопируйте из <code>./system/theme/templates</code> файл <code>main.tmpl.php</code> в папку <code>templates</code> вашей темы (Если папки нет, создайте её) и добавьте в конец этого файла, после <code>&lt;?php _CSS ('main') ?&gt;</code> макрос:</p>
+<p>Этот CSS можно добавить в конец файла ../styles/main.css, который находится в папке с вашей темой Эгеи. Но лучше создать свой файл стилей в папке styles, назвав его, например custom.css и подключить его к теме.</p>
+<p>Для этого скопируйте из ./system/theme/templates файл main.tmpl.php в папку templates вашей темы (Если папки нет, создайте её) и добавьте в конец этого файла, после <code>&lt;?php _CSS ('main') ?&gt;</code> макрос:</p>
 <pre class="language-php">&lt;?php _CSS ('custom') ?&gt;</pre>
 <p>Это позволит безопасно дополнять свою тему стилями, не рискуя потерять внесенные изменения после очередного обновления движка. Подробнее, о том как редактировать шаблоны в Эгее, рассказано в <a href="https://fixel.ru/kak-sozdat-svoy-shablon-dlya-egei/">предыдущем посте</a>.</p>
 <p>Теперь, при написании очередной статьи в блог, достаточно использовать эгеевский язык разметки. Этот тег добавит заметку справа от следующего за ним абзаца:</p>
@@ -224,21 +226,22 @@
             <category term="Блог"/>
             <category term="CMS"/>
 
-        <updated>2021-01-25T08:47:39+07:00</updated>
+        <updated>2021-03-08T17:04:35+07:00</updated>
             <summary>
                 <![CDATA[
-                    Пользовательские темы находятся в папке ../themes в корне блога. Создадим в этом каталоге папку и назовем её так, как хотим чтобы называлась наша будущая тема. Например «сherry» — ../themes/сherry. Информация о теме хранится в файле theme-info.php её корневой папки и содержит следующий код: &lt;?php return&hellip;
+                    Статья может быть устаревшей и не всё написанное в ней может отражать действительность, так как Эгея периодически обновляется. Пользовательские темы находятся в папке ../themes в корне блога. Создадим в этом каталоге папку и назовем её так, как хотим чтобы называлась наша будущая тема. Например «сherry»&hellip;
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
-                <p>Пользовательские темы находятся в папке <code>../themes</code> в корне блога. Создадим в этом каталоге папку и назовем её так, как хотим чтобы называлась наша будущая тема. Например «сherry» — <code>../themes/сherry</code>. Информация о теме хранится в файле <code>theme-info.php</code> её корневой папки и содержит следующий код:</p>
+                <p class="msg msg--warning">Статья может быть устаревшей и не всё написанное в ней может отражать действительность, так как Эгея периодически обновляется.</p>
+<p>Пользовательские темы находятся в папке ../themes в корне блога. Создадим в этом каталоге папку и назовем её так, как хотим чтобы называлась наша будущая тема. Например «сherry» — ../themes/сherry. Информация о теме хранится в файле theme-info.php её корневой папки и содержит следующий код:</p>
 <pre class="line-numbers language-php">&lt;?php return array (<br><br>  <em>/* Порядок темы в списке тем в админке */</em><br>  'index' =&gt; 99,<br><br>  <em>/* Отображаемое название темы для разных языков */</em><br>  'display_name' =&gt; array (<br>    'en' =&gt; 'Cherry',<br>    'ru' =&gt; 'Вишня',<br>    'uk' =&gt; 'Вишня',<br>  ),<br><br>  <em>/* Параметры основных цветов */</em><br>  'colors' =&gt; array (<br>    'background' =&gt; '#faebd2',<br>    'headings' =&gt; '#000',<br>    'text' =&gt; '#000',<br>    'link' =&gt; '#3d6077',<br>  ),<br><br>  <em>/* На какой теме основана текущая тема */</em><br>  'based_on' =&gt; 'plain',<br><br>  <em>/* Параметры метатега viewport */</em><br>  'meta_viewport' =&gt; 'width=device-width, initial-scale=1',<br><br>  <em>/* Поддержка тёмного режима */</em><br>  'supports_dark_mode' =&gt; false,<br><br>); ?&gt;</pre>
 <p>В папке темы также существует несколько папок из которых Эгея подхватывает скрипты, стили, изображения и файлы разметки:</p>
 <pre class="line-numbers language-html">../themes/сherry/images — Изображения<br>../themes/сherry/js — JS скрипты<br>../themes/сherry/src — Исходные sass/less файлы стилей<br>../themes/сherry/styles — CSS стили<br>../themes/сherry/templates — PHP файлы шаблона</pre>
-<p>Если файлов в папках нет, они будут подхватываться из стандартной темы Эгеи, которая находится по пути <code>../system/theme</code>, либо из темы указанной как базовая в конфигурационном файле <code>theme-info.php</code>.</p>
-<p class="msg msg--warning">Чтобы внести изменения в стандартные шаблоны Эгеи, скопируйте необходимый файл из <code class="highlighter-rouge">../system/theme/templates</code> в папку <code>templates</code> вашей темы и уже там производите все изменения. Вносить правки в системной папке не стоит, так как после обновления движка все изменения исчезнут.</p>
-<p>Теперь стоит подробнее разобрать содержимое <code>../system/theme/templates</code>, для наглядности того, как выглядит тот или иной элемент в живую, я добавила соответствующие файлам скриншоты.</p>
+<p>Если файлов в папках нет, они будут подхватываться из стандартной темы Эгеи, которая находится по пути ../system/theme, либо из темы указанной как базовая в конфигурационном файле theme-info.php.</p>
+<p class="msg msg--warning">Чтобы внести изменения в стандартные шаблоны Эгеи, скопируйте необходимый файл из ../system/theme/templates в папку templates вашей темы и уже там производите все изменения. Вносить правки в системной папке не стоит, так как после обновления движка все изменения исчезнут.</p>
+<p>Теперь стоит подробнее разобрать содержимое папки templates, для наглядности того, как выглядит тот или иной элемент в живую, я добавила соответствующие файлам скриншоты.</p>
 <section class="section">
 <figure class="post__image"><img loading="lazy" src="https://fixel.ru/media/posts/24/26.png" alt="">
 <figcaption>user-picture.tmpl.php — Аватар блога.</figcaption>
@@ -337,18 +340,18 @@
 <figcaption>layout.tmpl.php — Основная разметка шаблона внутри body, здесь подключаются другие части шаблона.<br>main.tmpl.php — Разметка внутри html, здесь подключается head.tmpl.php содержащий метатеги, сам layout.tmpl.php, js и css.</figcaption>
 </figure>
 </section>
-<p>Эти файлы можно копировать в папку <code>templates</code> своей темы и редактировать на свой вкус.</p>
-<p>Подключить свою собственную часть шаблона можно создав файл типа <code>name.tmpl.php</code> в папке <code>templates</code> и затем вызвать его в любом другом месте или в <code>layout.tmpl.php</code>. Например, можно создать файл <code>menu.tmpl.php</code> со своим меню и ссылками на соц-сети, сверстанными на html и css, и вызвать его в <code>layout.tmpl.php</code> специальным макросом. Илья Бирман в <a href="https://docs.google.com/document/d/1yn7KCHq47oli7IH--skhymjjj2OSlXjcyGOxZ2ZEPeA/edit#heading=h.j2h2wr6xhlie" target="_blank" rel="nofollow noopener noreferrer">справке</a> к Эгее пишет:</p>
+<p>Эти файлы можно копировать в папку templates своей темы и редактировать на свой вкус.</p>
+<p>Подключить свою собственную часть шаблона можно создав файл типа name.tmpl.php в папке templates и затем вызвать его в любом другом месте или в layout.tmpl.php. Например, можно создать файл menu.tmpl.php со своим меню и ссылками на соц-сети, сверстанными на html и css, и вызвать его в layout.tmpl.php специальным макросом. Илья Бирман в <a href="https://docs.google.com/document/d/1yn7KCHq47oli7IH--skhymjjj2OSlXjcyGOxZ2ZEPeA/edit#heading=h.j2h2wr6xhlie" target="_blank" rel="nofollow noopener noreferrer">справке</a> к Эгее пишет:</p>
 <p class="msg msg--info">Шаблон может вызывать другие шаблоны для отображения конкретного фрагмента: _T () — вызывает шаблон по имени. (...) Шаблон layout.tmpl.php «срабатывает» потому, что main.tmpl.php вызывает его для формирования тела страницы.</p>
-<p>Так, чтобы вывести содержимое файла <code>menu.tmpl.php</code> где нибудь на сайте, достаточно небольшого кода:</p>
+<p>Так, чтобы вывести содержимое файла menu.tmpl.php где нибудь на сайте, достаточно небольшого кода:</p>
 <pre class="line-numbers language-php">&lt;?php _T ('menu') ?&gt;</pre>
 <p>К слову, если вам нужно вывести часть шаблона, скажем, только на главной странице, но не на странице поста, оберните код вывода следующим уточнением:</p>
 <pre class="line-numbers language-php">&lt;?php if ($content['class'] == 'frontpage') { ?&gt;<br>    &lt;?php _T ('menu') ?&gt;<br>&lt;?php } ?&gt;</pre>
 <p>Или, если нужно вывести эту часть шаблона только на странице поста:</p>
 <pre class="line-numbers language-php">&lt;?php if ($content['class'] == 'note') { ?&gt;<br>   &lt;?php _T ('menu') ?&gt;<br>&lt;?php } ?&gt;</pre>
-<p>JS и CSS в тему Эгеи тоже подключаются специальными макросами. Для наглядности откройте стандартный <code>main.tmpl.php</code> и посмотрите в конец файла, после закрывающего тега <code>body</code>:</p>
+<p>JS и CSS в тему Эгеи тоже подключаются специальными макросами. Для наглядности откройте стандартный main.tmpl.php и посмотрите в конец файла, после закрывающего тега body:</p>
 <pre class="line-numbers language-php">&lt;?php _CSS ('main') ?&gt;<br>&lt;?php _JS ('main') ?&gt;</pre>
-<p>Здесь подхватываются <code class="highlighter-rouge">../js/main.js</code> и <code class="highlighter-rouge">../styles/main.css</code> из папки темы, или из стандартной темы, если нет соответствующих файлов. По такому принципу можно добавить, например, скрипт <code>bootstrap.min.js</code> в папку <code>js</code> и подключить его кодом:</p>
+<p>Здесь подхватываются ../js/main.js и ../styles/main.css из папки темы, или из стандартной темы, если нет соответствующих файлов. По такому принципу можно добавить, например, скрипт bootstrap.min.js в папку js и подключить его кодом:</p>
 <pre class="line-numbers language-php">&lt;?php _JS ('bootstrap.min') ?&gt;</pre>
 <p>Таким образом можно редактировать отдельные части шаблона Эгеи при создании своей темы, подключать стили и скрипты. Также, для более полной информации, рекомендую ознакомится с <a href="https://docs.google.com/document/d/1yn7KCHq47oli7IH--skhymjjj2OSlXjcyGOxZ2ZEPeA/edit" target="_blank" rel="nofollow noopener noreferrer">официальной документацией</a> по темам оформления Эгеи.</p>
             ]]>
