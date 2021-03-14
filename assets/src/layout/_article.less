@@ -279,6 +279,13 @@
             display: block;
     
             background-color: transparent;
+
+            -ms-overflow-style: none;
+            scrollbar-width: none;
+
+            &::-webkit-scrollbar {
+                display: none;
+            }
     
             & + p,
             & + h2

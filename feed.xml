@@ -3,12 +3,62 @@
     <title>Александра Травкина</title>
     <link href="https://fixel.ru/feed.xml" rel="self" />
     <link href="https://fixel.ru" />
-    <updated>2021-03-08T17:04:35+07:00</updated>
+    <updated>2021-03-14T19:51:48+07:00</updated>
     <author>
         <name>Блог</name>
     </author>
     <id>https://fixel.ru</id>
 
+    <entry>
+        <title>Кат в Эгее</title>
+        <author>
+            <name>Блог</name>
+        </author>
+        <link href="https://fixel.ru/kat-v-egee/"/>
+        <id>https://fixel.ru/kat-v-egee/</id>
+            <category term="Эгея"/>
+            <category term="Гайд"/>
+            <category term="Веб"/>
+            <category term="Блог"/>
+
+        <updated>2021-03-14T19:51:48+07:00</updated>
+            <summary>
+                <![CDATA[
+                    <figure class="post__image"><img loading="lazy"  src="https://fixel.ru/media/posts/39/01.jpg" alt="" width="1018" height="475"></figure>
+
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                <figure class="post__image"><img loading="lazy"  src="https://fixel.ru/media/posts/39/01.jpg" alt="" width="1018" height="475"></figure>
+
+<p>Скачайте скрипт <a href="https://github.com/jedfoster/Readmore.js" target="_blank" rel="nofollow noopener noreferrer">readmore.js с GitHub</a> и поместите файл readmore.min.js в папку js, которую нужно создать в корне вашего шаблона Эгеи, например в корне стандартного шаблона plain:</p>
+<pre><code>../themes/plain/js/readmore.min.js</code></pre>
+<p>После, создадим файл template.js в папке js шаблона plain, в нём будем настраивать сам скрипт. Добавим в созданный файл настройки, полный список которых можно посмотреть на странице скрипта readmore.js на GitHub.</p>
+<pre>$('.e2-note-short').readmore({<br>    speed: 75, // Скорость раскрытия ката<br>    collapsedHeight: 1250, // Длинна заметки после которой будет добавлен кат<br>    moreLink: '&lt;div class="more"&gt;&lt;a class="morelink" href="#"&gt;Показать полностью&lt;/a&gt;&lt;/div&gt;', // Классы кнопки раскрытия ката<br>    lessLink: '' // Классы кнопки скрытия ката<br>});</pre>
+<p>Теперь нужно добавить класс .e2-note-short, благодаря которому будет добавляться кат к вашим записям, для этого нужно скопировать файл из:</p>
+<pre>../system/theme/templates/notes.tmpl.php</pre>
+<p>И поместить в папку templates шаблона:</p>
+<pre>../themes/plain/templates/notes.tmpl.php</pre>
+<p>Откроем скопированный notes.tmpl.php, где добавим к тегу &lt;article&gt; класс e2-note-short обернув его php параметром, чтобы кат не работал на отдельной странице с записью, а только в ленте постов на главной.</p>
+<pre>&lt;article class="&lt;?php if ($content['class'] != 'note') { ?&gt;e2-note-short&lt;?php } ?&gt;"&gt;</pre>
+<p>Далее, в папке styles шаблона создадим файл style.css где будут стили кнопки ката. В дальнейшем в этот css можно добавлять любые собственные стили, без конфликта с основными стилями шаблона Эгеи.</p>
+<pre>../themes/plain/styles/style.css</pre>
+<p>Добавим стили ката, при желании их можно отредактировать на свое усмотрение.</p>
+<pre>.more {<br>    position: relative;<br>}<br>.more::before {<br>    content: "";<br>    background: -moz-linear-gradient(top, rgba(255,255,255,0) 40%, rgba(255,255,255,1) 80%);<br>    background: -webkit-linear-gradient(top, rgba(255,255,255,0) 40%,rgba(255,255,255,1) 80%);<br>    background: linear-gradient(to bottom, rgba(255,255,255,0) 40%,rgba(255,255,255,1) 80%);<br>    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', endColorstr='#ffffff',GradientType=0 ); <br>    pointer-events: none;<br>    position: absolute;<br>    display: block;<br>    height: 150px;<br>    width: 100%;<br>    top: -150px;<br>    left: 0;<br>}<br>a.morelink {<br>    -webkit-border-radius: 2px;<br>    -moz-border-radius: 2px;<br>    border-radius: 2px;<br>    background: #f1f3f4;<br>    text-align: center;<br>    max-width: 720px;<br>    color: #8890a7;<br>    font-size: 14px;<br>    display: block;<br>    width: 100%;<br>    margin-bottom: 1em;<br>    border-bottom: 0;<br>    padding: 10px;<br>}<br>a.morelink:hover {<br>    background: #e2e5e6;<br>    color: #8890a7;<br>}</pre>
+<p>Теперь необходимо подключить все созданные файлы непосредственно в шаблон, для этого копируем main.tmpl.php из основных файлов Эгеи:</p>
+<pre>../system/theme/templates/main.tmpl.php</pre>
+<p>В папку templates шаблона:</p>
+<pre>../themes/plain/templates/main.tmpl.php</pre>
+<p>Отредактируем main.tmpl.php добавив стили после основных стилей &lt;?php _CSS ('main') ?&gt; в конце файла.</p>
+<pre>&lt;?php _CSS ('style') ?&gt;</pre>
+<p>А после основных скриптов шаблона, &lt;?php _JS ('main') ?&gt;, подключим сам скрипт readmore.js и файл скрипта с его настройками.</p>
+<pre>&lt;?php _JS ('readmore.min') ?&gt;<br>&lt;?php _JS ('template') ?&gt;</pre>
+<p>Всё, кат добавлен в Эгею. Возможно где-то придется отредактировать стили по ситуации, подобрать оптимальную длину заметки после которой кат будет скрывать запись, и тому подобное. Стандартный шаблон plain здесь используется в качестве примера, намного лучше сделать его копию и переименовать, дабы при последующих обновлениях Эгеи ничего лишнего не перезаписалось.</p>
+<p class="msg msg--info">Кстати, это репост <a href="https://old.fixel.ru/kat-v-egee/" target="_blank" rel="nofollow noopener noreferrer">моего поста</a>, который я написала ещё в 2018.</p>
+            ]]>
+        </content>
+    </entry>
     <entry>
         <title>REF</title>
         <author>
@@ -210,150 +260,6 @@
 <p>Ещё заметку в редакторе можно добавить html кодом, иногда это полезно, так как Эгея, например, не поддерживает изображения внутри тегов.</p>
 <pre class="language-html">&lt;p class="aside"&gt;Текст заметки на полях&lt;/p&gt;</pre>
 
-            ]]>
-        </content>
-    </entry>
-    <entry>
-        <title>Как создать свой шаблон для Эгеи</title>
-        <author>
-            <name>Блог</name>
-        </author>
-        <link href="https://fixel.ru/kak-sozdat-svoy-shablon-dlya-egei/"/>
-        <id>https://fixel.ru/kak-sozdat-svoy-shablon-dlya-egei/</id>
-            <category term="Эгея"/>
-            <category term="Гайд"/>
-            <category term="Веб"/>
-            <category term="Блог"/>
-            <category term="CMS"/>
-
-        <updated>2021-03-08T17:04:35+07:00</updated>
-            <summary>
-                <![CDATA[
-                    Статья может быть устаревшей и не всё написанное в ней может отражать действительность, так как Эгея периодически обновляется. Пользовательские темы находятся в папке ../themes в корне блога. Создадим в этом каталоге папку и назовем её так, как хотим чтобы называлась наша будущая тема. Например «сherry»&hellip;
-                ]]>
-            </summary>
-        <content type="html">
-            <![CDATA[
-                <p class="msg msg--warning">Статья может быть устаревшей и не всё написанное в ней может отражать действительность, так как Эгея периодически обновляется.</p>
-<p>Пользовательские темы находятся в папке ../themes в корне блога. Создадим в этом каталоге папку и назовем её так, как хотим чтобы называлась наша будущая тема. Например «сherry» — ../themes/сherry. Информация о теме хранится в файле theme-info.php её корневой папки и содержит следующий код:</p>
-<pre class="line-numbers language-php">&lt;?php return array (<br><br>  <em>/* Порядок темы в списке тем в админке */</em><br>  'index' =&gt; 99,<br><br>  <em>/* Отображаемое название темы для разных языков */</em><br>  'display_name' =&gt; array (<br>    'en' =&gt; 'Cherry',<br>    'ru' =&gt; 'Вишня',<br>    'uk' =&gt; 'Вишня',<br>  ),<br><br>  <em>/* Параметры основных цветов */</em><br>  'colors' =&gt; array (<br>    'background' =&gt; '#faebd2',<br>    'headings' =&gt; '#000',<br>    'text' =&gt; '#000',<br>    'link' =&gt; '#3d6077',<br>  ),<br><br>  <em>/* На какой теме основана текущая тема */</em><br>  'based_on' =&gt; 'plain',<br><br>  <em>/* Параметры метатега viewport */</em><br>  'meta_viewport' =&gt; 'width=device-width, initial-scale=1',<br><br>  <em>/* Поддержка тёмного режима */</em><br>  'supports_dark_mode' =&gt; false,<br><br>); ?&gt;</pre>
-<p>В папке темы также существует несколько папок из которых Эгея подхватывает скрипты, стили, изображения и файлы разметки:</p>
-<pre class="line-numbers language-html">../themes/сherry/images — Изображения<br>../themes/сherry/js — JS скрипты<br>../themes/сherry/src — Исходные sass/less файлы стилей<br>../themes/сherry/styles — CSS стили<br>../themes/сherry/templates — PHP файлы шаблона</pre>
-<p>Если файлов в папках нет, они будут подхватываться из стандартной темы Эгеи, которая находится по пути ../system/theme, либо из темы указанной как базовая в конфигурационном файле theme-info.php.</p>
-<p class="msg msg--warning">Чтобы внести изменения в стандартные шаблоны Эгеи, скопируйте необходимый файл из ../system/theme/templates в папку templates вашей темы и уже там производите все изменения. Вносить правки в системной папке не стоит, так как после обновления движка все изменения исчезнут.</p>
-<p>Теперь стоит подробнее разобрать содержимое папки templates, для наглядности того, как выглядит тот или иной элемент в живую, я добавила соответствующие файлам скриншоты.</p>
-<section class="section">
-<figure class="post__image"><img loading="lazy" src="https://fixel.ru/media/posts/24/26.png" alt="">
-<figcaption>user-picture.tmpl.php — Аватар блога.</figcaption>
-</figure>
-<figure class="post__image"><img loading="lazy" src="https://fixel.ru/media/posts/24/01.png" width="" height="">
-<figcaption>author-menu.tmpl.php — Меню автора.</figcaption>
-</figure>
-<figure class="post__image"><img loading="lazy" src="https://fixel.ru/media/posts/24/25.png" alt="">
-<figcaption>search-heading.tmpl.php — Форма поиска.</figcaption>
-</figure>
-<figure class="post__image"><img loading="lazy" src="https://fixel.ru/media/posts/24/20.png" alt="">
-<figcaption>notes.tmpl.php — Пост.</figcaption>
-</figure>
-<figure class="post__image"><img loading="lazy" src="https://fixel.ru/media/posts/24/23-3.png" alt="">
-<figcaption>pages.tmpl.php — Навигация между постами.</figcaption>
-</figure>
-<figure class="post__image"><img loading="lazy" src="https://fixel.ru/media/posts/24/02-3.png" alt="">
-<figcaption>comments-heading.tmpl.php — Заголовок списка комментариев с счетчиком их количества.</figcaption>
-</figure>
-<figure class="post__image"><img loading="lazy" src="https://fixel.ru/media/posts/24/03-2.png" alt="">
-<figcaption>comments.tmpl.php — Список комментариев.</figcaption>
-</figure>
-<figure class="post__image"><img loading="lazy" src="https://fixel.ru/media/posts/24/05-2.png" alt="">
-<figcaption>form-comment.tmpl.php — Форма комментария.</figcaption>
-</figure>
-<figure class="post__image"><img loading="lazy" src="https://fixel.ru/media/posts/24/19-2.png" alt="">
-<figcaption>form-comment-reply.tmpl.php — Форма ответа на комментарий.</figcaption>
-</figure>
-<figure class="post__image"><img loading="lazy" src="https://fixel.ru/media/posts/24/24.png" alt="">
-<figcaption >popular.tmpl.php — Блок популярных постов.</figcaption>
-</figure>
-<figure class="post__image"><img loading="lazy" src="https://fixel.ru/media/posts/24/21-2.png" alt="">
-<figcaption>pages-earlier.tmpl.php — Кнопка к постам «Ранее».</figcaption>
-</figure>
-<figure class="post__image"><img loading="lazy" src="https://fixel.ru/media/posts/24/22-2.png" alt="">
-<figcaption>pages-later.tmpl.php — Кнопка к постам «Позднее».</figcaption>
-</figure>
-<figure class="post__image"><img loading="lazy" src="https://fixel.ru/media/posts/24/27-2.png" alt="">
-<figcaption>notes-list.tmpl.php — Список всех постов блога.</figcaption>
-</figure>
-<figure class="post__image"><img loading="lazy" src="https://fixel.ru/media/posts/24/17-2.png" alt="">
-<figcaption>heading.tmpl.php — Заголовки на большинстве страниц.</figcaption>
-</figure>
-<figure class="post__image"><img loading="lazy" src="https://fixel.ru/media/posts/24/11.png" alt="">
-<figcaption>form-note.tmpl.php — Форма публикации поста.</figcaption>
-</figure>
-<figure class="post__image"><img loading="lazy" src="https://fixel.ru/media/posts/24/09.png" alt="">
-<figcaption>form-note-delete.tmpl.php — Форма удаления поста.</figcaption>
-</figure>
-<figure class="post__image"><img loading="lazy" src="https://fixel.ru/media/posts/24/10-2.png" alt="">
-<figcaption>form-note-publish.tmpl.php — Кнопка публикации поста.</figcaption>
-</figure>
-<figure class="post__image"><img loading="lazy" src="https://fixel.ru/media/posts/24/04-2.png" alt="">
-<figcaption>drafts.tmpl.php — Список черновиков.</figcaption>
-</figure>
-<figure class="post__image"><img loading="lazy" src="https://fixel.ru/media/posts/24/14.png" alt="">
-<figcaption>form-preferences.tmpl.php — Форма общих настроек блога.</figcaption>
-</figure>
-<figure class="post__image"><img loading="lazy" src="https://fixel.ru/media/posts/24/12-2.png" alt="">
-<figcaption>form-password.tmpl.php — Форма смены админ-пароля.</figcaption>
-</figure>
-<figure class="post__image"><img loading="lazy" src="https://fixel.ru/media/posts/24/06-2.png" alt="">
-<figcaption>form-database.tmpl.php — Форма подключения к базе данных.</figcaption>
-</figure>
-<figure class="post__image"><img loading="lazy" src="https://fixel.ru/media/posts/24/30.png" alt="">
-<figcaption >sessions.tmpl.php — Список текущих сессий.</figcaption>
-</figure>
-<figure class="post__image"><img loading="lazy" src="https://fixel.ru/media/posts/24/07-2.png" alt="">
-<figcaption>form-install.tmpl.php — Форма установки Эгеи.</figcaption>
-</figure>
-<figure class="post__image"><img loading="lazy" src="https://fixel.ru/media/posts/24/08.png" alt="">
-<figcaption>form-login.tmpl.php — Форма авторизации.</figcaption>
-</figure>
-<figure class="post__image"><img loading="lazy" src="https://fixel.ru/media/posts/24/28.png" alt="">
-<figcaption >tags.tmpl.php — Список всех тегов блога.</figcaption>
-</figure>
-<figure class="post__image"><img loading="lazy" src="https://fixel.ru/media/posts/24/15.png" alt="">
-<figcaption>form-tag.tmpl.php — Форма редактирования тега.</figcaption>
-</figure>
-<figure class="post__image"><img loading="lazy" src="https://fixel.ru/media/posts/24/16.png" alt="">
-<figcaption>form-tag-delete.tmpl.php — Форма удаления тега.</figcaption>
-</figure>
-<figure class="post__image"><img loading="lazy" src="https://fixel.ru/media/posts/24/29-3.png" alt="">
-<figcaption>tags-menu.tmpl.php — Меню избранных тегов.</figcaption>
-</figure>
-<figure class="post__image"><img loading="lazy" src="https://fixel.ru/media/posts/24/33.png" alt="">
-<figcaption>form-search.tmpl.php — Форма поиска на странице поиска.</figcaption>
-</figure>
-<figure class="post__image"><img loading="lazy" src="https://fixel.ru/media/posts/24/18-2.png" alt="">
-<figcaption>login-element.tmpl.php — Кнопка авторизации в футере.</figcaption>
-</figure>
-<figure class="post__image"><img loading="lazy" src="https://fixel.ru/media/posts/24/31-3.png" alt="">
-<figcaption>form-password-reset-email.tmpl.php — Страница сброса пароля.</figcaption>
-</figure>
-<figure class="post__image"><img loading="lazy" src="https://fixel.ru/media/posts/24/32-2.png" alt="">
-<figcaption>layout.tmpl.php — Основная разметка шаблона внутри body, здесь подключаются другие части шаблона.<br>main.tmpl.php — Разметка внутри html, здесь подключается head.tmpl.php содержащий метатеги, сам layout.tmpl.php, js и css.</figcaption>
-</figure>
-</section>
-<p>Эти файлы можно копировать в папку templates своей темы и редактировать на свой вкус.</p>
-<p>Подключить свою собственную часть шаблона можно создав файл типа name.tmpl.php в папке templates и затем вызвать его в любом другом месте или в layout.tmpl.php. Например, можно создать файл menu.tmpl.php со своим меню и ссылками на соц-сети, сверстанными на html и css, и вызвать его в layout.tmpl.php специальным макросом. Илья Бирман в <a href="https://docs.google.com/document/d/1yn7KCHq47oli7IH--skhymjjj2OSlXjcyGOxZ2ZEPeA/edit#heading=h.j2h2wr6xhlie" target="_blank" rel="nofollow noopener noreferrer">справке</a> к Эгее пишет:</p>
-<p class="msg msg--info">Шаблон может вызывать другие шаблоны для отображения конкретного фрагмента: _T () — вызывает шаблон по имени. (...) Шаблон layout.tmpl.php «срабатывает» потому, что main.tmpl.php вызывает его для формирования тела страницы.</p>
-<p>Так, чтобы вывести содержимое файла menu.tmpl.php где нибудь на сайте, достаточно небольшого кода:</p>
-<pre class="line-numbers language-php">&lt;?php _T ('menu') ?&gt;</pre>
-<p>К слову, если вам нужно вывести часть шаблона, скажем, только на главной странице, но не на странице поста, оберните код вывода следующим уточнением:</p>
-<pre class="line-numbers language-php">&lt;?php if ($content['class'] == 'frontpage') { ?&gt;<br>    &lt;?php _T ('menu') ?&gt;<br>&lt;?php } ?&gt;</pre>
-<p>Или, если нужно вывести эту часть шаблона только на странице поста:</p>
-<pre class="line-numbers language-php">&lt;?php if ($content['class'] == 'note') { ?&gt;<br>   &lt;?php _T ('menu') ?&gt;<br>&lt;?php } ?&gt;</pre>
-<p>JS и CSS в тему Эгеи тоже подключаются специальными макросами. Для наглядности откройте стандартный main.tmpl.php и посмотрите в конец файла, после закрывающего тега body:</p>
-<pre class="line-numbers language-php">&lt;?php _CSS ('main') ?&gt;<br>&lt;?php _JS ('main') ?&gt;</pre>
-<p>Здесь подхватываются ../js/main.js и ../styles/main.css из папки темы, или из стандартной темы, если нет соответствующих файлов. По такому принципу можно добавить, например, скрипт bootstrap.min.js в папку js и подключить его кодом:</p>
-<pre class="line-numbers language-php">&lt;?php _JS ('bootstrap.min') ?&gt;</pre>
-<p>Таким образом можно редактировать отдельные части шаблона Эгеи при создании своей темы, подключать стили и скрипты. Также, для более полной информации, рекомендую ознакомится с <a href="https://docs.google.com/document/d/1yn7KCHq47oli7IH--skhymjjj2OSlXjcyGOxZ2ZEPeA/edit" target="_blank" rel="nofollow noopener noreferrer">официальной документацией</a> по темам оформления Эгеи.</p>
             ]]>
         </content>
     </entry>
