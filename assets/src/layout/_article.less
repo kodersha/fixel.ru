@@ -339,6 +339,11 @@
                 margin-top: calc(var(--baseline) / 2);
     
                 color: var(--colorGray);
+
+                @media only screen and (max-width: @mobile-size) {
+                    margin-right: 1.5rem;
+                    margin-left: 1.5rem;
+                }
             }
     
             & + figure {
@@ -802,6 +807,8 @@
                         bottom: 1.2rem;
                         opacity: 0;
                         left: 50%;
+
+
                     }
         
                     &:hover {
