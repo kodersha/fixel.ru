@@ -455,11 +455,29 @@
                     --grid-ce: 31;
                 }
             }
-            &--wide {
+            &--full {
                 grid-column-start: var(--grid-cs);
                 grid-column-end: var(--grid-ce);
                 --grid-cs: 1;
                 --grid-ce: 23;
+    
+                img {
+                    border-radius: 0;
+                    min-width: 100%;
+                }
+            }
+            &--wide {
+                grid-column-start: var(--grid-cs);
+                grid-column-end: var(--grid-ce);
+
+                @media only screen and (min-width: @mobile-size + 1) {
+                    --grid-cs: 4;
+                    --grid-ce: 20;
+                }
+                @media only screen and (max-width: @mobile-size) {
+                    --grid-cs: 3;
+                    --grid-ce: 31;
+                }
     
                 img {
                     border-radius: 0;
