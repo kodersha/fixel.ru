@@ -458,8 +458,15 @@
             &--full {
                 grid-column-start: var(--grid-cs);
                 grid-column-end: var(--grid-ce);
-                --grid-cs: 1;
-                --grid-ce: 23;
+
+                @media only screen and (min-width: @mobile-size + 1) {
+                    --grid-cs: 1;
+                    --grid-ce: 23;
+                }
+                @media only screen and (max-width: @mobile-size) {
+                    --grid-cs: 1;
+                    --grid-ce: 33;
+                }
     
                 img {
                     border-radius: 0;
@@ -475,8 +482,8 @@
                     --grid-ce: 20;
                 }
                 @media only screen and (max-width: @mobile-size) {
-                    --grid-cs: 3;
-                    --grid-ce: 31;
+                    --grid-cs: 1;
+                    --grid-ce: 33;
                 }
     
                 img {
@@ -514,8 +521,15 @@
             &--wide {
                 grid-column-start: var(--grid-cs);
                 grid-column-end: var(--grid-ce);
-                --grid-cs: 1;
-                --grid-ce: 23;
+
+                @media only screen and (min-width: @mobile-size + 1) {
+                    --grid-cs: 4;
+                    --grid-ce: 20;
+                }
+                @media only screen and (max-width: @mobile-size) {
+                    --grid-cs: 1;
+                    --grid-ce: 33;
+                }
     
                 img {
                     border-radius: 0;
