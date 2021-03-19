@@ -3,7 +3,7 @@
     <title>Александра Травкина</title>
     <link href="https://fixel.ru/feed.xml" rel="self" />
     <link href="https://fixel.ru" />
-    <updated>2021-03-16T22:09:47+07:00</updated>
+    <updated>2021-03-19T19:08:35+07:00</updated>
     <author>
         <name>Блог</name>
     </author>
@@ -23,7 +23,7 @@
             <category term="Voicemeeter Banana"/>
             <category term="OBS Studio"/>
 
-        <updated>2021-03-16T22:09:47+07:00</updated>
+        <updated>2021-03-19T19:08:35+07:00</updated>
             <summary>
                 <![CDATA[
                     Для настройки всего этого понадобится пару программ - Voicemeeter Banana и Virtual Audio Cable A+B (Скачать). Устанавливаем VBCable A и VBCable B от имени администратора, ярлык VBCABLE_Setup_x64.exe для 64х битных систем или VBCABLE_Setup.exe для 32х, затем устанавливаем сам Voicemeeter Banana и перезагружаем компьютер. После установки&hellip;
@@ -34,7 +34,7 @@
                 <p>Для настройки всего этого понадобится пару программ - <a href="https://vb-audio.com/Voicemeeter/banana.htm" target="_blank" rel="nofollow noopener noreferrer">Voicemeeter Banana</a> и Virtual Audio Cable A+B (<a href="https://clck.ru/ThpjR" target="_blank" rel="nofollow noopener noreferrer">Скачать</a>). Устанавливаем VBCable A и VBCable B от имени администратора, ярлык VBCABLE_Setup_x64.exe для 64х битных систем или VBCABLE_Setup.exe для 32х, затем устанавливаем сам Voicemeeter Banana и перезагружаем компьютер.</p>
 <h2>Настройка Windows 10</h2>
 <p>После установки программ, в своей Windows 10 откроем Параметры - Система - Вкладка Звук - В правой колонке «Панель управления звуком».</p>
-<figure class="post__image post__image--wide"><img loading="lazy"  src="https://fixel.ru/media/posts/40/01.png" alt="" width="1490" height="880"></figure>
+<figure class="post__image post__image--wide"><img loading="lazy"  src="https://fixel.ru/media/posts/40/01-2.png" alt="" width="1490" height="880"></figure>
 <p>В появившемся окне, во вкладке «Воспроизведение» отключаем Voicemeeter Aux Input (Правой кнопкой мыши - Отключить), во вкладке «Запись» отключаем Voicemeeter Aux Output, так как они нам не нужны. В списке устройств должно получится примерно следующее, но в зависимости от ваших устройств может быть по-другому, главное чтобы устройства VB-Audio были такими:</p>
 <figure class="post__image post__image--wide"><img loading="lazy"  src="https://fixel.ru/media/posts/40/02-2.png" alt="" width="960" height="451"></figure>
 <p>Во вкладке «Воспроизведение» откройте свойства вашего основного источника звука, в моём случае это «Динамики», во вкладке «Уровни» выставьте громкость на максимум, в дальнейшем регулировка громкости будет происходить через Voicemeeter Banana.</p>
@@ -52,10 +52,10 @@
 <p>В этом же меню, во вкладке «Shortcut Key (Hook)...» ставим галочку на «Hook Volume Keys (For Level Output A1)», это нужно для того, чтобы можно было прибавлять и уменьшать громкость хоткеями на клавиатуре, как правило это «Fn + F10» и «Fn + F11», так как стандартными ползунками громкости в Windows управлять мы больше не можем. Если горячих клавиш для звука на клавиатуре нет, громкостью можно управлять ползунком «Fader Gain» А1 в «Master Section». Непосредственно на этом настройка Voicemeeter Banana закончена.</p>
 <h2>Распределение по виртуальным устройствам</h2>
 <p>Наконец пустим аудио разных программ на разные виртуальные устройства, для этого снова откроем Параметры в Windows 10 - Система - Вкладка «Звук» - Внизу ищем «Дополнительные параметры звука», кликаем на «Параметры устройств и громкости приложений» и наблюдаем параметры устройств для текущих открытых приложений.</p>
-<figure class="post__image post__image--wide"><img loading="lazy"  src="https://fixel.ru/media/posts/40/06.png" alt="" width="1490" height="880"></figure>
+<figure class="post__image post__image--wide"><img loading="lazy"  src="https://fixel.ru/media/posts/40/06-2.png" alt="" width="1490" height="880"></figure>
 <p>Здесь у любой нужной программы в графе параметров «Вывод» мы можем указать новое устройство вывода звука, которое станет отдельным источником аудио в вашем OBS или любой другой программе для стриминга если она поддерживает несколько аудио источников. При этом мы всё также будем слышать звук с этих виртуальных устройств благодаря Voicemeeter Banana.</p>
 <p>Например для Google Chrome можно выбрать устройство «CABLE-B Input (VB-Audio Cable B)», а для Discord «CABLE-A Input (VB-Audio Cable A)».</p>
-<figure class="post__image post__image--wide"><img loading="lazy"  src="https://fixel.ru/media/posts/40/07.png" alt="" width="1490" height="880"></figure>
+<figure class="post__image post__image--wide"><img loading="lazy"  src="https://fixel.ru/media/posts/40/07-2.png" alt="" width="1490" height="880"></figure>
 <h2>Настройка OBS Studio</h2>
 <p>После распределения нужных программ по виртуальным устройствам откроем свой любимый OBS Studio и перейдем в Настройки - Вкладка Аудио. Здесь, в разделе «Глобальные устройства аудио», в «Аудио с рабочего стола» укажем устройство «VoiceMeeter Input (VB-Audio VoiceMeeter VAIO)», в «Микрофон/Дополнительное аудио» укажем устройство «VoiceMeeter Output (VB-Audio VoiceMeeter VIAO)», в «Микрофон/Дополнительное аудио 2» укажем «CABLE-A Output (VB-Audio Cable A)», в «Микрофон/Дополнительное аудио 3» укажем «CABLE-B Output (VB-Audio Cable B)».</p>
 <p>В конечном итоге получаются следующие настройки:</p>
