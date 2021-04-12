@@ -40,3 +40,24 @@ document.addEventListener('DOMContentLoaded', (event) => {
         hljs.highlightBlock(block);
     });
 });
+
+$(".main-work .section-description .title a, .main-work .section-blog .articles").hover(
+    function () {
+        $('.main-work .section-blog .articles').addClass('hover');
+        $('.main-work .section-description').addClass('hover');
+    },
+    function () {
+        $('.main-work .section-blog .articles').removeClass("hover");
+        $('.main-work .section-description').removeClass("hover");
+    }
+);
+$(".main-blog .section-description .title a, .main-blog .section-blog .articles").hover(
+    function () {
+        $('.main-blog .section-blog .articles').addClass('hover');
+        $('.main-blog .section-description').addClass('hover');
+    },
+    function () {
+        $('.main-blog .section-blog .articles').removeClass("hover");
+        $('.main-blog .section-description').removeClass("hover");
+    }
+);

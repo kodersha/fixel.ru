@@ -4,8 +4,9 @@
     .article-header {
         h1 {
             font-family: var(--fontFamilyTitle);
-            font-weight: 700;
+            font-weight: 900;
             text-transform: uppercase;
+            text-align: center;
     
             @media only screen and (min-width: @mobile-size + 1) {
                 font-size: 3rem;
@@ -17,6 +18,8 @@
             }
     
             margin-bottom: unset;
+            margin-right: unset;
+            margin-left: unset;
             margin-top: unset;
     
             span {
@@ -28,44 +31,34 @@
             margin-top: 0;
         }
     }
-    .article-content {
-        .thumbnail {
-            background-color: var(--colorElements);
+    .thumbnail {
+        background-color: var(--colorElements);
 
-            -webkit-filter: url(#goo);
-            -moz-filter: url(#goo);
-            filter: url(#goo);
+        position: relative;
+        overflow: hidden;
+
+        margin-bottom: 0;
+        margin-top: 0;
+
+        img {
+            margin-bottom: 0;
+            margin-top: 0;
 
             position: relative;
             overflow: hidden;
 
-            margin-bottom: 0;
-            margin-top: 0;
+            min-width: 100%;
+            display: block;
 
-            img {
-                margin-bottom: 0;
-                margin-top: 0;
+            background-color: var(--colorElements);
+        }
 
-                position: relative;
-                overflow: hidden;
-
-                min-width: 100%;
-                display: block;
-
-                background-color: var(--colorElements);
-
-                -webkit-filter: url(#goo);
-                -moz-filter: url(#goo);
-                filter: url(#goo);
-            }
-
-            a {
-                position: absolute;
-                bottom: 0;
-                right: 0;
-                left: 0;
-                top: 0;
-            }
+        a {
+            position: absolute;
+            bottom: 0;
+            right: 0;
+            left: 0;
+            top: 0;
         }
     }
 }
