@@ -288,25 +288,21 @@ h1, h2, h3, h4, h5, h6 {
         &::before {
             content: '';
 
-            -webkit-transition: border-color .3s;
-            -moz-transition: border-color .3s;
-            -ms-transition: border-color .3s;
-            transition: border-color .3s;
+            -webkit-transition: background-color .3s;
+            -moz-transition: background-color .3s;
+            -ms-transition: background-color .3s;
+            transition: background-color .3s;
 
-            background-color: var(--colorDarkestGray);
-            border: 0.25rem solid var(--colorDarkestGray);
+            -webkit-filter: url(#goo);
+            -moz-filter: url(#goo);
+            filter: url(#goo);
+
+            background-color: var(--colorDarkenGray);
             position: absolute;
             bottom: 0;
             right: 0;
             left: 0;
             top: 0;
-        }
-        &.hover {
-            &::before {
-                @media only screen and (min-width: @mobile-size + 1) {
-                    border-color: var(--colorWhite);
-                }
-            }
         }
     }
 }
