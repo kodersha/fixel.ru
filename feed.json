@@ -10,6 +10,20 @@
     },
     "items": [
         {
+            "id": "https://fixel.ru/logopark-raevskaya/",
+            "url": "https://fixel.ru/logopark-raevskaya/",
+            "title": "Логопарк Раевская",
+            "image": "https://fixel.ru/media/posts/41/cover.jpeg",
+            "author": {
+                "name": "Блог"
+            },
+            "tags": [
+                   "Работы"
+            ],
+            "date_published": "2021-04-04T00:56:00+07:00",
+            "date_modified": "2021-05-08T00:56:30+07:00"
+        },
+        {
             "id": "https://fixel.ru/nastroyka-neskolkih-audiodorozhek-dlya-strimov-v-voicemeeter-banana/",
             "url": "https://fixel.ru/nastroyka-neskolkih-audiodorozhek-dlya-strimov-v-voicemeeter-banana/",
             "title": "Настройка нескольких аудиодорожек для стримов в Voicemeeter Banana",
@@ -151,25 +165,6 @@
             ],
             "date_published": "2020-07-17T01:25:00+07:00",
             "date_modified": "2021-02-05T17:17:58+07:00"
-        },
-        {
-            "id": "https://fixel.ru/kak-sdelat-zametki-na-polyah-v-egee/",
-            "url": "https://fixel.ru/kak-sdelat-zametki-na-polyah-v-egee/",
-            "title": "Как сделать заметки на полях в Эгее",
-            "summary": "<pre class=\"language-css\">@media screen and (min-width: 1050px) {<br>    .e2-text .aside {<br>        position: relative;<br>        text-align: left;<br>        max-width: 200px;<br>        margin-left: 4%;<br>        margin-top: .15em;<br>        float: right;<br>        clear: right;<br>    }<br>}<br>.e2-text .aside {<br>    line-height: 1.4;<br>    font-size: 0.875em;<br>    color: #4A4A4A;<br>}</pre>\n<p>Этот CSS можно добавить в конец файла ../styles/main.css, который находится в папке с вашей темой Эгеи. Но лучше создать свой файл стилей в папке styles, назвав его, например custom.css и подключить его к теме.</p>\n<p>Для этого скопируйте из ./system/theme/templates файл main.tmpl.php в папку templates вашей темы (Если папки нет, создайте её) и добавьте в конец этого файла, после <code>&lt;?php _CSS ('main') ?&gt;</code> макрос:</p>\n<pre class=\"language-php\">&lt;?php _CSS ('custom') ?&gt;</pre>\n<p>Это позволит безопасно дополнять свою тему стилями, не рискуя потерять внесенные изменения после очередного обновления движка. Подробнее, о том как редактировать шаблоны в Эгее, рассказано в <a href=\"https://fixel.ru/kak-sozdat-svoy-shablon-dlya-egei/\">предыдущем посте</a>.</p>\n<p>Теперь, при написании очередной статьи в блог, достаточно использовать эгеевский язык разметки. Этот тег добавит заметку справа от следующего за ним абзаца:</p>\n<pre class=\"language-html\">.aside Текст заметки на полях</pre>\n<p>Ещё заметку в редакторе можно добавить html кодом, иногда это полезно, так как Эгея, например, не поддерживает изображения внутри тегов.</p>\n<pre class=\"language-html\">&lt;p class=\"aside\"&gt;Текст заметки на полях&lt;/p&gt;</pre>\n",
-            "content_html": "<pre class=\"language-css\">@media screen and (min-width: 1050px) {<br>    .e2-text .aside {<br>        position: relative;<br>        text-align: left;<br>        max-width: 200px;<br>        margin-left: 4%;<br>        margin-top: .15em;<br>        float: right;<br>        clear: right;<br>    }<br>}<br>.e2-text .aside {<br>    line-height: 1.4;<br>    font-size: 0.875em;<br>    color: #4A4A4A;<br>}</pre>\n<p>Этот CSS можно добавить в конец файла ../styles/main.css, который находится в папке с вашей темой Эгеи. Но лучше создать свой файл стилей в папке styles, назвав его, например custom.css и подключить его к теме.</p>\n<p>Для этого скопируйте из ./system/theme/templates файл main.tmpl.php в папку templates вашей темы (Если папки нет, создайте её) и добавьте в конец этого файла, после <code>&lt;?php _CSS ('main') ?&gt;</code> макрос:</p>\n<pre class=\"language-php\">&lt;?php _CSS ('custom') ?&gt;</pre>\n<p>Это позволит безопасно дополнять свою тему стилями, не рискуя потерять внесенные изменения после очередного обновления движка. Подробнее, о том как редактировать шаблоны в Эгее, рассказано в <a href=\"https://fixel.ru/kak-sozdat-svoy-shablon-dlya-egei/\">предыдущем посте</a>.</p>\n<p>Теперь, при написании очередной статьи в блог, достаточно использовать эгеевский язык разметки. Этот тег добавит заметку справа от следующего за ним абзаца:</p>\n<pre class=\"language-html\">.aside Текст заметки на полях</pre>\n<p>Ещё заметку в редакторе можно добавить html кодом, иногда это полезно, так как Эгея, например, не поддерживает изображения внутри тегов.</p>\n<pre class=\"language-html\">&lt;p class=\"aside\"&gt;Текст заметки на полях&lt;/p&gt;</pre>\n",
-            "author": {
-                "name": "Блог"
-            },
-            "tags": [
-                   "Эгея",
-                   "Гайд",
-                   "Веб",
-                   "Блог",
-                   "CMS"
-            ],
-            "date_published": "2020-06-18T01:58:35+07:00",
-            "date_modified": "2021-03-08T16:56:01+07:00"
         }
     ]
 }

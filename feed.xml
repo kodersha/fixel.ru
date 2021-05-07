@@ -3,12 +3,25 @@
     <title>Александра Травкина</title>
     <link href="https://fixel.ru/feed.xml" rel="self" />
     <link href="https://fixel.ru" />
-    <updated>2021-03-19T19:08:35+07:00</updated>
+    <updated>2021-05-08T00:56:30+07:00</updated>
     <author>
         <name>Блог</name>
     </author>
     <id>https://fixel.ru</id>
 
+    <entry>
+        <title>Логопарк Раевская</title>
+        <author>
+            <name>Блог</name>
+        </author>
+        <link href="https://fixel.ru/logopark-raevskaya/"/>
+        <id>https://fixel.ru/logopark-raevskaya/</id>
+            <category term="Работы"/>
+
+        <updated>2021-05-08T00:56:30+07:00</updated>
+            <summary></summary>
+        <content></content>
+    </entry>
     <entry>
         <title>Настройка нескольких аудиодорожек для стримов в Voicemeeter Banana</title>
         <author>
@@ -266,49 +279,6 @@
 <p>Сервис lo-fi музыки с довольно обширным плейлистом. Для того, чтобы безнаказанно проигрывать музыку на стриме, нужно зарегистрироваться и разместить кнопку сервиса у себя на twitch канале, или ссылку в описании стрима на youtube. В настройках профиля подключите свою стрим-платформу, во вкладке «Crediting a video» подробно описано о размещении ссылки.</p>
 <p><a href="https://chillhop.com/creators/" target="_blank" rel="nofollow noopener noreferrer">chillhop.com</a></p>
 <p class="msg msg--twitch">Кстати, мои стримы можно найти на канале <a href="https://twitch.tv/travkina">twitch.tv/travkina</a></p>
-            ]]>
-        </content>
-    </entry>
-    <entry>
-        <title>Как сделать заметки на полях в Эгее</title>
-        <author>
-            <name>Блог</name>
-        </author>
-        <link href="https://fixel.ru/kak-sdelat-zametki-na-polyah-v-egee/"/>
-        <id>https://fixel.ru/kak-sdelat-zametki-na-polyah-v-egee/</id>
-            <category term="Эгея"/>
-            <category term="Гайд"/>
-            <category term="Веб"/>
-            <category term="Блог"/>
-            <category term="CMS"/>
-
-        <updated>2021-03-08T16:56:01+07:00</updated>
-            <summary>
-                <![CDATA[
-                    <pre class="language-css">@media screen and (min-width: 1050px) {<br>    .e2-text .aside {<br>        position: relative;<br>        text-align: left;<br>        max-width: 200px;<br>        margin-left: 4%;<br>        margin-top: .15em;<br>        float: right;<br>        clear: right;<br>    }<br>}<br>.e2-text .aside {<br>    line-height: 1.4;<br>    font-size: 0.875em;<br>    color: #4A4A4A;<br>}</pre>
-<p>Этот CSS можно добавить в конец файла ../styles/main.css, который находится в папке с вашей темой Эгеи. Но лучше создать свой файл стилей в папке styles, назвав его, например custom.css и подключить его к теме.</p>
-<p>Для этого скопируйте из ./system/theme/templates файл main.tmpl.php в папку templates вашей темы (Если папки нет, создайте её) и добавьте в конец этого файла, после <code>&lt;?php _CSS ('main') ?&gt;</code> макрос:</p>
-<pre class="language-php">&lt;?php _CSS ('custom') ?&gt;</pre>
-<p>Это позволит безопасно дополнять свою тему стилями, не рискуя потерять внесенные изменения после очередного обновления движка. Подробнее, о том как редактировать шаблоны в Эгее, рассказано в <a href="https://fixel.ru/kak-sozdat-svoy-shablon-dlya-egei/">предыдущем посте</a>.</p>
-<p>Теперь, при написании очередной статьи в блог, достаточно использовать эгеевский язык разметки. Этот тег добавит заметку справа от следующего за ним абзаца:</p>
-<pre class="language-html">.aside Текст заметки на полях</pre>
-<p>Ещё заметку в редакторе можно добавить html кодом, иногда это полезно, так как Эгея, например, не поддерживает изображения внутри тегов.</p>
-<pre class="language-html">&lt;p class="aside"&gt;Текст заметки на полях&lt;/p&gt;</pre>
-
-                ]]>
-            </summary>
-        <content type="html">
-            <![CDATA[
-                <pre class="language-css">@media screen and (min-width: 1050px) {<br>    .e2-text .aside {<br>        position: relative;<br>        text-align: left;<br>        max-width: 200px;<br>        margin-left: 4%;<br>        margin-top: .15em;<br>        float: right;<br>        clear: right;<br>    }<br>}<br>.e2-text .aside {<br>    line-height: 1.4;<br>    font-size: 0.875em;<br>    color: #4A4A4A;<br>}</pre>
-<p>Этот CSS можно добавить в конец файла ../styles/main.css, который находится в папке с вашей темой Эгеи. Но лучше создать свой файл стилей в папке styles, назвав его, например custom.css и подключить его к теме.</p>
-<p>Для этого скопируйте из ./system/theme/templates файл main.tmpl.php в папку templates вашей темы (Если папки нет, создайте её) и добавьте в конец этого файла, после <code>&lt;?php _CSS ('main') ?&gt;</code> макрос:</p>
-<pre class="language-php">&lt;?php _CSS ('custom') ?&gt;</pre>
-<p>Это позволит безопасно дополнять свою тему стилями, не рискуя потерять внесенные изменения после очередного обновления движка. Подробнее, о том как редактировать шаблоны в Эгее, рассказано в <a href="https://fixel.ru/kak-sozdat-svoy-shablon-dlya-egei/">предыдущем посте</a>.</p>
-<p>Теперь, при написании очередной статьи в блог, достаточно использовать эгеевский язык разметки. Этот тег добавит заметку справа от следующего за ним абзаца:</p>
-<pre class="language-html">.aside Текст заметки на полях</pre>
-<p>Ещё заметку в редакторе можно добавить html кодом, иногда это полезно, так как Эгея, например, не поддерживает изображения внутри тегов.</p>
-<pre class="language-html">&lt;p class="aside"&gt;Текст заметки на полях&lt;/p&gt;</pre>
-
             ]]>
         </content>
     </entry>

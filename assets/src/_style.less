@@ -47,25 +47,18 @@ h1, h2, h3, h4, h5, h6 {
     position: relative;
 
     &::after {
-        content: '';
+        @media only screen and (min-width: @mobile-size + 1) {
+            content: '';
+        }
 
         position: absolute;
         z-index: -5;
 
-        @media only screen and (min-width: @mobile-size + 1) {
-            height: 18rem;
-            width: 18rem;
+        height: 18rem;
+        width: 18rem;
 
-            bottom: 0;
-            right: -2rem;
-        }
-        @media only screen and (max-width: @mobile-size) {
-            height: 18rem;
-            width: 18rem;
-
-            bottom: 0;
-            right: 0;
-        }
+        bottom: 0;
+        right: -2rem;
 
         background-image: url(../images/avatar.png);
         background-position: center center;
@@ -177,15 +170,14 @@ h1, h2, h3, h4, h5, h6 {
         font-family: var(--fontFamilyTitle);
         font-weight: 900;
         text-transform: uppercase;
-        text-align: center;
 
         @media only screen and (min-width: @mobile-size + 1) {
-            font-size: 4rem;
-            line-height: calc(var(--lineHeight) * 2.8);
+            font-size: 3rem;
+            line-height: calc(var(--lineHeight) * 2.2);
         }
         @media only screen and (max-width: @mobile-size) {
             font-size: 2rem;
-            line-height: calc(var(--lineHeight) * 1.8);
+            line-height: calc(var(--lineHeight) * 1.7);
         }
 
         margin-bottom: 0;
@@ -214,8 +206,6 @@ h1, h2, h3, h4, h5, h6 {
         line-height: calc(var(--lineHeight) * 1.125);
         font-size: 1.125rem;
         color: var(--colorWhiteGray);
-
-        text-align: center;
 
         a {
             border-bottom: 1px solid;
@@ -303,6 +293,7 @@ h1, h2, h3, h4, h5, h6 {
             -ms-transition: border-color .3s;
             transition: border-color .3s;
 
+            background-color: var(--colorDarkestGray);
             border: 0.25rem solid var(--colorDarkestGray);
             position: absolute;
             bottom: 0;
@@ -312,7 +303,9 @@ h1, h2, h3, h4, h5, h6 {
         }
         &.hover {
             &::before {
-                border-color: var(--colorWhite);
+                @media only screen and (min-width: @mobile-size + 1) {
+                    border-color: var(--colorWhite);
+                }
             }
         }
     }
