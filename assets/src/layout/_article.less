@@ -978,8 +978,24 @@
 }
 .post-comment {
     & > div {
-        -webkit-filter: url('#goo');
-        -moz-filter: url('#goo');
-        filter: url('#goo');
+        padding: 1rem;
+
+        position: relative;
+
+        &::before {
+            content: '';
+
+            -webkit-filter: url('#goo');
+            -moz-filter: url('#goo');
+            filter: url('#goo');
+
+            background-color: #15202b;
+            
+            position: absolute;
+            bottom: 0;
+            right: 0;
+            left: 0;
+            top: 0;
+        }
     }
 }
