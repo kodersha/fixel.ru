@@ -978,14 +978,18 @@
 }
 .post-comment {
     & > div {
-        padding: 1rem;
-
         position: relative;
+        overflow: hidden;
+
+        padding: var(--lineHeight);
 
         iframe {
-            -webkit-filter: url('#goo');
-            -moz-filter: url('#goo');
-            filter: url('#goo');
+            -webkit-filter: url('#goo-comments');
+            -moz-filter: url('#goo-comments');
+            filter: url('#goo-comments');
+
+            position: relative;
+            overflow: hidden;
         }
 
         &::before {
@@ -993,9 +997,9 @@
 
             background-color: #15202b;
 
-            -webkit-filter: url('#goo-comments');
-            -moz-filter: url('#goo-comments');
-            filter: url('#goo-comments');
+            -webkit-filter: url('#goo');
+            -moz-filter: url('#goo');
+            filter: url('#goo');
 
             position: absolute;
             z-index: -100;
