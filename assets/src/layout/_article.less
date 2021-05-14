@@ -982,16 +982,23 @@
 
         position: relative;
 
-        &::before {
-            content: '';
-
+        iframe {
             -webkit-filter: url('#goo');
             -moz-filter: url('#goo');
             filter: url('#goo');
+        }
+
+        &::before {
+            content: '';
 
             background-color: #15202b;
-            
+
+            -webkit-filter: url('#goo-comments');
+            -moz-filter: url('#goo-comments');
+            filter: url('#goo-comments');
+
             position: absolute;
+            z-index: -100;
             bottom: 0;
             right: 0;
             left: 0;
