@@ -183,7 +183,7 @@ h1, h2, h3, h4, h5, h6 {
         }
         @media only screen and (max-width: @mobile-size) {
             font-size: 2rem;
-            line-height: calc(var(--lineHeight) * 1.7);
+            line-height: calc(var(--lineHeight) * 1.5);
         }
 
         margin-bottom: 0;
@@ -555,15 +555,19 @@ h1, h2, h3, h4, h5, h6 {
     .breadcrumbs-content {
         position: relative;
     
-        img {
-            height: calc(var(--lineHeight) * 1.4845);
-            width: calc(var(--lineHeight) * 1.4845);
+        .logo {
+            display: block;
 
-            background-color: var(--background-color);
-            border-radius: 50%;
-    
-            position: relative;
-            overflow: hidden;
+            img {
+                height: calc(var(--lineHeight) * 1.237);
+                width: calc(var(--lineHeight) * 1.237);
+
+                background-color: var(--background-color);
+                border-radius: 50%;
+        
+                position: relative;
+                overflow: hidden;
+            }
         }
     
         p {
