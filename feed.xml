@@ -3,12 +3,25 @@
     <title>Александра Травкина</title>
     <link href="https://fixel.ru/feed.xml" rel="self" />
     <link href="https://fixel.ru" />
-    <updated>2021-05-22T15:09:25+07:00</updated>
+    <updated>2021-05-24T15:34:17+07:00</updated>
     <author>
         <name>Блог</name>
     </author>
     <id>https://fixel.ru</id>
 
+    <entry>
+        <title>Гипергуард</title>
+        <author>
+            <name>Блог</name>
+        </author>
+        <link href="https://fixel.ru/giperguard/"/>
+        <id>https://fixel.ru/giperguard/</id>
+            <category term="Работы"/>
+
+        <updated>2021-05-24T15:34:17+07:00</updated>
+            <summary></summary>
+        <content></content>
+    </entry>
     <entry>
         <title>Логопарк Раевская</title>
         <author>
@@ -244,42 +257,5 @@
         <updated>2021-01-25T08:32:45+07:00</updated>
             <summary></summary>
         <content></content>
-    </entry>
-    <entry>
-        <title>Музыка без авторских прав для стримов</title>
-        <author>
-            <name>Блог</name>
-        </author>
-        <link href="https://fixel.ru/muzyka-bez-avtorskih-prav-dlya-strimov/"/>
-        <id>https://fixel.ru/muzyka-bez-avtorskih-prav-dlya-strimov/</id>
-            <category term="Стримы"/>
-            <category term="Музыка"/>
-            <category term="Блог"/>
-
-        <updated>2021-02-05T17:17:58+07:00</updated>
-            <summary>
-                <![CDATA[
-                    С появлением музыкального сервиса spotify в России, у нас появилась прекрасная возможность найти немного плейлистов с royalty-free музыкой. Вот, например, плейлист с тридцатью семью часами lo-fi музыки. Двенадцать часов retrowave. Шесть часов рок-музыки. Так же можно обратить внимание на плейлисты исполнителей Miracle Of Sound, The Midnight, Midnight Playtime, Wraithwalker — за их&hellip;
-                ]]>
-            </summary>
-        <content type="html">
-            <![CDATA[
-                <p>С появлением музыкального сервиса <a href="https://spotify.com/" target="_blank" rel="nofollow noopener noreferrer">spotify</a> в России, у нас появилась прекрасная возможность найти немного плейлистов с royalty-free музыкой. Вот, например, плейлист с тридцатью семью часами lo-fi музыки.</p>
-<figure class="post__iframe"><div class="post__iframe"><iframe loading="lazy" width="300" height="380" src="https://open.spotify.com/embed/playlist/4busImabWXrZUzhMgaka7w" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe></div></figure>
-<p>Двенадцать часов retrowave.</p>
-<figure class="post__iframe"><div class="post__iframe"><iframe loading="lazy" width="300" height="380" src="https://open.spotify.com/embed/playlist/1VUHrlqej8RaZ28YgWgFOx" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe></div></figure>
-<p>Шесть часов рок-музыки.</p>
-<figure class="post__iframe"><div class="post__iframe"><iframe loading="lazy" width="300" height="380" src="https://open.spotify.com/embed/playlist/3oJAWW6KWpfaav5Yy61HMq" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe></div></figure>
-<p>Так же можно обратить внимание на плейлисты исполнителей <a href="https://open.spotify.com/playlist/4b1Hp5hXiPzLDfE7Rx7r4P?si=wPeZntg6T6SKPxtw-yg1MA" target="_blank" rel="nofollow noopener noreferrer">Miracle Of Sound</a>, <a href="https://open.spotify.com/artist/2NFrAuh8RQdQoS7iYFbckw" target="_blank" rel="nofollow noopener noreferrer">The Midnight</a>, <a href="https://open.spotify.com/artist/5ZV3j8T8THzIjFel2GWUiq?si=mqVRRcuET7qjIiWHUzUScA" target="_blank" rel="nofollow noopener noreferrer">Midnight Playtime</a>, <a href="https://open.spotify.com/artist/3jCaxDDk5tcGOHsX4x0HxE?si=0RWbx0O3ROqAIxlee8y55w" target="_blank" rel="nofollow noopener noreferrer">Wraithwalker</a> — за их музыку гарантировано нельзя получить бан.</p>
-<p>На самом деле на spotify довольно много плейлистов со свободной музыкой, достаточно вбить в поиск сервиса «royalty free», но всё же, рекомендую читать описание плейлистов и исполнителей, и проверять информацию, на всякий случай.</p>
-<h2>ChilledCow</h2>
-<p>Музыка с youtube канала <a href="https://www.youtube.com/channel/UCSJ4gkVC6NrvII8umztf0Ow/videos" target="_blank" rel="nofollow noopener noreferrer">ChilledCow</a> как правило не имеет претензий на авторские права, как минимум на twitch её можно слушать безопасно.</p>
-<figure class="post__video--wide"><div class="post__iframe"><iframe loading="lazy" width="560" height="314" src="https://www.youtube.com/embed/5qap5aO4i9A" allowfullscreen="allowfullscreen" data-mce-fragment="1"></iframe></div></figure>
-<h2>Chillhop</h2>
-<p>Сервис lo-fi музыки с довольно обширным плейлистом. Для того, чтобы безнаказанно проигрывать музыку на стриме, нужно зарегистрироваться и разместить кнопку сервиса у себя на twitch канале, или ссылку в описании стрима на youtube. В настройках профиля подключите свою стрим-платформу, во вкладке «Crediting a video» подробно описано о размещении ссылки.</p>
-<p><a href="https://chillhop.com/creators/" target="_blank" rel="nofollow noopener noreferrer">chillhop.com</a></p>
-<p class="msg msg--twitch">Кстати, мои стримы можно найти на канале <a href="https://twitch.tv/travkina">twitch.tv/travkina</a></p>
-            ]]>
-        </content>
     </entry>
 </feed>
