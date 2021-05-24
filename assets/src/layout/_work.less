@@ -1,35 +1,34 @@
 .post-work {
     position: relative;
 
-    .article-header {
-        h1 {
-            font-family: var(--fontFamilyTitle);
-            font-weight: 900;
-            text-transform: uppercase;
-    
-            @media only screen and (min-width: @mobile-size + 1) {
-                font-size: 3rem;
-                line-height: calc(var(--lineHeight) * 2.2);
-            }
-            @media only screen and (max-width: @mobile-size) {
-                font-size: 2rem;
-                line-height: calc(var(--lineHeight) * 1.7);
-            }
-    
-            margin-bottom: unset;
-            margin-right: unset;
-            margin-left: unset;
-            margin-top: unset;
-    
-            span {
-                font-weight: 200;
-            }
+    h1 {
+        font-family: var(--fontFamilyTitle);
+        font-weight: 700;
+        text-transform: uppercase;
+
+        @media only screen and (min-width: @mobile-size + 1) {
+            font-size: 3rem;
+            line-height: calc(var(--lineHeight) * 2.2);
         }
-        p {
-            margin-bottom: 0;
-            margin-top: 0;
+        @media only screen and (max-width: @mobile-size) {
+            font-size: 2rem;
+            line-height: calc(var(--lineHeight) * 1.5);
+        }
+
+        margin-bottom: unset;
+        margin-right: unset;
+        margin-left: unset;
+        margin-top: unset;
+
+        span {
+            font-weight: 200;
         }
     }
+    p {
+        margin-bottom: 0;
+        margin-top: 0;
+    }
+
     .thumbnail {
         background-color: var(--colorElements);
 
@@ -38,10 +37,6 @@
 
         margin-bottom: 0;
         margin-top: 0;
-
-        -webkit-filter: url(#goo);
-        -moz-filter: url(#goo);
-        filter: url(#goo);
 
         img {
             margin-bottom: 0;

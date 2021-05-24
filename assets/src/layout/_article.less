@@ -13,20 +13,16 @@
     }
     h1.title {
         font-family: var(--fontFamilyTitle);
-        font-weight: 900;
+        font-weight: 700;
 
         text-transform: uppercase;
-
-        @media only screen and (min-width: @mobile-size + 1) {
-            text-align: center;
-        }
 
         grid-column-start: var(--grid-cs);
         grid-column-end: var(--grid-ce);
 
         @media only screen and (min-width: @mobile-size + 1) {
             --grid-cs: 6;
-            --grid-ce: 28;
+            --grid-ce: 20;
         }
         @media only screen and (max-width: @mobile-size) {
             --grid-cs: 3;
@@ -34,8 +30,8 @@
         }
 
         @media only screen and (min-width: @mobile-size + 1) {
-            font-size: 4rem;
-            line-height: calc(var(--lineHeight) * 2.8);
+            font-size: 3rem;
+            line-height: calc(var(--lineHeight) * 2);
         }
         @media only screen and (max-width: @mobile-size) {
             font-size: 2rem;
@@ -56,16 +52,12 @@
         line-height: calc(var(--lineHeight) * 1.125);
         color: var(--colorWhiteGray);
 
-        @media only screen and (min-width: @mobile-size + 1) {
-            text-align: center;
-        }
-
         grid-column-start: var(--grid-cs);
         grid-column-end: var(--grid-ce);
 
         @media only screen and (min-width: @mobile-size + 1) {
-            --grid-cs: 10;
-            --grid-ce: 24;
+            --grid-cs: 6;
+            --grid-ce: 20;
         }
         @media only screen and (max-width: @mobile-size) {
             --grid-cs: 3;
@@ -81,22 +73,14 @@
                 color: var(--colorBlue);
             }
         }
-
-        & + h2,
-        & + h3,
-        & + p,
-        & + pre,
-        & + figure {
-            margin-top: 0;
-        }
     }
     h2, h3, h4, h5, h6 {
         grid-column-start: var(--grid-cs);
         grid-column-end: var(--grid-ce);
 
         @media only screen and (min-width: @mobile-size + 1) {
-            --grid-cs: 10;
-            --grid-ce: 24;
+            --grid-cs: 6;
+            --grid-ce: 20;
         }
         @media only screen and (max-width: @mobile-size) {
             --grid-cs: 3;
@@ -138,8 +122,8 @@
         grid-column-end: var(--grid-ce);
 
         @media only screen and (min-width: @mobile-size + 1) {
-            --grid-cs: 10;
-            --grid-ce: 24;
+            --grid-cs: 6;
+            --grid-ce: 20;
         }
         @media only screen and (max-width: @mobile-size) {
             --grid-cs: 3;
@@ -162,8 +146,8 @@
         grid-column-end: var(--grid-ce);
 
         @media only screen and (min-width: @mobile-size + 1) {
-            --grid-cs: 10;
-            --grid-ce: 24;
+            --grid-cs: 6;
+            --grid-ce: 20;
         }
         @media only screen and (max-width: @mobile-size) {
             --grid-cs: 3;
@@ -207,8 +191,8 @@
         grid-column-end: var(--grid-ce);
 
         @media only screen and (min-width: @mobile-size + 1) {
-            --grid-cs: 10;
-            --grid-ce: 24;
+            --grid-cs: 6;
+            --grid-ce: 20;
         }
         @media only screen and (max-width: @mobile-size) {
             --grid-cs: 3;
@@ -246,8 +230,8 @@
         grid-column-end: var(--grid-ce);
 
         @media only screen and (min-width: @mobile-size + 1) {
-            --grid-cs: 10;
-            --grid-ce: 24;
+            --grid-cs: 6;
+            --grid-ce: 20;
         }
         @media only screen and (max-width: @mobile-size) {
             --grid-cs: 3;
@@ -288,8 +272,8 @@
         grid-column-end: var(--grid-ce);
         
         @media only screen and (min-width: @mobile-size + 1) {
-            --grid-cs: 10;
-            --grid-ce: 24;
+            --grid-cs: 6;
+            --grid-ce: 20;
         }
         @media only screen and (max-width: @mobile-size) {
             --grid-cs: 3;
@@ -321,8 +305,6 @@
             font-style: italic;
             font-size: 0.8rem;
 
-            text-align: center;
-
             margin-top: calc(var(--baseline) / 2);
 
             color: var(--colorGray);
@@ -349,7 +331,7 @@
     hr {
         grid-column-start: var(--grid-cs);
         grid-column-end: var(--grid-ce);
-        --grid-cs: 10;
+        --grid-cs: 6;
         --grid-ce: 33;
 
         margin-top: calc(var(--blockSpacingTop) * 1.5);
@@ -372,8 +354,8 @@
         grid-column-end: var(--grid-ce);
 
         @media only screen and (min-width: @mobile-size + 1) {
-            --grid-cs: 10;
-            --grid-ce: 24;
+            --grid-cs: 6;
+            --grid-ce: 20;
         }
         @media only screen and (max-width: @mobile-size) {
             --grid-cs: 3;
@@ -426,8 +408,8 @@
         grid-column-end: var(--grid-ce);
 
         @media only screen and (min-width: @mobile-size + 1) {
-            --grid-cs: 10;
-            --grid-ce: 24;
+            --grid-cs: 6;
+            --grid-ce: 20;
         }
         @media only screen and (max-width: @mobile-size) {
             --grid-cs: 3;
@@ -439,8 +421,8 @@
             grid-column-end: var(--grid-ce);
 
             @media only screen and (min-width: @mobile-size + 1) {
-                --grid-cs: 10;
-                --grid-ce: 24;
+                --grid-cs: 6;
+                --grid-ce: 20;
             }
             @media only screen and (max-width: @mobile-size) {
                 --grid-cs: 3;
@@ -452,8 +434,8 @@
             grid-column-end: var(--grid-ce);
 
             @media only screen and (min-width: @mobile-size + 1) {
-                --grid-cs: 10;
-                --grid-ce: 24;
+                --grid-cs: 6;
+                --grid-ce: 20;
             }
             @media only screen and (max-width: @mobile-size) {
                 --grid-cs: 1;
@@ -470,8 +452,8 @@
             grid-column-end: var(--grid-ce);
 
             @media only screen and (min-width: @mobile-size + 1) {
-                --grid-cs: 9;
-                --grid-ce: 25;
+                --grid-cs: 6;
+                --grid-ce: 28;
             }
             @media only screen and (max-width: @mobile-size) {
                 --grid-cs: 1;
@@ -489,8 +471,8 @@
         grid-column-end: var(--grid-ce);
 
         @media only screen and (min-width: @mobile-size + 1) {
-            --grid-cs: 10;
-            --grid-ce: 24;
+            --grid-cs: 6;
+            --grid-ce: 20;
         }
         @media only screen and (max-width: @mobile-size) {
             --grid-cs: 3;
@@ -502,8 +484,8 @@
             grid-column-end: var(--grid-ce);
 
             @media only screen and (min-width: @mobile-size + 1) {
-                --grid-cs: 10;
-                --grid-ce: 24;
+                --grid-cs: 6;
+                --grid-ce: 20;
             }
             @media only screen and (max-width: @mobile-size) {
                 --grid-cs: 3;
@@ -515,11 +497,11 @@
             grid-column-end: var(--grid-ce);
 
             @media only screen and (min-width: @mobile-size + 1) {
-                --grid-cs: 9;
-                --grid-ce: 25;
+                --grid-cs: 6;
+                --grid-ce: 28;
             }
             @media only screen and (max-width: @mobile-size) {
-                --grid-cs: 10;
+                --grid-cs: 6;
                 --grid-ce: 33;
             }
 
@@ -533,8 +515,8 @@
         grid-column-end: var(--grid-ce);
 
         @media only screen and (min-width: @mobile-size + 1) {
-            --grid-cs: 10;
-            --grid-ce: 24;
+            --grid-cs: 6;
+            --grid-ce: 20;
         }
         @media only screen and (max-width: @mobile-size) {
             --grid-cs: 3;
@@ -546,8 +528,8 @@
             grid-column-end: var(--grid-ce);
 
             @media only screen and (min-width: @mobile-size + 1) {
-                --grid-cs: 10;
-                --grid-ce: 24;
+                --grid-cs: 6;
+                --grid-ce: 20;
             }
             @media only screen and (max-width: @mobile-size) {
                 --grid-cs: 3;
@@ -573,11 +555,11 @@
             grid-column-end: var(--grid-ce);
 
             @media only screen and (min-width: @mobile-size + 1) {
-                --grid-cs: 9;
-                --grid-ce: 25;
+                --grid-cs: 6;
+                --grid-ce: 28;
             }
             @media only screen and (max-width: @mobile-size) {
-                --grid-cs: 10;
+                --grid-cs: 6;
                 --grid-ce: 33;
             }
 
@@ -615,8 +597,8 @@
         grid-column-end: var(--grid-ce);
 
         @media only screen and (min-width: @mobile-size + 1) {
-            --grid-cs: 10;
-            --grid-ce: 24;
+            --grid-cs: 6;
+            --grid-ce: 20;
         }
         @media only screen and (max-width: @mobile-size) {
             --grid-cs: 3;
@@ -628,8 +610,8 @@
 
         &--center {
             @media only screen and (min-width: @mobile-size + 1) {
-                --grid-cs: 10;
-                --grid-ce: 24;
+                --grid-cs: 6;
+                --grid-ce: 20;
             }
             @media only screen and (max-width: @mobile-size) {
                 --grid-cs: 3;
@@ -796,7 +778,6 @@
                     -o-transition: all .24s ease-out;
                     transition: all .24s ease-out;
                     color: var(--colorGray);
-                    text-align: center;
                     position: absolute;
                     bottom: 1.2rem;
                     opacity: 0;
@@ -898,8 +879,8 @@
         grid-column-end: var(--grid-ce);
 
         @media only screen and (min-width: @mobile-size + 1) {
-            --grid-cs: 10;
-            --grid-ce: 24;
+            --grid-cs: 6;
+            --grid-ce: 20;
         }
         @media only screen and (max-width: @mobile-size) {
             --grid-cs: 3;

@@ -46,13 +46,7 @@ h1, h2, h3, h4, h5, h6 {
 .section-hello {
     position: relative;
 
-    align-items: center;
-    display: flex;
-
-    @media only screen and (min-width: @mobile-size + 1) {
-        justify-content: center;
-    }
-
+    /*
     &::after {
         @media only screen and (min-width: @mobile-size + 1) {
             content: '';
@@ -72,17 +66,16 @@ h1, h2, h3, h4, h5, h6 {
         background-repeat: no-repeat;
         background-size: cover;
     }
+    */
 
     h1 {
         font-family: var(--fontFamilyTitle);
-        font-weight: 900;
+        font-weight: 700;
         text-transform: uppercase;
 
         @media only screen and (min-width: @mobile-size + 1) {
             font-size: 6rem;
             line-height: calc(var(--lineHeight) * 3.8);
-
-            text-align: center;
         }
         @media only screen and (max-width: @mobile-size) {
             font-size: 3rem;
@@ -103,7 +96,6 @@ h1, h2, h3, h4, h5, h6 {
 
         @media only screen and (min-width: @mobile-size + 1) {
             font-size: 1.5rem;
-            text-align: center;
         }
         @media only screen and (max-width: @mobile-size) {
             font-size: 1.25rem;
@@ -161,12 +153,7 @@ h1, h2, h3, h4, h5, h6 {
 .main-blog {
     .section-description {
         @media only screen and (min-width: @mobile-size + 1) {
-            .title {
-                text-align: right;
-            }
-            p {
-                text-align: right;
-            }
+
         }
     }
 }
@@ -186,12 +173,12 @@ h1, h2, h3, h4, h5, h6 {
 
     h1, h2 {
         font-family: var(--fontFamilyTitle);
-        font-weight: 900;
+        font-weight: 700;
         text-transform: uppercase;
 
         @media only screen and (min-width: @mobile-size + 1) {
             font-size: 3rem;
-            line-height: calc(var(--lineHeight) * 2.2);
+            line-height: calc(var(--lineHeight) * 2);
         }
         @media only screen and (max-width: @mobile-size) {
             font-size: 2rem;
@@ -252,7 +239,7 @@ h1, h2, h3, h4, h5, h6 {
 
     h1, h2 {
         font-family: var(--fontFamilyTitle);
-        font-weight: 900;
+        font-weight: 700;
         text-transform: uppercase;
 
         @media only screen and (min-width: @mobile-size + 1) {
@@ -335,7 +322,7 @@ h1, h2, h3, h4, h5, h6 {
     .title {
         font-family: var(--fontFamilySubTitle);
         font-size: 5rem;
-        font-weight: 900;
+        font-weight: 700;
         line-height: calc(var(--lineHeight) * 2.5);
         text-transform: uppercase;
 
@@ -562,23 +549,29 @@ h1, h2, h3, h4, h5, h6 {
 
 .breadcrumbs {
     position: relative;
-    overflow: hidden;
 
     .breadcrumbs-content {
         position: relative;
     
         .logo {
-            display: block;
+            @media only screen and (min-width: @mobile-size + 1) {
+                position: absolute;
+                transform: translateX(-100%);
+            }
 
-            img {
-                height: calc(var(--lineHeight) * 1.237);
-                width: calc(var(--lineHeight) * 1.237);
+            a {
+                display: block;
 
-                background-color: var(--background-color);
-                border-radius: 50%;
-        
-                position: relative;
-                overflow: hidden;
+                img {
+                    height: calc(var(--lineHeight) * 1.237);
+                    width: calc(var(--lineHeight) * 1.237);
+
+                    background-color: var(--background-color);
+                    border-radius: 50%;
+            
+                    position: relative;
+                    overflow: hidden;
+                }
             }
         }
     
