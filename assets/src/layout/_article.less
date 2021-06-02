@@ -2,6 +2,15 @@
     position: relative;
     overflow: hidden;
 
+    &:first-child {
+        padding-top: 0 !important;
+        margin-top: 0 !important;
+    }
+    &:last-child {
+        padding-bottom: 0 !important;
+        margin-bottom: 0 !important;
+    }
+
     & > * {
 
     }
@@ -13,9 +22,7 @@
     }
     h1.title {
         font-family: var(--fontFamilyTitle);
-        font-weight: 700;
-
-        text-transform: uppercase;
+        font-weight: 900;
 
         grid-column-start: var(--grid-cs);
         grid-column-end: var(--grid-ce);
@@ -45,6 +52,11 @@
 
         span {
             font-weight: 200;
+        }
+        a {
+            &:hover {
+                color: unset;
+            }
         }
     }
     p.lead {
@@ -99,11 +111,14 @@
         color: var(--colorWhite);
     }
     h2 {
-        margin-top: calc(var(--blockSpacingTop) * 3);
+        margin-top: calc(var(--blockSpacingTop) * 2);
         margin-left: 0;
 
         & + h3 {
             margin-top: var(--blockSpacingTop);
+        }
+        & + p {
+            margin-top: calc(var(--blockSpacingTop) / 1.7);
         }
     }
     h3 {

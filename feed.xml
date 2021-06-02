@@ -3,12 +3,46 @@
     <title>Александра Травкина</title>
     <link href="https://fixel.ru/feed.xml" rel="self" />
     <link href="https://fixel.ru" />
-    <updated>2021-05-24T19:04:40+07:00</updated>
+    <updated>2021-06-02T18:35:11+07:00</updated>
     <author>
         <name>Блог</name>
     </author>
     <id>https://fixel.ru</id>
 
+    <entry>
+        <title>Сохранение настроек веб-камеры в OBS Studio</title>
+        <author>
+            <name>Блог</name>
+        </author>
+        <link href="https://fixel.ru/sohranenie-nastroek-veb-kamery-v-obs-studio/"/>
+        <id>https://fixel.ru/sohranenie-nastroek-veb-kamery-v-obs-studio/</id>
+            <category term="Стримы"/>
+            <category term="Гайд"/>
+            <category term="Веб-камера"/>
+            <category term="Блог"/>
+            <category term="OBS Studio"/>
+
+        <updated>2021-06-02T18:35:11+07:00</updated>
+            <summary>
+                <![CDATA[
+                    Многие сталкивались с проблемой, когда после перезагрузки компьютера в OBS Studio настройки веб-камеры сбрасываются на стандартные. Для решения этой проблемы на GitHub есть небольшая программа с открытым исходным кодом - WebCameraConfig. Она позволяет сохранять и загружать настройки камеры по клику на ярлык, либо автоматически, через&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                <p class="lead">Многие сталкивались с проблемой, когда после перезагрузки компьютера в OBS Studio настройки веб-камеры сбрасываются на стандартные. Для решения этой проблемы на GitHub есть небольшая программа с открытым исходным кодом - <a href="https://github.com/SuslikV/cfg-cam/releases" target="_blank" rel="nofollow noopener noreferrer">WebCameraConfig</a>. Она позволяет сохранять и загружать настройки камеры по клику на ярлык, либо автоматически, через автозапуск.</p>
+<p>Скачайте <a href="https://github.com/SuslikV/cfg-cam/releases/download/1.0/WebCameraConfig.exe" target="_blank" rel="nofollow noopener noreferrer">exe файл</a> и сохраните его в папку WebCameraConfig. Например у меня путь до программы выглядит как C:\Program Files\WebCameraConfig, но вы можете выбрать любой другой путь для этой папки. В дальнейшем этот путь пригодится.</p>
+<p>В этой же папке, со скачанным ранее exe файлом, создайте новый текстовый файл. Его можно назвать, например, "Сохранение настроек". После переименуйте его из .txt в .bat. Должен получится файл "Сохранение настроек.bat". Кликните на него правой кнопкой мыши и нажмите "Изменить". Добавьте в файл следующее содержимое:</p>
+<pre>cd "C:\Program Files\WebCameraConfig"<br>"C:\Program Files\WebCameraConfig\WebCameraConfig.exe" --savedev</pre>
+<p>Теперь создайте ещё один txt файл "Загрузка настроек" и также поменяйте его расширение с .txt на .bat. Отредактируйте его содержимое, добавив:</p>
+<pre>cd "C:\Program Files\WebCameraConfig"<br>"C:\Program Files\WebCameraConfig\WebCameraConfig.exe"</pre>
+<p>Если вы сохраняли WebCameraConfig по иному пути - отредактируйте эти bat файлы и поменяйте в них пути до папки и exe файла на свои.</p>
+<p>Чтобы при загрузке системы автоматически загружались настройки вашей веб камеры, создайте ярлык с батника "Загрузка настроек.bat". Откройте папку автозагрузки и перенесите туда созданный ярлык. Чтобы открыть папку автозагрузки нажмите сочетание клавиш Win + R и пропишите:</p>
+<pre>shell:startup</pre>
+<p>Теперь нужно сохранить текущие настройки камеры, чтобы потом они могли автоматически загружаться. Откройте OBS Studio, настройте свойства камеры так, как вам нравится, после этого запустите ранее созданный файл "Сохранение настроек.bat". Если в папке WebCameraConfig появится файл "cam_sett.cfg", то значит вы всё сделали правильно и настройки сохранены. На этом всё, вы великолепны, а сохранённые настройки вашей веб-камеры будут каждый раз загружаться автоматически при старте Windows.</p>
+            ]]>
+        </content>
+    </entry>
     <entry>
         <title>Гипергуард</title>
         <author>
@@ -49,15 +83,16 @@
             <category term="Voicemeeter Banana"/>
             <category term="OBS Studio"/>
 
-        <updated>2021-05-24T17:58:37+07:00</updated>
+        <updated>2021-05-28T15:33:16+07:00</updated>
             <summary>
                 <![CDATA[
-                    Для настройки всего этого понадобится пару программ - Voicemeeter Banana и Virtual Audio Cable A+B (Скачать). Устанавливаем VBCable A и VBCable B от имени администратора, ярлык VBCABLE_Setup_x64.exe для 64х битных систем или VBCABLE_Setup.exe для 32х, затем устанавливаем сам Voicemeeter Banana и перезагружаем компьютер. После установки&hellip;
+                    Разделение аудиодорожек на стриме довольно нужная вещь, например на одной дорожке фоновая музыка, на другой дискорд с тиммейтами, на третьей игра транслируемая на стриме, при том, что каждую дорожку можно настроить отдельно - её громкость, фильтры и горячие клавиши. Для настройки всего этого понадобится пару&hellip;
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
-                <p>Для настройки всего этого понадобится пару программ - <a href="https://vb-audio.com/Voicemeeter/banana.htm" target="_blank" rel="nofollow noopener noreferrer">Voicemeeter Banana</a> и Virtual Audio Cable A+B (<a href="https://clck.ru/ThpjR" target="_blank" rel="nofollow noopener noreferrer">Скачать</a>). Устанавливаем VBCable A и VBCable B от имени администратора, ярлык VBCABLE_Setup_x64.exe для 64х битных систем или VBCABLE_Setup.exe для 32х, затем устанавливаем сам Voicemeeter Banana и перезагружаем компьютер.</p>
+                <p class="lead">Разделение аудиодорожек на стриме довольно нужная вещь, например на одной дорожке фоновая музыка, на другой дискорд с тиммейтами, на третьей игра транслируемая на стриме, при том, что каждую дорожку можно настроить отдельно - её громкость, фильтры и горячие клавиши.</p>
+<p>Для настройки всего этого понадобится пару программ - <a href="https://vb-audio.com/Voicemeeter/banana.htm" target="_blank" rel="nofollow noopener noreferrer">Voicemeeter Banana</a> и Virtual Audio Cable A+B (<a href="https://clck.ru/ThpjR" target="_blank" rel="nofollow noopener noreferrer">Скачать</a>). Устанавливаем VBCable A и VBCable B от имени администратора, ярлык VBCABLE_Setup_x64.exe для 64х битных систем или VBCABLE_Setup.exe для 32х, затем устанавливаем сам Voicemeeter Banana и перезагружаем компьютер.</p>
 <h2>Настройка Windows 10</h2>
 <p>После установки программ, в своей Windows 10 откроем Параметры - Система - Вкладка Звук - В правой колонке «Панель управления звуком».</p>
 <figure class="post__image"><img loading="lazy"  src="https://fixel.ru/media/posts/40/01-2.png" alt="" width="1490" height="880"></figure>
@@ -100,7 +135,7 @@
 <p>На этом всё, вы настроили Voicemeeter Banana для стримов и вы потрясающий/потрясающая.</p>
 <figure class="post__image"><img loading="lazy"  src="https://fixel.ru/media/posts/40/keanu.jpg" alt="" width="1200" height="775"></figure>
 <p class="msg msg--info">Вопросы можно задавать в телеграм <a href="tg://resolve?domain=sashatravkina" target="_blank" rel="nofollow noopener noreferrer">@sashatravkina</a>. Однако, перед тем как задавать вопросы, пожалуйста перечитайте статью заново и максимально внимательно. Девяносто процентов людей которые пишут с вопросами о том, что что-то не получилось, просто не внимательно читали статью, а кто-то даже не читал до конца.</p>
-<p class="msg--twitch msg">Кстати, мои стримы можно найти на <a href="https://twitch.tv/travkina" target="_blank" rel="nofollow noopener noreferrer">twitch.tv/travkina</a>.<br>Всё это, как водится, реклама.</p>
+<p class="msg--twitch msg">Кстати, мои стримы можно найти на <a href="https://twitch.tv/travkina" target="_blank" rel="nofollow noopener noreferrer">twitch.tv/travkina</a> или на <a href="https://fixel.ru" title="https://www.youtube.com/channel/UCxNNbq0HJbG6lOKyxvE4iLw" target="_blank" rel="noopener noreferrer">youtube</a>.<br>Всё это, как водится, реклама.</p>
             ]]>
         </content>
     </entry>
@@ -116,16 +151,18 @@
             <category term="Веб"/>
             <category term="Блог"/>
 
-        <updated>2021-03-14T19:51:48+07:00</updated>
+        <updated>2021-05-26T19:36:04+07:00</updated>
             <summary>
                 <![CDATA[
-                    <figure class="post__image"><img loading="lazy"  src="https://fixel.ru/media/posts/39/01.jpg" alt="" width="1018" height="475"></figure>
+                    <p class="lead"><a href="https://blogengine.ru/" target="_blank" rel="nofollow noopener noreferrer">Эгея</a> не имеет функции скрытия длинных постов под катом, в <a href="https://ilyabirman.ru/meanwhile/all/no-cut-in-aegea/" rel="nofollow">этой статье</a> Илья Бирман объясняет почему. Однако кат в Эгее можно сделать с использованием скрипта <a href="http://jedfoster.com/Readmore.js/" rel="nofollow">readmore.js</a>. Особенность readmore.js в том, что раскрывать длинные записи для чтения можно без перезагрузки страницы и новых вкладок в браузере.</p>
+<figure class="post__image"><img loading="lazy"  src="https://fixel.ru/media/posts/39/01.jpg" alt="" width="1018" height="475"></figure>
 
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
-                <figure class="post__image"><img loading="lazy"  src="https://fixel.ru/media/posts/39/01.jpg" alt="" width="1018" height="475"></figure>
+                <p class="lead"><a href="https://blogengine.ru/" target="_blank" rel="nofollow noopener noreferrer">Эгея</a> не имеет функции скрытия длинных постов под катом, в <a href="https://ilyabirman.ru/meanwhile/all/no-cut-in-aegea/" rel="nofollow">этой статье</a> Илья Бирман объясняет почему. Однако кат в Эгее можно сделать с использованием скрипта <a href="http://jedfoster.com/Readmore.js/" rel="nofollow">readmore.js</a>. Особенность readmore.js в том, что раскрывать длинные записи для чтения можно без перезагрузки страницы и новых вкладок в браузере.</p>
+<figure class="post__image"><img loading="lazy"  src="https://fixel.ru/media/posts/39/01.jpg" alt="" width="1018" height="475"></figure>
 
 <p>Скачайте скрипт <a href="https://github.com/jedfoster/Readmore.js" target="_blank" rel="nofollow noopener noreferrer">readmore.js с GitHub</a> и поместите файл readmore.min.js в папку js, которую нужно создать в корне вашего шаблона Эгеи, например в корне стандартного шаблона plain:</p>
 <pre><code>../themes/plain/js/readmore.min.js</code></pre>
@@ -218,17 +255,19 @@
             <category term="Блог"/>
             <category term="OBS Studio"/>
 
-        <updated>2021-02-05T20:33:42+07:00</updated>
+        <updated>2021-05-28T15:34:11+07:00</updated>
             <summary>
                 <![CDATA[
-                    <p class="msg msg--warning">Помните, что стрим через Multiple RTMP слегка нагружает процессор. В моем случае, на i9 9900, OBS при рестриме потребляет около пяти процентов. Может быть критично, если стримите через кодировщик процессора, а не видеокарты.</p>
+                    <p class="lead">Для OBS Studio существует плагин Multiple RTMP, он позволяет рестримить на разные площадки, такие как twitch и youtube, с разными настройками кодировщика и битрейта. Разные настройки кодировщика для разных стриминговых площадок необходимы для лучшего качества картинки — ведь при битрейте 6000 картинка на twitch будет достаточно хорошей, а вот на youtube уже довольно посредственной.</p>
+<p class="msg msg--warning">Помните, что стрим через Multiple RTMP слегка нагружает процессор. В моем случае, на i9 9900, OBS при рестриме потребляет около пяти процентов. Может быть критично, если стримите через кодировщик процессора, а не видеокарты.</p>
 <p>Для начала нужно <a href="https://github.com/sorayuki/obs-multi-rtmp/releases/" target="_blank" rel="nofollow noopener noreferrer">скачать свежую версию</a> плагина. Скачиваем <code>zip</code> архив, папки <code>data</code> и <code>obs-plugins</code> из архива копируем в папку OBS.</p>
 
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
-                <p class="msg msg--warning">Помните, что стрим через Multiple RTMP слегка нагружает процессор. В моем случае, на i9 9900, OBS при рестриме потребляет около пяти процентов. Может быть критично, если стримите через кодировщик процессора, а не видеокарты.</p>
+                <p class="lead">Для OBS Studio существует плагин Multiple RTMP, он позволяет рестримить на разные площадки, такие как twitch и youtube, с разными настройками кодировщика и битрейта. Разные настройки кодировщика для разных стриминговых площадок необходимы для лучшего качества картинки — ведь при битрейте 6000 картинка на twitch будет достаточно хорошей, а вот на youtube уже довольно посредственной.</p>
+<p class="msg msg--warning">Помните, что стрим через Multiple RTMP слегка нагружает процессор. В моем случае, на i9 9900, OBS при рестриме потребляет около пяти процентов. Может быть критично, если стримите через кодировщик процессора, а не видеокарты.</p>
 <p>Для начала нужно <a href="https://github.com/sorayuki/obs-multi-rtmp/releases/" target="_blank" rel="nofollow noopener noreferrer">скачать свежую версию</a> плагина. Скачиваем <code>zip</code> архив, папки <code>data</code> и <code>obs-plugins</code> из архива копируем в папку OBS.</p>
 
 <figure class="post__image"><img loading="lazy"  src="https://fixel.ru/media/posts/30/01.png" alt="" width="346" height="314"></figure>
@@ -241,21 +280,8 @@
 <p>Так как twitch не позволяет стримить с битрейтом выше <code>6000</code> и разрешением больше <code>1920×1080</code>, вписываем свои настройки вещания. Выбираем кодировщик, такой же как и основной, чтобы излишне не нагружать систему. Указываем разрешение <code>1920×1080</code>, если стримите на youtube в разрешении <code>2560×1440</code> или <code>3840×2160</code>. Если нет, то разрешение здесь можно не указывать. Вписываем битрейт — <code>6000</code>, ключевые кадры — <code>2</code>.</p>
 <figure class="post__image"><img loading="lazy"  src="https://fixel.ru/media/posts/30/05.png" alt="" width="346" height="314"></figure>
 <p>Теперь в панели «Множественный вывод» у вас есть две площадки для стрима, каждая со своими настройками кодировщика. Таким образом можно добиться идеальной картинки на обоих платформах.</p>
-<p class="msg msg--twitch">Кстати, мои стримы можно найти на канале <a href="https://twitch.tv/travkina">twitch.tv/travkina</a></p>
+<p class="msg msg--twitch">Кстати, мои стримы можно найти на канале <a href="https://twitch.tv/travkina">twitch.tv/travkina</a> или на <a href="https://www.youtube.com/channel/UCxNNbq0HJbG6lOKyxvE4iLw" target="_blank" rel="nofollow noopener noreferrer">youtube</a>.</p>
             ]]>
         </content>
-    </entry>
-    <entry>
-        <title>Тест MEL Science</title>
-        <author>
-            <name>Блог</name>
-        </author>
-        <link href="https://fixel.ru/test-mel-science/"/>
-        <id>https://fixel.ru/test-mel-science/</id>
-            <category term="Работы"/>
-
-        <updated>2021-01-25T08:32:45+07:00</updated>
-            <summary></summary>
-        <content></content>
     </entry>
 </feed>
