@@ -1,14 +1,25 @@
 .post-work {
     position: relative;
 
-    h1 {
+    h1.title {
         font-family: var(--fontFamilyTitle);
-        font-weight: 700;
-        text-transform: uppercase;
+        font-weight: 900;
+
+        grid-column-start: var(--grid-cs);
+        grid-column-end: var(--grid-ce);
+
+        @media only screen and (min-width: @mobile-size + 1) {
+            --grid-cs: 6;
+            --grid-ce: 20;
+        }
+        @media only screen and (max-width: @mobile-size) {
+            --grid-cs: 3;
+            --grid-ce: 31;
+        }
 
         @media only screen and (min-width: @mobile-size + 1) {
             font-size: 3rem;
-            line-height: calc(var(--lineHeight) * 2.2);
+            line-height: calc(var(--lineHeight) * 2);
         }
         @media only screen and (max-width: @mobile-size) {
             font-size: 2rem;
@@ -22,6 +33,11 @@
 
         span {
             font-weight: 200;
+        }
+        a {
+            &:hover {
+                color: unset;
+            }
         }
     }
     p {
