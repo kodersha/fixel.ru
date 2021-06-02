@@ -76,6 +76,8 @@ h1, h2, h3, h4, h5, h6 {
         @media only screen and (min-width: @mobile-size + 1) {
             font-size: 6rem;
             line-height: calc(var(--lineHeight) * 3.8);
+
+            margin-left: calc(var(--h1-size)/ -5.5);
         }
         @media only screen and (max-width: @mobile-size) {
             font-size: 3rem;
@@ -83,8 +85,6 @@ h1, h2, h3, h4, h5, h6 {
         }
 
         margin-bottom: unset;
-        margin-right: unset;
-        margin-left: unset;
         margin-top: unset;
 
         span {
@@ -158,41 +158,6 @@ h1, h2, h3, h4, h5, h6 {
     }
 }
 
-/* Intro */
-
-.section-intro {
-    h1 {
-        font-family: var(--fontFamilyTitle);
-        font-weight: 900;
-        text-transform: uppercase;
-    
-        @media only screen and (min-width: @mobile-size + 1) {
-            font-size: 6rem;
-            line-height: calc(var(--lineHeight) * 3.8);
-        }
-        @media only screen and (max-width: @mobile-size) {
-            font-size: 3rem;
-            line-height: calc(var(--lineHeight) * 2);
-        }
-    }
-
-    p {
-        line-height: calc(var(--lineHeight) * 1.125);
-        font-size: 1.125rem;
-        color: var(--colorWhiteGray);
-
-        a {
-            border-bottom: 1px solid;
-            border-bottom-color: rgba(var(--colorRgbWhite), 0.3);
-
-            &:hover {
-                border-bottom-color: var(--linkBorderColorHover);
-                color: var(--colorBlue);
-            }
-        }
-    }
-}
-
 /* Category */
 
 .section-category {
@@ -212,18 +177,18 @@ h1, h2, h3, h4, h5, h6 {
         text-transform: uppercase;
 
         @media only screen and (min-width: @mobile-size + 1) {
+            font-size: 6rem;
+            line-height: calc(var(--lineHeight) * 3.8);
+
+            margin-left: calc(var(--h1-size)/ -5.5);
+        }
+        @media only screen and (max-width: @mobile-size) {
             font-size: 3rem;
             line-height: calc(var(--lineHeight) * 2);
         }
-        @media only screen and (max-width: @mobile-size) {
-            font-size: 2rem;
-            line-height: calc(var(--lineHeight) * 1.5);
-        }
 
-        margin-bottom: 0;
-        margin-right: 0;
-        margin-left: 0;
-        margin-top: 0;
+        margin-bottom: unset;
+        margin-top: unset;
 
         span {
             font-weight: 200;
