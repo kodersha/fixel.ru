@@ -3,7 +3,7 @@
     <title>Александра Травкина</title>
     <link href="https://fixel.ru/feed.xml" rel="self" />
     <link href="https://fixel.ru" />
-    <updated>2021-06-02T18:35:11+07:00</updated>
+    <updated>2021-06-02T18:55:24+07:00</updated>
     <author>
         <name>Блог</name>
     </author>
@@ -22,7 +22,7 @@
             <category term="Блог"/>
             <category term="OBS Studio"/>
 
-        <updated>2021-06-02T18:35:11+07:00</updated>
+        <updated>2021-06-02T18:55:05+07:00</updated>
             <summary>
                 <![CDATA[
                     Многие сталкивались с проблемой, когда после перезагрузки компьютера в OBS Studio настройки веб-камеры сбрасываются на стандартные. Для решения этой проблемы на GitHub есть небольшая программа с открытым исходным кодом - WebCameraConfig. Она позволяет сохранять и загружать настройки камеры по клику на ярлык, либо автоматически, через&hellip;
@@ -40,6 +40,7 @@
 <p>Чтобы при загрузке системы автоматически загружались настройки вашей веб камеры, создайте ярлык с батника "Загрузка настроек.bat". Откройте папку автозагрузки и перенесите туда созданный ярлык. Чтобы открыть папку автозагрузки нажмите сочетание клавиш Win + R и пропишите:</p>
 <pre>shell:startup</pre>
 <p>Теперь нужно сохранить текущие настройки камеры, чтобы потом они могли автоматически загружаться. Откройте OBS Studio, настройте свойства камеры так, как вам нравится, после этого запустите ранее созданный файл "Сохранение настроек.bat". Если в папке WebCameraConfig появится файл "cam_sett.cfg", то значит вы всё сделали правильно и настройки сохранены. На этом всё, вы великолепны, а сохранённые настройки вашей веб-камеры будут каждый раз загружаться автоматически при старте Windows.</p>
+<p class="msg msg--twitch">Кстати, мои стримы можно найти на <a href="https://twitch.tv/travkina" target="_blank" rel="nofollow noopener noreferrer">twitch.tv/travkina</a>.</p>
             ]]>
         </content>
     </entry>
@@ -83,7 +84,7 @@
             <category term="Voicemeeter Banana"/>
             <category term="OBS Studio"/>
 
-        <updated>2021-05-28T15:33:16+07:00</updated>
+        <updated>2021-06-02T18:54:56+07:00</updated>
             <summary>
                 <![CDATA[
                     Разделение аудиодорожек на стриме довольно нужная вещь, например на одной дорожке фоновая музыка, на другой дискорд с тиммейтами, на третьей игра транслируемая на стриме, при том, что каждую дорожку можно настроить отдельно - её громкость, фильтры и горячие клавиши. Для настройки всего этого понадобится пару&hellip;
@@ -135,7 +136,7 @@
 <p>На этом всё, вы настроили Voicemeeter Banana для стримов и вы потрясающий/потрясающая.</p>
 <figure class="post__image"><img loading="lazy"  src="https://fixel.ru/media/posts/40/keanu.jpg" alt="" width="1200" height="775"></figure>
 <p class="msg msg--info">Вопросы можно задавать в телеграм <a href="tg://resolve?domain=sashatravkina" target="_blank" rel="nofollow noopener noreferrer">@sashatravkina</a>. Однако, перед тем как задавать вопросы, пожалуйста перечитайте статью заново и максимально внимательно. Девяносто процентов людей которые пишут с вопросами о том, что что-то не получилось, просто не внимательно читали статью, а кто-то даже не читал до конца.</p>
-<p class="msg--twitch msg">Кстати, мои стримы можно найти на <a href="https://twitch.tv/travkina" target="_blank" rel="nofollow noopener noreferrer">twitch.tv/travkina</a> или на <a href="https://fixel.ru" title="https://www.youtube.com/channel/UCxNNbq0HJbG6lOKyxvE4iLw" target="_blank" rel="noopener noreferrer">youtube</a>.<br>Всё это, как водится, реклама.</p>
+<p class="msg--twitch msg">Кстати, мои стримы можно найти на <a href="https://twitch.tv/travkina" target="_blank" rel="nofollow noopener noreferrer">twitch.tv/travkina</a>.<br>Всё это, как водится, реклама.</p>
             ]]>
         </content>
     </entry>
@@ -255,7 +256,7 @@
             <category term="Блог"/>
             <category term="OBS Studio"/>
 
-        <updated>2021-05-28T15:34:11+07:00</updated>
+        <updated>2021-06-02T18:55:24+07:00</updated>
             <summary>
                 <![CDATA[
                     <p class="lead">Для OBS Studio существует плагин Multiple RTMP, он позволяет рестримить на разные площадки, такие как twitch и youtube, с разными настройками кодировщика и битрейта. Разные настройки кодировщика для разных стриминговых площадок необходимы для лучшего качества картинки — ведь при битрейте 6000 картинка на twitch будет достаточно хорошей, а вот на youtube уже довольно посредственной.</p>
@@ -280,7 +281,7 @@
 <p>Так как twitch не позволяет стримить с битрейтом выше <code>6000</code> и разрешением больше <code>1920×1080</code>, вписываем свои настройки вещания. Выбираем кодировщик, такой же как и основной, чтобы излишне не нагружать систему. Указываем разрешение <code>1920×1080</code>, если стримите на youtube в разрешении <code>2560×1440</code> или <code>3840×2160</code>. Если нет, то разрешение здесь можно не указывать. Вписываем битрейт — <code>6000</code>, ключевые кадры — <code>2</code>.</p>
 <figure class="post__image"><img loading="lazy"  src="https://fixel.ru/media/posts/30/05.png" alt="" width="346" height="314"></figure>
 <p>Теперь в панели «Множественный вывод» у вас есть две площадки для стрима, каждая со своими настройками кодировщика. Таким образом можно добиться идеальной картинки на обоих платформах.</p>
-<p class="msg msg--twitch">Кстати, мои стримы можно найти на канале <a href="https://twitch.tv/travkina">twitch.tv/travkina</a> или на <a href="https://www.youtube.com/channel/UCxNNbq0HJbG6lOKyxvE4iLw" target="_blank" rel="nofollow noopener noreferrer">youtube</a>.</p>
+<p class="msg msg--twitch">Кстати, мои стримы можно найти на канале <a href="https://twitch.tv/travkina">twitch.tv/travkina</a>.</p>
             ]]>
         </content>
     </entry>
