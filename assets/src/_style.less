@@ -289,10 +289,6 @@ h1, h2, h3, h4, h5, h6 {
             height: 0;
             width: unset;
 
-            -webkit-filter: url(#goo);
-            -moz-filter: url(#goo);
-            filter: url(#goo);
-
             @media only screen and (min-width: @mobile-size + 1) {
                 margin-right: calc(var(--lineHeight) * 2);
             }
@@ -300,16 +296,26 @@ h1, h2, h3, h4, h5, h6 {
                 margin-right: var(--lineHeight);
             }
 
-            & > div {
-                background-position: center top;
-                background-repeat: no-repeat;
-                background-size: auto;
+            & > img {
+                object-fit: cover;
+                object-position: top center;
+
+                margin-bottom: unset;
+                margin-top: unset;
 
                 position: absolute;
+                height: 100%;
+                width: 100%;
                 bottom: 0;
                 right: 0;
                 left: 0;
                 top: 0;
+
+                background-color: var(--colorElements);
+
+                -webkit-filter: url(#goo);
+                -moz-filter: url(#goo);
+                filter: url(#goo);    
             }
             & > a {
                 position: absolute;
