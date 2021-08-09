@@ -1,6 +1,5 @@
 .post-article {
     position: relative;
-    overflow: hidden;
 
     &:first-child {
         padding-top: 0 !important;
@@ -21,42 +20,54 @@
         margin-bottom: 0;
     }
     h1.title {
-        font-family: var(--fontFamilyTitle);
-        font-weight: 900;
-
         grid-column-start: var(--grid-cs);
         grid-column-end: var(--grid-ce);
 
         @media only screen and (min-width: @mobile-size + 1) {
             --grid-cs: 6;
-            --grid-ce: 20;
+            --grid-ce: 28;        
         }
         @media only screen and (max-width: @mobile-size) {
             --grid-cs: 3;
             --grid-ce: 31;
         }
 
-        @media only screen and (min-width: @mobile-size + 1) {
-            font-size: 3rem;
-            line-height: calc(var(--lineHeight) * 2);
-        }
-        @media only screen and (max-width: @mobile-size) {
-            font-size: 2rem;
-            line-height: calc(var(--lineHeight) * 1.5);
-        }
-
-        margin-bottom: unset;
         margin-right: unset;
         margin-left: unset;
         margin-top: unset;
 
-        span {
-            font-weight: 200;
+        font-family: var(--fontFamilyTitle);
+        font-weight: 900;
+
+        a {
+            border-bottom: unset;
         }
+
+        @media only screen and (min-width: @mobile-size + 1) {
+            font-size: 4.209rem;
+            line-height: calc(var(--lineHeight) * 3);
+
+            text-align: center;
+
+            margin-bottom: calc(var(--lineHeight) * 3);
+        }
+        @media only screen and (max-width: @mobile-size) {
+            font-size: 2rem;
+            line-height: calc(var(--lineHeight) * 1.5);
+
+            margin-bottom: calc(var(--lineHeight) * 1);
+        }
+
+        text-transform: uppercase;
+
         a {
             &:hover {
                 color: unset;
             }
+        }
+
+        & + * {
+            margin-top: unset !important;
         }
     }
     p.lead {
@@ -68,8 +79,8 @@
         grid-column-end: var(--grid-ce);
 
         @media only screen and (min-width: @mobile-size + 1) {
-            --grid-cs: 6;
-            --grid-ce: 20;
+            --grid-cs: 10;
+            --grid-ce: 24;
         }
         @media only screen and (max-width: @mobile-size) {
             --grid-cs: 3;
@@ -91,8 +102,8 @@
         grid-column-end: var(--grid-ce);
 
         @media only screen and (min-width: @mobile-size + 1) {
-            --grid-cs: 6;
-            --grid-ce: 20;
+            --grid-cs: 10;
+            --grid-ce: 24;
         }
         @media only screen and (max-width: @mobile-size) {
             --grid-cs: 3;
@@ -118,7 +129,7 @@
             margin-top: var(--blockSpacingTop);
         }
         & + p {
-            margin-top: calc(var(--blockSpacingTop) / 1.7);
+            margin-top: calc(var(--blockSpacingTop) / 1.6);
         }
     }
     h3 {
@@ -137,8 +148,8 @@
         grid-column-end: var(--grid-ce);
 
         @media only screen and (min-width: @mobile-size + 1) {
-            --grid-cs: 6;
-            --grid-ce: 20;
+            --grid-cs: 10;
+            --grid-ce: 24;
         }
         @media only screen and (max-width: @mobile-size) {
             --grid-cs: 3;
@@ -161,8 +172,8 @@
         grid-column-end: var(--grid-ce);
 
         @media only screen and (min-width: @mobile-size + 1) {
-            --grid-cs: 6;
-            --grid-ce: 20;
+            --grid-cs: 10;
+            --grid-ce: 24;
         }
         @media only screen and (max-width: @mobile-size) {
             --grid-cs: 3;
@@ -206,8 +217,8 @@
         grid-column-end: var(--grid-ce);
 
         @media only screen and (min-width: @mobile-size + 1) {
-            --grid-cs: 6;
-            --grid-ce: 20;
+            --grid-cs: 10;
+            --grid-ce: 24;
         }
         @media only screen and (max-width: @mobile-size) {
             --grid-cs: 3;
@@ -221,7 +232,7 @@
         li {
             color: var(--colorWhite);
 
-            margin-bottom: 0;
+            margin-bottom: 0.25rem;
             margin-left: 0;
             margin-top: 0;
 
@@ -238,15 +249,47 @@
         }
     }
     ul {
-        padding-left: 0;
+        list-style: none;
+        padding-left: var(--list-indentation);
+
+        position: relative;
+
+        &.list-green {
+            & > li {
+                &::before {
+                    color: var(--colorGreen);
+                }
+            }
+        }
+        &.list-red {
+            & > li {
+                &::before {
+                    color: var(--colorRed);
+                }
+            }
+        }
+
+        & > li {
+            &::before {
+                content: '\00B7';
+                position: absolute;
+                left: -0.2rem;
+
+                font-weight: 500;
+                text-align: left;
+                font-size: 3rem;
+
+                color: var(--colorGray);
+            }
+        }
     }
     pre {
         grid-column-start: var(--grid-cs);
         grid-column-end: var(--grid-ce);
 
         @media only screen and (min-width: @mobile-size + 1) {
-            --grid-cs: 6;
-            --grid-ce: 20;
+            --grid-cs: 10;
+            --grid-ce: 24;
         }
         @media only screen and (max-width: @mobile-size) {
             --grid-cs: 3;
@@ -258,17 +301,27 @@
 
         margin-top: var(--blockSpacingTop);
 
+        padding-bottom: 1rem;
+        padding-right: 1rem;
+        padding-left: 1rem;
+        padding-top: 1rem;
+
+        position: relative;
         overflow-x: auto;
         display: block;
 
-        background-color: transparent;
+        background-color: var(--colorDarkenGray);
+        border-radius: var(--borderElements);
 
         -ms-overflow-style: none;
         scrollbar-width: none;
+    
 
         &::-webkit-scrollbar {
             display: none;
         }
+
+
 
         & + p,
         & + h2
@@ -287,8 +340,8 @@
         grid-column-end: var(--grid-ce);
         
         @media only screen and (min-width: @mobile-size + 1) {
-            --grid-cs: 6;
-            --grid-ce: 20;
+            --grid-cs: 10;
+            --grid-ce: 24;
         }
         @media only screen and (max-width: @mobile-size) {
             --grid-cs: 3;
@@ -316,18 +369,13 @@
         }
 
         figcaption {
-            line-height: calc(var(--lineHeight) * 0.75);
             font-style: italic;
-            font-size: 0.8rem;
+            font-size: .8rem;
+            line-height: calc(var(--lineHeight) * .75);
 
             margin-top: calc(var(--baseline) / 2);
 
             color: var(--colorGray);
-
-            @media only screen and (max-width: @mobile-size) {
-                margin-right: 1.5rem;
-                margin-left: 1.5rem;
-            }
         }
 
         & + figure {
@@ -342,11 +390,19 @@
         & + pre {
             margin-top: calc(var(--blockSpacingTop) * 1.5);
         }
+        & ~ figure {
+            &.post__image {
+                &--right,
+                &--left {
+                    margin-top: calc(var(--blockSpacingTop) * 1.5);
+                }
+            }
+        }
     }
     hr {
         grid-column-start: var(--grid-cs);
         grid-column-end: var(--grid-ce);
-        --grid-cs: 6;
+        --grid-cs: 10;
         --grid-ce: 33;
 
         margin-top: calc(var(--blockSpacingTop) * 1.5);
@@ -369,8 +425,8 @@
         grid-column-end: var(--grid-ce);
 
         @media only screen and (min-width: @mobile-size + 1) {
-            --grid-cs: 6;
-            --grid-ce: 20;
+            --grid-cs: 10;
+            --grid-ce: 24;
         }
         @media only screen and (max-width: @mobile-size) {
             --grid-cs: 3;
@@ -423,8 +479,8 @@
         grid-column-end: var(--grid-ce);
 
         @media only screen and (min-width: @mobile-size + 1) {
-            --grid-cs: 6;
-            --grid-ce: 20;
+            --grid-cs: 10;
+            --grid-ce: 24;
         }
         @media only screen and (max-width: @mobile-size) {
             --grid-cs: 3;
@@ -436,8 +492,8 @@
             grid-column-end: var(--grid-ce);
 
             @media only screen and (min-width: @mobile-size + 1) {
-                --grid-cs: 6;
-                --grid-ce: 20;
+                --grid-cs: 10;
+                --grid-ce: 24;
             }
             @media only screen and (max-width: @mobile-size) {
                 --grid-cs: 3;
@@ -449,8 +505,8 @@
             grid-column-end: var(--grid-ce);
 
             @media only screen and (min-width: @mobile-size + 1) {
-                --grid-cs: 6;
-                --grid-ce: 20;
+                --grid-cs: 10;
+                --grid-ce: 24;
             }
             @media only screen and (max-width: @mobile-size) {
                 --grid-cs: 1;
@@ -480,14 +536,43 @@
                 min-width: 100%;
             }
         }
+        &--right {
+            grid-column-start: var(--grid-cs);
+            grid-column-end: var(--grid-ce);
+
+            @media only screen and (min-width: @mobile-size + 1) {
+                --grid-cs: 25;
+                --grid-ce: 28;
+
+                height: 0;
+            }
+            @media only screen and (max-width: @mobile-size) {
+                --grid-cs: 3;
+                --grid-ce: 31;
+            }
+
+            img {
+                @media only screen and (min-width: @mobile-size + 1) {
+                    border-radius: 0.25rem;
+                }
+
+                min-width: 100%;
+            }
+
+            figcaption {
+                font-style: italic;
+                font-size: .65rem;
+                line-height: calc(var(--lineHeight) * .6);
+            }
+        }
     }
     .post__iframe {
         grid-column-start: var(--grid-cs);
         grid-column-end: var(--grid-ce);
 
         @media only screen and (min-width: @mobile-size + 1) {
-            --grid-cs: 6;
-            --grid-ce: 20;
+            --grid-cs: 10;
+            --grid-ce: 24;
         }
         @media only screen and (max-width: @mobile-size) {
             --grid-cs: 3;
@@ -499,8 +584,8 @@
             grid-column-end: var(--grid-ce);
 
             @media only screen and (min-width: @mobile-size + 1) {
-                --grid-cs: 6;
-                --grid-ce: 20;
+                --grid-cs: 10;
+                --grid-ce: 24;
             }
             @media only screen and (max-width: @mobile-size) {
                 --grid-cs: 3;
@@ -516,7 +601,7 @@
                 --grid-ce: 28;
             }
             @media only screen and (max-width: @mobile-size) {
-                --grid-cs: 6;
+                --grid-cs: 10;
                 --grid-ce: 33;
             }
 
@@ -530,8 +615,8 @@
         grid-column-end: var(--grid-ce);
 
         @media only screen and (min-width: @mobile-size + 1) {
-            --grid-cs: 6;
-            --grid-ce: 20;
+            --grid-cs: 10;
+            --grid-ce: 24;
         }
         @media only screen and (max-width: @mobile-size) {
             --grid-cs: 3;
@@ -543,8 +628,8 @@
             grid-column-end: var(--grid-ce);
 
             @media only screen and (min-width: @mobile-size + 1) {
-                --grid-cs: 6;
-                --grid-ce: 20;
+                --grid-cs: 10;
+                --grid-ce: 24;
             }
             @media only screen and (max-width: @mobile-size) {
                 --grid-cs: 3;
@@ -574,7 +659,7 @@
                 --grid-ce: 28;
             }
             @media only screen and (max-width: @mobile-size) {
-                --grid-cs: 6;
+                --grid-cs: 10;
                 --grid-ce: 33;
             }
 
@@ -612,8 +697,8 @@
         grid-column-end: var(--grid-ce);
 
         @media only screen and (min-width: @mobile-size + 1) {
-            --grid-cs: 6;
-            --grid-ce: 20;
+            --grid-cs: 10;
+            --grid-ce: 24;
         }
         @media only screen and (max-width: @mobile-size) {
             --grid-cs: 3;
@@ -625,8 +710,8 @@
 
         &--center {
             @media only screen and (min-width: @mobile-size + 1) {
-                --grid-cs: 6;
-                --grid-ce: 20;
+                --grid-cs: 10;
+                --grid-ce: 24;
             }
             @media only screen and (max-width: @mobile-size) {
                 --grid-cs: 3;
@@ -894,8 +979,8 @@
         grid-column-end: var(--grid-ce);
 
         @media only screen and (min-width: @mobile-size + 1) {
-            --grid-cs: 6;
-            --grid-ce: 20;
+            --grid-cs: 10;
+            --grid-ce: 24;
         }
         @media only screen and (max-width: @mobile-size) {
             --grid-cs: 3;
@@ -952,6 +1037,10 @@
                     @media only screen and (min-width: @mobile-size + 1) {
                         text-align: left;
                     }
+
+                    &:first-child {
+                        color: var(--colorGray);
+                    }
                 }
             }
         }
@@ -965,6 +1054,10 @@
                 span {
                     @media only screen and (min-width: @mobile-size + 1) {
                         text-align: right;
+                    }
+
+                    &:first-child {
+                        color: var(--colorGray);
                     }
                 }
             }

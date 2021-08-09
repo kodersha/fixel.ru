@@ -1,0 +1,126 @@
+.section-post-page {
+    position: relative;
+
+    &::before {
+        content: '';
+
+        position: absolute;
+        z-index: -10;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        top: 0;
+
+        background-color: var(--colorDarkenGray);
+
+        -webkit-filter: url(#goo);
+        -moz-filter: url(#goo);
+        filter: url(#goo);
+    }
+}
+.post-page {
+    position: relative;
+
+    &:first-child {
+        padding-top: unset !important;
+        margin-top: unset !important;
+    }
+    &:last-child {
+        padding-bottom: unset !important;
+        margin-bottom: unset !important;
+    }
+
+    & > * {
+
+    }
+    & > :first-child {
+        margin-top: unset;
+    }
+    & > :last-child {
+        margin-bottom: unset;
+    }
+
+    p {
+        a {
+            border-bottom: 1px solid;
+            border-bottom-color: rgba(var(--colorRgbWhite), 0.3);
+    
+            &:hover {
+                border-bottom-color: var(--linkBorderColorHover);
+                color: var(--colorBlue);
+
+                i {
+                    color: var(--colorBlue);
+                }
+            }
+
+            i {
+                -webkit-transition: color .3s;
+                -moz-transition: color .3s;
+                -ms-transition: color .3s;
+                transition: color .3s;
+
+                min-height: 1rem;
+                min-width: 1rem;
+
+                color: var(--colorWhite);
+            }
+        }
+    }
+
+    table {
+        margin-bottom: unset;
+        margin-top: calc(var(--blockSpacingTop) / 2);
+
+        border-bottom: unset;
+        border-right: unset;
+        border-left: unset;
+        border-top: unset;
+
+        width: 100%;
+
+        tr {
+            border-bottom: unset;
+            border-right: unset;
+            border-left: unset;
+            border-top: unset;
+
+            height: unset;
+
+            &:first-of-type {
+                td {
+                    padding-top: unset;
+                }
+            }
+            &:last-of-type {
+                td {
+                    padding-bottom: unset;
+                }
+            }
+
+            td {
+                background-image: none;
+
+                padding-bottom: 0.125rem;
+                padding-right: 0.5rem;
+                padding-left: 0.5rem;
+                padding-top: 0.125rem;
+
+                height: unset;
+
+                &:first-of-type {
+                    padding-right: 0.5rem;
+                    padding-left: unset;
+                }
+                &:last-of-type {
+                    padding-right: unset;
+                    padding-left: 0.5rem;
+                }
+
+                &::after {
+                    content: none;
+                }
+            }
+        }
+    }
+}

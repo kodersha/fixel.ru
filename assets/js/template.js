@@ -41,23 +41,9 @@ document.addEventListener('DOMContentLoaded', (event) => {
     });
 });
 
-$(".main-work .section-description .title a, .main-work .section-blog .articles").hover(
-    function () {
-        $('.main-work .section-blog .articles').addClass('hover');
-        $('.main-work .section-description').addClass('hover');
-    },
-    function () {
-        $('.main-work .section-blog .articles').removeClass("hover");
-        $('.main-work .section-description').removeClass("hover");
-    }
-);
-$(".main-blog .section-description .title a, .main-blog .section-blog .articles").hover(
-    function () {
-        $('.main-blog .section-blog .articles').addClass('hover');
-        $('.main-blog .section-description').addClass('hover');
-    },
-    function () {
-        $('.main-blog .section-blog .articles').removeClass("hover");
-        $('.main-blog .section-description').removeClass("hover");
-    }
-);
+$('.section-works').slick({
+    infinite: false,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    arrows: false
+});

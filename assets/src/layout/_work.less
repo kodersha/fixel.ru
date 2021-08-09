@@ -1,52 +1,70 @@
 .post-work {
     position: relative;
 
-    h1.title {
-        font-family: var(--fontFamilyTitle);
-        font-weight: 900;
+    header {
+        h1.title {
+            grid-column-start: var(--grid-cs);
+            grid-column-end: var(--grid-ce);
 
-        grid-column-start: var(--grid-cs);
-        grid-column-end: var(--grid-ce);
+            @media only screen and (min-width: @mobile-size + 1) {
+                --grid-cs: 6;
+                --grid-ce: 28;        
+            }
+            @media only screen and (max-width: @mobile-size) {
+                --grid-cs: 3;
+                --grid-ce: 31;
+            }
 
-        @media only screen and (min-width: @mobile-size + 1) {
-            --grid-cs: 6;
-            --grid-ce: 20;
-        }
-        @media only screen and (max-width: @mobile-size) {
-            --grid-cs: 3;
-            --grid-ce: 31;
-        }
+            margin-right: unset;
+            margin-left: unset;
+            margin-top: unset;
 
-        @media only screen and (min-width: @mobile-size + 1) {
-            font-size: 3rem;
-            line-height: calc(var(--lineHeight) * 2);
-        }
-        @media only screen and (max-width: @mobile-size) {
-            font-size: 2rem;
-            line-height: calc(var(--lineHeight) * 1.5);
-        }
+            font-family: var(--fontFamilyTitle);
+            font-weight: 900;
 
-        margin-bottom: unset;
-        margin-right: unset;
-        margin-left: unset;
-        margin-top: unset;
+            a {
+                border-bottom: unset;
+            }
 
-        span {
-            font-weight: 200;
-        }
-        a {
-            &:hover {
-                color: unset;
+            @media only screen and (min-width: @mobile-size + 1) {
+                font-size: 4.209rem;
+                line-height: calc(var(--lineHeight) * 3);
+
+                text-align: center;
+
+                margin-bottom: calc(var(--lineHeight) * 3);
+            }
+            @media only screen and (max-width: @mobile-size) {
+                font-size: 2rem;
+                line-height: calc(var(--lineHeight) * 1.5);
+
+                margin-bottom: calc(var(--lineHeight) * 1);
+            }
+
+            text-transform: uppercase;
+
+            a {
+                &:hover {
+                    color: unset;
+                }
+            }
+
+            & + * {
+                margin-top: unset !important;
             }
         }
-    }
-    p {
-        margin-bottom: 0;
-        margin-top: 0;
+        p {
+            margin-bottom: 0;
+            margin-top: 0;
+        }
     }
 
     .thumbnail {
         background-color: var(--colorElements);
+
+        -webkit-filter: url(#goo);
+        -moz-filter: url(#goo);
+        filter: url(#goo);
 
         position: relative;
         overflow: hidden;
